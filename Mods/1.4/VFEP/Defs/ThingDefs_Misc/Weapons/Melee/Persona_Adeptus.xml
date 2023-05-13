@@ -1,95 +1,136 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="WH40K_BaseMeleePersona_Astartes" ParentName="VFEP_BaseMeleeWeapon_Warcasket" Abstract="True">
-    <thingClass>VFECore.ThingWithFloorGraphic</thingClass>
-    <techLevel>Ultra</techLevel>
-    <tradeNeverStack>true</tradeNeverStack>
-    <relicChance>3</relicChance>
-    <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_BladelinkWeapon">
-        <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName">
-        <nameMaker>NamerWeaponBladelink</nameMaker>
-      </li>
-    </comps>
-    <thingCategories>
-      <li>WeaponsMeleeBladelink</li>
-    </thingCategories>
-    <thingSetMakerTags>
-      <li>WeaponBladelink</li>
-    </thingSetMakerTags>
-	<modExtensions>
-		<li Class="HeavyWeapons.HeavyWeapon">
-			<isHeavy>true</isHeavy>
-			<supportedTraits>
-				<li>VFEP_WarcasketTrait</li>
-			</supportedTraits>
-			<disableOptionLabelKey>VFEP.RequiresWarcasket</disableOptionLabelKey>
-		</li>
-	</modExtensions>
-  </ThingDef>
+<!-- WARCASCET MELEE BASE -->
 
-  <ThingDef ParentName="WH40K_BaseMeleePersona_Astartes">
-    <defName>WH40K_Astartes_ChainSword</defName>
-    <label>warcasket combat knife</label>
-    <description>An upscaled version of the combat knife designed for use by a warcasket. It is only still called a knife due to size comparison to a warcasket, but it is capable of cleaving a man in half and is just as large. The preferred weapon for the faster moving warcaskets that prioritize lightly armored, isolated targets.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/WeaponMelee/AstartesChainSword</texPath>
-	  <drawSize>1.7</drawSize>
-    </graphicData>
-    <statBases>
-	  <MarketValue>870</MarketValue>
-      <WorkToMake>25000</WorkToMake>
-      <Mass>10</Mass>
-    </statBases>
-    <equippedAngleOffset>-35</equippedAngleOffset>
-    <weaponTags>
-	  <li>WarcasketMelee</li>
-    </weaponTags>
-    <costList>
-      <Steel>140</Steel>
-    </costList>
-    <tools>
-      <li>
-        <label>point</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2</cooldownTime>
-		<armorPenetration>0.34</armorPenetration>
-      </li>
-      <li>
-        <label>blade</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.4</cooldownTime>
-		<armorPenetration>0.34</armorPenetration>
-      </li>
-    </tools>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>7</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-	<modExtensions>
-		<li Class="VFECore.FloorGraphicExtension">
-			<graphicData>
-				<graphicClass>Graphic_Single</graphicClass>
-				<texPath>Things/Item/Equipment/WeaponMelee/Boxed/AstartesChainSword</texPath>
-				<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
-				<drawSize>1</drawSize>
-			</graphicData>
-		</li>
-	</modExtensions>
-  </ThingDef>
+	<ThingDef Name="40K_BaseMeleePersona_Astartes" ParentName="VFEP_BaseMeleeWeapon_Warcasket" Abstract="True">
+		<thingClass>VFECore.ThingWithFloorGraphic</thingClass>
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<!-- <relicChance>3</relicChance> -->
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_BladelinkWeapon">
+				<biocodeOnEquip>true</biocodeOnEquip>
+			</li>
+			<li Class="CompProperties_GeneratedName">
+				<nameMaker>NamerWeaponBladelink</nameMaker>
+			</li>
+		</comps>
+		
+		<thingCategories>
+			<li>WeaponsMeleeBladelink</li>
+		</thingCategories>
+		
+		<thingSetMakerTags>
+			<li>WeaponBladelink</li>
+		</thingSetMakerTags>
+		
+		<weaponTags>
+			<li>WarcasketMelee</li>
+		</weaponTags>
+		
+		<modExtensions>
+			<li Class="HeavyWeapons.HeavyWeapon">
+				<isHeavy>true</isHeavy>
+				<supportedTraits>
+					<li>VFEP_WarcasketTrait</li>
+				</supportedTraits>
+				<disableOptionLabelKey>VFEP.RequiresWarcasket</disableOptionLabelKey>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+<!-- WARCASCET MELEE WEAPONS -->
+
+	<SoundDef>
+		<defName>40_ChainSword</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+		  <li>
+			<grains>
+			  <li Class="AudioGrain_Clip">
+				<clipPath>interact/work/construct/wood/wood_saw_circular/wood_saw_circular_1f</clipPath>
+			  </li>
+			</grains>
+			<volumeRange>30</volumeRange>
+			<pitchRange>0.75~1.1</pitchRange>
+		  </li>
+		</subSounds>
+	</SoundDef>
+  
+	<DamageDef Name="40_ExtraDamage" Abstract="True">
+		<harmsHealth>true</harmsHealth>
+		<makesBlood>true</makesBlood>
+	</DamageDef>
+
+	<ThingDef ParentName="40K_BaseMeleePersona_Astartes">
+		<defName>40K_Astartes_ChainSword</defName>
+		<label>warcasket combat knife</label>
+		<description>This massive chainsaw sword is designed for use by Warcaskets, who are the only ones strong enough to wield it effectively. Its razor-sharp blade can cleave through flesh and bone, causing cutting damage, while the weight of the sword can crush bones and knock down foes, causing crushing damage. It's a devastating weapon in the hands of a skilled Warcasket warrior.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/AstartesChainSword</texPath>
+			<drawSize>1.7</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>870</MarketValue>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>50</Mass>
+		</statBases>
+		<equippedAngleOffset>-35</equippedAngleOffset>
+		<costList>
+			<Steel>140</Steel>
+		</costList>
+		<tools>
+			<!--li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.34</armorPenetration>
+			</li-->
+			<li>
+				<label>chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.4</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+				<extraMeleeDamages>
+				  <li>
+					<def>Crush</def>
+					<amount>5</amount>
+				  </li>
+				</extraMeleeDamages>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/AstartesChainSword</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
 
 
 </Defs>
