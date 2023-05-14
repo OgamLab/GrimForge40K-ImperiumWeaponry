@@ -1,0 +1,18 @@
+<Defs>
+	<SoundDef>
+		<defName>40_ChainSword</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+		  <li>
+			<grains>
+			  <li Class="AudioGrain_Clip">
+				<clipPath>interact/work/construct/wood/wood_saw_circular/wood_saw_circular_1f</clipPath>
+			  </li>
+			</grains>
+			<volumeRange>30</volumeRange>
+			<pitchRange>0.75~1.1</pitchRange>
+		  </li>
+		</subSounds>
+	</SoundDef>
+</Defs>

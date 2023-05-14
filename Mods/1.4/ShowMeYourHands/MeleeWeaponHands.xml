@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef>
+     <defName>ClutterHandsSettings_-794014986_All</defName>
+      <label>Weapon hand settings</label>
+      <thingClass>Thing</thingClass>
+      <WeaponCompLoader>
+          <li>
+              <MainHand>(-0.316, 0.100, -0.261)</MainHand>
+              <ThingTargets>
+                 <li>40K_Astartes_ChainSword</li> <!-- astartes chain sword -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.211, 0.100, -0.224)</MainHand>
+              <SecHand>(-0.311, -0.100, -0.339)</SecHand>
+              <ThingTargets>
+                 <li>40K_Astartes_ForceHalberd</li> <!-- astartes force halberd -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>40K_Astartes_ForceSword</li> <!-- astartes force sword -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.000, 0.000, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>40K_Astartes_LightningClaw</li> <!-- astartes lightning claw -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.000, 0.000, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>40K_Astartes_PowerFist</li> <!-- astartes power fist -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>40K_Astartes_PowerMaul</li> <!-- astartes power maul -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.289, 0.100, 0.000)</MainHand>
+              <SecHand>(-0.160, -0.100, 0.000)</SecHand>
+              <ThingTargets>
+                 <li>40K_Astartes_ThunderHammer</li> <!-- astartes thunder hammer -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.302, 0.100, -0.252)</MainHand>
+              <SecHand>(-0.353, -0.100, -0.307)</SecHand>
+              <ThingTargets>
+                 <li>40K_Eviscerator</li> <!-- eviscerator -->
+              </ThingTargets>
+          </li>
+      </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>
