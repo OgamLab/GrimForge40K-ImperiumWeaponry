@@ -15,4 +15,26 @@
 		  </li>
 		</subSounds>
 	</SoundDef>
+	
+	<SoundDef>
+		<defName>40_ThunderHammer</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+		  <li>
+			<grains>
+			  <li Class="AudioGrain_Clip">
+				<clipPath>ambience/thunder/lightning/lightning_1a</clipPath>
+			  </li>
+			</grains>
+			<volumeRange>30</volumeRange>
+			<pitchRange>0.75~1.1</pitchRange>
+		  </li>
+		</subSounds>
+	</SoundDef>
+	
+	
+	
+	
+	
 </Defs>
