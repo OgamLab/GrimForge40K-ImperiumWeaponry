@@ -17,5 +17,6 @@
   </modDependencies>
   <loadAfter>
     <li>Ludeon.RimWorld</li>
+	<li>oskarpotocki.vfe.pirates</li>
   </loadAfter>
 </ModMetaData>

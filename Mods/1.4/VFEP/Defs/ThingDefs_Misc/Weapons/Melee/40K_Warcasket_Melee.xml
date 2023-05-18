@@ -110,7 +110,7 @@
 			<li Class="VFECore.FloorGraphicExtension">
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
-					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/AstartesChainSword</texPath>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
 					<drawSize>1</drawSize>
 				</graphicData>
@@ -167,7 +167,7 @@
 			<li Class="VFECore.FloorGraphicExtension">
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
-					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/AstartesChainSword</texPath>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
 					<drawSize>1</drawSize>
 				</graphicData>
@@ -223,7 +223,7 @@
 			<li Class="VFECore.FloorGraphicExtension">
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
-					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/AstartesChainSword</texPath>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
 					<drawSize>1</drawSize>
 				</graphicData>
@@ -273,7 +273,7 @@
 			<li Class="VFECore.FloorGraphicExtension">
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
-					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/AstartesChainSword</texPath>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
 					<drawSize>1</drawSize>
 				</graphicData>
@@ -332,7 +332,68 @@
 			<li Class="VFECore.FloorGraphicExtension">
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
-					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/AstartesChainSword</texPath>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="40K_BaseMelee_Warcasket">
+		<defName>40K_Warcasket_PowerSword</defName>
+		<label>warcasket power sword</label>
+		<description>PLACEHOLDER</description>	
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketPowerSword</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>29000</WorkToMake>
+			<Mass>50</Mass>
+			<MarketValue>900</MarketValue>
+		</statBases>
+		<costStuffCount>149</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		<costList>
+		
+		</costList>
+		<tools>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.7</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
 					<drawSize>1</drawSize>
 				</graphicData>
@@ -345,7 +406,7 @@
 		<label>warcasket thunder hammer</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponMelee/WarcasketThunderHammer</texPath>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketThunderHammer</texPath>
 			<drawSize>1.4</drawSize>
 		</graphicData>
 		<statBases>
@@ -389,7 +450,7 @@
 			<li Class="VFECore.FloorGraphicExtension">
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
-					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/AstartesChainSword</texPath>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
 					<drawSize>1</drawSize>
 				</graphicData>
@@ -432,11 +493,11 @@
 			<drawSize>1.4</drawSize>
 		</graphicData>
 		<statBases>
-			<WorkToMake>30000</WorkToMake>
+			<WorkToMake>31000</WorkToMake>
 			<Mass>50</Mass>
-			<MarketValue>931</MarketValue>
+			<MarketValue>962</MarketValue>
 		</statBases>
-		<costStuffCount>154</costStuffCount>
+		<costStuffCount>157</costStuffCount>
 		<stuffCategories>
 		  <li>Metallic</li>
 		</stuffCategories>
@@ -449,7 +510,7 @@
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>25.3</power>
+				<power>26.45</power>
 				<cooldownTime>2.1</cooldownTime>
 				<armorPenetration>0.65</armorPenetration>
 			</li>
@@ -476,7 +537,7 @@
 			<li Class="VFECore.FloorGraphicExtension">
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
-					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/WarcasketForceHalberd</texPath>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
 					<drawSize>1</drawSize>
 				</graphicData>
@@ -493,11 +554,11 @@
 			<drawSize>1.4</drawSize>
 		</graphicData>
 		<statBases>
-			<WorkToMake>30000</WorkToMake>
+			<WorkToMake>31000</WorkToMake>
 			<Mass>50</Mass>
-			<MarketValue>931</MarketValue>
+			<MarketValue>962</MarketValue>
 		</statBases>
-		<costStuffCount>154</costStuffCount>
+		<costStuffCount>157</costStuffCount>
 		<stuffCategories>
 		  <li>Metallic</li>
 		</stuffCategories>
@@ -510,7 +571,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>26</power>
+				<power>26.5</power>
 				<cooldownTime>2.1</cooldownTime>
 				<armorPenetration>0.5</armorPenetration>
 			</li>
@@ -519,7 +580,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>26</power>
+				<power>26.5</power>
 				<cooldownTime>2.1</cooldownTime>
 				<armorPenetration>0.5</armorPenetration>
 			</li>
@@ -529,7 +590,7 @@
 					<li>Poke</li>
 				</capacities>
 				<power>15.4</power>
-				<cooldownTime>1.6</cooldownTime>
+				<cooldownTime>1.8</cooldownTime>
 				<armorPenetration>0.25</armorPenetration>
 			</li>
 		</tools>
@@ -537,7 +598,7 @@
 			<li Class="VFECore.FloorGraphicExtension">
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
-					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/WarcasketForceHalberd</texPath>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
 					<drawSize>1</drawSize>
 				</graphicData>
@@ -554,11 +615,11 @@
 			<drawSize>1.4</drawSize>
 		</graphicData>
 		<statBases>
-			<WorkToMake>30000</WorkToMake>
+			<WorkToMake>31000</WorkToMake>
 			<Mass>50</Mass>
-			<MarketValue>931</MarketValue>
+			<MarketValue>962</MarketValue>
 		</statBases>
-		<costStuffCount>153</costStuffCount>
+		<costStuffCount>157</costStuffCount>
 		<stuffCategories>
 		  <li>Metallic</li>
 		</stuffCategories>
@@ -580,7 +641,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>30</power>
+				<power>31</power>
 				<cooldownTime>2.3</cooldownTime>
 				<armorPenetration>0.45</armorPenetration>
 			</li>
@@ -598,7 +659,7 @@
 			<li Class="VFECore.FloorGraphicExtension">
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
-					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/WarcasketForceHalberd</texPath>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
 					<drawSize>1</drawSize>
 				</graphicData>
@@ -634,10 +695,291 @@
 		<thingSetMakerTags>
 			<li>WeaponBladelink</li>
 		</thingSetMakerTags>
-		
 	</ThingDef>
 	
-	
+	<ThingDef ParentName="40K_BaseMeleePersona_Warcasket">
+		<defName>40K_Warcasket_PersonaChainSword</defName>
+		<label>warcasket persona chain sword</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/PersonaWarcasketChainSword</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>33000</WorkToMake>
+			<Mass>50</Mass>
+			<MarketValue>1024</MarketValue>
+		</statBases>
+		<equippedAngleOffset>-35</equippedAngleOffset>
+		<costStuffCount>151</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>29.38</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+				<extraMeleeDamages>
+				  <li>
+					<def>Crush</def>
+					<amount>5</amount>
+				  </li>
+				</extraMeleeDamages>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>13.2</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.10</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="40K_BaseMeleePersona_Warcasket">
+		<defName>40K_Warcasket_PersonaPowerMaul</defName>
+		<label>warcasket persona power maul</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/PersonaWarcasketPowerMaul</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>33000</WorkToMake>
+			<Mass>50</Mass>
+			<MarketValue>1024</MarketValue>
+		</statBases>
+		<equippedAngleOffset>-35</equippedAngleOffset>
+		<costStuffCount>149</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>maul's head</label>
+				<capacities>
+					<li>40K_MaulBlunt</li>
+				</capacities>
+				<power>36.8</power>
+				<cooldownTime>2.6</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+			</li>
+			<li>
+			  <label>handle</label>
+			  <capacities>
+				<li>Poke</li>
+			  </capacities>
+			  <power>16</power>
+			  <cooldownTime>1.8</cooldownTime>
+			<armorPenetration>0.25</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="40K_BaseMeleePersona_Warcasket">
+		<defName>40K_Warcasket_PersonaPowerSpear</defName>
+		<label>warcasket persona power spear</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/PersonaWarcasketPowerSpear</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>33000</WorkToMake>
+			<Mass>50</Mass>
+			<MarketValue>1024</MarketValue>
+		</statBases>
+		<equippedAngleOffset>-35</equippedAngleOffset>
+		<costStuffCount>147</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>spear's tip</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>26.68</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.7</armorPenetration>
+			</li>
+			<li>
+				<label>spear's blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>29.25</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+			  <label>handle</label>
+			  <capacities>
+				<li>Poke</li>
+			  </capacities>
+			  <power>16</power>
+			  <cooldownTime>1.8</cooldownTime>
+			<armorPenetration>0.25</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="40K_BaseMeleePersona_Warcasket">
+		<defName>40K_Warcasket_PersonaPowerSword</defName>
+		<label>warcasket persona power sword</label>
+		<description>PLACEHOLDER</description>	
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/PersonaWarcasketPowerSword</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>33000</WorkToMake>
+			<Mass>50</Mass>
+			<MarketValue>1024</MarketValue>
+		</statBases>
+		<costStuffCount>149</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		<costList>
+		
+		</costList>
+		<tools>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>23</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>34.5</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.7</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="40K_BaseMeleePersona_Warcasket">
+		<defName>40K_Warcasket_PersonaThunderHammer</defName>
+		<label>warcasket persona thunder hammer</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/PersonaWarcasketThunderHammer</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>33000</WorkToMake>
+			<Mass>50</Mass>
+			<MarketValue>1024</MarketValue>
+		</statBases>
+		<equippedAngleOffset>-35</equippedAngleOffset>
+		<costStuffCount>149</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>thunder hammer's head</label>
+				<capacities>
+					<li>40K_MaulBlunt</li>
+				</capacities>
+				<power>40</power>
+				<cooldownTime>2.8</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+				<soundMeleeHit>40_ThunderHammer</soundMeleeHit>
+				<extraMeleeDamages>
+					<li>
+						<def>EMP</def>
+						<amount>5</amount>
+					</li>
+				</extraMeleeDamages>
+			</li>
+			<li>
+			  <label>handle</label>
+			  <capacities>
+				<li>Poke</li>
+			  </capacities>
+			  <power>16</power>
+			  <cooldownTime>2.1</cooldownTime>
+			<armorPenetration>0.15</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>	
 	
 	
 
@@ -689,7 +1031,7 @@
 			<li Class="VFECore.FloorGraphicExtension">
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
-					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/eviscerator</texPath>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
 					<drawSize>1</drawSize>
 				</graphicData>
