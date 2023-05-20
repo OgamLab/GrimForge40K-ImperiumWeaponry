@@ -3,7 +3,7 @@
 
 <!-- WARCASCET MELEE BASE -->
 
-	<ThingDef Name="IoM_BaseMelee_Warcasket" ParentName="VFEP_BaseMeleeWeapon_Warcasket" Abstract="True">
+	<ThingDef Name="GF40K_BaseMelee_Warcasket" ParentName="VFEP_BaseMeleeWeapon_Warcasket" Abstract="True">
 		<thingClass>VFECore.ThingWithFloorGraphic</thingClass>
 		<techLevel>Ultra</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
@@ -61,8 +61,8 @@
 
 <!-- WARCASCET MELEE WEAPONS -->
 
-	<ThingDef ParentName="IoM_BaseMelee_Warcasket">
-		<defName>IoM_Warcasket_ChainSword</defName>
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_ChainSword</defName>
 		<label>warcasket chain sword</label>
 		<description>This massive chainsaw sword is designed for use by Warcaskets, who are the only ones strong enough to wield it effectively. Its razor-sharp blade can cleave through flesh and bone, causing cutting damage, while the weight of the sword can crush bones and knock down foes, causing crushing damage. It's a devastating weapon in the hands of a skilled Warcasket warrior.</description>
 		<graphicData>
@@ -119,8 +119,8 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="IoM_BaseMelee_Warcasket">
-		<defName>IoM_Warcasket_LightningClaw</defName>
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_LightningClaw</defName>
 		<label>warcasket lightning claw</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
@@ -175,8 +175,8 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="IoM_BaseMelee_Warcasket">
-		<defName>IoM_Warcasket_PowerFist</defName>
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_PowerFist</defName>
 		<label>warcasket power fist</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
@@ -231,8 +231,8 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="IoM_BaseMelee_Warcasket">
-		<defName>IoM_Warcasket_PowerMaul</defName>
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_PowerMaul</defName>
 		<label>warcasket power maul</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
@@ -253,7 +253,7 @@
 			<li>
 				<label>maul's head</label>
 				<capacities>
-					<li>IoM_MaulBlunt</li>
+					<li>GF40K_MaulBlunt</li>
 				</capacities>
 				<power>32</power>
 				<cooldownTime>2.6</cooldownTime>
@@ -281,8 +281,8 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="IoM_BaseMelee_Warcasket">
-		<defName>IoM_Warcasket_PowerSpear</defName>
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_PowerSpear</defName>
 		<label>warcasket power spear</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
@@ -340,8 +340,8 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="IoM_BaseMelee_Warcasket">
-		<defName>IoM_Warcasket_PowerSword</defName>
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_PowerSword</defName>
 		<label>warcasket power sword</label>
 		<description>PLACEHOLDER</description>	
 		<graphicData>
@@ -401,8 +401,8 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="IoM_BaseMelee_Warcasket">
-		<defName>IoM_Warcasket_ThunderHammer</defName>
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_ThunderHammer</defName>
 		<label>warcasket thunder hammer</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
@@ -423,7 +423,7 @@
 			<li>
 				<label>thunder hammer's head</label>
 				<capacities>
-					<li>IoM_MaulBlunt</li>
+					<li>GF40K_MaulBlunt</li>
 				</capacities>
 				<power>35</power>
 				<cooldownTime>2.8</cooldownTime>
@@ -460,7 +460,7 @@
 
 	<!-- FORCE WARCASCET MELEE WEAPONS -->
 
-	<ThingDef Name="IoM_BaseMeleeForce_Warcasket" ParentName="IoM_BaseMelee_Warcasket" Abstract="True">
+	<ThingDef Name="GF40K_BaseMeleeForce_Warcasket" ParentName="GF40K_BaseMelee_Warcasket" Abstract="True">
 		<costList>
 			<VPE_Eltex MayRequire="vanillaexpanded.vpsycastse">7</VPE_Eltex>
 		</costList>
@@ -484,8 +484,8 @@
 		
 	</ThingDef>
 
-	<ThingDef ParentName="IoM_BaseMeleeForce_Warcasket">
-		<defName>IoM_Warcasket_ForceHalberd</defName>
+	<ThingDef ParentName="GF40K_BaseMeleeForce_Warcasket">
+		<defName>GF40K_Warcasket_ForceHalberd</defName>
 		<label>warcasket force halberd</label>
 		<description>An imposing weapon that requires the strength and skill of an Warcasket to wield effectively. The Warcasket Force Halberd is a versatile weapon capable of delivering devastating stabs and cuts, making it an ideal choice for dealing with heavily-armored foes. The force field generator housed within the halberd's head amplifies the impact of its blows, making it an even deadlier weapon in the hands of a skilled warrior.</description>	
 		<graphicData>
@@ -545,8 +545,8 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="IoM_BaseMeleeForce_Warcasket">
-		<defName>IoM_Warcasket_ForceStaff</defName>
+	<ThingDef ParentName="GF40K_BaseMeleeForce_Warcasket">
+		<defName>GF40K_Warcasket_ForceStaff</defName>
 		<label>warcasket force staff</label>
 		<description>PLACEHOLDER</description>	
 		<graphicData>
@@ -606,8 +606,8 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="IoM_BaseMeleeForce_Warcasket">
-		<defName>IoM_Warcasket_ForceSword</defName>
+	<ThingDef ParentName="GF40K_BaseMeleeForce_Warcasket">
+		<defName>GF40K_Warcasket_ForceSword</defName>
 		<label>warcasket force sword</label>
 		<description>PLACEHOLDER</description>	
 		<graphicData>
@@ -669,7 +669,7 @@
 
 	<!-- PERSONA WARCASCET MELEE WEAPONS -->
 
-	<ThingDef Name="IoM_BaseMeleePersona_Warcasket" ParentName="IoM_BaseMelee_Warcasket" Abstract="True">
+	<ThingDef Name="GF40K_BaseMeleePersona_Warcasket" ParentName="GF40K_BaseMelee_Warcasket" Abstract="True">
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>16</Crafting>
@@ -703,8 +703,8 @@
 		</thingSetMakerTags>
 	</ThingDef>
 	
-	<ThingDef ParentName="IoM_BaseMeleePersona_Warcasket">
-		<defName>IoM_Warcasket_PersonaChainSword</defName>
+	<ThingDef ParentName="GF40K_BaseMeleePersona_Warcasket">
+		<defName>GF40K_Warcasket_PersonaChainSword</defName>
 		<label>warcasket persona chain sword</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
@@ -756,8 +756,8 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="IoM_BaseMeleePersona_Warcasket">
-		<defName>IoM_Warcasket_PersonaPowerMaul</defName>
+	<ThingDef ParentName="GF40K_BaseMeleePersona_Warcasket">
+		<defName>GF40K_Warcasket_PersonaPowerMaul</defName>
 		<label>warcasket persona power maul</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
@@ -774,7 +774,7 @@
 			<li>
 				<label>maul's head</label>
 				<capacities>
-					<li>IoM_MaulBlunt</li>
+					<li>GF40K_MaulBlunt</li>
 				</capacities>
 				<power>36.8</power>
 				<cooldownTime>2.6</cooldownTime>
@@ -802,8 +802,8 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="IoM_BaseMeleePersona_Warcasket">
-		<defName>IoM_Warcasket_PersonaPowerSpear</defName>
+	<ThingDef ParentName="GF40K_BaseMeleePersona_Warcasket">
+		<defName>GF40K_Warcasket_PersonaPowerSpear</defName>
 		<label>warcasket persona power spear</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
@@ -857,8 +857,8 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="IoM_BaseMeleePersona_Warcasket">
-		<defName>IoM_Warcasket_PersonaPowerSword</defName>
+	<ThingDef ParentName="GF40K_BaseMeleePersona_Warcasket">
+		<defName>GF40K_Warcasket_PersonaPowerSword</defName>
 		<label>warcasket persona power sword</label>
 		<description>PLACEHOLDER</description>	
 		<graphicData>
@@ -914,8 +914,8 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="IoM_BaseMeleePersona_Warcasket">
-		<defName>IoM_Warcasket_PersonaThunderHammer</defName>
+	<ThingDef ParentName="GF40K_BaseMeleePersona_Warcasket">
+		<defName>GF40K_Warcasket_PersonaThunderHammer</defName>
 		<label>warcasket persona thunder hammer</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
@@ -932,7 +932,7 @@
 			<li>
 				<label>thunder hammer's head</label>
 				<capacities>
-					<li>IoM_MaulBlunt</li>
+					<li>GF40K_MaulBlunt</li>
 				</capacities>
 				<power>40</power>
 				<cooldownTime>2.8</cooldownTime>
@@ -969,8 +969,8 @@
 	
 	
 
-	<ThingDef ParentName="IoM_BaseMelee_Warcasket">
-		<defName>IoM_Eviscerator</defName>
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Eviscerator</defName>
 		<label>eviscerator</label>
 		<description>The Eviscerator is a terrifying weapon, a massive two-handed chainsaw capable of ripping through almost anything in its path. Originally designed for use by elite assault troops in close combat, it has since found its way into the hands of raiders and other unsavory characters. The weapon's teeth are specially designed to tear through flesh and bone, causing both cutting and crushing damage. Wielding an Eviscerator takes incredible strength and skill, but in the right hands, it can be a devastating tool of destruction.</description>
 		<graphicData>

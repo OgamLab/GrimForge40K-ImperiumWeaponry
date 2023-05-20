@@ -1,6 +1,6 @@
 <Defs>
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>IoM_BolterGun</defName>
+        <defName>GF40K_BolterGun</defName>
         <label>bolter gun</label>
         <description>.75 caliber, 12 rounds.</description>
         <graphicData>
@@ -42,7 +42,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>IoM_BolterGunShot</defaultProjectile>
+                <defaultProjectile>GF40K_BolterGunShot</defaultProjectile>
                 <warmupTime>0.9</warmupTime>
                 <range>21.9</range>
                 <soundCast>Shot_Autopistol</soundCast>
@@ -72,7 +72,7 @@
         </tools>
     </ThingDef>
     <ThingDef>
-        <defName>IoM_BolterGunShot</defName>
+        <defName>GF40K_BolterGunShot</defName>
         <label>bolter shot</label>
         <thingClass>Projectile_Explosive</thingClass>
         <category>Projectile</category>
@@ -94,7 +94,7 @@
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>IoM_BolterPistol</defName>
+        <defName>GF40K_BolterPistol</defName>
         <label>bolter pistol</label>
         <description>.75 caliber, 6 rounds.</description>
         <graphicData>
@@ -136,7 +136,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>IoM_BolterPistolShot</defaultProjectile>
+                <defaultProjectile>GF40K_BolterPistolShot</defaultProjectile>
                 <warmupTime>0.5</warmupTime>
                 <range>19.9</range>
                 <soundCast>Shot_IncendiaryLauncher</soundCast>
@@ -166,7 +166,7 @@
         </tools>
     </ThingDef>
     <ThingDef>
-        <defName>IoM_BolterPistolShot</defName>
+        <defName>GF40K_BolterPistolShot</defName>
         <label>bolter shot</label>
         <thingClass>Projectile_Explosive</thingClass>
         <category>Projectile</category>
@@ -188,7 +188,7 @@
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>IoM_Sniper</defName>
+        <defName>GF40K_Sniper</defName>
         <label>sniper bolter</label>
         <description>.75 caliber, 6 rounds, sniper range, single shot</description>
         <graphicData>
@@ -220,7 +220,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>IoM_SniperBolterShot</defaultProjectile>
+                <defaultProjectile>GF40K_SniperBolterShot</defaultProjectile>
                 <warmupTime>3.8</warmupTime>
                 <range>30.9</range>
                 <soundCast>Shot_IncendiaryLauncher</soundCast>
@@ -259,7 +259,7 @@
         </weaponTags>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>IoM_SniperBolterShot</defName>
+        <defName>GF40K_SniperBolterShot</defName>
         <label>sniper bolter</label>
         <thingClass>Projectile_Explosive</thingClass>
         <category>Projectile</category>
