@@ -3,7 +3,7 @@
 
 <!-- WARCASCET MELEE BASE -->
 
-	<ThingDef Name="40K_BaseMeleePersona_Force" ParentName="BasePsychicWeaponMelee" Abstract="True">
+	<ThingDef Name="IoM_BaseMeleePersona_Force" ParentName="BasePsychicWeaponMelee" Abstract="True">
 		<thingClass>VFECore.ThingWithFloorGraphic</thingClass>
 		<techLevel>Ultra</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
@@ -24,8 +24,8 @@
 <!-- FORCE MELEE WEAPONS -->
 	<!-- Animated Weapons -->
 	
-	<ThingDef ParentName="40K_BaseMeleePersona_Force">
-		<defName>40K_ForceSword</defName>
+	<ThingDef ParentName="IoM_BaseMeleePersona_Force">
+		<defName>IoM_ForceSword</defName>
 		<label>astartes force sword</label>
 		<description>An imposing weapon that requires the strength and skill of an Astartes to wield effectively. The Astartes Force Halberd is a versatile weapon capable of delivering devastating stabs and cuts, making it an ideal choice for dealing with heavily-armored foes. The force field generator housed within the halberd's head amplifies the impact of its blows, making it an even deadlier weapon in the hands of a skilled warrior.</description>
 		<graphicData>

@@ -1,7 +1,7 @@
 <Defs>
     <!-- WARCASKET WEAPONS -->
     <ThingDef ParentName="VFEP_BaseWarcasketGun">
-        <defName>40k_HeavyBoltGun</defName>
+        <defName>IoM_HeavyBoltGun</defName>
         <label>Heavy bolt gun</label>
         <description>.75 caliber, 6 rounds, long range, single shot.</description>
         <graphicData>
@@ -30,7 +30,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>40k_HeavyBoltShot</defaultProjectile>
+                <defaultProjectile>IoM_HeavyBoltShot</defaultProjectile>
                 <warmupTime>2</warmupTime>
                 <range>36</range>
                 <burstShotCount>1</burstShotCount>
@@ -60,7 +60,7 @@
         </tools>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>40k_HeavyBoltShot</defName>
+        <defName>IoM_HeavyBoltShot</defName>
         <label>heavy bolt shot</label>
         <thingClass>Projectile_Explosive</thingClass>
         <category>Projectile</category>
@@ -81,7 +81,7 @@
         </projectile>
     </ThingDef>
     <ThingDef ParentName="VFEP_BaseWarcasketGun">
-        <defName>40k_StormBolterGun</defName>
+        <defName>IoM_StormBolterGun</defName>
         <label>Storm bolter gun</label>
         <description>.75 caliber, 40 rounds</description>
         <graphicData>
@@ -110,7 +110,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>40k_StormBolterShot</defaultProjectile>
+                <defaultProjectile>IoM_StormBolterShot</defaultProjectile>
                 <warmupTime>2</warmupTime>
                 <burstShotCount>9</burstShotCount>
                 <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
@@ -141,7 +141,7 @@
         </tools>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>40k_StormBolterShot</defName>
+        <defName>IoM_StormBolterShot</defName>
         <label>storm bolter shot</label>
         <thingClass>Projectile_Explosive</thingClass>
         <category>Projectile</category>
@@ -163,7 +163,7 @@
     </ThingDef>
 
     <ThingDef ParentName="VFEP_BaseWarcasketGun">
-        <defName>40k_HeavyBolterGun</defName>
+        <defName>IoM_HeavyBolterGun</defName>
         <label>Heavy bolter gun</label>
         <description>.998 caliber, 60 rounds</description>
         <graphicData>
@@ -192,7 +192,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>40k_HeavyBolterShot</defaultProjectile>
+                <defaultProjectile>IoM_HeavyBolterShot</defaultProjectile>
                 <warmupTime>2.3</warmupTime>
                 <burstShotCount>3</burstShotCount>
                 <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
@@ -223,7 +223,7 @@
         </tools>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>40k_HeavyBolterShot</defName>
+        <defName>IoM_HeavyBolterShot</defName>
         <label>storm bolter shot</label>
         <thingClass>Projectile_Explosive</thingClass>
         <category>Projectile</category>
@@ -245,7 +245,7 @@
     </ThingDef>
 
     <ThingDef ParentName="VFEP_BaseWarcasketGun">
-        <defName>40k_HeavyBoltRifle</defName>
+        <defName>IoM_HeavyBoltRifle</defName>
         <label>Heavy bolt rifle</label>
         <description>.998 caliber, 6 rounds, sniper range, single shot</description>
         <graphicData>
@@ -274,7 +274,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>40k_HeavyBoltRifleShot</defaultProjectile>
+                <defaultProjectile>IoM_HeavyBoltRifleShot</defaultProjectile>
                 <warmupTime>2.2</warmupTime>
                 <range>36</range>
                 <burstShotCount>1</burstShotCount>
@@ -304,7 +304,7 @@
         </tools>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>40k_HeavyBoltRifleShot</defName>
+        <defName>IoM_HeavyBoltRifleShot</defName>
         <label>heavy bolt rifle shot</label>
         <thingClass>Projectile_Explosive</thingClass>
         <category>Projectile</category>
@@ -326,7 +326,7 @@
     </ThingDef>
 
     <ThingDef ParentName="VFEP_BaseWarcasketGun">
-        <defName>40k_AutocannonGun</defName>
+        <defName>IoM_AutocannonGun</defName>
         <label>Autocannon</label>
         <description>.998 caliber, 30 rounds, very low rate of fire, middle range.</description>
         <graphicData>
@@ -355,7 +355,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>40k_AutocannonShot</defaultProjectile>
+                <defaultProjectile>IoM_AutocannonShot</defaultProjectile>
                 <warmupTime>2</warmupTime>
                 <range>22</range>
                 <burstShotCount>2</burstShotCount>
@@ -385,7 +385,7 @@
         </tools>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
-        <defName>40k_AutocannonShot</defName>
+        <defName>IoM_AutocannonShot</defName>
         <label>autocannon shot</label>
         <thingClass>Projectile_Explosive</thingClass>
         <category>Projectile</category>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<DamageDef ParentName="BluntBase">
-		<defName>40K_MaulBlunt</defName>
+		<defName>IoM_MaulBlunt</defName>
 		<label>blunt</label>
 		<workerClass>VFECore.DamageWorker_PushBackAttackMelee</workerClass>
 		<externalViolence>true</externalViolence>
@@ -38,11 +38,11 @@
 		</modExtensions>
 	</DamageDef>
 	<ManeuverDef>
-		<defName>40K_MaulBlunt</defName>
-		<requiredCapacity>40K_MaulBlunt</requiredCapacity>
+		<defName>IoM_MaulBlunt</defName>
+		<requiredCapacity>IoM_MaulBlunt</requiredCapacity>
 		<verb>
 			<verbClass>Verb_MeleeAttackDamage</verbClass>
-			<meleeDamageDef>40K_MaulBlunt</meleeDamageDef>
+			<meleeDamageDef>IoM_MaulBlunt</meleeDamageDef>
 		</verb>
 		<logEntryDef>MeleeAttack</logEntryDef>
 		<combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
@@ -51,12 +51,12 @@
 		<combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
 	</ManeuverDef>
 	<ToolCapacityDef>
-		<defName>40K_MaulBlunt</defName>
+		<defName>IoM_MaulBlunt</defName>
 		<label>power maul attack</label>
 	</ToolCapacityDef>
 	
 	<DamageDef ParentName="BluntBase">
-		<defName>40K_HammerBlunt</defName>
+		<defName>IoM_HammerBlunt</defName>
 		<label>blunt</label>
 		<workerClass>VFECore.DamageWorker_PushBackAttackMelee</workerClass>
 		<externalViolence>true</externalViolence>
@@ -93,11 +93,11 @@
 		</modExtensions>
 	</DamageDef>
 	<ManeuverDef>
-		<defName>40K_HammerBlunt</defName>
-		<requiredCapacity>40K_HammerBlunt</requiredCapacity>
+		<defName>IoM_HammerBlunt</defName>
+		<requiredCapacity>IoM_HammerBlunt</requiredCapacity>
 		<verb>
 			<verbClass>Verb_MeleeAttackDamage</verbClass>
-			<meleeDamageDef>40K_HammerBlunt</meleeDamageDef>
+			<meleeDamageDef>IoM_HammerBlunt</meleeDamageDef>
 		</verb>
 		<logEntryDef>MeleeAttack</logEntryDef>
 		<combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
@@ -106,7 +106,7 @@
 		<combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
 	</ManeuverDef>
 	<ToolCapacityDef>
-		<defName>40K_HammerBlunt</defName>
+		<defName>IoM_HammerBlunt</defName>
 		<label>thunder hammer attack</label>
 	</ToolCapacityDef>
 
