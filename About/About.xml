@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>GrimForge 40K: Weaponry</name>
   <author>Ogam</author>
-  <packageId>Ogam.TBD</packageId>
+  <packageId>Ogam.GrimFoge40K.Weaponry</packageId>
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>

@@ -974,8 +974,9 @@
 		<label>eviscerator</label>
 		<description>The Eviscerator is a terrifying weapon, a massive two-handed chainsaw capable of ripping through almost anything in its path. Originally designed for use by elite assault troops in close combat, it has since found its way into the hands of raiders and other unsavory characters. The weapon's teeth are specially designed to tear through flesh and bone, causing both cutting and crushing damage. Wielding an Eviscerator takes incredible strength and skill, but in the right hands, it can be a devastating tool of destruction.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponMelee/eviscerator</texPath>
+			<texPath>Things/Item/Equipment/WeaponMelee/AnimationTest</texPath>
 			<drawSize>1.4</drawSize>
+			<graphicClass>Graphic_Flicker</graphicClass>
 		</graphicData>
 		<statBases>
 			<WorkToMake>31000</WorkToMake>
