@@ -1018,7 +1018,7 @@
 			<li Class="VFECore.FloorGraphicExtension">
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
-					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholder</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
 					<drawSize>1</drawSize>
 				</graphicData>
