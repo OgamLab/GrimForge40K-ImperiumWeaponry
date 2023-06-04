@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="GF40K_BaseMeleeMechanicusPersona" ParentName="GF40K_BaseMeleeMechanicus" Abstract="True">
+		<recipeMaker Inherit="False">
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisites>
+				<li>GF40K_RegularMeleeMechanicus</li>
+				<li>GF40K_RegularMeleePersona</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		
+		<statBases>
+			<MarketValue>2310</MarketValue>
+			<WorkToMake>21000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>210</Plasteel>
+			<Uranium>20</Uranium>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		
+		<comps>
+			<li Class="CompProperties_BladelinkWeapon" MayRequire="ludeon.rimworld.royalty">
+				<biocodeOnEquip>true</biocodeOnEquip>
+			</li>
+			<li Class="CompProperties_GeneratedName" MayRequire="ludeon.rimworld.royalty">
+				<nameMaker>NamerWeaponBladelink</nameMaker>
+			</li>
+		</comps>		
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleeMechanicusPersona">
+		<defName>GF40K_PersonaMechanicusPowerSword</defName>
+		<label>persona mechanicus power sword</label>
+		<description>The Persona Mechanicus Power Sword is an embodiment of technological mastery and personalized aesthetics. Its blade, meticulously crafted and adorned with arcane symbols, combines cutting and stabbing capabilities with devastating effectiveness. Infused with an EMP discharge system, the Persona Mechanicus Power Sword allows its wielder to unleash a surge of electromagnetic energy upon striking, incapacitating and disrupting enemy targets.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/PersonaMechanicusPowerSword</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>persona machanicus power sword's tip</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>30.65</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.6</armorPenetration>
+			</li>
+			<li>
+				<label>persona machanicus power sword's blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>30.65</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+				<extraMeleeDamages>
+				  <li>
+					<def>EMP</def>
+					<amount>1</amount>
+				  </li>
+				</extraMeleeDamages>
+			</li>
+			<li>
+				<label>persona machanicus power sword's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+</Defs>

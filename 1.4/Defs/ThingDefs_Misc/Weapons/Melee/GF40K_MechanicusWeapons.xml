@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="GF40K_BaseMeleeMechanicus" ParentName="BaseMeleeWeapon" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <relicChance>3</relicChance> -->
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<notifyMapRemoved>true</notifyMapRemoved>
+		
+		<recipeMaker>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisites>
+				<li>GF40K_RegularMeleeMechanicus</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		
+		<statBases>
+			<MarketValue>2224</MarketValue>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>26</Plasteel>
+			<Uranium>13</Uranium>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<costStuffCount>164</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		
+		<comps>
+			<li Class="CompProperties_BladelinkWeapon" MayRequire="ludeon.rimworld.royalty">
+				<biocodeOnEquip>true</biocodeOnEquip>
+			</li>
+		</comps>	
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
+		<defName>GF40K_MechanicusArcMaul</defName>
+		<label>mechanicus arc maul</label>
+		<description>The Mechanicus Arc Maul is a heavy blunt weapon, resonating with the power of electromagnetism. Its energized head delivers devastating concussive blows that can shatter armor and incapacitate mechanical foes. Equipped with an integrated EMP generator, the Arc Maul is the weapon of choice for Tech-Priests engaged in the relentless pursuit of subduing and dismantling their adversaries.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusArcMaul</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>machanicus arc maul's head</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>machanicus arc maul's head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+				<extraMeleeDamages>
+				  <li>
+					<def>EMP</def>
+					<amount>1</amount>
+				  </li>
+				</extraMeleeDamages>
+			</li>
+			<li>
+				<label>machanicus arc maul's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
+		<defName>GF40K_MechanicusOmnisianAxe</defName>
+		<label>mechanicus amnisian axe</label>
+		<description>The Mechanicus Omnisian Axe is a formidable cutting weapon, designed to pierce through even the toughest defenses with its finely honed edge. Its power field enhances the blade's cutting prowess, enabling it to cleave through armor and rend mechanical components. With an integrated EMP emitter, the Omnisian Axe allows Tech-Priests to disrupt and disable their opponents' electronic systems with each strike.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusOmnisianAxe</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>machanicus amnisian axe's head</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2.1</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+			</li>
+			<li>
+				<label>machanicus amnisian axe's blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>35.5</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+				<extraMeleeDamages>
+				  <li>
+					<def>EMP</def>
+					<amount>1</amount>
+				  </li>
+				</extraMeleeDamages>
+			</li>
+			<li>
+				<label>machanicus amnisian axe's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
+		<defName>GF40K_MechanicusPowerSword</defName>
+		<label>mechanicus power sword</label>
+		<description>The Mechanicus Power Sword is a fusion of arcane technology and martial precision. Its blade, crackling with energy, combines cutting and stabbing capabilities to devastating effect. Infused with an EMP discharge mechanism, the Power Sword allows Tech-Priests to unleash a surge of electromagnetic energy upon striking, disrupting enemy systems and leaving them vulnerable to further attacks.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusPowerSword</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>machanicus power sword's blade</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>29.55</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+			</li>
+			<li>
+				<label>machanicus power sword's blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>29.55</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+				<extraMeleeDamages>
+				  <li>
+					<def>EMP</def>
+					<amount>1</amount>
+				  </li>
+				</extraMeleeDamages>
+			</li>
+			<li>
+				<label>machanicus power sword's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
+		<defName>GF40K_MechanicusTaserGoad</defName>
+		<label>mechanicus taser goad</label>
+		<description>The Mechanicus Taser Goad is a formidable melee weapon, favored by Tech-Priests for its ability to deliver potent electrical jolts. Its piercing tip can penetrate armor and deliver incapacitating shocks to both organic and mechanical targets. A marvel of Mechanicus engineering, the Taser Goad allows its wielder to stun and disable adversaries, leaving them vulnerable to subsequent strikes.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusTaserGoad</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>machanicus taser goad's tip</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>29.35</power>
+				<cooldownTime>2.1</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+				<extraMeleeDamages>
+				  <li>
+					<def>Stun</def>
+					<amount>1</amount>
+				  </li>
+				</extraMeleeDamages>
+			</li>
+			<li>
+				<label>machanicus taser goad's shaft</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>25.8</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.2</armorPenetration>
+			</li>
+			<li>
+				<label>machanicus taser goad's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
+		<defName>GF40K_MechanicusTransonicBlade</defName>
+		<label>mechanicus transonic blade</label>
+		<description>The Mechanicus Transonic Blade is a weapon of silent annihilation. Its molecular-edged blade is capable of vibrating at incredible frequencies, effortlessly slicing through flesh and armor with surgical precision. When activated, the blade emits disruptive energy pulses, causing destabilization at the molecular level and inflicting devastating damage on both organic and mechanical targets.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusTransonicBlade</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>machanicus transonic blade's tip</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>27.12</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>machanicus transonic blade's edge</label>
+				<capacities>
+					<li>GF40K_MolDesCut</li>
+				</capacities>
+				<power>27.12</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+			</li>
+			<li>
+				<label>machanicus transonic blade's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
+		<defName>GF40K_MechanicusTransonicRazor</defName>
+		<label>mechanicus transonic razor</label>
+		<description>The Mechanicus Transonic Razor is a refined and deadly instrument, honed to perfection by the Tech-Priests of the Adeptus Mechanicus. Its dual blades, crafted with molecular precision, cut through flesh and armor with unparalleled speed and accuracy. Enhanced with molecular destabilization technology, the Transonic Razor wreaks havoc on its victims, causing their molecular structures to break down with each lethal strike.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusTransonicRazor</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>machanicus transonic razor's tip</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>24.75</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>machanicus transonic razor's edge</label>
+				<capacities>
+					<li>GF40K_MolDesCut</li>
+				</capacities>
+				<power>24.75</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+			</li>
+			<li>
+				<label>machanicus transonic razor's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+</Defs>

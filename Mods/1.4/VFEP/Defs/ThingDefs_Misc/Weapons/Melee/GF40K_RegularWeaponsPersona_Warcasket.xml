@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- WARCASCET MELEE BASE -->
+
+	<ThingDef Name="GF40K_BaseMeleePersona_Warcasket" ParentName="VFEP_BaseMeleeWeapon_Warcasket" Abstract="True">
+		<thingClass>VFECore.ThingWithFloorGraphic</thingClass>
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <relicChance>3</relicChance> -->
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>16</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<notifyMapRemoved>true</notifyMapRemoved>
+		
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>GF40K_RegularMelee</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		
+		<statBases>
+			<MarketValue>964</MarketValue>
+			<WorkToMake>37000</WorkToMake>
+			<Mass>20</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>67</Plasteel>
+			<Uranium>33</Uranium>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<costStuffCount>189</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		
+		<comps>
+			<li Class="CompProperties_BladelinkWeapon">
+				<biocodeOnEquip>true</biocodeOnEquip>
+			</li>
+			<li Class="CompProperties_GeneratedName">
+				<nameMaker>NamerWeaponBladelink</nameMaker>
+			</li>
+		</comps>
+		
+		<weaponTags>
+			<li>WarcasketMelee</li>
+		</weaponTags>
+		
+		<modExtensions>
+			<li Class="HeavyWeapons.HeavyWeapon">
+				<isHeavy>true</isHeavy>
+				<supportedTraits>
+					<li>VFEP_WarcasketTrait</li>
+				</supportedTraits>
+				<disableOptionLabelKey>VFEP.RequiresWarcasket</disableOptionLabelKey>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+
+	<!-- PERSONA WARCASCET MELEE WEAPONS -->
+	
+	<ThingDef ParentName="GF40K_BaseMeleePersona_Warcasket">
+		<defName>GF40K_Warcasket_PersonaChainSword</defName>
+		<label>persona warcasket  chain sword</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/PersonaWarcasketChainSword</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>persona warcasket chain sword's backside</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>34.2</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.35</armorPenetration>
+			</li>
+			<li>
+				<label>persona warcasket chain sword's chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>34.2</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.6</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+			</li>
+			<li>
+				<label>persona warcasket chain sword's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.18</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxPersonaWarcasketChainSword</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="GF40K_BaseMeleePersona_Warcasket">
+		<defName>GF40K_Warcasket_PersonaPowerMaul</defName>
+		<label>persona warcasket power maul</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/PersonaWarcasketPowerMaul</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>persona warcasket power maul's head</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>29.9</power>
+				<cooldownTime>2.3</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+			</li>
+			<li>
+				<label>persona warcasket power maul's head</label>
+				<capacities>
+					<li>GF40K_MaulBlunt</li>
+				</capacities>
+				<power>45.25</power>
+				<cooldownTime>2.8</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+			</li>
+			<li>
+			  <label>persona warcasket power maul' handle</label>
+			  <capacities>
+				<li>Poke</li>
+			  </capacities>
+			  <power>14</power>
+			  <cooldownTime>1.8</cooldownTime>
+			<armorPenetration>0.18</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxPersonaWarcasketPowerMaul</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="GF40K_BaseMeleePersona_Warcasket">
+		<defName>GF40K_Warcasket_PersonaPowerSpear</defName>
+		<label>persona warcasket power spear</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/PersonaWarcasketPowerSpear</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>persona warcasket power spear's tip</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>34</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.65</armorPenetration>
+			</li>
+			<li>
+				<label>persona warcasket power spear's blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>31.25</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.6</armorPenetration>
+			</li>
+			<li>
+			  <label>persona warcasket power spear's handle</label>
+			  <capacities>
+				<li>Poke</li>
+			  </capacities>
+			  <power>18</power>
+			  <cooldownTime>1.8</cooldownTime>
+			<armorPenetration>0.16</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/Placeholer</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="GF40K_BaseMeleePersona_Warcasket">
+		<defName>GF40K_Warcasket_PersonaPowerSword</defName>
+		<label>persona warcasket power sword</label>
+		<description>PLACEHOLDER</description>	
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/PersonaWarcasketPowerSword</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>persona warcasket power sword's point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>34.2</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>persona warcasket power sword's blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>34.2</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+			</li>
+			<li>
+				<label>persona warcasket power sword's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.18</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxPersonaWarcasketPowerSword</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="GF40K_BaseMeleePersona_Warcasket">
+		<defName>GF40K_Warcasket_PersonaThunderHammer</defName>
+		<label>warcasket persona thunder hammer</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/PersonaWarcasketThunderHammer</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>warcasket thunder hammer's head</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>29.5</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+			</li>
+			<li>
+				<label>warcasket thunder hammer's head</label>
+				<capacities>
+					<li>GF40K_MaulBlunt</li>
+				</capacities>
+				<power>48.95</power>
+				<cooldownTime>3</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+				<soundMeleeHit>40_ThunderHammer</soundMeleeHit>
+				<extraMeleeDamages>
+					<li>
+						<def>EMP</def>
+						<amount>1</amount>
+					</li>
+				</extraMeleeDamages>
+			</li>
+			<li>
+			  <label>warcasket thunder hammer' handle</label>
+			  <capacities>
+				<li>Poke</li>
+			  </capacities>
+			  <power>14</power>
+			  <cooldownTime>1.8</cooldownTime>
+			<armorPenetration>0.18</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxPersonaWarcasketThunderHammer</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>	
+</Defs>

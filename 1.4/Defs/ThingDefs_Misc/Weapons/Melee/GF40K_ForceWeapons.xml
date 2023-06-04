@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="GF40K_BaseMeleeForce" ParentName="BaseMeleeWeapon" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <relicChance>3</relicChance> -->
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<notifyMapRemoved>true</notifyMapRemoved>
+		
+		<recipeMaker>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisites>
+				<li>GF40K_RegularMeleeForce</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		
+		<statBases>
+			<MarketValue>2139</MarketValue>
+			<WorkToMake>19000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>170</Plasteel>
+			<Uranium>6</Uranium>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		
+		<equippedStatOffsets>
+			<PsychicEntropyMax MayRequire="ludeon.rimworld.royalty">5</PsychicEntropyMax>
+			<PsychicEntropyRecoveryRate MayRequire="ludeon.rimworld.royalty">0.029</PsychicEntropyRecoveryRate>
+			<MeditationFocusGain MayRequire="ludeon.rimworld.royalty">0.05</MeditationFocusGain>
+			<PsychicSensitivityOffset MayRequire="ludeon.rimworld.royalty">0.268</PsychicSensitivityOffset>
+		</equippedStatOffsets>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleeForce">
+		<defName>GF40K_ForceHalberd</defName>
+		<label>force halberd</label>
+		<description>The Force Halberd is a formidable weapon, a polearm imbued with the power of the Warp. Its razor-sharp tip is capable of piercing even the toughest armor, while the energy field that surrounds it grants additional strength to each strike. As a weapon of the Tech-Priests, it symbolizes their unwavering devotion to the Omnissiah and their mastery over both technology and the arcane.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/ForceHalberd</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>force halberd's point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>28.35</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+			</li>
+			<li>
+				<label>force halberd's chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>force halberd's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.12</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleeForce">
+		<defName>GF40K_ForceStaff</defName>
+		<label>force staff</label>
+		<description>The Force Staff is a weapon of elegance and force, combining the weight of a crushing blunt weapon with the precision of its wielder. Fashioned with advanced Mechanicus technology, it can deliver devastating concussive blows capable of incapacitating enemies. A favorite among Tech-Priests and scholars, the Force Staff represents the union of knowledge and power.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/ForceStaff</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>force staff's head</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>31.77</power>
+				<cooldownTime>2.1</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>force staff's head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+			</li>
+			<li>
+				<label>force staff's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.12</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleeForce">
+		<defName>GF40K_ForceSword</defName>
+		<label>force sword</label>
+		<description>The Force Sword is a deadly weapon that seamlessly combines cutting and stabbing capabilities with the power of the Warp. Its shimmering blade, infused with arcane energy, can slice through armor and strike true against any foe. Wielded by those in pursuit of forbidden knowledge and mastery of the arcane, the Force Sword is a weapon of both physical and psychic prowess.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/ForceSword</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>force sword's blade</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>28.43</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>force sword's blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>28.43</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.35</armorPenetration>
+			</li>
+			<li>
+				<label>force sword's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.12</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+</Defs>

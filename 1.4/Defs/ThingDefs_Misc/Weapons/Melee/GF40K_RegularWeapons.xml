@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="GF40K_BaseMelee" ParentName="BaseMeleeWeapon" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <relicChance>3</relicChance> -->
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<notifyMapRemoved>true</notifyMapRemoved>
+		
+		<recipeMaker>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisites>
+				<li>GF40K_RegularMelee</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		
+		<statBases>
+			<MarketValue>2052</MarketValue>
+			<WorkToMake>17000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>13</Plasteel>
+			<Uranium>6</Uranium>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<costStuffCount>151</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMelee">
+		<defName>GF40K_ChainSword</defName>
+		<label>chain sword</label>
+		<description>A fearsome weapon that combines the destructive power of cutting and crushing. The Chain Sword is a versatile melee weapon favored by warriors for its ability to tear through armor and flesh alike. Its relentless whirring teeth leave a trail of devastation in its wake, making it a formidable choice for those who seek close-quarters combat.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/ChainSword</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>chain sword's backside</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>25.09</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.25</armorPenetration>
+			</li>
+			<li>
+				<label>chain sword's chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>25.09</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+			</li>
+			<li>
+				<label>chain sword's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMelee">
+		<defName>GF40K_Eviscerator</defName>
+		<label>eviscerator</label>
+		<description>The Eviscerator is a two-handed weapon of immense brutality. Its dual-edged blade, serrated and razor-sharp, is capable of cleaving through even the toughest armor. The weight and size of this weapon demand great strength and skill to wield, but those who master it are rewarded with unmatched cutting power, capable of turning enemies into shredded remnants.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Eviscerator</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>Eviscerator's backside</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>30.72</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.25</armorPenetration>
+			</li>
+			<li>
+				<label>Eviscerator's chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>30.72</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+			</li>
+			<li>
+				<label>Eviscerator's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMelee">
+		<defName>GF40K_PowerSabre</defName>
+		<label>power sabre</label>
+		<description>The Power Sabre is a sleek and deadly weapon, combining the finesse of a stabbing blade with the raw cutting power of energy-infused strikes. Its crackling energy field enhances the blade's cutting edge, enabling swift and precise strikes that can penetrate armored defenses. A symbol of authority and skill, the Power Sabre is favored by those who value elegance and lethality in equal measure.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/PowerSabre</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>power sabre's point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>20.8</power>
+				<cooldownTime>1.6</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>power sabre's blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>20.8</power>
+				<cooldownTime>1.6</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+			</li>
+			<li>
+				<label>power sabre's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMelee">
+		<defName>GF40K_PowerSword</defName>
+		<label>power sword</label>
+		<description>The Power Sword is a symbol of the Imperium's might, a weapon infused with arcane technology and devastating cutting and stabbing capabilities. Its energy field envelops the blade, allowing it to effortlessly slice through armor and flesh alike. Wielded by those who stand as paragons of duty and honor, the Power Sword is a testament to the might of the Emperor.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/PowerSword</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>power sword's point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>22.91</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>power sword's blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>22.91</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+			</li>
+			<li>
+				<label>power sword's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+</Defs>

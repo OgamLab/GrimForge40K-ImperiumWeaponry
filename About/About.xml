@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>GrimForge 40K: Weaponry</name>
+  <name>GrimForge 40K: Imperium of Man - Weaponry</name>
   <author>Ogam</author>
-  <packageId>Ogam.GrimFoge40K.Weaponry</packageId>
+  <packageId>GF40K.IoM.Weaponry</packageId>
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>

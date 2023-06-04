@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="GF40K_BaseMeleePersona" ParentName="GF40K_BaseMelee" Abstract="True">
+		<recipeMaker Inherit="False">
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisites>
+				<li>GF40K_RegularMelee</li>
+				<li>GF40K_RegularMeleePersona</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		
+		<statBases>
+			<MarketValue>2138</MarketValue>
+			<WorkToMake>19000</WorkToMake>
+			<Mass>2.5</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>183</Plasteel>
+			<Uranium>13</Uranium>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		
+		<comps>
+			<li Class="CompProperties_BladelinkWeapon" MayRequire="ludeon.rimworld.royalty">
+				<biocodeOnEquip>true</biocodeOnEquip>
+			</li>
+			<li Class="CompProperties_GeneratedName" MayRequire="ludeon.rimworld.royalty">
+				<nameMaker>NamerWeaponBladelink</nameMaker>
+			</li>
+		</comps>		
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleePersona">
+		<defName>GF40K_PersonaChainSword</defName>
+		<label>persona chain sword</label>
+		<description>The Persona Chain Sword is a variant of the standard Chain Sword, enhanced with specialized modifications to suit the needs and preferences of individual warriors. With a reputation for its reliability and cutting power, the Persona Chain Sword has become a favored weapon among those who seek to personalize their armament, making it an extension of their own identity on the battlefield.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/PersonaChainSword</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>persona chain sword's backside</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>26.1</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.25</armorPenetration>
+			</li>
+			<li>
+				<label>persona chain sword's chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26.1</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+			</li>
+			<li>
+				<label>persona chain sword's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleePersona">
+		<defName>GF40K_PersonaEviscerator</defName>
+		<label>persona eviscerator</label>
+		<description>The Persona Eviscerator is an imposing and deadly two-handed weapon, customized and adapted to reflect the personality and combat style of its wielder. Its massive blades, each uniquely adorned and inscribed, possess a keen edge and cutting power that can maim and destroy with unparalleled efficiency. Those who brandish the Persona Eviscerator do so with a fierce determination to leave their mark on the battlefield.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/PersonaEviscerator</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>persona eviscerator's backside</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>31.98</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.25</armorPenetration>
+			</li>
+			<li>
+				<label>persona eviscerator's chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>31.98</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+			</li>
+			<li>
+				<label>persona eviscerator's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleePersona">
+		<defName>GF40K_PersonaPowerSabre</defName>
+		<label>persona power sabre</label>
+		<description>The Persona Power Sabre represents the culmination of craftsmanship and personalization, combining the elegance of a stabbing weapon with the raw power of energy-infused strikes. Its design and adornments reflect the individuality and tastes of its owner, making it not only a formidable weapon but also a statement of their own unique identity in the grim darkness of the far future.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/PersonaPowerSabre</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>persona power sabre's point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>22.71</power>
+				<cooldownTime>1.7</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+			</li>
+			<li>
+				<label>persona power sabre's blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>22.71</power>
+				<cooldownTime>1.7</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>persona power sabre's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleePersona">
+		<defName>GF40K_PersonaPowerSword</defName>
+		<label>persona power sword</label>
+		<description>The Persona Power Sword is a testament to the bond forged between a warrior and their weapon. Customized and personalized to reflect the desires and characteristics of its owner, this formidable blade blends cutting and stabbing capabilities with the raw power of an energy field. Wielded by those who have embraced their individuality and seek to leave an indelible mark on the galaxy.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/PersonaPowerSword</texPath>
+		</graphicData>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>persona power sword's point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>24.96</power>
+				<cooldownTime>1.9</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+			</li>
+			<li>
+				<label>persona power sword's blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>24.96</power>
+				<cooldownTime>1.9</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>persona power sword's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+</Defs>

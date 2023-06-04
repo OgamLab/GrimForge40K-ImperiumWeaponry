@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- WARCASCET MELEE BASE -->
+
+	<ThingDef Name="GF40K_BaseMelee_Warcasket" ParentName="VFEP_BaseMeleeWeapon_Warcasket" Abstract="True">
+		<thingClass>VFECore.ThingWithFloorGraphic</thingClass>
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <relicChance>3</relicChance> -->
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<notifyMapRemoved>true</notifyMapRemoved>
+		
+		<weaponTags>
+			<li>WarcasketMelee</li>
+		</weaponTags>
+		
+		<modExtensions>
+			<li Class="HeavyWeapons.HeavyWeapon">
+				<isHeavy>true</isHeavy>
+				<supportedTraits>
+					<li>VFEP_WarcasketTrait</li>
+				</supportedTraits>
+				<disableOptionLabelKey>VFEP.RequiresWarcasket</disableOptionLabelKey>
+			</li>
+		</modExtensions>
+		
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>GF40K_RegularMelee</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		
+		<statBases>
+			<MarketValue>900</MarketValue>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>20</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>40</Plasteel>
+			<Uranium>20</Uranium>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<costStuffCount>176</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_ChainSword</defName>
+		<label>warcasket chain sword</label>
+		<description>This massive chainsaw sword is designed for use by Warcaskets, who are the only ones strong enough to wield it effectively. Its razor-sharp blade can cleave through flesh and bone, causing cutting damage, while the weight of the sword can crush bones and knock down foes, causing crushing damage. It's a devastating weapon in the hands of a skilled Warcasket warrior.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketChainSword</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>warcasket chain sword's backside</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>31.87</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.3</armorPenetration>
+			</li>
+			<li>
+				<label>warcasket chain sword's chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>31.87</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+			</li>
+			<li>
+				<label>warcasket chain sword's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.16</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketChainSword</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_LightningClaw</defName>
+		<label>warcasket lightning claw</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketLightningClaw</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>warcasket lightning claw's blades</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>18.55</power>
+				<cooldownTime>1.3</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+				<extraMeleeDamages>
+					<li>
+						<def>EMP</def>
+						<amount>1</amount>
+					</li>
+				</extraMeleeDamages>
+			</li>
+			<li>
+			  <label>warcasket lightning claw's wrist</label>
+			  <capacities>
+				  <li>Blunt</li>
+			  </capacities>
+			  <power>14.84</power>
+			  <cooldownTime>1.1</cooldownTime>
+			<armorPenetration>0.25</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketLightningClaw</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_PowerFist</defName>
+		<label>warcasket power fist</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketPowerFist</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>warcasket power fist (left)</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>16.8</power>
+				<cooldownTime>1.2</cooldownTime>
+				<armorPenetration>0.25</armorPenetration>
+				<extraMeleeDamages>
+					<li>
+						<def>Stun</def>
+						<amount>1</amount>
+					</li>
+				</extraMeleeDamages>
+			</li>
+			<li>
+			  <label>warcasket power fist (right)</label>
+			  <capacities>
+				<li>Crush</li>
+			  </capacities>
+			  <power>16.8</power>
+			  <cooldownTime>1.2</cooldownTime>
+			<armorPenetration>0.25</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketPowerFist</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_PowerMaul</defName>
+		<label>warcasket power maul</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketPowerMaul</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>warcasket power maul's head</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>27</power>
+				<cooldownTime>2.3</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>warcasket power maul's head</label>
+				<capacities>
+					<li>GF40K_MaulBlunt</li>
+				</capacities>
+				<power>42.38</power>
+				<cooldownTime>2.8</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+			  <label>warcasket power maul' handle</label>
+			  <capacities>
+				<li>Poke</li>
+			  </capacities>
+			  <power>12</power>
+			  <cooldownTime>1.8</cooldownTime>
+			<armorPenetration>0.16</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketPowerMaul</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_PowerSpear</defName>
+		<label>warcasket power spear</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketPowerSpear</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>warcasket power spear's tip</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>31.8</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.6</armorPenetration>
+			</li>
+			<li>
+				<label>warcasket power spear's blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>29</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+			</li>
+			<li>
+			  <label>warcasket power spear's handle</label>
+			  <capacities>
+				<li>Poke</li>
+			  </capacities>
+			  <power>18</power>
+			  <cooldownTime>1.8</cooldownTime>
+			<armorPenetration>0.16</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketPowerSpear</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_PowerSword</defName>
+		<label>warcasket power sword</label>
+		<description>PLACEHOLDER</description>	
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketPowerSword</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>warcasket power sword's point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>31.87</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+			</li>
+			<li>
+				<label>warcasket power sword's blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>31.87</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>warcasket power sword's handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.16</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketPowerSword</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+		<defName>GF40K_Warcasket_ThunderHammer</defName>
+		<label>warcasket thunder hammer</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketThunderHammer</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>warcasket thunder hammer's head</label>
+				<capacities>
+					<li>Crush</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>warcasket thunder hammer's head</label>
+				<capacities>
+					<li>GF40K_MaulBlunt</li>
+				</capacities>
+				<power>42.55</power>
+				<cooldownTime>3</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+				<soundMeleeHit>40_ThunderHammer</soundMeleeHit>
+				<extraMeleeDamages>
+					<li>
+						<def>EMP</def>
+						<amount>1</amount>
+					</li>
+				</extraMeleeDamages>
+			</li>
+			<li>
+			  <label>warcasket thunder hammer' handle</label>
+			  <capacities>
+				<li>Poke</li>
+			  </capacities>
+			  <power>12</power>
+			  <cooldownTime>1.8</cooldownTime>
+			<armorPenetration>0.16</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.FloorGraphicExtension">
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketThunderHammer</texPath>
+					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<drawSize>1</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+</Defs>

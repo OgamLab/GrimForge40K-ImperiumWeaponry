@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DamageDef ParentName="BluntBase">
+		<defName>GF40K_MaulBlunt</defName>
+		<label>blunt</label>
+		<workerClass>VFECore.DamageWorker_PushBackAttackMelee</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been beaten to death.</deathMessage>
+		<hediff>Crush</hediff>
+		<hediffSkin>Bruise</hediffSkin>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+		<overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>
+		<buildingDamageFactor>1.5</buildingDamageFactor>
+		<bluntStunDuration>2.0</bluntStunDuration>
+		<bluntInnerHitChance>0.4</bluntInnerHitChance>
+		<bluntInnerHitDamageFractionToConvert>0.1~0.2</bluntInnerHitDamageFractionToConvert>
+		<bluntInnerHitDamageFractionToAdd>0.2~0.35</bluntInnerHitDamageFractionToAdd>
+		<bluntStunChancePerDamagePctOfCorePartToHeadCurve>
+			<points>
+				<li>(0.04, 0.20)</li>
+				<li>(0.5, 1)</li>
+			</points>
+		</bluntStunChancePerDamagePctOfCorePartToHeadCurve>
+		<bluntStunChancePerDamagePctOfCorePartToBodyCurve>
+			<points>
+				<li>(0.4, 0)</li>
+				<li>(0.9, 0.15)</li>
+			</points>
+		</bluntStunChancePerDamagePctOfCorePartToBodyCurve>
+		<modExtensions>
+			<li Class="VFECore.DamageExtension">
+				<pushBackDistance>1</pushBackDistance>
+				<soundOnDamage>DropPod_Open</soundOnDamage>
+			</li>
+		</modExtensions>
+	</DamageDef>
+	<ManeuverDef>
+		<defName>GF40K_MaulBlunt</defName>
+		<requiredCapacity>GF40K_MaulBlunt</requiredCapacity>
+		<verb>
+			<verbClass>Verb_MeleeAttackDamage</verbClass>
+			<meleeDamageDef>GF40K_MaulBlunt</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+	<ToolCapacityDef>
+		<defName>GF40K_MaulBlunt</defName>
+		<label>power maul attack</label>
+	</ToolCapacityDef>
+	
+	<DamageDef ParentName="BluntBase">
+		<defName>GF40K_HammerBlunt</defName>
+		<label>blunt</label>
+		<workerClass>VFECore.DamageWorker_PushBackAttackMelee</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been beaten to death.</deathMessage>
+		<hediff>Crush</hediff>
+		<hediffSkin>Bruise</hediffSkin>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+		<overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>
+		<buildingDamageFactor>1.5</buildingDamageFactor>
+		<bluntStunDuration>2.0</bluntStunDuration>
+		<bluntInnerHitChance>0.4</bluntInnerHitChance>
+		<bluntInnerHitDamageFractionToConvert>0.1~0.2</bluntInnerHitDamageFractionToConvert>
+		<bluntInnerHitDamageFractionToAdd>0.2~0.35</bluntInnerHitDamageFractionToAdd>
+		<bluntStunChancePerDamagePctOfCorePartToHeadCurve>
+			<points>
+				<li>(0.04, 0.20)</li>
+				<li>(0.5, 1)</li>
+			</points>
+		</bluntStunChancePerDamagePctOfCorePartToHeadCurve>
+		<bluntStunChancePerDamagePctOfCorePartToBodyCurve>
+			<points>
+				<li>(0.4, 0)</li>
+				<li>(0.9, 0.15)</li>
+			</points>
+		</bluntStunChancePerDamagePctOfCorePartToBodyCurve>
+		<modExtensions>
+			<li Class="VFECore.DamageExtension">
+				<pushBackDistance>2</pushBackDistance>
+				<soundOnDamage>DropPod_Open</soundOnDamage>
+			</li>
+		</modExtensions>
+	</DamageDef>
+	<ManeuverDef>
+		<defName>GF40K_HammerBlunt</defName>
+		<requiredCapacity>GF40K_HammerBlunt</requiredCapacity>
+		<verb>
+			<verbClass>Verb_MeleeAttackDamage</verbClass>
+			<meleeDamageDef>GF40K_HammerBlunt</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+	<ToolCapacityDef>
+		<defName>GF40K_HammerBlunt</defName>
+		<label>thunder hammer attack</label>
+	</ToolCapacityDef>
+
+
+</Defs>

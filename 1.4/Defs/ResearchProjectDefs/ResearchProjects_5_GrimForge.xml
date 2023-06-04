@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef Name="GF40K_ResearchBase" Abstract="True">
+		<tab>GF40K</tab>
+		<techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+		  <li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularMelee</defName>
+		<label>GrimForge Melee</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>4000</baseCost>
+		<prerequisites>
+		  <li>Fabrication</li>
+		</prerequisites>	
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY> 	
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularMeleeForce</defName>
+		<label>GrimForge Melee Force</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>5000</baseCost>
+		<prerequisites>
+		  <li>GF40K_RegularMelee</li>
+		</prerequisites>	
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY> 	
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularMeleeMechanicus</defName>
+		<label>GrimForge Melee Force</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>6000</baseCost>
+		<prerequisites>
+		  <li>GF40K_RegularMeleeForce</li>
+		</prerequisites>	
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY> 	
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularMeleePersona</defName>
+		<label>GrimForge Melee</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>4000</baseCost>
+		<prerequisites>
+		  <li>Fabrication</li>
+		</prerequisites>	
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY> 	
+	</ResearchProjectDef>
+</Defs>
