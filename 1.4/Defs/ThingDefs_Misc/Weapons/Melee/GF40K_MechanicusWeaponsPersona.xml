@@ -39,7 +39,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/PersonaMechanicusPowerSword</texPath>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
+		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>persona machanicus power sword's tip</label>

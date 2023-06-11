@@ -46,16 +46,16 @@
 	<ThingDef ParentName="GF40K_BaseMelee">
 		<defName>GF40K_ChainSword</defName>
 		<label>chain sword</label>
-		<description>A fearsome weapon that combines the destructive power of cutting and crushing. The Chain Sword is a versatile melee weapon favored by warriors for its ability to tear through armor and flesh alike. Its relentless whirring teeth leave a trail of devastation in its wake, making it a formidable choice for those who seek close-quarters combat.</description>
+		<description>A fearsome weapon that combines the destructive power of cutting and Blunting. The Chain Sword is a versatile melee weapon favored by warriors for its ability to tear through armor and flesh alike. Its relentless whirring teeth leave a trail of devastation in its wake, making it a formidable choice for those who seek close-quarters combat.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/ChainSword</texPath>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
+		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>chain sword's backside</label>
 				<capacities>
-					<li>Crush</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>25.09</power>
 				<cooldownTime>2</cooldownTime>
@@ -89,13 +89,14 @@
 		<description>The Eviscerator is a two-handed weapon of immense brutality. Its dual-edged blade, serrated and razor-sharp, is capable of cleaving through even the toughest armor. The weight and size of this weapon demand great strength and skill to wield, but those who master it are rewarded with unmatched cutting power, capable of turning enemies into shredded remnants.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Eviscerator</texPath>
+			<drawSize>1.25</drawSize>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
+		<equippedAngleOffset>-45</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>Eviscerator's backside</label>
 				<capacities>
-					<li>Crush</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>30.72</power>
 				<cooldownTime>2.5</cooldownTime>
@@ -130,7 +131,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/PowerSabre</texPath>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
+		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>power sabre's point</label>
@@ -169,7 +170,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/PowerSword</texPath>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
+		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>power sword's point</label>

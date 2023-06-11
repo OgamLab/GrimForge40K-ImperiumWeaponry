@@ -3,7 +3,8 @@
    <v1.4>
     <li>/</li>
     <li>1.4</li>
-	<li IfModActive="ludeon.rimworld.royalty,ludeon.rimworld.royalty_steam">Mods/1.4/Royalty</li>
 	<li IfModActive="oskarpotocki.vfe.pirates,oskarpotocki.vfe.pirates_steam">Mods/1.4/VFEP</li>
+	<li IfModActive="ludeon.rimworld.royalty,ludeon.rimworld.royalty_steam">Mods/1.4/Royalty</li>
+	<li IfModActive="mlie.showmeyourhands,mlie.showmeyourhands_steam">Mods/1.4/ShowMeYourHands</li>
   </v1.4>
 </loadFolders>

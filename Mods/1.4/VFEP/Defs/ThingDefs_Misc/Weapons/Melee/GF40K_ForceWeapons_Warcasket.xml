@@ -16,6 +16,9 @@
 			<skillRequirements>
 				<Crafting>14</Crafting>
 			</skillRequirements>
+			<researchPrerequisites>
+				<li>GF40K_RegularMelee</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
@@ -34,12 +37,6 @@
 				<disableOptionLabelKey>VFEP.RequiresWarcasket</disableOptionLabelKey>
 			</li>
 		</modExtensions>
-		
-		<recipeMaker>
-			<researchPrerequisites>
-				<li>GF40K_RegularMelee</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		
 		<statBases>
 			<MarketValue>932</MarketValue>
@@ -70,13 +67,66 @@
 		
 	</ThingDef>
 
-	<ThingDef ParentName="GF40K_BaseMeleeForce_Warcasket">
+	<ThingDef Name="GF40K_BaseMeleeForce_Warcasket_OversizeSword" ParentName="GF40K_BaseMeleeForce_Warcasket" Abstract="True">
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(-0.20,0.0,0.20)</drawOffset> <!--0.30,0,0.40-->
+						<angleOffset>115</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.30,0.00,0.20)</drawOffset> <!--0.30,0.2,0.40-->
+						<angleOffset>-45</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(0.30,0.00,0.20)</drawOffset>
+						<angleOffset>-45</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.30,0.0,0.20)</drawOffset>
+						<angleOffset>45</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions> 		
+	</ThingDef>
+
+	<ThingDef Name="GF40K_BaseMeleeForce_Warcasket_OversizePolearms" ParentName="GF40K_BaseMeleeForce_Warcasket" Abstract="True">
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.34,0,0.60)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.1,0,0.60)</drawOffset>
+						<angleOffset>-122</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.34,0,0.60)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.1,0,0.60)</drawOffset>
+						<angleOffset>122</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>		
+			</li>
+		</modExtensions>
+		<equippedAngleOffset>45</equippedAngleOffset>	
+	</ThingDef>
+
+	<!-- Weapons -->	
+
+	<ThingDef ParentName="GF40K_BaseMeleeForce_Warcasket_OversizePolearms">
 		<defName>GF40K_Warcasket_ForceHalberd</defName>
 		<label>warcasket force halberd</label>
 		<description>An imposing weapon that requires the strength and skill of an Warcasket to wield effectively. The Warcasket Force Halberd is a versatile weapon capable of delivering devastating stabs and cuts, making it an ideal choice for dealing with heavily-armored foes. The force field generator housed within the halberd's head amplifies the impact of its blows, making it an even deadlier weapon in the hands of a skilled warrior.</description>	
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketForceHalberd</texPath>
-			<drawSize>1.4</drawSize>
+			<drawSize>1.6</drawSize>
 		</graphicData>
 		<tools>
 			<li>
@@ -113,19 +163,20 @@
 					<graphicClass>Graphic_Single</graphicClass>
 					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketForceHalberd</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<shaderType>CutoutComplex</shaderType>
 					<drawSize>1</drawSize>
 				</graphicData>
 			</li>
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="GF40K_BaseMeleeForce_Warcasket">
+	<ThingDef ParentName="GF40K_BaseMeleeForce_Warcasket_OversizePolearms">
 		<defName>GF40K_Warcasket_ForceStaff</defName>
 		<label>warcasket force staff</label>
 		<description>PLACEHOLDER</description>	
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketForceStaff</texPath>
-			<drawSize>1.4</drawSize>
+			<drawSize>1.6</drawSize>
 		</graphicData>
 		<tools>
 			<li>
@@ -162,13 +213,14 @@
 					<graphicClass>Graphic_Single</graphicClass>
 					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketForceStaff</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<shaderType>CutoutComplex</shaderType>
 					<drawSize>1</drawSize>
 				</graphicData>
 			</li>
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="GF40K_BaseMeleeForce_Warcasket">
+	<ThingDef ParentName="GF40K_BaseMeleeForce_Warcasket_OversizeSword">
 		<defName>GF40K_Warcasket_ForceSword</defName>
 		<label>warcasket force sword</label>
 		<description>PLACEHOLDER</description>	
@@ -211,6 +263,7 @@
 					<graphicClass>Graphic_Single</graphicClass>
 					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketForceSword</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<shaderType>CutoutComplex</shaderType>
 					<drawSize>1</drawSize>
 				</graphicData>
 			</li>

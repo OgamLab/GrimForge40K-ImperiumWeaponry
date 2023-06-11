@@ -57,10 +57,88 @@
 		</stuffCategories>
 	</ThingDef>
 
-	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+	<ThingDef Name="GF40K_BaseMelee_Warcasket_OversizeSword" ParentName="GF40K_BaseMelee_Warcasket" Abstract="True">
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(-0.20,0.0,0.20)</drawOffset> <!--0.30,0,0.40-->
+						<angleOffset>115</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.30,0.00,0.20)</drawOffset> <!--0.30,0.2,0.40-->
+						<angleOffset>-45</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(0.30,0.00,0.20)</drawOffset>
+						<angleOffset>-45</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.30,0.0,0.20)</drawOffset>
+						<angleOffset>45</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions> 		
+	</ThingDef>
+
+	<ThingDef Name="GF40K_BaseMelee_Warcasket_OversizePolearms" ParentName="GF40K_BaseMelee_Warcasket" Abstract="True">
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.34,0,0.60)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.1,0,0.60)</drawOffset>
+						<angleOffset>-122</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.34,0,0.60)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.1,0,0.60)</drawOffset>
+						<angleOffset>122</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>		
+			</li>
+		</modExtensions>
+		<equippedAngleOffset>45</equippedAngleOffset>	
+	</ThingDef>	
+
+	<ThingDef Name="GF40K_BaseMelee_Warcasket_OversizeMaul" ParentName="GF40K_BaseMelee_Warcasket" Abstract="True">
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(-0.20,0.0,0.20)</drawOffset> <!--0.30,0,0.40-->
+						<angleOffset>115</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.30,0.00,0.20)</drawOffset> <!--0.30,0.2,0.40-->
+						<angleOffset>-45</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(0.30,0.00,0.20)</drawOffset>
+						<angleOffset>-45</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.30,0.0,0.20)</drawOffset>
+						<angleOffset>45</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions> 		
+	</ThingDef>
+	
+	<!-- Weapons -->
+
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizeSword">
 		<defName>GF40K_Warcasket_ChainSword</defName>
 		<label>warcasket chain sword</label>
-		<description>This massive chainsaw sword is designed for use by Warcaskets, who are the only ones strong enough to wield it effectively. Its razor-sharp blade can cleave through flesh and bone, causing cutting damage, while the weight of the sword can crush bones and knock down foes, causing crushing damage. It's a devastating weapon in the hands of a skilled Warcasket warrior.</description>
+		<description>This massive chainsaw sword is designed for use by Warcaskets, who are the only ones strong enough to wield it effectively. Its razor-sharp blade can cleave through flesh and bone, causing cutting damage, while the weight of the sword can Blunt bones and knock down foes, causing Blunting damage. It's a devastating weapon in the hands of a skilled Warcasket warrior.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketChainSword</texPath>
 			<drawSize>1.4</drawSize>
@@ -69,7 +147,7 @@
 			<li>
 				<label>warcasket chain sword's backside</label>
 				<capacities>
-					<li>Crush</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>31.87</power>
 				<cooldownTime>2.2</cooldownTime>
@@ -101,6 +179,7 @@
 					<graphicClass>Graphic_Single</graphicClass>
 					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketChainSword</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<shaderType>CutoutComplex</shaderType>
 					<drawSize>1</drawSize>
 				</graphicData>
 			</li>
@@ -148,6 +227,7 @@
 					<graphicClass>Graphic_Single</graphicClass>
 					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketLightningClaw</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<shaderType>CutoutComplex</shaderType>
 					<drawSize>1</drawSize>
 				</graphicData>
 			</li>
@@ -166,7 +246,7 @@
 			<li>
 				<label>warcasket power fist (left)</label>
 				<capacities>
-					<li>Crush</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>16.8</power>
 				<cooldownTime>1.2</cooldownTime>
@@ -181,7 +261,7 @@
 			<li>
 			  <label>warcasket power fist (right)</label>
 			  <capacities>
-				<li>Crush</li>
+				<li>Blunt</li>
 			  </capacities>
 			  <power>16.8</power>
 			  <cooldownTime>1.2</cooldownTime>
@@ -194,13 +274,14 @@
 					<graphicClass>Graphic_Single</graphicClass>
 					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketPowerFist</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<shaderType>CutoutComplex</shaderType>
 					<drawSize>1</drawSize>
 				</graphicData>
 			</li>
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizeMaul">
 		<defName>GF40K_Warcasket_PowerMaul</defName>
 		<label>warcasket power maul</label>
 		<description>PLACEHOLDER</description>
@@ -212,7 +293,7 @@
 			<li>
 				<label>warcasket power maul's head</label>
 				<capacities>
-					<li>Crush</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>27</power>
 				<cooldownTime>2.3</cooldownTime>
@@ -243,19 +324,20 @@
 					<graphicClass>Graphic_Single</graphicClass>
 					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketPowerMaul</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<shaderType>CutoutComplex</shaderType>
 					<drawSize>1</drawSize>
 				</graphicData>
 			</li>
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizePolearms">
 		<defName>GF40K_Warcasket_PowerSpear</defName>
 		<label>warcasket power spear</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketPowerSpear</texPath>
-			<drawSize>1.4</drawSize>
+			<drawSize>1.6</drawSize>
 		</graphicData>
 		<tools>
 			<li>
@@ -292,13 +374,14 @@
 					<graphicClass>Graphic_Single</graphicClass>
 					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketPowerSpear</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<shaderType>CutoutComplex</shaderType>
 					<drawSize>1</drawSize>
 				</graphicData>
 			</li>
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizeSword">
 		<defName>GF40K_Warcasket_PowerSword</defName>
 		<label>warcasket power sword</label>
 		<description>PLACEHOLDER</description>	
@@ -341,25 +424,26 @@
 					<graphicClass>Graphic_Single</graphicClass>
 					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketPowerSword</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<shaderType>CutoutComplex</shaderType>
 					<drawSize>1</drawSize>
 				</graphicData>
 			</li>
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
+	<ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizeMaul">
 		<defName>GF40K_Warcasket_ThunderHammer</defName>
 		<label>warcasket thunder hammer</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Warcasket/WarcasketThunderHammer</texPath>
-			<drawSize>1.4</drawSize>
+			<drawSize>1.6</drawSize>
 		</graphicData>
 		<tools>
 			<li>
 				<label>warcasket thunder hammer's head</label>
 				<capacities>
-					<li>Crush</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>28</power>
 				<cooldownTime>2.5</cooldownTime>
@@ -397,6 +481,7 @@
 					<graphicClass>Graphic_Single</graphicClass>
 					<texPath>Things/Item/Equipment/WeaponMelee/Boxed/BoxWarcasketThunderHammer</texPath>
 					<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+					<shaderType>CutoutComplex</shaderType>
 					<drawSize>1</drawSize>
 				</graphicData>
 			</li>

@@ -46,14 +46,40 @@
 		</equippedStatOffsets>
 	</ThingDef>
 	
-	<ThingDef ParentName="GF40K_BaseMeleeForce">
+	<ThingDef Name="GF40K_BaseMeleeForce_Oversize" ParentName="GF40K_BaseMeleeForce" Abstract="True">
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.34,0,0.50)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.1,0,0.50)</drawOffset>
+						<angleOffset>-122</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.34,0,0.50)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.1,0,0.50)</drawOffset>
+						<angleOffset>122</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>		
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleeForce_Oversize">
 		<defName>GF40K_ForceHalberd</defName>
 		<label>force halberd</label>
 		<description>The Force Halberd is a formidable weapon, a polearm imbued with the power of the Warp. Its razor-sharp tip is capable of piercing even the toughest armor, while the energy field that surrounds it grants additional strength to each strike. As a weapon of the Tech-Priests, it symbolizes their unwavering devotion to the Omnissiah and their mastery over both technology and the arcane.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/ForceHalberd</texPath>
+			<drawSize>1.5</drawSize>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>force halberd's point</label>
@@ -82,22 +108,23 @@
 				<cooldownTime>1.8</cooldownTime>
 				<armorPenetration>0.12</armorPenetration>
 			</li>
-		</tools>
+		</tools>		
 	</ThingDef>
 	
-	<ThingDef ParentName="GF40K_BaseMeleeForce">
+	<ThingDef ParentName="GF40K_BaseMeleeForce_Oversize">
 		<defName>GF40K_ForceStaff</defName>
 		<label>force staff</label>
-		<description>The Force Staff is a weapon of elegance and force, combining the weight of a crushing blunt weapon with the precision of its wielder. Fashioned with advanced Mechanicus technology, it can deliver devastating concussive blows capable of incapacitating enemies. A favorite among Tech-Priests and scholars, the Force Staff represents the union of knowledge and power.</description>
+		<description>The Force Staff is a weapon of elegance and force, combining the weight of a Blunting blunt weapon with the precision of its wielder. Fashioned with advanced Mechanicus technology, it can deliver devastating concussive blows capable of incapacitating enemies. A favorite among Tech-Priests and scholars, the Force Staff represents the union of knowledge and power.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/ForceStaff</texPath>
+			<drawSize>1.5</drawSize>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
+		
 		<tools>
 			<li>
 				<label>force staff's head</label>
 				<capacities>
-					<li>Crush</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>31.77</power>
 				<cooldownTime>2.1</cooldownTime>
@@ -121,7 +148,7 @@
 				<cooldownTime>1.8</cooldownTime>
 				<armorPenetration>0.12</armorPenetration>
 			</li>
-		</tools>
+		</tools>	
 	</ThingDef>
 	
 	<ThingDef ParentName="GF40K_BaseMeleeForce">
@@ -131,7 +158,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/ForceSword</texPath>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
+		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>force sword's blade</label>

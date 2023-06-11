@@ -49,6 +49,32 @@
 		</comps>	
 	</ThingDef>
 	
+	<ThingDef Name="GF40K_BaseMeleeMechanicus_Oversize" ParentName="GF40K_BaseMeleeMechanicus" Abstract="True">
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.34,0,0.50)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.1,0,0.50)</drawOffset>
+						<angleOffset>-122</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.34,0,0.50)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.1,0,0.50)</drawOffset>
+						<angleOffset>122</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>		
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
 	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
 		<defName>GF40K_MechanicusArcMaul</defName>
 		<label>mechanicus arc maul</label>
@@ -56,12 +82,12 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusArcMaul</texPath>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
+		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>machanicus arc maul's head</label>
 				<capacities>
-					<li>Crush</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>25</power>
 				<cooldownTime>2.5</cooldownTime>
@@ -94,14 +120,14 @@
 		</tools>
 	</ThingDef>
 	
-	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
+	<ThingDef ParentName="GF40K_BaseMeleeMechanicus_Oversize">
 		<defName>GF40K_MechanicusOmnisianAxe</defName>
 		<label>mechanicus amnisian axe</label>
 		<description>The Mechanicus Omnisian Axe is a formidable cutting weapon, designed to pierce through even the toughest defenses with its finely honed edge. Its power field enhances the blade's cutting prowess, enabling it to cleave through armor and rend mechanical components. With an integrated EMP emitter, the Omnisian Axe allows Tech-Priests to disrupt and disable their opponents' electronic systems with each strike.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusOmnisianAxe</texPath>
+			<drawSize>1.5</drawSize>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>machanicus amnisian axe's head</label>
@@ -146,7 +172,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusPowerSword</texPath>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
+		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>machanicus power sword's blade</label>
@@ -191,7 +217,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusTaserGoad</texPath>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
+		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>machanicus taser goad's tip</label>
@@ -211,7 +237,7 @@
 			<li>
 				<label>machanicus taser goad's shaft</label>
 				<capacities>
-					<li>Crush</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>25.8</power>
 				<cooldownTime>2</cooldownTime>
@@ -236,7 +262,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusTransonicBlade</texPath>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
+		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>machanicus transonic blade's tip</label>
@@ -275,7 +301,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusTransonicRazor</texPath>
 		</graphicData>
-		<equippedAngleOffset>0</equippedAngleOffset>
+		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>machanicus transonic razor's tip</label>
