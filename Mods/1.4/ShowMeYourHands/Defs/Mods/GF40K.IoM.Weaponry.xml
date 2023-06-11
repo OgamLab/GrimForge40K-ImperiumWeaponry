@@ -102,30 +102,6 @@
               </ThingTargets>
           </li>
           <li>
-              <MainHand>(-0.321, 0.100, -0.279)</MainHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_PersonaChainSword</li> <!-- persona warcasket  chain sword -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.211, 0.100, -0.229)</MainHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_PersonaPowerMaul</li> <!-- persona warcasket power maul -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.197, 0.100, -0.188)</MainHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_PersonaPowerSpear</li> <!-- persona warcasket power spear -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.307, 0.100, -0.298)</MainHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_PersonaPowerSword</li> <!-- persona warcasket power sword -->
-              </ThingTargets>
-          </li>
-          <li>
               <MainHand>(-0.348, 0.100, 0.028)</MainHand>
               <ThingTargets>
                  <li>GF40K_PowerSabre</li> <!-- power sabre -->
@@ -135,74 +111,6 @@
               <MainHand>(-0.362, 0.100, 0.000)</MainHand>
               <ThingTargets>
                  <li>GF40K_PowerSword</li> <!-- power sword -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.316, 0.100, 0.019)</MainHand>
-              <SecHand>(-0.224, -0.100, 0.023)</SecHand>
-              <ThingTargets>
-                 <li>HP_WarcasketMeleeWeapon_ThunderHammer</li> <!-- Thunder Hammer -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.307, 0.100, -0.284)</MainHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_ChainSword</li> <!-- warcasket chain sword -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.197, 0.100, -0.174)</MainHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_ForceHalberd</li> <!-- warcasket force halberd -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.233, 0.100, -0.233)</MainHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_ForceStaff</li> <!-- warcasket force staff -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.321, 0.100, -0.321)</MainHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_ForceSword</li> <!-- warcasket force sword -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.233, 0.100, -0.243)</MainHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_PersonaThunderHammer</li> <!-- warcasket persona thunder hammer -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.036, -0.100, 0.023)</MainHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_PowerFist</li> <!-- warcasket power fist -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.206, 0.100, -0.238)</MainHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_PowerMaul</li> <!-- warcasket power maul -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.183, 0.100, -0.160)</MainHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_PowerSpear</li> <!-- warcasket power spear -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.298, 0.100, -0.298)</MainHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_PowerSword</li> <!-- warcasket power sword -->
-              </ThingTargets>
-          </li>
-          <li>
-              <MainHand>(-0.302, 0.100, -0.293)</MainHand>
-              <SecHand>(-0.224, -0.100, -0.238)</SecHand>
-              <ThingTargets>
-                 <li>GF40K_Warcasket_ThunderHammer</li> <!-- warcasket thunder hammer -->
               </ThingTargets>
           </li>
       </WeaponCompLoader>
