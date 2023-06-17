@@ -21,9 +21,12 @@
 	</li>
   </modDependencies>
   <loadAfter>
+	<li>GF40K.Core</li>
     <li>Ludeon.RimWorld</li>
 	<li>mlie.showmeyourhands</li>
+	<li>ceteam.combatextended</li>
 	<li>oskarpotocki.vfe.pirates</li>
+	<li>co.uk.epicguru.meleeanimation</li>
 	<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
   </loadAfter>
 </ModMetaData>

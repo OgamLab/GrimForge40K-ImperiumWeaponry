@@ -1,0 +1,12 @@
+{
+  "TextureModID": "gf40k.iom.weaponry",
+  "ItemDefName": "GF40K_PowerSabre",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.337662339,
+  "OffY": -0.0125060128,
+  "HandsMode": 1,
+  "BladeStart": 0.131794125,
+  "BladeEnd": 0.7955748,
+  "MeleeWeaponType": 34
+}

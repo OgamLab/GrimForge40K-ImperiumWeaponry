@@ -1,0 +1,12 @@
+{
+  "TextureModID": "gf40k.iom.weaponry",
+  "ItemDefName": "GF40K_MechanicusTaserGoad",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.354978353,
+  "OffY": -0.01058201,
+  "HandsMode": 1,
+  "BladeStart": 0.2991823,
+  "BladeEnd": 0.843674839,
+  "MeleeWeaponType": 32
+}

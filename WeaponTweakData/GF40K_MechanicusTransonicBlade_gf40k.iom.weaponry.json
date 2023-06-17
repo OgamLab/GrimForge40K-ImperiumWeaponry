@@ -1,0 +1,11 @@
+{
+  "TextureModID": "gf40k.iom.weaponry",
+  "ItemDefName": "GF40K_MechanicusTransonicBlade",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.331890345,
+  "HandsMode": 1,
+  "BladeStart": 0.2010582,
+  "BladeEnd": 0.8109668,
+  "MeleeWeaponType": 48
+}

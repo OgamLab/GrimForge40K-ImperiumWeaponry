@@ -1,0 +1,13 @@
+{
+  "TextureModID": "gf40k.iom.weaponry",
+  "ItemDefName": "GF40K_PersonaEviscerator",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.439634442,
+  "Rotation": 45.0,
+  "ScaleX": 1.25,
+  "ScaleY": 1.25,
+  "BladeStart": 0.227994233,
+  "BladeEnd": 1.14766717,
+  "MeleeWeaponType": 6
+}

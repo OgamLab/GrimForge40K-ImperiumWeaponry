@@ -4,5 +4,10 @@
     <li>/</li>
     <li>1.4</li>
 	<li IfModActive="mlie.showmeyourhands,mlie.showmeyourhands_steam">Mods/1.4/ShowMeYourHands</li>
+	<li IfModActive="ceteam.combatextended,ceteam.combatextended_steam">Mods/1.4/CombatExtended</li>
+	<!--li IfModActive="co.uk.epicguru.meleeanimation,co.uk.epicguru.meleeanimation_steam">Mods/1.4/MeleeAnimation</li-->
+	
+	
+	
   </v1.4>
 </loadFolders>

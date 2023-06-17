@@ -1,0 +1,11 @@
+{
+  "TextureModID": "gf40k.iom.weaponry",
+  "ItemDefName": "GF40K_MechanicusArcMaul",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.345358342,
+  "HandsMode": 1,
+  "BladeStart": 0.562770545,
+  "BladeEnd": 0.8013468,
+  "MeleeWeaponType": 8
+}

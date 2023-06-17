@@ -1,0 +1,12 @@
+{
+  "TextureModID": "gf40k.iom.weaponry",
+  "ItemDefName": "GF40K_ChainSword",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.349206358,
+  "OffY": -0.0125060128,
+  "HandsMode": 1,
+  "BladeStart": 0.229918227,
+  "BladeEnd": 0.7974988,
+  "MeleeWeaponType": 24
+}

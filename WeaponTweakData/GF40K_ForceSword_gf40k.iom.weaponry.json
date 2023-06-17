@@ -1,0 +1,12 @@
+{
+  "TextureModID": "gf40k.iom.weaponry",
+  "ItemDefName": "GF40K_ForceSword",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.312650323,
+  "OffY": 0.016354017,
+  "HandsMode": 1,
+  "BladeStart": 0.158730164,
+  "BladeEnd": 0.751322746,
+  "MeleeWeaponType": 34
+}
