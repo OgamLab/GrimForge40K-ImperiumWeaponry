@@ -13,12 +13,6 @@
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>
-		</recipeMaker>
-		<smeltable>false</smeltable>
-		<burnableByRecipe>true</burnableByRecipe>
-		<notifyMapRemoved>true</notifyMapRemoved>
-		
-		<recipeMaker>
 			<recipeUsers>
 				<li>FabricationBench</li>
 			</recipeUsers>
@@ -26,6 +20,9 @@
 				<li>GF40K_RegularMeleeForce</li>
 			</researchPrerequisites>
 		</recipeMaker>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<notifyMapRemoved>true</notifyMapRemoved>
 		
 		<statBases>
 			<MarketValue>2139</MarketValue>

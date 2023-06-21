@@ -37,7 +37,6 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_BoltGunShot_relic</defaultProjectile>
                 <warmupTime>0.9</warmupTime>
-				<forcedMissRadius>0.2</forcedMissRadius>
                 <range>21.9</range>
                 <soundCast>Shot_Autopistol</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
@@ -125,7 +124,6 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_BoltPistolShot</defaultProjectile>
                 <warmupTime>0.5</warmupTime>
-				<forcedMissRadius>0.2</forcedMissRadius>
                 <range>19.9</range>
                 <soundCast>Shot_IncendiaryLauncher</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
@@ -203,7 +201,6 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_SniperBoltgunShot_relic</defaultProjectile>
                 <warmupTime>3.8</warmupTime>
-				<forcedMissRadius>0.2</forcedMissRadius>
                 <range>30.9</range>
                 <soundCast>Shot_IncendiaryLauncher</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
