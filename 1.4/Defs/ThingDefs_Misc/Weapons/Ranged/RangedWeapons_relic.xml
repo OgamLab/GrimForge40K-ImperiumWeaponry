@@ -63,6 +63,9 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
     </ThingDef>
     <ThingDef>
         <defName>GF40K_BoltGunShot_relic</defName>
@@ -150,6 +153,9 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
     </ThingDef>
     <ThingDef>
         <defName>GF40K_BoltPistolShot_relic</defName>
@@ -236,6 +242,9 @@
         <weaponTags Inherit="False">
             <li>SpacerGun</li>
         </weaponTags>
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
     </ThingDef>
     <ThingDef ParentName="BaseBullet">
         <defName>GF40K_SniperBoltgunShot_relic</defName>
