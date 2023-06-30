@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef ParentName="InjuryBase">
+	  <defName>GF40K_GaussShot</defName>
+	  <label>gauss shot</label>
+	  <labelNoun>a gauss shot wound</labelNoun>
+	  <description>A wound caused by a Gauss round.</description>
+	  <comps>
+		<li Class="HediffCompProperties_TendDuration">
+		  <labelTendedWell>bandaged</labelTendedWell>
+		  <labelTendedWellInner>sutured</labelTendedWellInner>
+		  <labelSolidTendedWell>set</labelSolidTendedWell>
+		</li>
+		<li Class="HediffCompProperties_Infecter">
+		  <infectionChance>0.15</infectionChance>
+		</li>
+		<li Class="HediffCompProperties_GetsPermanent">
+		  <permanentLabel>old gauss shot</permanentLabel>
+		  <instantlyPermanentLabel>permanent gauss shot injury</instantlyPermanentLabel>
+		</li>
+	  </comps>
+	  <injuryProps>
+		<painPerSeverity>0.0125</painPerSeverity>
+		<averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+		<bleedRate>0.06</bleedRate>
+		<canMerge>false</canMerge>
+		<destroyedLabel>Shot off by gauss bullet</destroyedLabel>
+		<destroyedOutLabel>Shot out by gauss bullet</destroyedOutLabel>
+	  </injuryProps>
+	</HediffDef>
+
+	<DamageDef ParentName="Bullet">
+	  <defName>GF40K_Gauss</defName>
+	  <label>gauss</label>
+	  <workerClass>DamageWorker_AddInjury</workerClass>
+	  <externalViolence>true</externalViolence>
+	  <deathMessage>{0} has been hit by a Gauss round.</deathMessage>
+	  <hediff>GF40K_GaussShot</hediff>
+	  <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+	  <impactSoundType>Bullet</impactSoundType>
+	  <armorCategory>Sharp</armorCategory>
+	  <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+	  <isRanged>true</isRanged>
+	  <makesAnimalsFlee>true</makesAnimalsFlee>
+	</DamageDef>
+</Defs>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded - Laser</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="GF40K_LaserSniperBullet"]</xpath>
+			<value>		
+				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+					<defName>GF40K_LaserSniperBullet</defName>
+					<label>laser sniper shot</label>
+					<textures>
+						<li>Things/Projectile/ChargeLanceShot</li>
+					</textures>
+					<seam>0.1</seam>
+					<causefireChance>0.2</causefireChance>
+					<beamWidth>1.8</beamWidth>
+					<lifetime>120</lifetime>
+					<projectile>
+						<damageDef>Burn</damageDef>
+						<damageAmountBase>45</damageAmountBase>
+						<armorPenetrationBase>0.8</armorPenetrationBase>
+						<stoppingPower>2.5</stoppingPower>
+					</projectile>
+				</ThingDef>
+			</value>
+		 </li>	  
+	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="GF40K_LaserGunBullet"]</xpath>
+			<value>		
+				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+					<defName>GF40K_LaserGunBullet</defName>
+					<label>laser gun shot</label>
+					<textures>
+						<li>Things/Projectile/ChargeLanceShot</li>
+					</textures>
+					<seam>0.0</seam>
+					<causefireChance>0.1</causefireChance>
+					<beamWidth>1.2</beamWidth>
+					<projectile>
+						<damageDef>Burn</damageDef>
+						<damageAmountBase>5.5</damageAmountBase>
+						<armorPenetrationBase>0.7</armorPenetrationBase>
+						<stoppingPower>1.5</stoppingPower>
+					</projectile>
+				</ThingDef>
+			</value>
+		 </li>	  
+
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>

@@ -33,8 +33,51 @@
 		</subSounds>
 	</SoundDef>
 	
+	<SoundDef>
+		<defName>GF40K_LaserPistolShot</defName>  
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+		  <li>
+			<grains>
+			  <li Class="AudioGrain_Clip">
+				<clipPath>Weapon/GF40K_LaserPistol/Fire</clipPath>
+			  </li>
+			</grains>  
+			<volumeRange>17~20</volumeRange>  
+		  </li>
+		</subSounds>
+	</SoundDef>
 	
+	<SoundDef>
+		<defName>GF40K_LaserGunShot</defName>  
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+		  <li>
+			<grains>
+			  <li Class="AudioGrain_Clip">
+				<clipPath>Weapon/GF40K_LaserGun/Fire</clipPath>
+			  </li>
+			</grains>  
+			<volumeRange>25~30</volumeRange>  
+		  </li>
+		</subSounds>
+	</SoundDef>
 	
-	
-	
+	<SoundDef>
+		<defName>GF40K_LaserSniperShot</defName>  
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+		  <li>
+			<grains>
+			  <li Class="AudioGrain_Clip">
+				<clipPath>Weapon/GF40k_LaserSniper/Fire</clipPath>
+			  </li>
+			</grains>  
+			<volumeRange>80~90</volumeRange>  
+		  </li>
+		</subSounds>
+	</SoundDef>	
 </Defs>

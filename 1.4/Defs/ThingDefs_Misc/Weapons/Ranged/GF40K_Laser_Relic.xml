@@ -1,0 +1,627 @@
+<Defs>
+	<ThingDef Name="GF40K_BaseRangedLaserRelic" ParentName="BaseGun" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<relicChance>2</relicChance>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<notifyMapRemoved>true</notifyMapRemoved>
+		<comps>
+		  <li Class="CompProperties_Art">
+			<nameMaker>NamerArtWeaponGun</nameMaker>
+			<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+		  </li>      
+		</comps>
+	</ThingDef>
+	
+    <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
+        <defName>GF40K_LaserPistolRelic</defName>
+        <label>relic laser pistol</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasPistol_relic</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1</uiIconScale>
+        <soundInteract>Interact_ChargeLance</soundInteract>
+        <tradeTags>
+            <li>WeaponRanged</li>
+        </tradeTags>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>SpacerGun</li>
+        </weaponTags>
+		
+        <statBases>
+            <WorkToMake>144700</WorkToMake>
+			<MarketValue>3500</MarketValue>
+            <Mass>1.8</Mass>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>1</AccuracyMedium>
+            <AccuracyLong>0.88</AccuracyLong>
+            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+        </statBases>
+        <!--costList>
+            <Steel>132</Steel>
+			<Plasteel>105</Plasteel>
+			<ComponentSpacer>7</ComponentSpacer>
+        </costList-->
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_LaserPistolRelicBullet</defaultProjectile>
+                <warmupTime>0.8</warmupTime>
+                <range>20.9</range>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+                <soundCast>GF40K_LaserPistolShot</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+		<thingClass MayRequire="vanillaexpanded.vwel">VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+		<comps>
+			<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor" MayRequire="vanillaexpanded.vwel">
+				<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
+				<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
+				<Overheats>true</Overheats>
+				<OverheatDestroys>false</OverheatDestroys>
+				<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
+				<OverheatBlastExtraDamage>3</OverheatBlastExtraDamage>
+				<OverheatBlastRadius>1</OverheatBlastRadius>
+				<OverheatChance>0.04</OverheatChance>
+				<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
+				<OverheatMoteSize>1</OverheatMoteSize>
+			</li>		
+		</comps>
+		
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_ChargedMuzzleFalsh</def>
+				<drawSize>(1.2,1.2)</drawSize>
+				<offsets>
+					<li>(0.3,0.1)</li>
+				</offsets>
+			</li>		
+		</modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GF40K_LaserPistolRelicBullet</defName>
+		<label>relic laser pistol shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/ChargeLanceShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>0.8</drawSize>
+			<color>(255, 150, 138)</color>
+		</graphicData>
+		<projectile>
+			<damageDef>Burn</damageDef>
+			<damageAmountBase>18.72</damageAmountBase>
+			<armorPenetrationBase>1.1</armorPenetrationBase>
+			<stoppingPower>0.8</stoppingPower>
+			<speed>95</speed>
+		</projectile>
+	</ThingDef>
+	
+    <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
+        <defName>GF40K_LaserGunRelic</defName>
+        <label>relic laser gun</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasGun_relic</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1</uiIconScale>
+        <soundInteract>Interact_ChargeLance</soundInteract>
+        <tradeTags>
+            <li>WeaponRanged</li>
+        </tradeTags>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>SpacerGun</li>
+        </weaponTags>
+
+		<equippedStatOffsets>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<equippedAngleOffset>50</equippedAngleOffset>
+		
+        <statBases>
+            <WorkToMake>170200</WorkToMake>
+			<MarketValue>5000</MarketValue>
+            <Mass>2.8</Mass>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>1</AccuracyMedium>
+            <AccuracyLong>1</AccuracyLong>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+        </statBases>
+        <!--costList>
+            <Steel>91</Steel>
+			<Plasteel>116</Plasteel>
+			<ComponentSpacer>10</ComponentSpacer>
+        </costList-->
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_LaserGunRelicBullet</defaultProjectile>
+                <warmupTime>1.2</warmupTime>
+                <range>30.9</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                <soundCast>GF40K_LaserGunShot</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+		<thingClass MayRequire="vanillaexpanded.vwel">VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+		<comps>
+			<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor" MayRequire="vanillaexpanded.vwel">
+				<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
+				<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
+				<Overheats>true</Overheats>
+				<OverheatDestroys>false</OverheatDestroys>
+				<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
+				<OverheatBlastExtraDamage>4</OverheatBlastExtraDamage>
+				<OverheatBlastRadius>1</OverheatBlastRadius>
+				<OverheatChance>0.04</OverheatChance>
+				<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
+				<OverheatMoteSize>1</OverheatMoteSize>
+			</li>		
+		</comps>
+		
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_ChargedMuzzleFalsh</def>
+				<drawSize>(1.4,1.4)</drawSize>
+				<offsets>
+					<li>(0.48,0.1)</li>
+				</offsets>
+			</li>		
+		</modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GF40K_LaserGunRelicBullet</defName>
+		<label>laser rifle shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/ChargeLanceShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.4</drawSize>
+			<color>(255, 150, 138)</color>
+		</graphicData>
+		<projectile>
+			<damageDef>Burn</damageDef>
+			<damageAmountBase>15.36</damageAmountBase>
+			<armorPenetrationBase>1.1</armorPenetrationBase>
+			<stoppingPower>2.4</stoppingPower>
+			<speed>110</speed>
+		</projectile>
+	</ThingDef>
+
+    <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
+        <defName>GF40K_LaserSniperRelic</defName>
+        <label>relic laser sniper rifle</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/LongLas_relic</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+        </graphicData>
+        <uiIconScale>1</uiIconScale>
+        <soundInteract>Interact_ChargeLance</soundInteract>
+        <tradeTags>
+            <li>WeaponRanged</li>
+        </tradeTags>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>SpacerGun</li>
+        </weaponTags>
+
+		<equippedStatOffsets>
+			<MoveSpeed>-0.10</MoveSpeed>
+		</equippedStatOffsets>
+		<equippedAngleOffset>50</equippedAngleOffset>
+		
+        <statBases>
+            <WorkToMake>245800</WorkToMake>
+			<MarketValue>7300</MarketValue>
+            <Mass>11</Mass>
+            <AccuracyTouch>0.8</AccuracyTouch>
+            <AccuracyShort>0.96</AccuracyShort>
+            <AccuracyMedium>1</AccuracyMedium>
+            <AccuracyLong>1</AccuracyLong>
+            <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+        </statBases>
+		<!--costList>
+			<Steel>133</Steel>
+			<Plasteel>143</Plasteel>
+			<ComponentSpacer>16</ComponentSpacer>
+		</costList-->
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_LaserSniperRelicBullet</defaultProjectile>
+                <warmupTime>3</warmupTime>
+                <range>45.9</range>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                <soundCast>GF40K_LaserSniperShot</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+		<thingClass MayRequire="vanillaexpanded.vwel">VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+		<comps>
+			<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor" MayRequire="vanillaexpanded.vwel">
+				<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
+				<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
+				<Overheats>true</Overheats>
+				<OverheatDestroys>false</OverheatDestroys>
+				<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
+				<OverheatBlastExtraDamage>4</OverheatBlastExtraDamage>
+				<OverheatBlastRadius>1</OverheatBlastRadius>
+				<OverheatChance>0.04</OverheatChance>
+				<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
+				<OverheatMoteSize>1</OverheatMoteSize>
+			</li>		
+		</comps>
+		
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_ChargedMuzzleFalsh</def>
+				<drawSize>(1.6,1.6)</drawSize>
+				<offsets>
+					<li>(0.70,0.1)</li>
+				</offsets>
+			</li>		
+		</modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GF40K_LaserSniperRelicBullet</defName>
+		<label>relic laser sniper shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/ChargeLanceShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.8</drawSize>
+			<color>(255, 150, 138)</color>
+		</graphicData>
+		<projectile>
+			<damageDef>Burn</damageDef>
+			<damageAmountBase>72</damageAmountBase>
+			<armorPenetrationBase>1.3</armorPenetrationBase>
+			<stoppingPower>2.5</stoppingPower>
+			<speed>130</speed>
+		</projectile>
+	</ThingDef>
+		
+    <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
+        <defName>GF40K_LaserSMGRelic</defName>
+        <label>laser sub-machine gun</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasSMG_relic</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+        </graphicData>
+        <uiIconScale>1</uiIconScale>
+        <soundInteract>Interact_ChargeLance</soundInteract>
+        <tradeTags>
+            <li>WeaponRanged</li>
+        </tradeTags>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>SpacerGun</li>
+        </weaponTags>
+
+		<equippedStatOffsets>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<equippedAngleOffset>50</equippedAngleOffset>
+		
+        <statBases>
+            <WorkToMake>137600</WorkToMake>
+			<MarketValue>4000</MarketValue>
+            <Mass>11</Mass>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>1</AccuracyMedium>
+            <AccuracyLong>0.8</AccuracyLong>
+            <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+        </statBases>
+        <!--costList>
+			<Steel>125</Steel>
+			<Plasteel>100</Plasteel>
+			<ComponentSpacer>8</ComponentSpacer>
+        </costList-->
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_LaserSMGRelicBullet</defaultProjectile>
+                <warmupTime>1.5</warmupTime>
+                <range>24.9</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+                <soundCast>GF40K_LaserPistolShot</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+		<thingClass MayRequire="vanillaexpanded.vwel">VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+		<comps>
+			<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor" MayRequire="vanillaexpanded.vwel">
+				<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
+				<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
+				<Overheats>true</Overheats>
+				<OverheatDestroys>false</OverheatDestroys>
+				<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
+				<OverheatBlastExtraDamage>4</OverheatBlastExtraDamage>
+				<OverheatBlastRadius>1</OverheatBlastRadius>
+				<OverheatChance>0.04</OverheatChance>
+				<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
+				<OverheatMoteSize>1</OverheatMoteSize>
+			</li>		
+		</comps>
+		
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_ChargedMuzzleFalsh</def>
+				<drawSize>(1.6,1.6)</drawSize>
+				<offsets>
+					<li>(0.70,0.1)</li>
+				</offsets>
+			</li>		
+		</modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GF40K_LaserSMGRelicBullet</defName>
+		<label>laser SMG shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/ChargeLanceShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.8</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Burn</damageDef>
+			<damageAmountBase>14.4</damageAmountBase>
+			<armorPenetrationBase>1.1</armorPenetrationBase>
+			<stoppingPower>0.8</stoppingPower>
+			<speed>105</speed>
+		</projectile>
+	</ThingDef>
+		
+    <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
+        <defName>GF40K_LaserCarabineRelic</defName>
+        <label>relic laser carabine</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasCarbine_relic</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.1</drawSize>
+        </graphicData>
+        <uiIconScale>1</uiIconScale>
+        <soundInteract>Interact_ChargeLance</soundInteract>
+        <tradeTags>
+            <li>WeaponRanged</li>
+        </tradeTags>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>SpacerGun</li>
+        </weaponTags>
+
+		<equippedStatOffsets>
+			<MoveSpeed>-0.03</MoveSpeed>
+		</equippedStatOffsets>
+		<equippedAngleOffset>50</equippedAngleOffset>
+		
+        <statBases>
+            <WorkToMake>170500</WorkToMake>
+			<MarketValue>500</MarketValue>
+            <Mass>2</Mass>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>1</AccuracyMedium>
+            <AccuracyLong>1</AccuracyLong>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+			<Steel>57</Steel>
+			<Plasteel>73</Plasteel>
+			<ComponentSpacer>6</ComponentSpacer>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_LaserCarabineRelicBullet</defaultProjectile>
+                <warmupTime>2</warmupTime>
+                <range>34.9</range>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                <soundCast>GF40K_LaserPistolShot</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+		<thingClass MayRequire="vanillaexpanded.vwel">VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+		<comps>
+			<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor" MayRequire="vanillaexpanded.vwel">
+				<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
+				<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
+				<Overheats>true</Overheats>
+				<OverheatDestroys>false</OverheatDestroys>
+				<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
+				<OverheatBlastExtraDamage>4</OverheatBlastExtraDamage>
+				<OverheatBlastRadius>1</OverheatBlastRadius>
+				<OverheatChance>0.04</OverheatChance>
+				<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
+				<OverheatMoteSize>1</OverheatMoteSize>
+			</li>		
+		</comps>
+		
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_ChargedMuzzleFalsh</def>
+				<drawSize>(1.6,1.6)</drawSize>
+				<offsets>
+					<li>(0.70,0.1)</li>
+				</offsets>
+			</li>		
+		</modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GF40K_LaserCarabineRelicBullet</defName>
+		<label>laser SMG shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/ChargeLanceShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>GF40K_Gauss</damageDef>
+			<damageAmountBase>38.24</damageAmountBase>
+			<armorPenetrationBase>1.04</armorPenetrationBase>
+			<stoppingPower>2.72</stoppingPower>
+			<speed>110</speed>
+		</projectile>
+	</ThingDef>
+</Defs>
