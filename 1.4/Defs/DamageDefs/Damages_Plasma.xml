@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DamageDef Name="GF40K_PlasmaFlame">
+		<defName>GF40K_PlasmaFlame</defName>
+		<workerClass>DamageWorker_Flame</workerClass>
+		<label>flame</label>
+		<hasForcefulImpact>false</hasForcefulImpact>
+		<makesBlood>false</makesBlood>
+		<canInterruptJobs>false</canInterruptJobs>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has burned to death.</deathMessage>
+		<hediff>GF40K_HediffPlasmaBurn</hediff>
+		<armorCategory>Heat</armorCategory>
+		<minDamageToFragment>20</minDamageToFragment>
+		<defaultDamage>15</defaultDamage>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
+		<explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
+		<explosionCellFleck>BlastFlame</explosionCellFleck>
+		<explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
+		<explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
+		<soundExplosion>Explosion_Flame</soundExplosion>
+		<combatLogRules>Damage_Flame</combatLogRules>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+	</DamageDef>
+  
+  <!-- Burn is like Flame, but doesn't ignite anything -->
+	<DamageDef ParentName="GF40K_PlasmaFlame">
+		<defName>GF40K_PlasmaBurn</defName>
+		<label>plasma burn</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		</DamageDef>
+
+		<HediffDef ParentName="BurnBase">
+		<defName>Burn</defName>
+		<label>burn</label>
+		<labelNoun>a burn</labelNoun>
+		<description>A burn.</description>
+		<comps>
+		  <li Class="HediffCompProperties_GetsPermanent">
+			<permanentLabel>burn scar</permanentLabel>
+		  </li>
+		</comps>
+		<injuryProps>
+		  <destroyedLabel>Burned off</destroyedLabel>
+		  <destroyedOutLabel>Burned out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+
+	<HediffDef ParentName="InjuryBase">
+	  <defName>GF40K_HediffPlasmaBurn</defName>
+	  <label>plasma burn</label>
+	  <description>Tissue damage caused by intense heat from plasma. Plasma burns are excruciatingly painful, and the affected body parts may suffer long-term damage.</description>
+	  <displayWound>false</displayWound>
+	  <comps>
+		<li Class="HediffCompProperties_TendDuration">
+		  <labelTendedWell>bandaged</labelTendedWell>
+		  <labelTendedWellInner>tended</labelTendedWellInner>
+		  <labelSolidTendedWell>tended</labelSolidTendedWell>
+		</li>
+		<li Class="HediffCompProperties_Infecter">
+		  <infectionChance>0.15</infectionChance>
+		</li>
+		<li Class="HediffCompProperties_GetsPermanent">
+		  <permanentLabel>plasma burn scar</permanentLabel>
+		</li>
+	  </comps>
+	  <injuryProps>
+		<painPerSeverity>0.02</painPerSeverity>
+		<averagePainPerSeverityPermanent>0.01</averagePainPerSeverityPermanent>
+		<canMerge>true</canMerge>
+		<destroyedLabel>Lost to plasma burn</destroyedLabel>
+	  </injuryProps>
+	<stages>
+	  <li>
+		<partEfficiencyOffset>-0.05</partEfficiencyOffset>
+	  </li>
+	</stages>	  
+	</HediffDef>
+  
+
+
+</Defs>

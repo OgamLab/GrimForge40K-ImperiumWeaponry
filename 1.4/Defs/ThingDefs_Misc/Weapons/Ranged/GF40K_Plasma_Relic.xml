@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef Name="GF40K_BaseRangedPlasmaRelic" ParentName="BaseGun" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<relicChance>3</relicChance>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<notifyMapRemoved>true</notifyMapRemoved>
+        <uiIconScale>1</uiIconScale>
+        <soundInteract>Interact_ChargeLance</soundInteract>
+        <tradeTags>
+            <li>WeaponRanged</li>
+        </tradeTags>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>SpacerGun</li>
+        </weaponTags>
+	</ThingDef>
+	
+    <ThingDef ParentName="GF40K_BaseRangedPlasmaRelic">
+        <defName>GF40K_PlasmaPistolRelic</defName>
+        <label>relic plasma pistol</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/PlasmaPistol_relic</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+        </graphicData>
+		
+        <statBases>
+            <WorkToMake>169000</WorkToMake>
+			<MarketValue>4800</MarketValue>
+            <Mass>1.8</Mass>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>0.8</AccuracyMedium>
+            <AccuracyLong>0.7</AccuracyLong>
+            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+        </statBases>
+        <!--costList>
+            <Steel>111</Steel>
+			<Plasteel>115</Plasteel>
+			<ComponentSpacer>10</ComponentSpacer>
+        </costList-->
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_PlasmaPistolRelicBullet</defaultProjectile>
+                <warmupTime>0.5</warmupTime>
+                <range>21.9</range>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+                <soundCast>GF40K_LaserPistolShot</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+		<thingClass MayRequire="vanillaexpanded.vwel">VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+		<comps>
+			<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor" MayRequire="vanillaexpanded.vwel">
+				<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
+				<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
+				<Overheats>true</Overheats>
+				<OverheatDestroys>false</OverheatDestroys>
+				<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
+				<OverheatBlastExtraDamage>3</OverheatBlastExtraDamage>
+				<OverheatBlastRadius>1</OverheatBlastRadius>
+				<OverheatChance>0.04</OverheatChance>
+				<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
+				<OverheatMoteSize>1</OverheatMoteSize>
+			</li>		
+		</comps>
+		
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(1,1)</drawSize>
+				<offsets>
+					<li>(0.35,0.05)</li>
+				</offsets>
+			</li>		
+		</modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GF40K_PlasmaPistolRelicBullet</defName>
+		<label>plasma pistol shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/LauncherShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>0.7</drawSize>
+			<color>(105, 155, 98)</color>
+		</graphicData>
+		<projectile>
+			<damageDef>GF40K_PlasmaBurn</damageDef>
+			<damageAmountBase>10.4</damageAmountBase>
+			<stoppingPower>0.5</stoppingPower>
+			<armorPenetrationBase>0.2</armorPenetrationBase>
+			<speed>85</speed>
+		</projectile>
+	</ThingDef>
+	
+    <ThingDef ParentName="GF40K_BaseRangedPlasmaRelic">
+        <defName>GF40K_PlasmaGunRelic</defName>
+        <label>relic plasma gun</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/PlasmaGun_relic</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+        </graphicData>
+		
+        <statBases>
+            <WorkToMake>170000</WorkToMake>
+			<MarketValue>4900</MarketValue>
+            <Mass>2.3</Mass>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>1</AccuracyMedium>
+            <AccuracyLong>1</AccuracyLong>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+        </statBases>
+        <!--costList>
+            <Steel>111</Steel>
+			<Plasteel>115</Plasteel>
+			<ComponentSpacer>10</ComponentSpacer>
+        </costList-->
+		<equippedAngleOffset>50</equippedAngleOffset>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_PlasmaGunRelicBullet</defaultProjectile>
+                <warmupTime>0.5</warmupTime>
+                <range>31.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <soundCast>GF40K_LaserPistolShot</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+		<thingClass MayRequire="vanillaexpanded.vwel">VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+		<comps>
+			<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor" MayRequire="vanillaexpanded.vwel">
+				<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
+				<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
+				<Overheats>true</Overheats>
+				<OverheatDestroys>false</OverheatDestroys>
+				<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
+				<OverheatBlastExtraDamage>3</OverheatBlastExtraDamage>
+				<OverheatBlastRadius>1</OverheatBlastRadius>
+				<OverheatChance>0.04</OverheatChance>
+				<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
+				<OverheatMoteSize>1</OverheatMoteSize>
+			</li>		
+		</comps>
+		
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(1,1)</drawSize>
+				<offsets>
+					<li>(0.35,0.05)</li>
+				</offsets>
+			</li>		
+		</modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GF40K_PlasmaGunRelicBullet</defName>
+		<label>laser pistol shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/LauncherShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>0.9</drawSize>
+			<color>(105, 155, 98)</color>
+		</graphicData>
+		<projectile>
+			<damageDef>GF40K_PlasmaBurn</damageDef>
+			<damageAmountBase>10.56</damageAmountBase>
+			<stoppingPower>0.5</stoppingPower>
+			<armorPenetrationBase>0.2</armorPenetrationBase>
+			<speed>90</speed>
+		</projectile>
+	</ThingDef>
+</Defs>
