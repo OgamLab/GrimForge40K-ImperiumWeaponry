@@ -15,13 +15,21 @@
 			<recipeUsers>
 				<li>FabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisites>
-				<li>GF40K_RegularMeleeForce</li>
+			<researchPrerequisite Inherit="False"/>
+			<researchPrerequisites Inherit="False">
+				<li>GF40K_RegularRangedSpecial</li>
 			</researchPrerequisites>
 		</recipeMaker>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
 		<notifyMapRemoved>true</notifyMapRemoved>
+        <tradeTags>
+            <li>GF40K_RangedSpecial</li>
+			<li>GF40K_ImperiumRanged</li>
+        </tradeTags>
+        <weaponTags>
+            <li>ImperiumRanged</li>
+        </weaponTags>
 	</ThingDef>
 	
     <ThingDef ParentName="GF40K_BaseRangedGauss">

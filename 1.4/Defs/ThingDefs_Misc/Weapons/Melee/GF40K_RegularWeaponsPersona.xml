@@ -29,7 +29,14 @@
 			<li Class="CompProperties_GeneratedName" MayRequire="ludeon.rimworld.royalty">
 				<nameMaker>NamerWeaponBladelink</nameMaker>
 			</li>
-		</comps>		
+		</comps>	
+		
+        <tradeTags>
+            <li>GF40K_PersonaMelee</li>
+        </tradeTags>
+        <weaponTags>
+            <li>ImperiumMelee</li>
+        </weaponTags>	
 	</ThingDef>
 	
 	<ThingDef ParentName="GF40K_BaseMeleePersona">

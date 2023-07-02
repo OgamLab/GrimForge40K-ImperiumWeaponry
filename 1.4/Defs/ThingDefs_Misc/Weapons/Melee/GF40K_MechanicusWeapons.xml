@@ -44,6 +44,14 @@
 				<biocodeOnEquip>true</biocodeOnEquip>
 			</li>
 		</comps>	
+		
+        <tradeTags>
+            <li>GF40K_MechanicusMelee</li>
+				<li>GF40K_ImperiumMelee</li>
+        </tradeTags>
+        <weaponTags>
+            <li>ImperiumMelee</li>
+        </weaponTags>	
 	</ThingDef>
 	
 	<ThingDef Name="GF40K_BaseMeleeMechanicus_Oversize" ParentName="GF40K_BaseMeleeMechanicus" Abstract="True">

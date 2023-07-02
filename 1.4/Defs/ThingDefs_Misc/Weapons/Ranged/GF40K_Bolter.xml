@@ -16,7 +16,7 @@
 				<li>FabricationBench</li>
 			</recipeUsers>
 			<researchPrerequisites>
-				<li>GF40K_RegularMeleeForce</li>
+				<li>GF40K_RegularRangedBolter</li>
 			</researchPrerequisites>
 		</recipeMaker>
         <soundInteract>Interact_Rifle</soundInteract>
@@ -24,13 +24,11 @@
 		<burnableByRecipe>true</burnableByRecipe>
 		<notifyMapRemoved>true</notifyMapRemoved>
         <tradeTags>
-            <li>WeaponRanged</li>
+            <li>GF40K_RangedBolter</li>
+			<li>GF40K_ImperiumRanged</li>
         </tradeTags>
-        <weaponClasses>
-            <li>RangedHeavy</li>
-        </weaponClasses>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>ImperiumRanged</li>
         </weaponTags>
 	</ThingDef>
 	

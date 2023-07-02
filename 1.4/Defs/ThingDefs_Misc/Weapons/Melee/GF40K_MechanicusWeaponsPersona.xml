@@ -30,6 +30,13 @@
 				<nameMaker>NamerWeaponBladelink</nameMaker>
 			</li>
 		</comps>		
+		
+        <tradeTags>
+            <li>GF40K_PersonaMelee</li>
+        </tradeTags>
+        <weaponTags>
+            <li>ImperiumMelee</li>
+        </weaponTags>	
 	</ThingDef>
 	
 	<ThingDef ParentName="GF40K_BaseMeleeMechanicusPersona">

@@ -14,13 +14,10 @@
 		<burnableByRecipe>true</burnableByRecipe>
 		<notifyMapRemoved>true</notifyMapRemoved>
         <tradeTags>
-            <li>WeaponRanged</li>
+			<li>GF40K_ImperiumRelic</li>
         </tradeTags>
-        <weaponClasses>
-            <li>RangedHeavy</li>
-        </weaponClasses>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>ImperiumRangedRelic</li>
         </weaponTags>
 	</ThingDef>
 	

@@ -41,6 +41,14 @@
 			<MeditationFocusGain MayRequire="ludeon.rimworld.royalty">0.05</MeditationFocusGain>
 			<PsychicSensitivityOffset MayRequire="ludeon.rimworld.royalty">0.268</PsychicSensitivityOffset>
 		</equippedStatOffsets>
+		
+        <tradeTags>
+            <li>GF40K_ForceMelee</li>
+				<li>GF40K_ImperiumMelee</li>
+        </tradeTags>
+        <weaponTags>
+            <li>ImperiumMelee</li>
+        </weaponTags>	
 	</ThingDef>
 	
 	<ThingDef Name="GF40K_BaseMeleeForce_Oversize" ParentName="GF40K_BaseMeleeForce" Abstract="True">

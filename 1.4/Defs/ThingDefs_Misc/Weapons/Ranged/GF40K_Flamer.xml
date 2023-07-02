@@ -11,20 +11,18 @@
         <uiIconScale>1.5</uiIconScale>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+            <researchPrerequisite>GF40K_RegularRangedSpecial</researchPrerequisite>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
             <displayPriority>405</displayPriority>
         </recipeMaker>
         <tradeTags>
-            <li>WeaponRanged</li>
+            <li>GF40K_RangedSpecial</li>
+			<li>GF40K_ImperiumRanged</li>
         </tradeTags>
-        <weaponClasses>
-            <li>RangedHeavy</li>
-        </weaponClasses>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>ImperiumRanged</li>
         </weaponTags>
         <statBases>
             <WorkToMake>46000</WorkToMake>
@@ -47,7 +45,7 @@
                 <warmupTime>0.9</warmupTime>
                 <range>21.9</range>
                 <!--forcedMissRadius>0.2</forcedMissRadius-->
-				<burstShotCount>5</burstShotCount>
+				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <!--soundCast>Shot_Autopistol</soundCast-->
                 <soundCastTail>GunTail_Light</soundCastTail>
@@ -90,7 +88,7 @@
 		<projectile>
 			<damageDef>Flame</damageDef>
 			<speed>45</speed>
-			<damageAmountBase>7</damageAmountBase>
+			<damageAmountBase>9.6</damageAmountBase>
 		</projectile>
 		
 		<drawOffscreen>true</drawOffscreen>

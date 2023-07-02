@@ -17,12 +17,19 @@
 				<li>FabricationBench</li>
 			</recipeUsers>
 			<researchPrerequisites>
-				<li>GF40K_RegularMeleeForce</li>
+				<li>GF40K_RegularRangedLaser</li>
 			</researchPrerequisites>
 		</recipeMaker>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
 		<notifyMapRemoved>true</notifyMapRemoved>
+        <tradeTags>
+            <li>GF40K_RangedLaser</li>
+			<li>GF40K_ImperiumRanged</li>
+        </tradeTags>
+        <weaponTags>
+            <li>ImperiumRanged</li>
+        </weaponTags>
 	</ThingDef>
 	
     <ThingDef ParentName="GF40K_BaseRangedLaser">
@@ -35,15 +42,6 @@
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
-        <tradeTags>
-            <li>WeaponRanged</li>
-        </tradeTags>
-        <weaponClasses>
-            <li>RangedHeavy</li>
-        </weaponClasses>
-        <weaponTags>
-            <li>SpacerGun</li>
-        </weaponTags>
 		
         <statBases>
             <WorkToMake>90400</WorkToMake>
@@ -152,15 +150,6 @@
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
-        <tradeTags>
-            <li>WeaponRanged</li>
-        </tradeTags>
-        <weaponClasses>
-            <li>RangedHeavy</li>
-        </weaponClasses>
-        <weaponTags>
-            <li>SpacerGun</li>
-        </weaponTags>
 
 		<equippedStatOffsets>
 			<MoveSpeed>-0.05</MoveSpeed>
@@ -275,15 +264,6 @@
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
-        <tradeTags>
-            <li>WeaponRanged</li>
-        </tradeTags>
-        <weaponClasses>
-            <li>RangedHeavy</li>
-        </weaponClasses>
-        <weaponTags>
-            <li>SpacerGun</li>
-        </weaponTags>
 
 		<equippedStatOffsets>
 			<MoveSpeed>-0.10</MoveSpeed>
@@ -398,15 +378,6 @@
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
-        <tradeTags>
-            <li>WeaponRanged</li>
-        </tradeTags>
-        <weaponClasses>
-            <li>RangedHeavy</li>
-        </weaponClasses>
-        <weaponTags>
-            <li>SpacerGun</li>
-        </weaponTags>
 
 		<equippedStatOffsets>
 			<MoveSpeed>-0.05</MoveSpeed>
@@ -520,15 +491,6 @@
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
-        <tradeTags>
-            <li>WeaponRanged</li>
-        </tradeTags>
-        <weaponClasses>
-            <li>RangedHeavy</li>
-        </weaponClasses>
-        <weaponTags>
-            <li>SpacerGun</li>
-        </weaponTags>
 
 		<equippedStatOffsets>
 			<MoveSpeed>-0.03</MoveSpeed>

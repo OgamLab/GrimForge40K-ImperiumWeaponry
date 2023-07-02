@@ -38,6 +38,14 @@
 		<stuffCategories>
 		  <li>Metallic</li>
 		</stuffCategories>
+		
+        <tradeTags>
+            <li>GF40K_RegularMelee</li>
+				<li>GF40K_ImperiumMelee</li>
+        </tradeTags>
+        <weaponTags>
+            <li>ImperiumMelee</li>
+        </weaponTags>	
 	</ThingDef>
 	
 	<ThingDef ParentName="GF40K_BaseMelee">

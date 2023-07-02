@@ -17,7 +17,7 @@
 				<li>FabricationBench</li>
 			</recipeUsers>
 			<researchPrerequisites>
-				<li>GF40K_RegularMeleeForce</li>
+				<li>GF40K_RegularRangedPlasma</li>
 			</researchPrerequisites>
 		</recipeMaker>
 		<smeltable>false</smeltable>
@@ -26,7 +26,8 @@
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
         <tradeTags>
-            <li>WeaponRanged</li>
+            <li>GF40K_RangedPlasma</li>
+			<li>GF40K_ImperiumRanged</li>
         </tradeTags>
         <weaponClasses>
             <li>RangedHeavy</li>
@@ -73,6 +74,7 @@
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
+                <forcedMissRadius>0.2</forcedMissRadius>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -127,6 +129,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_PlasmaPistolBullet</defName>
 		<label>plasma pistol shot</label>
+        <thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -136,6 +139,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>GF40K_PlasmaBurn</damageDef>
+            <explosionRadius>0.9</explosionRadius>
 			<damageAmountBase>6.5</damageAmountBase>
 			<stoppingPower>0.5</stoppingPower>
 			<armorPenetrationBase>0.2</armorPenetrationBase>
@@ -181,6 +185,7 @@
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
+                <forcedMissRadius>0.2</forcedMissRadius>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -235,6 +240,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_PlasmaGunBullet</defName>
 		<label>plasma gun shot</label>
+        <thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -244,6 +250,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>GF40K_PlasmaBurn</damageDef>
+            <explosionRadius>0.9</explosionRadius>
 			<damageAmountBase>6.6</damageAmountBase>
 			<stoppingPower>0.5</stoppingPower>
 			<armorPenetrationBase>0.2</armorPenetrationBase>

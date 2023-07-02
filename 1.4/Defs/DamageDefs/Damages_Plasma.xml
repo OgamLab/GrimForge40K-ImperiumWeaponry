@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  
+	<FleckDef ParentName="FleckBase">
+		<defName>GF40K_BlastFlame</defName>
+		<graphicData>
+		  <texPath>Things/Mote/BlastFlame</texPath>
+		  <shaderType>TransparentPostLight</shaderType>
+		  <renderInstanced>true</renderInstanced>
+		  <color>(79, 131, 48)</color>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<solidTime>0</solidTime>
+		<fadeOutTime>0.2</fadeOutTime>
+	</FleckDef>
 
 	<DamageDef Name="GF40K_PlasmaFlame">
 		<defName>GF40K_PlasmaFlame</defName>
 		<workerClass>DamageWorker_Flame</workerClass>
+		<isExplosive>true</isExplosive>
 		<label>flame</label>
 		<hasForcefulImpact>false</hasForcefulImpact>
 		<makesBlood>false</makesBlood>
@@ -14,9 +28,11 @@
 		<armorCategory>Heat</armorCategory>
 		<minDamageToFragment>20</minDamageToFragment>
 		<defaultDamage>15</defaultDamage>
+		<buildingDamageFactorImpassable>0.9</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>0.9</buildingDamageFactorPassable>
 		<defaultArmorPenetration>0</defaultArmorPenetration>
-		<explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
-		<explosionCellFleck>BlastFlame</explosionCellFleck>
+		<explosionHeatEnergyPerCell>30</explosionHeatEnergyPerCell>
+		<explosionCellFleck>GF40K_BlastFlame</explosionCellFleck>
 		<explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
 		<explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
 		<soundExplosion>Explosion_Flame</soundExplosion>

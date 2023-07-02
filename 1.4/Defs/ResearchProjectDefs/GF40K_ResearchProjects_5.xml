@@ -6,8 +6,23 @@
 		<techLevel>Ultra</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
-		  <li>MultiAnalyzer</li>
+		  <li>GF40K_ImperiumWeaponry</li>
 		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_ImperiumCore</defName>
+		<label>Core</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>4000</baseCost>
+		<prerequisites>
+		  <li>AdvancedFabrication</li>
+		</prerequisites>	
+		<requiredResearchFacilities Inherit="False">
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0</researchViewX>
+		<researchViewY>3</researchViewY> 	
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
@@ -16,7 +31,7 @@
 		<description>PLACEHOLDER</description>
 		<baseCost>4000</baseCost>
 		<prerequisites>
-		  <li>Fabrication</li>
+		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
 		<researchViewX>1</researchViewX>
 		<researchViewY>1</researchViewY> 	
@@ -52,9 +67,57 @@
 		<description>PLACEHOLDER</description>
 		<baseCost>4000</baseCost>
 		<prerequisites>
-		  <li>Fabrication</li>
+		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
 		<researchViewX>1</researchViewX>
-		<researchViewY>0</researchViewY> 	
+		<researchViewY>0</researchViewY> 
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularRangedPlasma</defName>
+		<label>Plasma Weapons</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>6000</baseCost>
+		<prerequisites>
+		  <li>GF40K_ImperiumCore</li>
+		</prerequisites>	
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY> 	
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularRangedBolter</defName>
+		<label>Bolt Weapons</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>6000</baseCost>
+		<prerequisites>
+		  <li>GF40K_ImperiumCore</li>
+		</prerequisites>	
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY> 	
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularRangedLaser</defName>
+		<label>Laser Weapons</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>6000</baseCost>
+		<prerequisites>
+		  <li>GF40K_ImperiumCore</li>
+		</prerequisites>	
+		<researchViewX>1</researchViewX>
+		<researchViewY>4</researchViewY> 	
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularRangedSpecial</defName>
+		<label>Special Weapons</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>6000</baseCost>
+		<prerequisites>
+		  <li>GF40K_ImperiumCore</li>
+		</prerequisites>	
+		<researchViewX>1</researchViewX>
+		<researchViewY>5</researchViewY> 	
 	</ResearchProjectDef>
 </Defs>

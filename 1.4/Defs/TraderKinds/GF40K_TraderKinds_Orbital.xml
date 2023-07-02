@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef>
+    <defName>GF40K_ImperiumCombatSupplier</defName>
+    <label>imperium's combat supplier</label>
+    <orbital>true</orbital>
+    <stockGenerators>
+
+      <!-- Resources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>4001~8000</countRange>
+      </li>
+      
+      <!-- Techprints -->
+      <li Class="StockGenerator_Techprints">
+        <countChances>
+          <li>
+            <count>2</count>
+            <chance>1</chance>
+          </li>
+        </countChances>
+      </li>
+      
+      <!-- Melee -->
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>GF40K_ImperiumMelee</tradeTag>
+        <countRange>1~5</countRange>
+      </li>
+      <!--li Class="StockGenerator_Category">
+        <categoryDef>GF40K_RegularMelee</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>GF40K_ForceMelee</categoryDef>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>GF40K_MechanicusMelee</categoryDef>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li-->
+      
+      <!-- Ranged -->
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>GF40K_ImperiumRanged</tradeTag>
+        <countRange>1~3</countRange>
+      </li>
+	  
+      <!--li Class="StockGenerator_Category">
+        <categoryDef>GF40K_RangedBolter</categoryDef>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>GF40K_RangedPlasma</categoryDef>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>GF40K_RangedSpecial</categoryDef>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>GF40K_RangedLaser</categoryDef>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li-->
+      
+      <!-- Relic -->
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>GF40K_ImperiumRelic</tradeTag>
+        <countRange>0~1</countRange>
+      </li>
+      
+      <!-- Apparel -->
+      <!--li Class="StockGenerator_MarketValue">
+        <tradeTag>Armor</tradeTag>
+        <countRange>8~10</countRange>
+      </li-->
+      
+      <!-- Implants -->
+      <!-- none -->
+      
+      <!-- Buildings -->
+      <!-- none -->
+      
+      <!-- Exotic -->
+      <!-- none -->
+
+      <!-- Genepacks -->
+      <li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
+        <thingDef>Genepack</thingDef>
+        <countRange>1~2</countRange>
+      </li>
+      
+      <!-- Slaves -->
+      <!-- none -->
+      
+      <!-- Animals -->
+      <!-- none -->
+      
+      <!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      
+    </stockGenerators>
+  </TraderKindDef>
+
+</Defs>

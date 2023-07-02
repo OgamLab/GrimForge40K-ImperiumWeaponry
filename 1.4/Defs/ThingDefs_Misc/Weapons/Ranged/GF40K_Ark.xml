@@ -1,0 +1,221 @@
+<Defs>
+	<ThingDef Name="GF40K_BaseRangedArk" ParentName="BaseHumanMakeableGun" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <relicChance>3</relicChance> -->
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite Inherit="False"/>
+			<researchPrerequisites>
+				<li>GF40K_RegularRangedSpecial</li>
+			</researchPrerequisites>
+		</recipeMaker>
+        <soundInteract>Interact_Rifle</soundInteract>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<notifyMapRemoved>true</notifyMapRemoved>
+        <tradeTags>
+            <li>GF40K_RangedSpecial</li>
+			<li>GF40K_ImperiumRanged</li>
+        </tradeTags>
+        <weaponTags>
+            <li>ImperiumRanged</li>
+        </weaponTags>
+	</ThingDef>
+	
+    <ThingDef ParentName="GF40K_BaseRangedArk">
+        <defName>GF40K_ArkPistol</defName>
+        <label>ark pistol</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Ark/ArkPistol</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>106000</WorkToMake>
+			<MarketValue>3000</MarketValue>
+            <Mass>2</Mass>
+            <AccuracyTouch>0.75</AccuracyTouch>
+            <AccuracyShort>0.86</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
+            <AccuracyLong>0.20</AccuracyLong>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+        </statBases>
+		<costList>
+			<Steel>70</Steel>
+			<Plasteel>72</Plasteel>
+			<ComponentSpacer>6</ComponentSpacer>
+		</costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_ArkPistolBullet</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
+                <range>21.9</range>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <soundCast>Shot_ChargeRifle</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+		
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(1.2,1.2)</drawSize>
+				<offsets>
+					<li>(0.48,0.1)</li>
+				</offsets>
+			</li>		
+		</modExtensions>
+    </ThingDef>
+	
+    <ThingDef ParentName="BaseBullet">
+        <defName>GF40K_ArkPistolBullet</defName>
+        <label>ark pistol shot</label>
+        <category>Projectile</category>
+        <useHitPoints>False</useHitPoints>
+        <tickerType>Normal</tickerType>
+        <altitudeLayer>Projectile</altitudeLayer>
+        <graphicData>
+            <texPath>Things/Projectile/LauncherShot</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(103, 103, 103)</color>
+        </graphicData>
+        <projectile>
+            <damageDef>Stun</damageDef>
+            <damageAmountBase>12.6</damageAmountBase>
+			<stoppingPower>0.8</stoppingPower>
+			<armorPenetrationBase>0.12</armorPenetrationBase>
+            <speed>90</speed>
+        </projectile>
+    </ThingDef>
+
+
+	
+    <ThingDef ParentName="GF40K_BaseRangedArk">
+        <defName>GF40K_ArkRifle</defName>
+        <label>ark rifle</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Ark/ArkRifle</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>106000</WorkToMake>
+			<MarketValue>3000</MarketValue>
+            <Mass>2</Mass>
+            <AccuracyTouch>0.70</AccuracyTouch>
+            <AccuracyShort>0.84</AccuracyShort>
+            <AccuracyMedium>0.85</AccuracyMedium>
+            <AccuracyLong>0.72</AccuracyLong>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+        </statBases>
+		<costList>
+			<Steel>70</Steel>
+			<Plasteel>72</Plasteel>
+			<ComponentSpacer>6</ComponentSpacer>
+		</costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_ArkRifleBullet</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
+                <range>33.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <soundCast>Shot_ChargeRifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+		
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(1.2,1.2)</drawSize>
+				<offsets>
+					<li>(0.6,0.1)</li>
+				</offsets>
+			</li>		
+		</modExtensions>
+    </ThingDef>
+	
+    <ThingDef ParentName="BaseBullet">
+        <defName>GF40K_ArkRifleBullet</defName>
+        <label>ark rifle shot</label>
+        <category>Projectile</category>
+        <useHitPoints>False</useHitPoints>
+        <tickerType>Normal</tickerType>
+        <altitudeLayer>Projectile</altitudeLayer>
+        <graphicData>
+            <texPath>Things/Projectile/LauncherShot</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(103, 103, 103)</color>
+        </graphicData>
+        <projectile>
+            <damageDef>Stun</damageDef>
+            <damageAmountBase>10.6</damageAmountBase>
+			<stoppingPower>1</stoppingPower>
+			<armorPenetrationBase>0.12</armorPenetrationBase>
+            <speed>95</speed>
+        </projectile>
+    </ThingDef>
+</Defs>

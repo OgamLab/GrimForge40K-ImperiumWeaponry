@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef Name="GF40K_BaseRangedGrenade" ParentName="BaseHumanMakeableGun" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <relicChance>3</relicChance> -->
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite Inherit="False"/>
+			<researchPrerequisites>
+				<li>GF40K_RegularRangedSpecial</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<notifyMapRemoved>true</notifyMapRemoved>
+        <uiIconScale>1</uiIconScale>
+        <soundInteract>Interact_ChargeLance</soundInteract>
+        <tradeTags>
+            <li>GF40K_RangedSpecial</li>
+			<li>GF40K_ImperiumRanged</li>
+        </tradeTags>
+        <weaponTags>
+            <li>ImperiumRanged</li>
+        </weaponTags>
+	</ThingDef>
+	
+    <ThingDef ParentName="GF40K_BaseRangedGrenade">
+        <defName>GF40K_GrenadeLauncher</defName>
+        <label>grenade launcher</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Special/GrandeLuncher</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+        </graphicData>
+		
+        <statBases>
+            <WorkToMake>106000</WorkToMake>
+			<MarketValue>3000</MarketValue>
+            <Mass>1.8</Mass>
+            <AccuracyTouch>0.82</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.65</AccuracyMedium>
+            <AccuracyLong>0.55</AccuracyLong>
+            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>69</Steel>
+			<Plasteel>72</Plasteel>
+			<ComponentSpacer>6</ComponentSpacer>
+        </costList>
+		<verbs>
+			<li>
+				<verbClass>HeavyWeapons.Verb_Shoot</verbClass>
+				<defaultProjectile>Bullet_Shell_HighExplosive</defaultProjectile>
+				<hasStandardCommand>true</hasStandardCommand>
+				<forcedMissRadius>2.9</forcedMissRadius>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<warmupTime>3.5</warmupTime>
+				<minRange>6.9</minRange>
+				<range>36.9</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Mortar_LaunchA</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<requireLineOfSight>false</requireLineOfSight>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+		
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(1,1)</drawSize>
+				<offsets>
+					<li>(0.35,0.05)</li>
+				</offsets>
+			</li>		
+		</modExtensions>
+    </ThingDef>
+	  
+	<ThingDef ParentName="BaseBullet">
+		<defName>GF40K_HEShell</defName>
+		<label>high-explosive shell</label>
+		<graphicData>
+		  <texPath>Things/Projectile/ShellHighExplosive</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+		  <damageDef>Bomb</damageDef>
+		  <!-- damage amount is the damage def default -->
+		  <speed>41</speed>
+		  <explosionRadius>3.9</explosionRadius>
+		  <flyOverhead>true</flyOverhead>
+		  <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+		  <soundExplode>MortarBomb_Explode</soundExplode>
+		  <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+		  <soundAmbient>MortarRound_Ambient</soundAmbient>
+		</projectile>
+	</ThingDef>
+
+</Defs>
