@@ -7,5 +7,7 @@
   "Rotation": 45.0,
   "ScaleX": 1.5,
   "ScaleY": 1.5,
-  "MeleeWeaponType": 2
+  "BladeStart": 0.614469767,
+  "BladeEnd": 1.15559959,
+  "MeleeWeaponType": 3
 }
