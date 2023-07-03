@@ -9,8 +9,7 @@
       <texPath>Things/Building/Misc/ImperiumWeaponry</texPath>
 			<shaderType>CutoutComplex</shaderType>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>2.2</drawSize><!--2.46875-->
-      <drawOffset>(0,0,-0.085)</drawOffset>
+      <drawSize>4</drawSize><!--2.46875-->
     </graphicData>
     <uiIconScale>0.85</uiIconScale>
     <researchPrerequisites><li>GF40K_ImperiumCore</li></researchPrerequisites>
