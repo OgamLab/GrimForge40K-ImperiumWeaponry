@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- === Ammo Sets === -->
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserPistol</defName>
+          <label>laser charge</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserPistol</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserGun</defName>
+          <label>laser charge</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserGun</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+		
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserCarabine</defName>
+          <label>laser charge</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserCarabine</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserSniper</defName>
+          <label>laser charge</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserSniper</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserSMG</defName>
+          <label>laser charge</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserSMG</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserPistolRelic</defName>
+          <label>laser charge</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserPistolRelic</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserGunRelic</defName>
+          <label>laser charge</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserGunRelic</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+		
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_LaserCarabineRelic</defName>
+          <label>laser charge</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserCarabineRelic</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserSniperRelic</defName>
+          <label>laser charge</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserSniperRelic</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserSMGRelic</defName>
+          <label>laser charge</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserSMGRelic</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+		<!-- === Over Charged === -->
+		<CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserPistolOC</defName>
+          <label>laser charge(Over Charged)</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserPistolOC</Ammo_LaserChargePack>
+
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserGunOC</defName>
+          <label>laser charge(Over Charged)</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserGunOC</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+		
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserCarabineOC</defName>
+          <label>laser charge(Over Charged)</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserCarabineOC</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserSniperOC</defName>
+          <label>laser charge(Over Charged)</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserSniperOC</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserSMGOC</defName>
+          <label>laser charge(Over Charged)</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserSMGOC</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserPistolRelicOC</defName>
+          <label>laser charge(Over Charged)</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserPistolRelicOC</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserGunRelicOC</defName>
+          <label>laser charge(Over Charged)</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserGunRelicOC</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+		<CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_LaserCarabineRelicOC</defName>
+          <label>laser charge(Over Charged)</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_LaserCarabineRelicOC</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserSniperRelicOC</defName>
+          <label>laser charge(Over Charged)</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserSniperRelicOC</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+        <CombatExtended.AmmoSetDef>
+          <defName>AmmoSet_GF40K_LaserSMGRelicOC</defName>
+          <label>laser charge(Over Charged)</label>
+          <ammoTypes>
+            <Ammo_LaserChargePack>BulletCE_GF40K_LaserSMGRelicOC</Ammo_LaserChargePack>
+          </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+
+
+
+        <!-- === Projectiles === -->
+
+        <ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserPistol</defName>
+          <label>laser beam</label>  
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>10</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>2</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>17.5</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>         
+        </ThingDef>
+
+        <ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserSMG</defName>
+          <label>laser beam</label>               
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>11</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>2</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>18.25</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>       
+        </ThingDef>
+
+
+        <ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserGun</defName>
+          <label>laser beam</label>                          
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>18</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>4</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>20.5</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>          
+        </ThingDef>
+
+		<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserCarabine</defName>
+          <label>laser beam</label>                          
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>16</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>4</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>19.5</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>          
+        </ThingDef>
+
+        <ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserSniper</defName>
+          <label>laser beam</label>                          
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>5</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>22.25</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>          
+        </ThingDef>
+
+		<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserPistolRelic</defName>
+          <label>laser beam</label>  
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>11</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>2</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>19.25</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>         
+        </ThingDef>
+
+        <ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserSMGRelic</defName>
+          <label>laser beam</label>               
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>3</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>20.1</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>       
+        </ThingDef>
+
+
+        <ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserGunRelic</defName>
+          <label>laser beam</label>                          
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>5</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>22.55</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>          
+        </ThingDef>
+
+		<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserCarabineRelic</defName>
+          <label>laser beam</label>                          
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>18</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>4</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>21.45</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>          
+        </ThingDef>
+
+        <ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserSniperRelic</defName>
+          <label>laser beam</label>                          
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>22</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>5</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>24.48</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>          
+        </ThingDef>
+		<!-- === Over Charged === -->
+		<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserPistolOC</defName>
+          <label>laser beam</label>  
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>15</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>3</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>17.5</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>         
+        </ThingDef>
+
+        <ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserSMGOC</defName>
+          <label>laser beam</label>               
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>16</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>4</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>18.25</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>       
+        </ThingDef>
+
+
+        <ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserGunOC</defName>
+          <label>laser beam</label>                          
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>27</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>7</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>20.5</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>          
+        </ThingDef>
+
+		<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserCarabineOC</defName>
+          <label>laser beam</label>                          
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>24</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>6</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>19.5</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>          
+        </ThingDef>
+
+        <ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserSniperOC</defName>
+          <label>laser beam</label>                          
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>30</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>8</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>22.25</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>          
+        </ThingDef>
+
+		<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserPistolRelicOC</defName>
+          <label>laser beam</label>  
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>16</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>4</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>19.25</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>         
+        </ThingDef>
+
+        <ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserSMGRelicOC</defName>
+          <label>laser beam</label>               
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>18</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>4</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>20.1</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>       
+        </ThingDef>
+
+
+        <ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserGunRelicOC</defName>
+          <label>laser beam</label>                          
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>30</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>7</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>22.55</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>          
+        </ThingDef>
+
+		<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserCarabineRelicOC</defName>
+          <label>laser beam</label>                          
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>27</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>6</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>21.45</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>          
+        </ThingDef>
+
+        <ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
+          <defName>BulletCE_GF40K_LaserSniperRelicOC</defName>
+          <label>laser beam</label>                          
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>33</damageAmountBase>
+			<secondaryDamage>
+        	  <li>
+          		<def>Flame_Secondary</def>
+          		<amount>7</amount>
+        	  </li>
+      		</secondaryDamage>
+            <armorPenetrationSharp>24.48</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.001</armorPenetrationBlunt>
+          </projectile>          
+        </ThingDef>
+
+
+</Defs>
