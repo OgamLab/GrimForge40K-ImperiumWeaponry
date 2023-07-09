@@ -19,7 +19,7 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<isInstant>true</isInstant>
 			<damageFalloff>False</damageFalloff>
-			<damageDef>Bullet</damageDef>
+			<damageDef>GF40K_Gauss</damageDef>
 			<damageAmountBase>22</damageAmountBase>
 			<armorPenetrationSharp>50</armorPenetrationSharp>
 			<armorPenetrationBlunt>312</armorPenetrationBlunt>

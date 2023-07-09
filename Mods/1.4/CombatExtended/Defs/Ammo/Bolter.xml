@@ -22,10 +22,22 @@
 		<similarTo>AmmoSet_AntiMateriel</similarTo>
 	</CombatExtended.AmmoSetDef>
 
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_Bolter75_GF_Relic</defName>
+		<label>.75 Cal Bolter</label>
+		<ammoTypes>
+			<Ammo_Bolter75_GF_Standard>Bullet_Bolter75_GF_Standard_Relic</Ammo_Bolter75_GF_Standard>
+			<Ammo_Bolter75_GF_Inferno>Bullet_Bolter75_GF_Inferno_Relic</Ammo_Bolter75_GF_Inferno>
+			<Ammo_Bolter75_GF_MetalStorm>Bullet_Bolter75_GF_MetalStorm_Relic</Ammo_Bolter75_GF_MetalStorm>
+			<Ammo_Bolter75_GF_Kraken>Bullet_Bolter75_GF_Kraken_Relic</Ammo_Bolter75_GF_Kraken>
+		</ammoTypes>
+		<similarTo>AmmoSet_AntiMateriel</similarTo>
+	</CombatExtended.AmmoSetDef>
+
 	<!-- ==================== Ammo ========================== -->
 
 	<ThingDef Class="CombatExtended.AmmoDef" Name="AmmoBolter75_GFBase" ParentName="SmallAmmoBase" Abstract="True">
-		<description>A .75 caliber, gryojet-stabilized projectile with an explosive charge and hardened tip, fired from most patterns of Astartes bolters.</description>
+		<description>A .75 caliber, gryojet-stabilized projectile with an explosive charge and hardened tip, fired from most patterns of bolters.</description>
 		<statBases>
 			<Mass>0.151</Mass>
 			<Bulk>0.06</Bulk>
@@ -185,6 +197,87 @@
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
 				<damageAmountBase>10</damageAmountBase>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveRadius>0.25</explosiveRadius>
+				<explosionSound>MortarBomb_Explode</explosionSound>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBolter75_GFBullet">
+		<defName>Bullet_Bolter75_GF_Standard_Relic</defName>
+		<label>.75 cal bolt (standard)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>42</damageAmountBase>
+			<armorPenetrationSharp>14</armorPenetrationSharp>
+			<armorPenetrationBlunt>2.931</armorPenetrationBlunt>
+			<secondaryDamage>
+				<li>
+					<def>Bomb_Secondary</def>
+					<amount>22</amount>
+				</li>
+			</secondaryDamage>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBolter75_GFBullet">
+		<defName>Bullet_Bolter75_GF_Inferno_Relic</defName>
+		<label>.75 cal bolt (inferno)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>PrometheumFlame</damageDef>
+			<damageAmountBase>4</damageAmountBase>
+			<explosionRadius>0.5</explosionRadius>
+			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
+			<soundExplode>MortarIncendiary_Explode</soundExplode>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>5</damageAmountBase>
+				<explosiveDamageType>Thermobaric</explosiveDamageType>
+				<explosiveRadius>0.5</explosiveRadius>
+				<explosionSound>MortarIncendiary_Explode</explosionSound>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBolter75_GFBullet">
+		<defName>Bullet_Bolter75_GF_MetalStorm_Relic</defName>
+		<thingClass>CombatExtended.ProjectileCE_Bursting</thingClass>
+		<label>.75 cal bolt (metal storm)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<explosionRadius>0.5</explosionRadius>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>11</damageAmountBase>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<aimHeightOffset>1.2</aimHeightOffset>
+			<armingDelay>1.5</armingDelay>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Small>6</Fragment_Small>
+				</fragments>
+				<fragAngleRange>-89~-5</fragAngleRange>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBolter75_GFBullet">
+		<defName>Bullet_Bolter75_GF_Kraken_Relic</defName>
+		<label>.75 cal bolt (kraken)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>120</damageAmountBase>
+			<armorPenetrationSharp>27.6</armorPenetrationSharp>
+			<armorPenetrationBlunt>2.931</armorPenetrationBlunt>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>11</damageAmountBase>
 				<explosiveDamageType>Bomb</explosiveDamageType>
 				<explosiveRadius>0.25</explosiveRadius>
 				<explosionSound>MortarBomb_Explode</explosionSound>

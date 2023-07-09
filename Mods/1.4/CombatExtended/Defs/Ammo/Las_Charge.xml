@@ -203,7 +203,6 @@
 		</projectile>
 	</ThingDef>
 
-
 	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
 		<defName>BulletCE_GF40K_LaserGun</defName>
 		<label>laser beam</label>
@@ -289,7 +288,6 @@
 		</projectile>
 	</ThingDef>
 
-
 	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
 		<defName>BulletCE_GF40K_LaserGunRelic</defName>
 		<label>laser beam</label>
@@ -329,7 +327,7 @@
 		<label>laser beam</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>22</damageAmountBase>
+			<damageAmountBase>23</damageAmountBase>
 			<secondaryDamage>
 				<li>
 					<def>Flame_Secondary</def>
@@ -375,7 +373,6 @@
 			<armorPenetrationBlunt>0.001</armorPenetrationBlunt>
 		</projectile>
 	</ThingDef>
-
 
 	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
 		<defName>BulletCE_GF40K_LaserGunOC</defName>
@@ -461,7 +458,6 @@
 			<armorPenetrationBlunt>0.001</armorPenetrationBlunt>
 		</projectile>
 	</ThingDef>
-
 
 	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
 		<defName>BulletCE_GF40K_LaserGunRelicOC</defName>
