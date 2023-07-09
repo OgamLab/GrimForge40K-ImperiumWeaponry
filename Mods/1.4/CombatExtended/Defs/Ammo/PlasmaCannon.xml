@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingCategoryDef>
@@ -8,14 +8,14 @@
 		<iconPath>UI/Icons/ThingCategories/CaliberHighCaliber</iconPath>
 	</ThingCategoryDef>
 
-    <!-- === Ammo Sets === -->
-    <CombatExtended.AmmoSetDef>
-      <defName>AmmoSet_PlasmaCanister_GF</defName>
-      <label>plasma canister</label>
-      <ammoTypes>
-        <Ammo_PlasmaCannon_GF>Bullet_PlasmaCannon_GF</Ammo_PlasmaCannon_GF>
-      </ammoTypes>
-    </CombatExtended.AmmoSetDef>
+	<!-- === Ammo Sets === -->
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_PlasmaCanister_GF</defName>
+		<label>plasma canister</label>
+		<ammoTypes>
+			<Ammo_PlasmaCannon_GF>Bullet_PlasmaCannon_GF</Ammo_PlasmaCannon_GF>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
 
 	<!-- ==================== Ammo ========================== -->
 
@@ -47,29 +47,29 @@
 		</statBases>
 		<ammoClass>Plasma</ammoClass>
 		<comps>
-		<li Class="CompProperties_Explosive">
-			<explosiveRadius>0.5</explosiveRadius>
-			<explosiveDamageType>Bomb</explosiveDamageType>
-			<explosiveExpandPerStackcount>0.033</explosiveExpandPerStackcount>
-			<startWickHitPointsPercent>0.33</startWickHitPointsPercent>
-			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			<explodeOnKilled>True</explodeOnKilled>
-			<wickTicks>60~90</wickTicks>
-		</li>
-		</comps>		
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.5</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.033</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.33</startWickHitPointsPercent>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+				<explodeOnKilled>True</explodeOnKilled>
+				<wickTicks>60~90</wickTicks>
+			</li>
+		</comps>
 	</ThingDef>
 
-    <!-- === Projectiles === -->
-    <ThingDef ParentName="BaseBulletCE">
+	<!-- === Projectiles === -->
+	<ThingDef ParentName="BaseBulletCE">
 		<defName>Bullet_PlasmaCannon_GF</defName>
-		<label>plasma cannon bolt</label> 
+		<label>plasma cannon bolt</label>
 		<graphicData>
 			<texPath>Things/Projectiles/Plasma_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 			<drawSize>1.5</drawSize>
 		</graphicData>
-		<thingClass>CombatExtended.BulletCE</thingClass>		     
+		<thingClass>CombatExtended.BulletCE</thingClass>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>80</speed>
 			<damageDef>Bullet</damageDef>
@@ -77,17 +77,17 @@
 			<armorPenetrationSharp>80</armorPenetrationSharp>
 		</projectile>
 		<comps>
-		  <li Class="CombatExtended.CompProperties_ExplosiveCE">
-			<damageAmountBase>65</damageAmountBase>
-			<explosiveDamageType>Burn</explosiveDamageType>
-			<explosiveRadius>1.5</explosiveRadius>
-			<explosionSound>MortarBomb_Explode</explosionSound>
-			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-		  </li>
-		</comps>		  
-    </ThingDef>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>65</damageAmountBase>
+				<explosiveDamageType>Burn</explosiveDamageType>
+				<explosiveRadius>1.5</explosiveRadius>
+				<explosionSound>MortarBomb_Explode</explosionSound>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
+	</ThingDef>
 
-  <!-- ==================== Recipes ========================== -->
+	<!-- ==================== Recipes ========================== -->
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_PlasmaCannon_GF</defName>
@@ -95,28 +95,28 @@
 		<description>Craft 50 plasma canisters.</description>
 		<jobString>Making plasma canisters.</jobString>
 		<ingredients>
-		<li>
-			<filter>
-			<thingDefs>
-				<li>Chemfuel</li>
-			</thingDefs>
-			</filter>
-			<count>50</count>
-		</li>
-		<li>
-			<filter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
-			</filter>
-			<count>25</count>
-		</li>	  
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-		<thingDefs>
-			<li>Chemfuel</li>
-			<li>Steel</li>		
-		</thingDefs>
+			<thingDefs>
+				<li>Chemfuel</li>
+				<li>Steel</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Ammo_PlasmaCannon_GF>50</Ammo_PlasmaCannon_GF>

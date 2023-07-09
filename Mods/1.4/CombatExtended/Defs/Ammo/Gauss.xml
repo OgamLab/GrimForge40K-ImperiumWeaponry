@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- === Ammo Sets === -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_8mmGauss_Galvanic</defName>
+		<label>8mm Galvanic Gauss</label>
+		<ammoTypes>
+			<Ammo_8mmRailgun_Sabot>Bullet_Gauss_Galvanic</Ammo_8mmRailgun_Sabot>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- === Projectiles === -->
+
+	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="BaseLaserBullet">
+		<defName>Bullet_Gauss_Galvanic</defName>
+		<label>Galvanic gauss shot</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<isInstant>true</isInstant>
+			<damageFalloff>False</damageFalloff>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>22</damageAmountBase>
+			<armorPenetrationSharp>50</armorPenetrationSharp>
+			<armorPenetrationBlunt>312</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+</Defs>
