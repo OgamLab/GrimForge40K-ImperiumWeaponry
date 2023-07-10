@@ -62,7 +62,7 @@
 		<statBases>
 			<MarketValue>1.98</MarketValue>
 		</statBases>
-		<ammoClass>Standard</ammoClass>
+		<ammoClass>Standard_Bolter_GF</ammoClass>
 		<cookOffProjectile>Bullet_Bolter75_GF_Standard</cookOffProjectile>
 	</ThingDef>
 
@@ -76,7 +76,7 @@
 		<statBases>
 			<MarketValue>1.37</MarketValue>
 		</statBases>
-		<ammoClass>Inferno</ammoClass>
+		<ammoClass>Inferno_Bolter_GF</ammoClass>
 		<cookOffProjectile>Bullet_Bolter75_GF_Inferno</cookOffProjectile>
 	</ThingDef>
 
@@ -90,7 +90,7 @@
 		<statBases>
 			<MarketValue>1.48</MarketValue>
 		</statBases>
-		<ammoClass>MetalStorm</ammoClass>
+		<ammoClass>MetalStorm_Bolter_GF</ammoClass>
 		<cookOffProjectile>Bullet_Bolter75_GF_MetalStorm</cookOffProjectile>
 	</ThingDef>
 
@@ -104,7 +104,7 @@
 		<statBases>
 			<MarketValue>1.48</MarketValue>
 		</statBases>
-		<ammoClass>Kraken</ammoClass>
+		<ammoClass>Kraken_Bolter_GF</ammoClass>
 		<cookOffProjectile>Bullet_Bolter75_GF_Kraken</cookOffProjectile>
 	</ThingDef>
 
@@ -372,50 +372,6 @@
 		</fixedIngredientFilter>
 		<products>
 			<Ammo_Bolter75_GF_Inferno>200</Ammo_Bolter75_GF_Inferno>
-		</products>
-		<workAmount>9400</workAmount>
-	</RecipeDef>
-
-	<RecipeDef ParentName="AmmoRecipeBase">
-		<defName>MakeAmmo_Bolter75_GF_MetalStorm</defName>
-		<label>make .75 Cal Bolter (metal storm) shell x200</label>
-		<description>Craft 200 .75 Cal Bolter (metal storm) shells.</description>
-		<jobString>Making .75 Cal Bolter (metal storm) shells.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>62</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>FSX</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentIndustrial</li>
-					</thingDefs>
-				</filter>
-				<count>6</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-				<li>FSX</li>
-				<li>ComponentIndustrial</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Ammo_Bolter75_GF_MetalStorm>200</Ammo_Bolter75_GF_MetalStorm>
 		</products>
 		<workAmount>9400</workAmount>
 	</RecipeDef>

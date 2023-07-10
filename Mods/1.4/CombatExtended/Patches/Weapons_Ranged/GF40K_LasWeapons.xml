@@ -604,7 +604,7 @@
 							<verbPropsUnderBarrel>
 								<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 								<hasStandardCommand>true</hasStandardCommand>
-								<defaultProjectile>BulletCE_LaserCarabineRelicOC</defaultProjectile>
+								<defaultProjectile>BulletCE_GF40K_LaserCarabineRelicOC</defaultProjectile>
 								<ammoConsumedPerShotCount>3</ammoConsumedPerShotCount>
 								<warmupTime>1.0</warmupTime>
 								<range>75</range>
