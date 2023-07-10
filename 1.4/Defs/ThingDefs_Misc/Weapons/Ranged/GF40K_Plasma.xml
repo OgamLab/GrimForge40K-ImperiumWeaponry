@@ -55,22 +55,27 @@
             <AccuracyShort>0.70</AccuracyShort>
             <AccuracyMedium>0.65</AccuracyMedium>
             <AccuracyLong>0.55</AccuracyLong>
-            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
         </statBases>
-        <costList>
-            <Steel>69</Steel>
-			<Plasteel>72</Plasteel>
-			<ComponentSpacer>6</ComponentSpacer>
-        </costList>
+		
+		<costList>
+			<Plasteel>200</Plasteel>
+			<ComponentSpacer>20</ComponentSpacer>
+		</costList>
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaPistolBullet</defaultProjectile>
-                <warmupTime>0.5</warmupTime>
-                <range>21.9</range>
-				<burstShotCount>2</burstShotCount>
-				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+                <warmupTime>00.4</warmupTime>
+                <range>31.9</range>
+				<!--burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots-->
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -128,21 +133,20 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_PlasmaPistolBullet</defName>
-		<label>plasma pistol shot</label>
+		<label>small plasma shot</label>
         <thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
-			<texPath>Things/Projectile/LauncherShot</texPath>
+			<texPath>Things/Projectile/W_P_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 			<drawSize>0.7</drawSize>
-			<color>(105, 155, 98)</color>
 		</graphicData>
 		<projectile>
-			<damageDef>GF40K_PlasmaBurn</damageDef>
-            <explosionRadius>0.9</explosionRadius>
-			<damageAmountBase>6.5</damageAmountBase>
-			<stoppingPower>0.5</stoppingPower>
-			<armorPenetrationBase>0.2</armorPenetrationBase>
+			<damageDef>GF40K_Plasma</damageDef>
+            <explosionRadius>0.98</explosionRadius>
+			<damageAmountBase>25</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>0.70</armorPenetrationBase>
 			<speed>80</speed>
 		</projectile>
 	</ThingDef>
@@ -154,7 +158,6 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Plasma/PlasmaGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
         </graphicData>
 		
         <statBases>
@@ -165,7 +168,7 @@
             <AccuracyShort>0.75</AccuracyShort>
             <AccuracyMedium>0.8</AccuracyMedium>
             <AccuracyLong>0.82</AccuracyLong>
-            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
         </statBases>
         <costList>
             <Steel>70</Steel>
@@ -178,10 +181,10 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaGunBullet</defaultProjectile>
-                <warmupTime>0.5</warmupTime>
-                <range>31.9</range>
-				<burstShotCount>3</burstShotCount>
-				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <warmupTime>0.8</warmupTime>
+                <range>25.9</range>
+				<!--burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots-->
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -242,18 +245,17 @@
 		<label>plasma gun shot</label>
         <thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
-			<texPath>Things/Projectile/LauncherShot</texPath>
+			<texPath>Things/Projectile/W_P_Medium</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 			<drawSize>0.9</drawSize>
-			<color>(105, 155, 98)</color>
 		</graphicData>
 		<projectile>
-			<damageDef>GF40K_PlasmaBurn</damageDef>
+			<damageDef>GF40K_Plasma</damageDef>
             <explosionRadius>0.9</explosionRadius>
-			<damageAmountBase>6.6</damageAmountBase>
-			<stoppingPower>0.5</stoppingPower>
-			<armorPenetrationBase>0.2</armorPenetrationBase>
+			<damageAmountBase>45</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>0.75</armorPenetrationBase>
 			<speed>90</speed>
 		</projectile>
 	</ThingDef>

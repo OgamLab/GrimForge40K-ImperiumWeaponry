@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>GrimForge 40K: Imperium Weaponry</name>
+  <name>GrimForge 40.000: Imperium Weaponry</name>
   <author>Ogam</author>
   <packageId>GF40K.IoM.Weaponry</packageId>
   <supportedVersions>
@@ -24,6 +24,7 @@
 	<li>GF40K.Core</li>
     <li>Ludeon.RimWorld</li>
 	<li>mlie.showmeyourhands</li>
+	<li>vanillaexpanded.vwel</li>
 	<li>ceteam.combatextended</li>
 	<li>oskarpotocki.vfe.pirates</li>
 	<li>co.uk.epicguru.meleeanimation</li>

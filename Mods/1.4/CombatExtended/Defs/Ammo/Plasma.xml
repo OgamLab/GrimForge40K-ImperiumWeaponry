@@ -51,7 +51,7 @@
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<secondaryDamage>
 				<li>
-					<def>GF40K_PlasmaBurn</def>
+					<def>GF40K_Plasma</def>
 					<amount>9</amount>
 				</li>
 			</secondaryDamage>
@@ -74,7 +74,7 @@
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<secondaryDamage>
 				<li>
-					<def>GF40K_PlasmaBurn</def>
+					<def>GF40K_Plasma</def>
 					<amount>13</amount>
 				</li>
 			</secondaryDamage>
@@ -96,7 +96,7 @@
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<secondaryDamage>
 				<li>
-					<def>GF40K_PlasmaBurn</def>
+					<def>GF40K_Plasma</def>
 					<amount>10</amount>
 				</li>
 			</secondaryDamage>
@@ -119,7 +119,7 @@
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<secondaryDamage>
 				<li>
-					<def>GF40K_PlasmaBurn</def>
+					<def>GF40K_Plasma</def>
 					<amount>15</amount>
 				</li>
 			</secondaryDamage>

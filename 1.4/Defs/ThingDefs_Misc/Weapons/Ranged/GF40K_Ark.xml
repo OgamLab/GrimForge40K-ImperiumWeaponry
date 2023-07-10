@@ -48,7 +48,7 @@
             <AccuracyShort>0.86</AccuracyShort>
             <AccuracyMedium>0.42</AccuracyMedium>
             <AccuracyLong>0.20</AccuracyLong>
-            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
         </statBases>
 		<costList>
 			<Steel>70</Steel>
@@ -60,7 +60,7 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_ArkPistolBullet</defaultProjectile>
-                <warmupTime>0.6</warmupTime>
+                <warmupTime>0.8</warmupTime>
                 <range>21.9</range>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -118,14 +118,12 @@
         </graphicData>
         <projectile>
             <damageDef>Stun</damageDef>
-            <damageAmountBase>12.6</damageAmountBase>
+            <damageAmountBase>15.6</damageAmountBase>
 			<stoppingPower>0.8</stoppingPower>
-			<armorPenetrationBase>0.12</armorPenetrationBase>
-            <speed>90</speed>
+			<armorPenetrationBase>0.45</armorPenetrationBase>
+            <speed>120</speed>
         </projectile>
     </ThingDef>
-
-
 	
     <ThingDef ParentName="GF40K_BaseRangedArk">
         <defName>GF40K_ArkRifle</defName>
@@ -142,7 +140,7 @@
             <AccuracyShort>0.84</AccuracyShort>
             <AccuracyMedium>0.85</AccuracyMedium>
             <AccuracyLong>0.72</AccuracyLong>
-            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
 		<costList>
 			<Steel>70</Steel>
@@ -154,7 +152,7 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_ArkRifleBullet</defaultProjectile>
-                <warmupTime>0.6</warmupTime>
+                <warmupTime>0.8</warmupTime>
                 <range>33.9</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -208,14 +206,13 @@
             <texPath>Things/Projectile/LauncherShot</texPath>
             <shaderType>TransparentPostLight</shaderType>
             <graphicClass>Graphic_Single</graphicClass>
-            <color>(103, 103, 103)</color>
         </graphicData>
         <projectile>
             <damageDef>Stun</damageDef>
-            <damageAmountBase>10.6</damageAmountBase>
+            <damageAmountBase>9.6</damageAmountBase>
 			<stoppingPower>1</stoppingPower>
-			<armorPenetrationBase>0.12</armorPenetrationBase>
-            <speed>95</speed>
+			<armorPenetrationBase>0.5</armorPenetrationBase>
+            <speed>115</speed>
         </projectile>
     </ThingDef>
 </Defs>

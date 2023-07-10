@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Coilguns</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="GF40K_ArkPistol"]/verbs/li/defaultProjectile</xpath>
+					<value>
+						<defaultProjectile>GF40K_ArkGaussPistolBullet</defaultProjectile>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="GF40K_ArkRifle"]/verbs/li/defaultProjectile</xpath>
+					<value>
+						<defaultProjectile>GF40K_ArkGaussRifleBullet</defaultProjectile>
+					</value>
+				</li>
+		
+			</operations>
+		</match>
+	</Operation>	
+</Patch>	  

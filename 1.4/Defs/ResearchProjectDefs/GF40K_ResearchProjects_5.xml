@@ -12,7 +12,7 @@
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_ImperiumCore</defName>
-		<label>Core</label>
+		<label>Imperial technology</label>
 		<description>PLACEHOLDER</description>
 		<baseCost>4000</baseCost>
 		<prerequisites>
@@ -22,12 +22,12 @@
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<researchViewX>0</researchViewX>
-		<researchViewY>3</researchViewY> 	
+		<researchViewY>2</researchViewY> 	
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularMelee</defName>
-		<label>Melee (Regular)</label>
+		<label>Imperial melee weapons</label>
 		<description>PLACEHOLDER</description>
 		<baseCost>4000</baseCost>
 		<prerequisites>
@@ -39,7 +39,7 @@
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularMeleeForce</defName>
-		<label>Melee (Force)</label>
+		<label>Imperial force weapons</label>
 		<description>PLACEHOLDER</description>
 		<baseCost>5000</baseCost>
 		<prerequisites>
@@ -51,7 +51,7 @@
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularMeleeMechanicus</defName>
-		<label>Melee (Mechanicus)</label>
+		<label>Adeptus Mechanicus weapons</label>
 		<description>PLACEHOLDER</description>
 		<baseCost>6000</baseCost>
 		<prerequisites>
@@ -74,10 +74,46 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularRangedArk</defName>
+		<label>Imperial ark weapons</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>7000</baseCost>
+		<prerequisites>
+		  <li>GF40K_RegularRangedPlasma</li>
+		</prerequisites>	
+		<researchViewX>4</researchViewX>
+		<researchViewY>2</researchViewY> 	
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularRangedPlasma</defName>
-		<label>Plasma Weapons</label>
+		<label>Imperial plasma weapons</label>
 		<description>PLACEHOLDER</description>
 		<baseCost>6000</baseCost>
+		<prerequisites>
+		  <li>GF40K_RegularRangedBolter</li>
+		</prerequisites>	
+		<researchViewX>3</researchViewX>
+		<researchViewY>2</researchViewY> 	
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularRangedBolter</defName>
+		<label>Imperial bolt weapons</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>5000</baseCost>
+		<prerequisites>
+		  <li>GF40K_RegularRangedLaser</li>
+		</prerequisites>	
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY> 	
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularRangedLaser</defName>
+		<label>Imperial Las-weapons</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>4000</baseCost>
 		<prerequisites>
 		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
@@ -86,8 +122,8 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
-		<defName>GF40K_RegularRangedBolter</defName>
-		<label>Bolt Weapons</label>
+		<defName>GF40K_RegularRangedSpecial</defName>
+		<label>Imperial special weapons</label>
 		<description>PLACEHOLDER</description>
 		<baseCost>6000</baseCost>
 		<prerequisites>
@@ -95,29 +131,5 @@
 		</prerequisites>	
 		<researchViewX>1</researchViewX>
 		<researchViewY>3</researchViewY> 	
-	</ResearchProjectDef>
-
-	<ResearchProjectDef ParentName="GF40K_ResearchBase">
-		<defName>GF40K_RegularRangedLaser</defName>
-		<label>Laser Weapons</label>
-		<description>PLACEHOLDER</description>
-		<baseCost>6000</baseCost>
-		<prerequisites>
-		  <li>GF40K_ImperiumCore</li>
-		</prerequisites>	
-		<researchViewX>1</researchViewX>
-		<researchViewY>4</researchViewY> 	
-	</ResearchProjectDef>
-
-	<ResearchProjectDef ParentName="GF40K_ResearchBase">
-		<defName>GF40K_RegularRangedSpecial</defName>
-		<label>Special Weapons</label>
-		<description>PLACEHOLDER</description>
-		<baseCost>6000</baseCost>
-		<prerequisites>
-		  <li>GF40K_ImperiumCore</li>
-		</prerequisites>	
-		<researchViewX>1</researchViewX>
-		<researchViewY>5</researchViewY> 	
 	</ResearchProjectDef>
 </Defs>

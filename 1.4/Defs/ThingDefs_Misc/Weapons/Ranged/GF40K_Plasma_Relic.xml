@@ -40,7 +40,7 @@
             <AccuracyShort>1</AccuracyShort>
             <AccuracyMedium>0.8</AccuracyMedium>
             <AccuracyLong>0.7</AccuracyLong>
-            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
         </statBases>
         <!--costList>
             <Steel>111</Steel>
@@ -52,8 +52,8 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaPistolRelicBullet</defaultProjectile>
-                <warmupTime>0.5</warmupTime>
-                <range>21.9</range>
+                <warmupTime>0.7</warmupTime>
+                <range>20.9</range>
 				<burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
                 <soundCast>GF40K_LaserPistolShot</soundCast>
@@ -116,18 +116,17 @@
 		<label>plasma pistol shot</label>
         <thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
-			<texPath>Things/Projectile/LauncherShot</texPath>
+			<texPath>Things/Projectile/W_P_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 			<drawSize>0.7</drawSize>
-			<color>(105, 155, 98)</color>
 		</graphicData>
 		<projectile>
-			<damageDef>GF40K_PlasmaBurn</damageDef>
+			<damageDef>GF40K_Plasma</damageDef>
             <explosionRadius>0.9</explosionRadius>
-			<damageAmountBase>10.4</damageAmountBase>
+			<damageAmountBase>12.8</damageAmountBase>
 			<stoppingPower>0.5</stoppingPower>
-			<armorPenetrationBase>0.2</armorPenetrationBase>
+			<armorPenetrationBase>0.64</armorPenetrationBase>
 			<speed>85</speed>
 		</projectile>
 	</ThingDef>
@@ -150,7 +149,7 @@
             <AccuracyShort>1</AccuracyShort>
             <AccuracyMedium>1</AccuracyMedium>
             <AccuracyLong>1</AccuracyLong>
-            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
         <!--costList>
             <Steel>111</Steel>
@@ -163,7 +162,7 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaGunRelicBullet</defaultProjectile>
-                <warmupTime>0.5</warmupTime>
+                <warmupTime>0.85</warmupTime>
                 <range>31.9</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -227,18 +226,17 @@
 		<label>laser pistol shot</label>
         <thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
-			<texPath>Things/Projectile/LauncherShot</texPath>
+			<texPath>Things/Projectile/W_P_Medium</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 			<drawSize>0.9</drawSize>
-			<color>(105, 155, 98)</color>
 		</graphicData>
 		<projectile>
-			<damageDef>GF40K_PlasmaBurn</damageDef>
+			<damageDef>GF40K_Plasma</damageDef>
             <explosionRadius>0.9</explosionRadius>
-			<damageAmountBase>10.56</damageAmountBase>
+			<damageAmountBase>14.40</damageAmountBase>
 			<stoppingPower>0.5</stoppingPower>
-			<armorPenetrationBase>0.2</armorPenetrationBase>
+			<armorPenetrationBase>0.72</armorPenetrationBase>
 			<speed>90</speed>
 		</projectile>
 	</ThingDef>

@@ -2,27 +2,27 @@
 <Defs>
   
   <DamageDef>
-    <defName>GF40K_Plasma</defName>
-    <label>plasma</label>
+    <defName>GF40K_Bolt</defName>
+    <label>bolt</label>
     <workerClass>DamageWorker_AddInjury</workerClass>
     <externalViolence>true</externalViolence>
     <isExplosive>true</isExplosive>
-    <deathMessage>{0} has died in an plasma explosion.</deathMessage>
+    <deathMessage>{0} has died in an bolt explosion.</deathMessage>
     <hediff>Shredded</hediff>
     <hediffSolid>Crack</hediffSolid>
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Blunt</impactSoundType>
-    <armorCategory>Heat</armorCategory>
+    <armorCategory>Blunt</armorCategory>
     <minDamageToFragment>15</minDamageToFragment>
     <defaultDamage>50</defaultDamage>
     <defaultStoppingPower>0.5</defaultStoppingPower>
     <defaultArmorPenetration>0.10</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>5</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>3</buildingDamageFactorPassable>
-    <plantDamageFactor>5</plantDamageFactor>
+    <buildingDamageFactorImpassable>2</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>1.5</buildingDamageFactorPassable>
+    <plantDamageFactor>2</plantDamageFactor>
     <corpseDamageFactor>1</corpseDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
-    <explosionHeatEnergyPerCell>6</explosionHeatEnergyPerCell>
+    <explosionHeatEnergyPerCell>4</explosionHeatEnergyPerCell>
     <explosionCellFleck>BlastDry</explosionCellFleck>
     <explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
     <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
