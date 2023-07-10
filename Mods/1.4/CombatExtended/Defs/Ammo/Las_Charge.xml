@@ -145,7 +145,7 @@
 		<defName>AmmoSet_LaserCarabineRelicOC</defName>
 		<label>laser charge(Over Charged)</label>
 		<ammoTypes>
-			<Ammo_LaserChargePack>BulletCE_LaserCarabineRelicOC</Ammo_LaserChargePack>
+			<Ammo_LaserChargePack>BulletCE_GF40K_LaserCarabineRelicOC</Ammo_LaserChargePack>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
@@ -164,8 +164,6 @@
 			<Ammo_LaserChargePack>BulletCE_GF40K_LaserSMGRelicOC</Ammo_LaserChargePack>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
-
-
 
 	<!-- === Projectiles === -->
 
