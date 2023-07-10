@@ -70,7 +70,7 @@
                 <soundCast>Shot_IncendiaryLauncher</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
-                <forcedMissRadius>0.2</forcedMissRadius>
+                <!-- <forcedMissRadius>0.2</forcedMissRadius> -->
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -165,7 +165,7 @@
                 <defaultProjectile>GF40K_075BoltBullet</defaultProjectile>
                 <warmupTime>0.7</warmupTime>
                 <range>35.9</range>
-                <forcedMissRadius>0.1</forcedMissRadius>
+                <!-- <forcedMissRadius>0.1</forcedMissRadius> -->
 				<!--burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots-->
                 <soundCast>Shot_Autopistol</soundCast>
@@ -274,7 +274,7 @@
                 <soundCast>Shot_IncendiaryLauncher</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>19</muzzleFlashScale>
-                <forcedMissRadius>0.05</forcedMissRadius>
+                <!-- <forcedMissRadius>0.05</forcedMissRadius> -->
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -357,7 +357,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile>
-            <damageDef>GF40K_Bolt</damageDef>
+            <damageDef>Bullet</damageDef>
             <damageAmountBase>35</damageAmountBase>
             <explosionRadius>0.98</explosionRadius>
             <stoppingPower>1.5</stoppingPower>

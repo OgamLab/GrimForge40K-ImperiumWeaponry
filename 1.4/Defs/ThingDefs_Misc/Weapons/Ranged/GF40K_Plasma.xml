@@ -231,10 +231,10 @@
 		
 		<modExtensions>
 			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
-				<def>MF_StandardMuzzleFalshTwo</def>
+				<def>MF_StandardMuzzleFalsh</def>
 				<drawSize>(1,1)</drawSize>
 				<offsets>
-					<li>(0.35,0.05)</li>
+					<li>(0.55,0.0)</li>
 				</offsets>
 			</li>		
 		</modExtensions>
