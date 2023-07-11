@@ -75,7 +75,7 @@
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularRangedArk</defName>
-		<label>Imperial ark weapons</label>
+		<label>Adeptus Mechanicus arc weapons</label>
 		<description>PLACEHOLDER</description>
 		<baseCost>7000</baseCost>
 		<prerequisites>
@@ -111,7 +111,7 @@
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularRangedLaser</defName>
-		<label>Imperial Las-weapons</label>
+		<label>Imperial las-weapons</label>
 		<description>PLACEHOLDER</description>
 		<baseCost>4000</baseCost>
 		<prerequisites>

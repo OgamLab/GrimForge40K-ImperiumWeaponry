@@ -27,7 +27,7 @@
 	
     <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
         <defName>GF40K_LaserPistolRelic</defName>
-        <label>relic laser pistol</label>
+        <label>relic laspistol</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasPistol_relic</texPath>
@@ -116,7 +116,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserPistolRelicBullet</defName>
-		<label>relic laser pistol shot</label>
+		<label>relic laspistol shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -135,7 +135,7 @@
 	
     <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
         <defName>GF40K_LaserGunRelic</defName>
-        <label>relic laser gun</label>
+        <label>relic lasgun</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasGun_relic</texPath>
@@ -229,7 +229,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserGunRelicBullet</defName>
-		<label>laser rifle shot</label>
+		<label>relic lasgun shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -248,7 +248,7 @@
 
     <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
         <defName>GF40K_LaserSniperRelic</defName>
-        <label>relic laser sniper rifle</label>
+        <label>relic long-las</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/LongLas_relic</texPath>
@@ -343,7 +343,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserSniperRelicBullet</defName>
-		<label>relic laser sniper shot</label>
+		<label>relic long-las shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -362,7 +362,7 @@
 		
     <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
         <defName>GF40K_LaserSMGRelic</defName>
-        <label>laser sub-machine gun</label>
+        <label>laser SMG</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasSMG_relic</texPath>
@@ -475,7 +475,7 @@
 		
     <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
         <defName>GF40K_LaserCarabineRelic</defName>
-        <label>relic laser carabine</label>
+        <label>relic lascarbine</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasCarbine_relic</texPath>
@@ -570,7 +570,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserCarabineRelicBullet</defName>
-		<label>laser SMG shot</label>
+		<label>relic lascarbine shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

@@ -5,7 +5,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_8mmGauss_Galvanic</defName>
-		<label>8mm Galvanic Gauss</label>
+		<label>8mm galvanic gauss</label>
 		<ammoTypes>
 			<Ammo_8mmRailgun_Sabot>Bullet_Gauss_Galvanic</Ammo_8mmRailgun_Sabot>
 		</ammoTypes>

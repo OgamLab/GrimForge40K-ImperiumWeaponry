@@ -113,7 +113,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_PlasmaPistolRelicBullet</defName>
-		<label>plasma pistol shot</label>
+		<label>relic plasma pistol shot</label>
         <thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/W_P_Small</texPath>
@@ -223,7 +223,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_PlasmaGunRelicBullet</defName>
-		<label>laser pistol shot</label>
+		<label>relic plasma gun shot</label>
         <thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/W_P_Medium</texPath>

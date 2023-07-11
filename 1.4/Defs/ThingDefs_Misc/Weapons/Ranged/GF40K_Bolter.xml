@@ -132,7 +132,7 @@
 	
     <ThingDef ParentName="GF40K_BaseRangedBolt">
         <defName>GF40K_BoltGun</defName>
-        <label>bolt gun</label>
+        <label>boltgun</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Bolter/BoltGun</texPath>
@@ -233,7 +233,7 @@
 
     <ThingDef ParentName="GF40K_BaseRangedBolt">
         <defName>GF40K_BoltSniper</defName>
-        <label>sniper boltgun</label>
+        <label>bolt sniper rifle</label>
         <description>.75 caliber, 6 rounds, sniper range, single shot</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Bolter/SniperBoltGun</texPath>

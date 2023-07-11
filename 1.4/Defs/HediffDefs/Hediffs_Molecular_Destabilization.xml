@@ -3,8 +3,7 @@
 	<HediffDef>
 	  <defName>GF40K_MolecularDestabilization</defName>
 	  <label>molecular destabilization</label>
-	  <description>A state of molecular instability caused by exposure to toxic substances or energy. The body's cells and systems suffer significant damage, leading to severe health complications.
-	\n\nMolecular destabilization progressively worsens over time and can be lethal if left untreated.</description>
+	  <description>A state of molecular instability caused by exposure to toxic substances or energy. The body's cells and systems suffer significant damage, leading to severe health complications.\n\nMolecular destabilization progressively worsens over time and can be lethal if left untreated.</description>
 	  <lethalSeverity>1</lethalSeverity>
 	  <makesSickThought>true</makesSickThought>
 	  <defaultLabelColor>(0.8, 0.1, 0.1)</defaultLabelColor>

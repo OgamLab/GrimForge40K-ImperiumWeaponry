@@ -29,7 +29,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona mechanicus power sword's point</label>
+								<label>point</label>
 								<capacities>
 									<li>Stab</li>
 								</capacities>
@@ -39,7 +39,7 @@
 								<armorPenetrationSharp>46</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona mechanicus power sword's blade</label>
+								<label>blade</label>
 								<capacities>
 									<li>Cut</li>
 								</capacities>
@@ -55,7 +55,7 @@
 								<armorPenetrationSharp>35</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona mechanicus power sword's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>

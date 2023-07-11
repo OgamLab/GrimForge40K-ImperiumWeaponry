@@ -29,7 +29,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>force halberd's point</label>
+								<label>point</label>
 								<capacities>
 									<li>Stab</li>
 								</capacities>
@@ -39,7 +39,7 @@
 								<armorPenetrationSharp>40</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>force halberd's chain</label>
+								<label>blade</label>
 								<capacities>
 									<li>Cut</li>
 								</capacities>
@@ -49,7 +49,7 @@
 								<armorPenetrationSharp>30</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>force halberd's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>
@@ -81,7 +81,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>force staff's head</label>
+								<label>head</label>
 								<capacities>
 									<li>Blunt</li>
 								</capacities>
@@ -90,7 +90,7 @@
 								<armorPenetrationBlunt>50</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>force staff's head</label>
+								<label>head</label>
 								<capacities>
 									<li>Blunt</li>
 								</capacities>
@@ -99,7 +99,7 @@
 								<armorPenetrationBlunt>60</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>force staff's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>
@@ -131,7 +131,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>force sword's point</label>
+								<label>point</label>
 								<capacities>
 									<li>Stab</li>
 								</capacities>
@@ -141,7 +141,7 @@
 								<armorPenetrationSharp>35</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>force sword's blade</label>
+								<label>blade</label>
 								<capacities>
 									<li>Cut</li>
 								</capacities>
@@ -151,7 +151,7 @@
 								<armorPenetrationSharp>25</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>force sword's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>

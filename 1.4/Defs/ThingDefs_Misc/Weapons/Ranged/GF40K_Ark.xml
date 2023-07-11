@@ -35,7 +35,7 @@
 	
     <ThingDef ParentName="GF40K_BaseRangedArk">
         <defName>GF40K_ArkPistol</defName>
-        <label>ark pistol</label>
+        <label>arc pistol</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Ark/ArkPistol</texPath>
@@ -105,7 +105,7 @@
 	
     <ThingDef ParentName="BaseBullet">
         <defName>GF40K_ArkPistolBullet</defName>
-        <label>ark pistol shot</label>
+        <label>arc pistol shot</label>
         <category>Projectile</category>
         <useHitPoints>False</useHitPoints>
         <tickerType>Normal</tickerType>
@@ -127,7 +127,7 @@
 	
     <ThingDef ParentName="GF40K_BaseRangedArk">
         <defName>GF40K_ArkRifle</defName>
-        <label>ark rifle</label>
+        <label>arc rifle</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Ark/ArkRifle</texPath>
@@ -197,7 +197,7 @@
 	
     <ThingDef ParentName="BaseBullet">
         <defName>GF40K_ArkRifleBullet</defName>
-        <label>ark rifle shot</label>
+        <label>arc rifle shot</label>
         <category>Projectile</category>
         <useHitPoints>False</useHitPoints>
         <tickerType>Normal</tickerType>

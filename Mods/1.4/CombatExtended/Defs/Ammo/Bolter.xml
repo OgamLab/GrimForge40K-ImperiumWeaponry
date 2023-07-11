@@ -3,7 +3,7 @@
 
 	<ThingCategoryDef>
 		<defName>AmmoBolter75_GF_GF</defName>
-		<label>.75 Cal Bolter</label>
+		<label>.75 cal bolt</label>
 		<parent>AmmoAdvanced</parent>
 		<iconPath>UI/Icons/ThingCategories/CaliberHighCaliber</iconPath>
 	</ThingCategoryDef>
@@ -12,7 +12,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_Bolter75_GF</defName>
-		<label>.75 Cal Bolter</label>
+		<label>.75 cal bolt</label>
 		<ammoTypes>
 			<Ammo_Bolter75_GF_Standard>Bullet_Bolter75_GF_Standard</Ammo_Bolter75_GF_Standard>
 			<Ammo_Bolter75_GF_Inferno>Bullet_Bolter75_GF_Inferno</Ammo_Bolter75_GF_Inferno>
@@ -24,7 +24,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_Bolter75_GF_Relic</defName>
-		<label>.75 Cal Bolter</label>
+		<label>.75 cal bolt</label>
 		<ammoTypes>
 			<Ammo_Bolter75_GF_Standard>Bullet_Bolter75_GF_Standard_Relic</Ammo_Bolter75_GF_Standard>
 			<Ammo_Bolter75_GF_Inferno>Bullet_Bolter75_GF_Inferno_Relic</Ammo_Bolter75_GF_Inferno>
@@ -37,7 +37,7 @@
 	<!-- ==================== Ammo ========================== -->
 
 	<ThingDef Class="CombatExtended.AmmoDef" Name="AmmoBolter75_GFBase" ParentName="SmallAmmoBase" Abstract="True">
-		<description>A .75 caliber, gryojet-stabilized projectile with an explosive charge and hardened tip, fired from most patterns of bolters.</description>
+		<description>A .75 caliber, gyro-stabilized projectile with an explosive charge and hardened tip, fired from most patterns of bolters.</description>
 		<statBases>
 			<Mass>0.151</Mass>
 			<Bulk>0.06</Bulk>
@@ -54,7 +54,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBolter75_GFBase">
 		<defName>Ammo_Bolter75_GF_Standard</defName>
-		<label>.75 cal bolter shell (Standard)</label>
+		<label>.75 cal bolt shell (Standard)</label>
 		<graphicData>
 			<texPath>ThirdParty/Warhammer/Bolter/Standard</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -68,7 +68,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBolter75_GFBase">
 		<defName>Ammo_Bolter75_GF_Inferno</defName>
-		<label>.75 cal bolter shell (Inferno)</label>
+		<label>.75 cal bolt shell (Inferno)</label>
 		<graphicData>
 			<texPath>ThirdParty/Warhammer/Bolter/Inferno</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -82,7 +82,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBolter75_GFBase">
 		<defName>Ammo_Bolter75_GF_MetalStorm</defName>
-		<label>.75 cal bolter shell (Metal Storm)</label>
+		<label>.75 cal bolt shell (Metal Storm)</label>
 		<graphicData>
 			<texPath>ThirdParty/Warhammer/Bolter/MetalStorm</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -96,7 +96,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBolter75_GFBase">
 		<defName>Ammo_Bolter75_GF_Kraken</defName>
-		<label>.75 cal bolter shell (Kraken)</label>
+		<label>.75 cal bolt shell (Kraken)</label>
 		<graphicData>
 			<texPath>ThirdParty/Warhammer/Bolter/Kraken</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -290,9 +290,9 @@
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_Bolter75_GF_Standard</defName>
-		<label>make .75 Cal Bolter (standard) shell x200</label>
-		<description>Craft 200 .75 Cal Bolter (standard) shells.</description>
-		<jobString>Making .75 Cal Bolter (standard) shells.</jobString>
+		<label>make .75 cal bolt (standard) shell x200</label>
+		<description>Craft 200 .75 cal bolt (standard) shells.</description>
+		<jobString>Making .75 cal bolt (standard) shells.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -334,9 +334,9 @@
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_Bolter75_GF_Inferno</defName>
-		<label>make .75 Cal Bolter (inferno) shell x200</label>
-		<description>Craft 200 .75 Cal Bolter (inferno) shells.</description>
-		<jobString>Making .75 Cal Bolter (inferno) shells.</jobString>
+		<label>make .75 cal bolt (inferno) shell x200</label>
+		<description>Craft 200 .75 cal bolt (inferno) shells.</description>
+		<jobString>Making .75 cal bolt (inferno) shells.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -378,9 +378,9 @@
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_Bolter75_GF_MetalStorm</defName>
-		<label>make .75 Cal Bolter (metal storm) shell x200</label>
-		<description>Craft 200 .75 Cal Bolter (metal storm) shells.</description>
-		<jobString>Making .75 Cal Bolter (metal storm) shells.</jobString>
+		<label>make .75 cal bolt (metal storm) shell x200</label>
+		<description>Craft 200 .75 cal bolt (metal storm) shells.</description>
+		<jobString>Making .75 cal bolt (metal storm) shells.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -422,9 +422,9 @@
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_Bolter75_GF_Kraken</defName>
-		<label>make .75 Cal Bolter (kraken) shell x200</label>
-		<description>Craft 200 .75 Cal Bolter (kraken) shells.</description>
-		<jobString>Making .75 Cal Bolter (kraken) shells.</jobString>
+		<label>make .75 cal bolt (kraken) shell x200</label>
+		<description>Craft 200 .75 cal bolt (kraken) shells.</description>
+		<jobString>Making .75 cal bolt (kraken) shells.</jobString>
 		<ingredients>
 			<li>
 				<filter>

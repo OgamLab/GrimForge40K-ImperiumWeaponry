@@ -114,7 +114,7 @@
 	
     <ThingDef ParentName="GF40K_BaseRangedBoltRelic">
         <defName>GF40K_BoltGunRelic</defName>
-        <label>relic bolt gun</label>
+        <label>relic boltgun</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/Boltgun_relic</texPath>
@@ -185,7 +185,7 @@
 	
     <ThingDef>
         <defName>GF40K_BolterGunRelicBullet</defName>
-        <label>boltgun shot</label>
+        <label>relic boltgun shot</label>
         <thingClass>Projectile_Explosive</thingClass>
         <category>Projectile</category>
         <useHitPoints>False</useHitPoints>
@@ -209,7 +209,7 @@
 
     <ThingDef ParentName="GF40K_BaseRangedBoltRelic">
         <defName>GF40K_BoltSniperRelic</defName>
-        <label>relic sniper boltgun</label>
+        <label>relic bolt sniper rifle</label>
         <description>.75 caliber, 6 rounds, sniper range, single shot</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/SniperBoltgun_relic</texPath>

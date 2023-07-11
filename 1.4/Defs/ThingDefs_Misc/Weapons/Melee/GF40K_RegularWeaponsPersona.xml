@@ -41,15 +41,15 @@
 	
 	<ThingDef ParentName="GF40K_BaseMeleePersona">
 		<defName>GF40K_PersonaChainSword</defName>
-		<label>persona chain sword</label>
-		<description>The Persona Chain Sword is a variant of the standard Chain Sword, enhanced with specialized modifications to suit the needs and preferences of individual warriors. With a reputation for its reliability and cutting power, the Persona Chain Sword has become a favored weapon among those who seek to personalize their armament, making it an extension of their own identity on the battlefield.</description>
+		<label>persona chainsword</label>
+		<description>The Persona Chainsword is a variant of the standard Chainsword, enhanced with specialized modifications to suit the needs and preferences of individual warriors. With a reputation for its reliability and cutting power, the Persona Chainsword has become a favored weapon among those who seek to personalize their armament, making it an extension of their own identity on the battlefield.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/PersonaChainSword</texPath>
 		</graphicData>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
-				<label>persona chain sword's backside</label>
+				<label>backside</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -58,7 +58,7 @@
 				<armorPenetration>0.25</armorPenetration>
 			</li>
 			<li>
-				<label>persona chain sword's chain</label>
+				<label>chain</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -68,7 +68,7 @@
 				<soundMeleeHit>40_ChainSword</soundMeleeHit>
 			</li>
 			<li>
-				<label>persona chain sword's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>
@@ -82,7 +82,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleePersona">
 		<defName>GF40K_PersonaEviscerator</defName>
 		<label>persona eviscerator</label>
-		<description>The Persona Eviscerator is an imposing and deadly two-handed weapon, customized and adapted to reflect the personality and combat style of its wielder. Its massive blades, each uniquely adorned and inscribed, possess a keen edge and cutting power that can maim and destroy with unparalleled efficiency. Those who brandish the Persona Eviscerator do so with a fierce determination to leave their mark on the battlefield.</description>
+		<description>The Persona Eviscerator is an imposing and deadly two-handed weapon, customized and adapted to reflect the personality and combat style of its wielder. Its massive blade, uniquely adorned and inscribed, possess a keen edge and cutting power that can maim and destroy with unparalleled efficiency. Those who brandish the Persona Eviscerator do so with a fierce determination to leave their mark on the battlefield.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/PersonaEviscerator</texPath>
 			<drawSize>1.25</drawSize>
@@ -90,7 +90,7 @@
 		<equippedAngleOffset>-45</equippedAngleOffset>
 		<tools>
 			<li>
-				<label>persona eviscerator's backside</label>
+				<label>backside</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -99,7 +99,7 @@
 				<armorPenetration>0.25</armorPenetration>
 			</li>
 			<li>
-				<label>persona eviscerator's chain</label>
+				<label>chain</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -109,7 +109,7 @@
 				<soundMeleeHit>40_ChainSword</soundMeleeHit>
 			</li>
 			<li>
-				<label>persona eviscerator's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>
@@ -130,7 +130,7 @@
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
-				<label>persona power sabre's point</label>
+				<label>point</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
@@ -139,7 +139,7 @@
 				<armorPenetration>0.55</armorPenetration>
 			</li>
 			<li>
-				<label>persona power sabre's blade</label>
+				<label>blade</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -148,7 +148,7 @@
 				<armorPenetration>0.5</armorPenetration>
 			</li>
 			<li>
-				<label>persona power sabre's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>
@@ -169,7 +169,7 @@
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
-				<label>persona power sword's point</label>
+				<label>point</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
@@ -178,7 +178,7 @@
 				<armorPenetration>0.55</armorPenetration>
 			</li>
 			<li>
-				<label>persona power sword's blade</label>
+				<label>blade</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -187,7 +187,7 @@
 				<armorPenetration>0.5</armorPenetration>
 			</li>
 			<li>
-				<label>persona power sword's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>
