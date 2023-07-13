@@ -29,7 +29,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona chain sword's backside</label>
+								<label>backside</label>
 								<capacities>
 									<li>Blunt</li>
 								</capacities>
@@ -38,7 +38,7 @@
 								<armorPenetrationBlunt>38</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona chain sword's chain</label>
+								<label>chain</label>
 								<capacities>
 									<li>Cut</li>
 								</capacities>
@@ -49,7 +49,7 @@
 								<soundMeleeHit>40_ChainSword</soundMeleeHit>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona chain sword's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>
@@ -81,7 +81,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona eviscerator's backside</label>
+								<label>backside</label>
 								<capacities>
 									<li>Blunt</li>
 								</capacities>
@@ -90,7 +90,7 @@
 								<armorPenetrationBlunt>44</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona eviscerator's chain</label>
+								<label>chain</label>
 								<capacities>
 									<li>Cut</li>
 								</capacities>
@@ -101,7 +101,7 @@
 								<soundMeleeHit>40_ChainSword</soundMeleeHit>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona eviscerator's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>
@@ -133,7 +133,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona power sabre's point</label>
+								<label>point</label>
 								<capacities>
 									<li>Stab</li>
 								</capacities>
@@ -143,7 +143,7 @@
 								<armorPenetrationSharp>44</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona power sabre's blade</label>
+								<label>blade</label>
 								<capacities>
 									<li>Cut</li>
 								</capacities>
@@ -153,7 +153,7 @@
 								<armorPenetrationSharp>33</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona power sabre's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>
@@ -185,7 +185,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona power sword's point</label>
+								<label>point</label>
 								<capacities>
 									<li>Stab</li>
 								</capacities>
@@ -195,7 +195,7 @@
 								<armorPenetrationSharp>44</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona power sword's blade</label>
+								<label>blade</label>
 								<capacities>
 									<li>Cut</li>
 								</capacities>
@@ -205,7 +205,7 @@
 								<armorPenetrationSharp>33</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>persona power sword's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>

@@ -19,7 +19,7 @@
 		<defName>MetalStorm_Bolter_GF</defName>
 		<label>Metal Storm</label>
 		<labelShort>Metal Storm</labelShort>
-		<description>A gyro-stabilized equipped with a proximity fuse, designed to shower lighly armored targets with a devestating shower of fragmention when it detonates.</description>
+		<description>A gyro-stabilized projectile equipped with a proximity fuse, designed to shower lightly armored targets with a devastating shower of shrapnel when it detonates.</description>
 	</CombatExtended.AmmoCategoryDef>
 
 	<CombatExtended.AmmoCategoryDef>

@@ -34,7 +34,7 @@
 	
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserPistol</defName>
-        <label>laser pistol</label>
+        <label>laspistol</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasPistol</texPath>
@@ -123,7 +123,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserBullet</defName>
-		<label>laser pistol shot</label>
+		<label>laspistol shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -142,7 +142,7 @@
 	
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserGun</defName>
-        <label>laser gun</label>
+        <label>lasgun</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasGun</texPath>
@@ -236,7 +236,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserGunBullet</defName>
-		<label>laser rifle shot</label>
+		<label>lasgun shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -255,7 +255,7 @@
 
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserSniper</defName>
-        <label>laser sniper rifle</label>
+        <label>long-las</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasSniper</texPath>
@@ -350,7 +350,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserSniperBullet</defName>
-		<label>laser sniper shot</label>
+		<label>long-las shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -369,7 +369,7 @@
 		
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserSMG</defName>
-        <label>laser sub-machine gun</label>
+        <label>laser SMG</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasSubMachineGun</texPath>
@@ -482,7 +482,7 @@
 		
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserCarabine</defName>
-        <label>laser carabine</label>
+        <label>lascarbine</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasCarabine</texPath>
@@ -577,7 +577,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserCarabineBullet</defName>
-		<label>laser SMG shot</label>
+		<label>lascarbine shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

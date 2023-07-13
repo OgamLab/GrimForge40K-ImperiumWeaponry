@@ -83,10 +83,10 @@
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
-	<!-- === Over Charged === -->
+	<!-- === Overcharged === -->
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_GF40K_LaserPistolOC</defName>
-		<label>laser charge(Over Charged)</label>
+		<label>laser charge (overcharged)</label>
 		<ammoTypes>
 			<Ammo_LaserChargePack>BulletCE_GF40K_LaserPistolOC</Ammo_LaserChargePack>
 
@@ -95,7 +95,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_GF40K_LaserGunOC</defName>
-		<label>laser charge(Over Charged)</label>
+		<label>laser charge (overcharged)</label>
 		<ammoTypes>
 			<Ammo_LaserChargePack>BulletCE_GF40K_LaserGunOC</Ammo_LaserChargePack>
 		</ammoTypes>
@@ -103,7 +103,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_GF40K_LaserCarabineOC</defName>
-		<label>laser charge(Over Charged)</label>
+		<label>laser charge (overcharged)</label>
 		<ammoTypes>
 			<Ammo_LaserChargePack>BulletCE_GF40K_LaserCarabineOC</Ammo_LaserChargePack>
 		</ammoTypes>
@@ -111,7 +111,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_GF40K_LaserSniperOC</defName>
-		<label>laser charge(Over Charged)</label>
+		<label>laser charge (overcharged)</label>
 		<ammoTypes>
 			<Ammo_LaserChargePack>BulletCE_GF40K_LaserSniperOC</Ammo_LaserChargePack>
 		</ammoTypes>
@@ -119,7 +119,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_GF40K_LaserSMGOC</defName>
-		<label>laser charge(Over Charged)</label>
+		<label>laser charge (overcharged)</label>
 		<ammoTypes>
 			<Ammo_LaserChargePack>BulletCE_GF40K_LaserSMGOC</Ammo_LaserChargePack>
 		</ammoTypes>
@@ -127,7 +127,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_GF40K_LaserPistolRelicOC</defName>
-		<label>laser charge(Over Charged)</label>
+		<label>laser charge (overcharged)</label>
 		<ammoTypes>
 			<Ammo_LaserChargePack>BulletCE_GF40K_LaserPistolRelicOC</Ammo_LaserChargePack>
 		</ammoTypes>
@@ -135,7 +135,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_GF40K_LaserGunRelicOC</defName>
-		<label>laser charge(Over Charged)</label>
+		<label>laser charge (overcharged)</label>
 		<ammoTypes>
 			<Ammo_LaserChargePack>BulletCE_GF40K_LaserGunRelicOC</Ammo_LaserChargePack>
 		</ammoTypes>
@@ -143,7 +143,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_LaserCarabineRelicOC</defName>
-		<label>laser charge(Over Charged)</label>
+		<label>laser charge (overcharged)</label>
 		<ammoTypes>
 			<Ammo_LaserChargePack>BulletCE_GF40K_LaserCarabineRelicOC</Ammo_LaserChargePack>
 		</ammoTypes>
@@ -151,7 +151,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_GF40K_LaserSniperRelicOC</defName>
-		<label>laser charge(Over Charged)</label>
+		<label>laser charge (overcharged)</label>
 		<ammoTypes>
 			<Ammo_LaserChargePack>BulletCE_GF40K_LaserSniperRelicOC</Ammo_LaserChargePack>
 		</ammoTypes>
@@ -159,7 +159,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_GF40K_LaserSMGRelicOC</defName>
-		<label>laser charge(Over Charged)</label>
+		<label>laser charge (overcharged)</label>
 		<ammoTypes>
 			<Ammo_LaserChargePack>BulletCE_GF40K_LaserSMGRelicOC</Ammo_LaserChargePack>
 		</ammoTypes>
@@ -337,7 +337,7 @@
 		</projectile>
 	</ThingDef>
 
-	<!-- === Over Charged === -->
+	<!-- === Overcharged === -->
 	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
 		<defName>BulletCE_GF40K_LaserPistolOC</defName>
 		<label>laser beam</label>

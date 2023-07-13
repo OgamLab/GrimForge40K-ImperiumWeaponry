@@ -5,7 +5,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_PlasmaCellPistol_GF</defName>
-		<label>Plasma Pistol Power Cell</label>
+		<label>plasma pistol power cell</label>
 		<ammoTypes>
 			<Ammo_PlasmaCellPistol>Bullet_PlasmaCellPistol_GF</Ammo_PlasmaCellPistol>
 		</ammoTypes>
@@ -13,7 +13,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_PlasmaCellRifle_GF</defName>
-		<label>Plasma Rifle Power Cell</label>
+		<label>plasma gun power cell</label>
 		<ammoTypes>
 			<Ammo_PlasmaCellRifle>Bullet_PlasmaCellRifle_GF</Ammo_PlasmaCellRifle>
 		</ammoTypes>
@@ -21,7 +21,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_PlasmaCellPistol_GF_Relic</defName>
-		<label>Plasma Pistol Power Cell</label>
+		<label>plasma pistol power cell</label>
 		<ammoTypes>
 			<Ammo_PlasmaCellPistol>Bullet_PlasmaCellPistol_GF_Relic</Ammo_PlasmaCellPistol>
 		</ammoTypes>
@@ -29,7 +29,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_PlasmaCellRifle_GF_Relic</defName>
-		<label>Plasma Rifle Power Cell</label>
+		<label>plasma gun power cell</label>
 		<ammoTypes>
 			<Ammo_PlasmaCellRifle>Bullet_PlasmaCellRifle_GF_Relic</Ammo_PlasmaCellRifle>
 		</ammoTypes>
@@ -39,7 +39,7 @@
 
 	<ThingDef ParentName="BaseExplosiveBullet">
 		<defName>Bullet_PlasmaCellPistol_GF</defName>
-		<label>Plasma Bolt</label>
+		<label>plasma bolt</label>
 		<graphicData>
 			<texPath>Things/Projectile/Charged/ChargeShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -61,7 +61,7 @@
 
 	<ThingDef ParentName="BaseExplosiveBullet">
 		<defName>Bullet_PlasmaCellRifle_GF</defName>
-		<label>Plasma Bolt</label>
+		<label>plasma bolt</label>
 		<graphicData>
 			<texPath>Things/Projectile/Charged/ChargeShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -84,7 +84,7 @@
 
 	<ThingDef ParentName="BaseExplosiveBullet">
 		<defName>Bullet_PlasmaCellPistol_GF_Relic</defName>
-		<label>Plasma Bolt</label>
+		<label>plasma bolt</label>
 		<graphicData>
 			<texPath>Things/Projectile/Charged/ChargeShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -106,7 +106,7 @@
 
 	<ThingDef ParentName="BaseExplosiveBullet">
 		<defName>Bullet_PlasmaCellRifle_GF_Relic</defName>
-		<label>Plasma Bolt</label>
+		<label>plasma bolt</label>
 		<graphicData>
 			<texPath>Things/Projectile/Charged/ChargeShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

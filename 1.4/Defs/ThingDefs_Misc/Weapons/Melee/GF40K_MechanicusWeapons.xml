@@ -82,7 +82,7 @@
 	
 	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
 		<defName>GF40K_MechanicusArcMaul</defName>
-		<label>mechanicus arc maul</label>
+		<label>arc maul</label>
 		<description>The Mechanicus Arc Maul is a heavy blunt weapon, resonating with the power of electromagnetism. Its energized head delivers devastating concussive blows that can shatter armor and incapacitate mechanical foes. Equipped with an integrated EMP generator, the Arc Maul is the weapon of choice for Tech-Priests engaged in the relentless pursuit of subduing and dismantling their adversaries.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusArcMaul</texPath>
@@ -90,7 +90,7 @@
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
-				<label>machanicus arc maul's head</label>
+				<label>head</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -99,7 +99,7 @@
 				<armorPenetration>0.4</armorPenetration>
 			</li>
 			<li>
-				<label>machanicus arc maul's head</label>
+				<label>head</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -114,7 +114,7 @@
 				</extraMeleeDamages>
 			</li>
 			<li>
-				<label>machanicus arc maul's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>
@@ -127,7 +127,7 @@
 	
 	<ThingDef ParentName="GF40K_BaseMeleeMechanicus_Oversize">
 		<defName>GF40K_MechanicusOmnisianAxe</defName>
-		<label>mechanicus amnisian axe</label>
+		<label>omnisian axe</label>
 		<description>The Mechanicus Omnisian Axe is a formidable cutting weapon, designed to pierce through even the toughest defenses with its finely honed edge. Its power field enhances the blade's cutting prowess, enabling it to cleave through armor and rend mechanical components. With an integrated EMP emitter, the Omnisian Axe allows Tech-Priests to disrupt and disable their opponents' electronic systems with each strike.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusOmnisianAxe</texPath>
@@ -135,7 +135,7 @@
 		</graphicData>
 		<tools>
 			<li>
-				<label>machanicus amnisian axe's head</label>
+				<label>head</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
@@ -144,7 +144,7 @@
 				<armorPenetration>0.55</armorPenetration>
 			</li>
 			<li>
-				<label>machanicus amnisian axe's blade</label>
+				<label>blade</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -159,7 +159,7 @@
 				</extraMeleeDamages>
 			</li>
 			<li>
-				<label>machanicus amnisian axe's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>
@@ -180,7 +180,7 @@
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
-				<label>machanicus power sword's blade</label>
+				<label>blade</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
@@ -189,7 +189,7 @@
 				<armorPenetration>0.55</armorPenetration>
 			</li>
 			<li>
-				<label>machanicus power sword's blade</label>
+				<label>blade</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -204,7 +204,7 @@
 				</extraMeleeDamages>
 			</li>
 			<li>
-				<label>machanicus power sword's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>
@@ -217,7 +217,7 @@
 	
 	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
 		<defName>GF40K_MechanicusTaserGoad</defName>
-		<label>mechanicus taser goad</label>
+		<label>taser goad</label>
 		<description>The Mechanicus Taser Goad is a formidable melee weapon, favored by Tech-Priests for its ability to deliver potent electrical jolts. Its piercing tip can penetrate armor and deliver incapacitating shocks to both organic and mechanical targets. A marvel of Mechanicus engineering, the Taser Goad allows its wielder to stun and disable adversaries, leaving them vulnerable to subsequent strikes.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusTaserGoad</texPath>
@@ -225,7 +225,7 @@
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
-				<label>machanicus taser goad's tip</label>
+				<label>tip</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
@@ -240,7 +240,7 @@
 				</extraMeleeDamages>
 			</li>
 			<li>
-				<label>machanicus taser goad's shaft</label>
+				<label>shaft</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -249,7 +249,7 @@
 				<armorPenetration>0.2</armorPenetration>
 			</li>
 			<li>
-				<label>machanicus taser goad's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>
@@ -262,7 +262,7 @@
 	
 	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
 		<defName>GF40K_MechanicusTransonicBlade</defName>
-		<label>mechanicus transonic blade</label>
+		<label>transonic blade</label>
 		<description>The Mechanicus Transonic Blade is a weapon of silent annihilation. Its molecular-edged blade is capable of vibrating at incredible frequencies, effortlessly slicing through flesh and armor with surgical precision. When activated, the blade emits disruptive energy pulses, causing destabilization at the molecular level and inflicting devastating damage on both organic and mechanical targets.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusTransonicBlade</texPath>
@@ -270,7 +270,7 @@
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
-				<label>machanicus transonic blade's tip</label>
+				<label>tip</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
@@ -279,7 +279,7 @@
 				<armorPenetration>0.5</armorPenetration>
 			</li>
 			<li>
-				<label>machanicus transonic blade's edge</label>
+				<label>edge</label>
 				<capacities>
 					<li>GF40K_MolDesCut</li>
 				</capacities>
@@ -288,7 +288,7 @@
 				<armorPenetration>0.45</armorPenetration>
 			</li>
 			<li>
-				<label>machanicus transonic blade's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>
@@ -301,7 +301,7 @@
 	
 	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
 		<defName>GF40K_MechanicusTransonicRazor</defName>
-		<label>mechanicus transonic razor</label>
+		<label>transonic razor</label>
 		<description>The Mechanicus Transonic Razor is a refined and deadly instrument, honed to perfection by the Tech-Priests of the Adeptus Mechanicus. Its dual blades, crafted with molecular precision, cut through flesh and armor with unparalleled speed and accuracy. Enhanced with molecular destabilization technology, the Transonic Razor wreaks havoc on its victims, causing their molecular structures to break down with each lethal strike.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusTransonicRazor</texPath>
@@ -309,7 +309,7 @@
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
-				<label>machanicus transonic razor's tip</label>
+				<label>tip</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
@@ -318,7 +318,7 @@
 				<armorPenetration>0.5</armorPenetration>
 			</li>
 			<li>
-				<label>machanicus transonic razor's edge</label>
+				<label>edge</label>
 				<capacities>
 					<li>GF40K_MolDesCut</li>
 				</capacities>
@@ -327,7 +327,7 @@
 				<armorPenetration>0.45</armorPenetration>
 			</li>
 			<li>
-				<label>machanicus transonic razor's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>

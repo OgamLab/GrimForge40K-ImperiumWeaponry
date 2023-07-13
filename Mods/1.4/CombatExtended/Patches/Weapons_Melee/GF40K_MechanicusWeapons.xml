@@ -29,7 +29,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus arc maul's head</label>
+								<label>head</label>
 								<capacities>
 									<li>Blunt</li>
 								</capacities>
@@ -38,7 +38,7 @@
 								<armorPenetrationBlunt>200</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus arc maul's head</label>
+								<label>head</label>
 								<capacities>
 									<li>Cut</li>
 								</capacities>
@@ -54,7 +54,7 @@
 								<armorPenetrationSharp>30</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus arc maul's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>
@@ -86,7 +86,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus amnisian axe's head</label>
+								<label>head</label>
 								<capacities>
 									<li>Stab</li>
 								</capacities>
@@ -96,7 +96,7 @@
 								<armorPenetrationSharp>45</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus amnisian axe's blade</label>
+								<label>blade</label>
 								<capacities>
 									<li>Cut</li>
 								</capacities>
@@ -112,7 +112,7 @@
 								<armorPenetrationSharp>35</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus amnisian axe's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>
@@ -144,7 +144,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus power sword's point</label>
+								<label>point</label>
 								<capacities>
 									<li>Stab</li>
 								</capacities>
@@ -154,7 +154,7 @@
 								<armorPenetrationSharp>40</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus power sword's blade</label>
+								<label>blade</label>
 								<capacities>
 									<li>Cut</li>
 								</capacities>
@@ -170,7 +170,7 @@
 								<armorPenetrationSharp>30</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus power sword's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>
@@ -202,7 +202,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus taser goad's tip</label>
+								<label>tip</label>
 								<capacities>
 									<li>Stab</li>
 								</capacities>
@@ -218,7 +218,7 @@
 								<armorPenetrationSharp>30</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus taser goad's shaft</label>
+								<label>shaft</label>
 								<capacities>
 									<li>Blunt</li>
 								</capacities>
@@ -227,7 +227,7 @@
 								<armorPenetrationBlunt>20</armorPenetrationBlunt>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus taser goad's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>
@@ -259,7 +259,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus transonic blade's tip</label>
+								<label>tip</label>
 								<capacities>
 									<li>Stab</li>
 								</capacities>
@@ -269,7 +269,7 @@
 								<armorPenetrationSharp>38</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus transonic blade's edge</label>
+								<label>edge</label>
 								<capacities>
 									<li>GF40K_MolDesCut</li>
 								</capacities>
@@ -279,7 +279,7 @@
 								<armorPenetrationSharp>27</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus transonic blade's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>
@@ -311,7 +311,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus transonic razor's tip</label>
+								<label>tip</label>
 								<capacities>
 									<li>Stab</li>
 								</capacities>
@@ -321,7 +321,7 @@
 								<armorPenetrationSharp>38</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus transonic razor's edge</label>
+								<label>edge</label>
 								<capacities>
 									<li>GF40K_MolDesCut</li>
 								</capacities>
@@ -331,7 +331,7 @@
 								<armorPenetrationSharp>27</armorPenetrationSharp>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>mechanicus transonic razor's handle</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>

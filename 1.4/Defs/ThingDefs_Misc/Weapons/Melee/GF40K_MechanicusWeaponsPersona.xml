@@ -49,7 +49,7 @@
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
-				<label>persona machanicus power sword's tip</label>
+				<label>tip</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
@@ -58,7 +58,7 @@
 				<armorPenetration>0.6</armorPenetration>
 			</li>
 			<li>
-				<label>persona machanicus power sword's blade</label>
+				<label>blade</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -73,7 +73,7 @@
 				</extraMeleeDamages>
 			</li>
 			<li>
-				<label>persona machanicus power sword's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>

@@ -80,14 +80,14 @@
 	<ThingDef ParentName="GF40K_BaseMeleeForce_Oversize">
 		<defName>GF40K_ForceHalberd</defName>
 		<label>force halberd</label>
-		<description>The Force Halberd is a formidable weapon, a polearm imbued with the power of the Warp. Its razor-sharp tip is capable of piercing even the toughest armor, while the energy field that surrounds it grants additional strength to each strike. As a weapon of the Tech-Priests, it symbolizes their unwavering devotion to the Omnissiah and their mastery over both technology and the arcane.</description>
+		<description>The Force Halberd is a formidable weapon, a polearm that channels the power of the Warp. Its razor-sharp tip is capable of piercing even the toughest armor, while the energy field that surrounds it grants additional strength to each strike.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/ForceHalberd</texPath>
 			<drawSize>1.5</drawSize>
 		</graphicData>
 		<tools>
 			<li>
-				<label>force halberd's point</label>
+				<label>point</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
@@ -96,7 +96,7 @@
 				<armorPenetration>0.55</armorPenetration>
 			</li>
 			<li>
-				<label>force halberd's chain</label>
+				<label>blade</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -105,7 +105,7 @@
 				<armorPenetration>0.5</armorPenetration>
 			</li>
 			<li>
-				<label>force halberd's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>
@@ -119,7 +119,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleeForce_Oversize">
 		<defName>GF40K_ForceStaff</defName>
 		<label>force staff</label>
-		<description>The Force Staff is a weapon of elegance and force, combining the weight of a Blunting blunt weapon with the precision of its wielder. Fashioned with advanced Mechanicus technology, it can deliver devastating concussive blows capable of incapacitating enemies. A favorite among Tech-Priests and scholars, the Force Staff represents the union of knowledge and power.</description>
+		<description>The Force Staff is a weapon of elegance and force, combining the weight of a blunt weapon with the precision of its wielder. Fashioned with advanced Mechanicus technology, it can deliver devastating concussive blows capable of incapacitating enemies.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/ForceStaff</texPath>
 			<drawSize>1.5</drawSize>
@@ -127,7 +127,7 @@
 		
 		<tools>
 			<li>
-				<label>force staff's head</label>
+				<label>head</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -136,7 +136,7 @@
 				<armorPenetration>0.4</armorPenetration>
 			</li>
 			<li>
-				<label>force staff's head</label>
+				<label>head</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -145,7 +145,7 @@
 				<armorPenetration>0.45</armorPenetration>
 			</li>
 			<li>
-				<label>force staff's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>
@@ -166,7 +166,7 @@
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
-				<label>force sword's blade</label>
+				<label>blade</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
@@ -175,7 +175,7 @@
 				<armorPenetration>0.4</armorPenetration>
 			</li>
 			<li>
-				<label>force sword's blade</label>
+				<label>blade</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -184,7 +184,7 @@
 				<armorPenetration>0.35</armorPenetration>
 			</li>
 			<li>
-				<label>force sword's handle</label>
+				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>

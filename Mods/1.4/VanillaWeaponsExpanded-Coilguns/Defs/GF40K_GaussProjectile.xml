@@ -3,7 +3,7 @@
 
 	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
 		<defName>GF40K_ArkGaussPistolBullet</defName>
-		<label>ark pistol bullet</label>
+		<label>arc pistol bullet</label>
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>15.6</damageAmountBase>
@@ -55,7 +55,7 @@
 
 	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
 		<defName>GF40K_ArkGaussRifleBullet</defName>
-		<label>ark rifle bullet</label>
+		<label>arc rifle bullet</label>
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>9.60</damageAmountBase>
