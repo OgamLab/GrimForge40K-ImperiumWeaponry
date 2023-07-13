@@ -70,7 +70,7 @@
                 <soundCast>Shot_IncendiaryLauncher</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
-                <forcedMissRadius>0.2</forcedMissRadius>
+                <forcedMissRadius>0.05</forcedMissRadius>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -165,11 +165,11 @@
                 <defaultProjectile>GF40K_075BoltBullet</defaultProjectile>
                 <warmupTime>0.7</warmupTime>
                 <range>35.9</range>
-                <forcedMissRadius>0.1</forcedMissRadius>
+                <forcedMissRadius>0.05</forcedMissRadius>
 				<!--burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots-->
-                <soundCast>Shot_Autopistol</soundCast>
-                <soundCastTail>GunTail_Light</soundCastTail>
+                <soundCast>Shot_SniperRifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
@@ -348,9 +348,6 @@
         <label>.75 bolt bullet</label>
         <thingClass>Projectile_Explosive</thingClass>
         <category>Projectile</category>
-        <useHitPoints>False</useHitPoints>
-        <tickerType>Normal</tickerType>
-        <altitudeLayer>Projectile</altitudeLayer>
         <graphicData>
             <texPath>Things/Projectile/W_0.75</texPath>
             <shaderType>TransparentPostLight</shaderType>
@@ -358,10 +355,10 @@
         </graphicData>
         <projectile>
             <damageDef>GF40K_Bolt</damageDef>
-            <damageAmountBase>35</damageAmountBase>
+            <damageAmountBase>24</damageAmountBase>
             <explosionRadius>0.98</explosionRadius>
             <stoppingPower>1.5</stoppingPower>
-			<armorPenetrationBase>0.7</armorPenetrationBase>
+			<armorPenetrationBase>0.4</armorPenetrationBase>
             <speed>60</speed>
         </projectile>
     </ThingDef>

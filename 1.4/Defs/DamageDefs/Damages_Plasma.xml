@@ -6,28 +6,16 @@
     <label>plasma</label>
     <workerClass>DamageWorker_AddInjury</workerClass>
     <externalViolence>true</externalViolence>
-    <isExplosive>true</isExplosive>
     <deathMessage>{0} has died in an plasma explosion.</deathMessage>
-    <hediff>Shredded</hediff>
-    <hediffSolid>Crack</hediffSolid>
+    <hediff>Gunshot</hediff>
+    <externalViolenceForMechanoids>true</externalViolenceForMechanoids>
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <impactSoundType>Blunt</impactSoundType>
-    <armorCategory>Heat</armorCategory>
-    <minDamageToFragment>15</minDamageToFragment>
-    <defaultDamage>50</defaultDamage>
-    <defaultStoppingPower>0.5</defaultStoppingPower>
-    <defaultArmorPenetration>0.10</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>5</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>3</buildingDamageFactorPassable>
-    <plantDamageFactor>5</plantDamageFactor>
-    <corpseDamageFactor>1</corpseDamageFactor>
-    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
-    <explosionHeatEnergyPerCell>6</explosionHeatEnergyPerCell>
-    <explosionCellFleck>BlastDry</explosionCellFleck>
-    <explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
-    <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
-    <soundExplosion>Explosion_Bomb</soundExplosion>
-    <combatLogRules>Damage_Bomb</combatLogRules>
+    <impactSoundType>Bullet</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <minDamageToFragment>1</minDamageToFragment>
+    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+    <isRanged>true</isRanged>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
   </DamageDef>
-
+   
 </Defs>

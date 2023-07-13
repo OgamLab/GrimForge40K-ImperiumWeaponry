@@ -72,19 +72,18 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaPistolBullet</defaultProjectile>
-                <warmupTime>00.4</warmupTime>
+                <warmupTime>1.5</warmupTime>
                 <range>31.9</range>
 				<!--burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots-->
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
-                <forcedMissRadius>0.2</forcedMissRadius>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
 				</targetParams>
             </li>
-        </verbs>
+        </verbs>	
         <tools>
             <li>
                 <label>grip</label>
@@ -104,8 +103,8 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-		<thingClass MayRequire="vanillaexpanded.vwel">VanillaWeaponsExpandedLaser.LaserGun</thingClass>
-		<comps>
+		<!--thingClass MayRequire="vanillaexpanded.vwel">VanillaWeaponsExpandedLaser.LaserGun</thingClass-->
+		<!--comps>
 			<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor" MayRequire="vanillaexpanded.vwel">
 				<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
 				<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
@@ -118,7 +117,7 @@
 				<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
 				<OverheatMoteSize>1</OverheatMoteSize>
 			</li>		
-		</comps>
+		</comps-->
 		
 		<modExtensions>
 			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
@@ -134,7 +133,6 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_PlasmaPistolBullet</defName>
 		<label>small plasma shot</label>
-        <thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/W_P_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -142,12 +140,19 @@
 			<drawSize>0.7</drawSize>
 		</graphicData>
 		<projectile>
-			<damageDef>GF40K_Plasma</damageDef>
-            <explosionRadius>0.98</explosionRadius>
-			<damageAmountBase>25</damageAmountBase>
-			<stoppingPower>3</stoppingPower>
-			<armorPenetrationBase>0.70</armorPenetrationBase>
-			<speed>80</speed>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>24</damageAmountBase>
+			<stoppingPower>2.1</stoppingPower>
+			<armorPenetrationBase>0.4</armorPenetrationBase>
+			<speed>75</speed>
+			<extraDamages>
+				<li>
+					<def>EMP</def>
+					<amount>1</amount>
+					<chance>0.6</chance>
+				</li>
+			</extraDamages>
+			
 		</projectile>
 	</ThingDef>
 	
@@ -159,7 +164,6 @@
             <texPath>Things/Item/Equipment/WeaponRanged/Plasma/PlasmaGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-		
         <statBases>
             <WorkToMake>106000</WorkToMake>
 			<MarketValue>3000</MarketValue>
@@ -168,27 +172,26 @@
             <AccuracyShort>0.75</AccuracyShort>
             <AccuracyMedium>0.8</AccuracyMedium>
             <AccuracyLong>0.82</AccuracyLong>
-            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
         <costList>
             <Steel>70</Steel>
 			<Plasteel>72</Plasteel>
 			<ComponentSpacer>6</ComponentSpacer>
         </costList>
-		<equippedAngleOffset>50</equippedAngleOffset>
+		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaGunBullet</defaultProjectile>
-                <warmupTime>0.8</warmupTime>
-                <range>25.9</range>
-				<!--burstShotCount>3</burstShotCount>
-				<ticksBetweenBurstShots>12</ticksBetweenBurstShots-->
+                <warmupTime>1.5</warmupTime>
+                <range>15.9</range>
+				<!-- <burstShotCount>3</burstShotCount> -->
+				<!-- <ticksBetweenBurstShots>12</ticksBetweenBurstShots> -->
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
-                <forcedMissRadius>0.2</forcedMissRadius>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -213,22 +216,6 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-		<thingClass MayRequire="vanillaexpanded.vwel">VanillaWeaponsExpandedLaser.LaserGun</thingClass>
-		<comps>
-			<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor" MayRequire="vanillaexpanded.vwel">
-				<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
-				<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
-				<Overheats>true</Overheats>
-				<OverheatDestroys>false</OverheatDestroys>
-				<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
-				<OverheatBlastExtraDamage>3</OverheatBlastExtraDamage>
-				<OverheatBlastRadius>1</OverheatBlastRadius>
-				<OverheatChance>0.04</OverheatChance>
-				<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
-				<OverheatMoteSize>1</OverheatMoteSize>
-			</li>		
-		</comps>
-		
 		<modExtensions>
 			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
 				<def>MF_StandardMuzzleFalshTwo</def>
@@ -238,12 +225,16 @@
 				</offsets>
 			</li>		
 		</modExtensions>
+		<comps>
+		  <li>
+			<compClass>CompColorable</compClass>
+		  </li>
+		</comps>
     </ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_PlasmaGunBullet</defName>
 		<label>plasma gun shot</label>
-        <thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/W_P_Medium</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -251,12 +242,18 @@
 			<drawSize>0.9</drawSize>
 		</graphicData>
 		<projectile>
-			<damageDef>GF40K_Plasma</damageDef>
-            <explosionRadius>0.9</explosionRadius>
-			<damageAmountBase>45</damageAmountBase>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>34</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
-			<armorPenetrationBase>0.75</armorPenetrationBase>
-			<speed>90</speed>
+			<armorPenetrationBase>0.4</armorPenetrationBase>
+			<speed>80</speed>
+			<extraDamages>
+				<li>
+					<def>EMP</def>
+					<amount>1</amount>
+					<chance>0.6</chance>
+				</li>
+			</extraDamages>
 		</projectile>
 	</ThingDef>
 </Defs>
