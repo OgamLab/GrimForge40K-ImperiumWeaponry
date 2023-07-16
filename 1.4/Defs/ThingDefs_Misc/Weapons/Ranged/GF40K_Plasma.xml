@@ -35,6 +35,24 @@
         <weaponTags>
             <li>SpacerGun</li>
         </weaponTags>
+		<comps Inherit="False">
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>	
+				<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>  
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>      
+			<li Class="CompProperties_Styleable"/>
+			<li>
+			  <compClass>CompEquippable</compClass>
+			</li>
+		</comps>
 	</ThingDef>
 	
     <ThingDef ParentName="GF40K_BaseRangedPlasma">
@@ -48,8 +66,8 @@
         </graphicData>
 		
         <statBases>
-            <WorkToMake>106000</WorkToMake>
-			<MarketValue>3000</MarketValue>
+            <WorkToMake>31000</WorkToMake>
+			<MarketValue>2000</MarketValue>
             <Mass>1.8</Mass>
             <AccuracyTouch>0.82</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -59,21 +77,18 @@
         </statBases>
 		
 		<costList>
-			<Plasteel>200</Plasteel>
-			<ComponentSpacer>20</ComponentSpacer>
+			<Plasteel>65</Plasteel>
+			<Uranium>5</Uranium>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
-		<costStuffCount>100</costStuffCount>
-		<stuffCategories>
-		  <li>Metallic</li>
-		</stuffCategories>
 		
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaPistolBullet</defaultProjectile>
-                <warmupTime>1.5</warmupTime>
-                <range>31.9</range>
+                <warmupTime>0.8</warmupTime>
+                <range>27.9</range>
 				<!--burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots-->
                 <soundCast>GF40K_LaserPistolShot</soundCast>
@@ -143,13 +158,13 @@
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>24</damageAmountBase>
 			<stoppingPower>2.1</stoppingPower>
-			<armorPenetrationBase>0.4</armorPenetrationBase>
+			<armorPenetrationBase>0.5</armorPenetrationBase>
 			<speed>75</speed>
 			<extraDamages>
 				<li>
 					<def>EMP</def>
 					<amount>1</amount>
-					<chance>0.6</chance>
+					<chance>0.5</chance>
 				</li>
 			</extraDamages>
 			
@@ -165,19 +180,19 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-            <WorkToMake>106000</WorkToMake>
+            <WorkToMake>48000</WorkToMake>
 			<MarketValue>3000</MarketValue>
             <Mass>2.3</Mass>
             <AccuracyTouch>0.7</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
             <AccuracyMedium>0.8</AccuracyMedium>
             <AccuracyLong>0.82</AccuracyLong>
-            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <Steel>70</Steel>
-			<Plasteel>72</Plasteel>
-			<ComponentSpacer>6</ComponentSpacer>
+			<Plasteel>102</Plasteel>
+			<Uranium>8</Uranium>
+			<ComponentSpacer>10</ComponentSpacer>
         </costList>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
@@ -185,8 +200,8 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaGunBullet</defaultProjectile>
-                <warmupTime>1.5</warmupTime>
-                <range>15.9</range>
+                <warmupTime>1.2</warmupTime>
+                <range>25.9</range>
 				<!-- <burstShotCount>3</burstShotCount> -->
 				<!-- <ticksBetweenBurstShots>12</ticksBetweenBurstShots> -->
                 <soundCast>GF40K_LaserPistolShot</soundCast>
@@ -245,13 +260,13 @@
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>34</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
-			<armorPenetrationBase>0.4</armorPenetrationBase>
+			<armorPenetrationBase>0.55</armorPenetrationBase>
 			<speed>80</speed>
 			<extraDamages>
 				<li>
 					<def>EMP</def>
 					<amount>1</amount>
-					<chance>0.6</chance>
+					<chance>0.55</chance>
 				</li>
 			</extraDamages>
 		</projectile>

@@ -29,6 +29,21 @@
         <weaponTags>
             <li>ImperiumRanged</li>
         </weaponTags>
+		<comps Inherit="False">
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>	
+				<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>  
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>      
+			<li Class="CompProperties_Styleable"/>
+		</comps>
 	</ThingDef>
 
     <ThingDef ParentName="GF40K_BaseRangedBolt">
@@ -41,8 +56,8 @@
         </graphicData>
         <soundInteract>Interact_Revolver</soundInteract>
         <statBases>
-            <WorkToMake>38000</WorkToMake>
-			<MarketValue>3000</MarketValue>
+            <WorkToMake>29000</WorkToMake>
+			<MarketValue>2000</MarketValue>
             <Mass>1.5</Mass>
             <AccuracyTouch>0.63</AccuracyTouch>
             <AccuracyShort>0.71</AccuracyShort>
@@ -52,30 +67,60 @@
         </statBases>
 		
 		<costList>
-			<Plasteel>200</Plasteel>
-			<ComponentSpacer>20</ComponentSpacer>
+			<Plasteel>62</Plasteel>
+			<Uranium>5</Uranium>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
-		<costStuffCount>100</costStuffCount>
-		<stuffCategories>
-		  <li>Metallic</li>
-		</stuffCategories>
 		
         <verbs>
             <li>
+				<label>primary</label>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_075BoltBullet</defaultProjectile>
                 <warmupTime>0.8</warmupTime>
-                <range>19.9</range>
-                <soundCast>Shot_IncendiaryLauncher</soundCast>
-                <soundCastTail>GunTail_Light</soundCastTail>
+                <range>25.9</range>
+                <soundCast>Shot_SniperRifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
-                <forcedMissRadius>0.05</forcedMissRadius>
+                <forcedMissRadius>0.01</forcedMissRadius>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
 				</targetParams>
             </li>
+            <li>
+				<label>secondary</label>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_075BoltBullet</defaultProjectile>
+                <warmupTime>1</warmupTime>
+                <range>12.9</range>
+                <soundCast>Shot_SniperRifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+                <forcedMissRadius>0.01</forcedMissRadius>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+            </li>
         </verbs>
+		<comps>
+			<li Class="MVCF.Comps.CompProperties_VerbProps">
+			  <compClass>CompEquippable</compClass>
+			  <verbProps>
+				<li>
+				  <label>primary</label>
+				  <canBeToggled>true</canBeToggled>
+				</li>
+				<li>
+				  <label>secondary</label>
+				  <canBeToggled>true</canBeToggled>
+				</li>
+			  </verbProps>
+			</li>
+		</comps>
         <tools>
             <li>
                 <label>grip</label>
@@ -139,7 +184,7 @@
 			<drawSize>1</drawSize>
         </graphicData>
         <statBases>
-            <WorkToMake>40000</WorkToMake>
+            <WorkToMake>47000</WorkToMake>
 			<MarketValue>3000</MarketValue>
             <Mass>2</Mass>
             <AccuracyTouch>0.66</AccuracyTouch>
@@ -150,22 +195,20 @@
         </statBases>
 		
 		<costList>
-			<Plasteel>200</Plasteel>
-			<ComponentSpacer>20</ComponentSpacer>
+			<Plasteel>99</Plasteel>
+			<Uranium>8</Uranium>
+			<ComponentSpacer>10</ComponentSpacer>
 		</costList>
-		<costStuffCount>150</costStuffCount>
-		<stuffCategories>
-		  <li>Metallic</li>
-		</stuffCategories>
 		
         <verbs>
             <li>
+				<label>primary</label>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_075BoltBullet</defaultProjectile>
                 <warmupTime>0.7</warmupTime>
-                <range>35.9</range>
-                <forcedMissRadius>0.05</forcedMissRadius>
+                <range>33.9</range>
+                <forcedMissRadius>0.01</forcedMissRadius>
 				<!--burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots-->
                 <soundCast>Shot_SniperRifle</soundCast>
@@ -175,7 +218,39 @@
 				  <canTargetLocations>true</canTargetLocations>
 				</targetParams>
             </li>
+            <li>
+				<label>secondary</label>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_075BoltBullet</defaultProjectile>
+                <warmupTime>1.1</warmupTime>
+                <range>16.9</range>
+                <soundCast>Shot_SniperRifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+                <forcedMissRadius>0.01</forcedMissRadius>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+            </li>
         </verbs>
+		<comps>
+			<li Class="MVCF.Comps.CompProperties_VerbProps">
+			  <compClass>CompEquippable</compClass>
+			  <verbProps>
+				<li>
+				  <label>primary</label>
+				  <canBeToggled>true</canBeToggled>
+				</li>
+				<li>
+				  <label>secondary</label>
+				  <canBeToggled>true</canBeToggled>
+				</li>
+			  </verbProps>
+			</li>
+		</comps>
         <tools>
             <li>
                 <label>grip</label>
@@ -240,46 +315,76 @@
 			<drawSize>1.1</drawSize>
         </graphicData>
         <statBases>
-            <WorkToMake>106000</WorkToMake>
-			<MarketValue>300</MarketValue>
+            <WorkToMake>54000</WorkToMake>
+			<MarketValue>3000</MarketValue>
             <Mass>2.5</Mass>
             <AccuracyTouch>0.45</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>
             <AccuracyMedium>0.80</AccuracyMedium>
             <AccuracyLong>0.84</AccuracyLong>
-            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
 		
 		<costList>
-			<Plasteel>200</Plasteel>
-			<ComponentSpacer>20</ComponentSpacer>
+			<Plasteel>114</Plasteel>
+			<Uranium>9</Uranium>
+			<ComponentSpacer>11</ComponentSpacer>
 		</costList>
-		<costStuffCount>200</costStuffCount>
-		<stuffCategories>
-		  <li>Metallic</li>
-		</stuffCategories>
 
 		<equippedStatOffsets>
 			<MoveSpeed>-0.10</MoveSpeed>
 		</equippedStatOffsets>
-		<equippedAngleOffset>50</equippedAngleOffset>
+		<equippedAngleOffset>45</equippedAngleOffset>
 		
         <verbs>
             <li>
+				<label>primary</label>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GF40K_075BoltBullet</defaultProjectile>
-                <warmupTime>1.5</warmupTime>
+                <defaultProjectile>GF40K_075SniperBoltBullet</defaultProjectile>
+                <warmupTime>1.2</warmupTime>
                 <range>45.9</range>
-                <soundCast>Shot_IncendiaryLauncher</soundCast>
+                <soundCast>Shot_SniperRifle</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>19</muzzleFlashScale>
-                <forcedMissRadius>0.05</forcedMissRadius>
+                <forcedMissRadius>0.01</forcedMissRadius>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
 				</targetParams>
             </li>
+            <li>
+				<label>secondary</label>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_075SniperBoltBullet</defaultProjectile>
+                <warmupTime>1.5</warmupTime>
+                <range>22.9</range>
+                <soundCast>Shot_SniperRifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>19</muzzleFlashScale>
+                <forcedMissRadius>0.01</forcedMissRadius>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+            </li>
         </verbs>
+		<comps>
+			<li Class="MVCF.Comps.CompProperties_VerbProps">
+			  <compClass>CompEquippable</compClass>
+			  <verbProps>
+				<li>
+				  <label>primary</label>
+				  <canBeToggled>true</canBeToggled>
+				</li>
+				<li>
+				  <label>secondary</label>
+				  <canBeToggled>true</canBeToggled>
+				</li>
+			  </verbProps>
+			</li>
+		</comps>
         <tools>
             <li>
                 <label>stock</label>
@@ -356,10 +461,30 @@
         <projectile>
             <damageDef>GF40K_Bolt</damageDef>
             <damageAmountBase>24</damageAmountBase>
-            <explosionRadius>0.98</explosionRadius>
+            <explosionRadius>0.9</explosionRadius>
             <stoppingPower>1.5</stoppingPower>
 			<armorPenetrationBase>0.4</armorPenetrationBase>
             <speed>60</speed>
+        </projectile>
+    </ThingDef>
+	
+    <ThingDef ParentName="BaseBullet">
+        <defName>GF40K_075SniperBoltBullet</defName>
+        <label>.75 bolt bullet</label>
+        <thingClass>Projectile_Explosive</thingClass>
+        <category>Projectile</category>
+        <graphicData>
+            <texPath>Things/Projectile/W_0.75</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>GF40K_Bolt</damageDef>
+            <damageAmountBase>24.8</damageAmountBase>
+            <explosionRadius>0.9</explosionRadius>
+            <stoppingPower>1.5</stoppingPower>
+			<armorPenetrationBase>0.5</armorPenetrationBase>
+            <speed>70</speed>
         </projectile>
     </ThingDef>
 </Defs>
