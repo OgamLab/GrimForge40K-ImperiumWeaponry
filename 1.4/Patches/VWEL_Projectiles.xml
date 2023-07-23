@@ -8,34 +8,11 @@
     <match Class="PatchOperationSequence">
       <operations>
 	
-		<li Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="GF40K_LaserSniperBullet"]</xpath>
-			<value>		
-				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
-					<defName>GF40K_LaserSniperBullet</defName>
-					<label>laser sniper shot</label>
-					<textures>
-						<li>Things/Projectile/Shot_LaserSniperRifle</li>
-					</textures>
-					<seam>0.3</seam>
-					<causefireChance>0</causefireChance>
-					<beamWidth>2</beamWidth>
-					<lifetime>180</lifetime>
-					<projectile>
-						<damageDef>Burn</damageDef>
-						<damageAmountBase>30</damageAmountBase>
-						<armorPenetrationBase>0.8</armorPenetrationBase>
-						<stoppingPower>2.5</stoppingPower>
-					</projectile>
-				</ThingDef>
-			</value>
-		 </li>
-	
 		<li Class="PatchOperationAdd">
 			<xpath>Defs</xpath>
 			<value>		
 				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
-					<defName>GF40K_LaserGunBulletVWEL</defName>
+					<defName>GF40K_LaserPistolBulletVWEL</defName>
 					<label>laser gun shot</label>
 					<textures>
 						<li>Things/Projectile/Shot_LaserPistol</li>
@@ -56,9 +33,287 @@
 		<li Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="GF40K_LaserPistol"]/verbs/li[1]/defaultProjectile</xpath>
 			<value>		
+				<defaultProjectile>GF40K_LaserPistolBulletVWEL</defaultProjectile>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>		
+				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+					<defName>GF40K_LaserGunBulletVWEL</defName>
+					<label>laser gun shot</label>
+					<textures>
+						<li>Things/Projectile/Shot_LaserRifle</li>
+					</textures>
+					<seam>0.0</seam>
+					<causefireChance>0</causefireChance>
+					<beamWidth>1.2</beamWidth>
+					<projectile>
+						<damageDef>Burn</damageDef>
+						<damageAmountBase>18</damageAmountBase>
+						<armorPenetrationBase>0.85</armorPenetrationBase>
+						<stoppingPower>1.5</stoppingPower>
+					</projectile>
+				</ThingDef>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="GF40K_LaserGun"]/verbs/li[1]/defaultProjectile</xpath>
+			<value>		
 				<defaultProjectile>GF40K_LaserGunBulletVWEL</defaultProjectile>
 			</value>
 		 </li>
+	
+		<li Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>		
+				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+					<defName>GF40K_LaserSniperBulletVWEL</defName>
+					<label>laser gun shot</label>
+					<textures>
+						<li>Things/Projectile/Shot_LaserSniperRifle</li>
+					</textures>
+					<seam>0.0</seam>
+					<causefireChance>0</causefireChance>
+					<beamWidth>1.2</beamWidth>
+					<projectile>
+						<damageDef>Burn</damageDef>
+						<damageAmountBase>30</damageAmountBase>
+						<armorPenetrationBase>0.9</armorPenetrationBase>
+						<stoppingPower>1.5</stoppingPower>
+					</projectile>
+				</ThingDef>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="GF40K_LaserSniper"]/verbs/li[1]/defaultProjectile</xpath>
+			<value>		
+				<defaultProjectile>GF40K_LaserSniperBulletVWEL</defaultProjectile>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>		
+				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+					<defName>GF40K_LaserSMGBulletVWEL</defName>
+					<label>laser gun shot</label>
+					<textures>
+						<li>Things/Projectile/Shot_LaserShotgun</li>
+					</textures>
+					<seam>0.0</seam>
+					<causefireChance>0</causefireChance>
+					<beamWidth>1.2</beamWidth>
+					<projectile>
+						<damageDef>Burn</damageDef>
+						<damageAmountBase>7</damageAmountBase>
+						<armorPenetrationBase>0.8</armorPenetrationBase>
+						<stoppingPower>1</stoppingPower>
+					</projectile>
+				</ThingDef>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="GF40K_LaserSMG"]/verbs/li[1]/defaultProjectile</xpath>
+			<value>		
+				<defaultProjectile>GF40K_LaserSMGBulletVWEL</defaultProjectile>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="GF40K_LaserSniper"]/verbs/li[1]/defaultProjectile</xpath>
+			<value>		
+				<defaultProjectile>GF40K_LaserSniperBulletVWEL</defaultProjectile>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>		
+				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+					<defName>GF40K_LaserCarabineBulletVWEL</defName>
+					<label>laser gun shot</label>
+					<textures>
+						<li>Things/Projectile/Shot_LaserShotgun</li>
+					</textures>
+					<seam>0.0</seam>
+					<causefireChance>0</causefireChance>
+					<beamWidth>1.2</beamWidth>
+					<projectile>
+						<damageDef>Burn</damageDef>
+						<damageAmountBase>23.9</damageAmountBase>
+						<armorPenetrationBase>.65</armorPenetrationBase>
+						<stoppingPower>1.7</stoppingPower>
+					</projectile>
+				</ThingDef>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="GF40K_LaserCarabine"]/verbs/li[1]/defaultProjectile</xpath>
+			<value>		
+				<defaultProjectile>GF40K_LaserCarabineBulletVWEL</defaultProjectile>
+			</value>
+		 </li>
+		
+		<!-- RELIC -->
+	
+		<li Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>		
+				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+					<defName>GF40K_RelicLaserPistolBulletVWEL</defName>
+					<label>laser gun shot</label>
+					<textures>
+						<li>Things/Projectile/Shot_LaserPistol</li>
+					</textures>
+					<seam>0.0</seam>
+					<causefireChance>0.1</causefireChance>
+					<beamWidth>1.2</beamWidth>
+					<projectile>
+						<damageDef>Burn</damageDef>
+						<damageAmountBase>21</damageAmountBase>
+						<armorPenetrationBase>0.82</armorPenetrationBase>
+						<stoppingPower>1.2</stoppingPower>
+					</projectile>
+				</ThingDef>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="GF40K_LaserPistolRelic"]/verbs/li[1]/defaultProjectile</xpath>
+			<value>		
+				<defaultProjectile>GF40K_RelicLaserPistolBulletVWEL</defaultProjectile>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>		
+				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+					<defName>GF40K_RelicLaserGunBulletVWEL</defName>
+					<label>laser gun shot</label>
+					<textures>
+						<li>Things/Projectile/Shot_LaserRifle</li>
+					</textures>
+					<seam>0.0</seam>
+					<causefireChance>0.10</causefireChance>
+					<beamWidth>1.2</beamWidth>
+					<projectile>
+						<damageDef>Burn</damageDef>
+						<damageAmountBase>27</damageAmountBase>
+						<armorPenetrationBase>0.85</armorPenetrationBase>
+						<stoppingPower>1.5</stoppingPower>
+					</projectile>
+				</ThingDef>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="GF40K_LaserGunRelic"]/verbs/li[1]/defaultProjectile</xpath>
+			<value>		
+				<defaultProjectile>GF40K_RelicLaserGunBulletVWEL</defaultProjectile>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>		
+				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+					<defName>GF40K_RelicLaserSniperBulletVWEL</defName>
+					<label>laser gun shot</label>
+					<textures>
+						<li>Things/Projectile/Shot_LaserSniperRifle</li>
+					</textures>
+					<seam>0.0</seam>
+					<causefireChance>0.2</causefireChance>
+					<beamWidth>1.2</beamWidth>
+					<projectile>
+						<damageDef>Burn</damageDef>
+						<damageAmountBase>45</damageAmountBase>
+						<armorPenetrationBase>0.9</armorPenetrationBase>
+						<stoppingPower>1.5</stoppingPower>
+					</projectile>
+				</ThingDef>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="GF40K_LaserSniperRelic"]/verbs/li[1]/defaultProjectile</xpath>
+			<value>		
+				<defaultProjectile>GF40K_RelicLaserSniperBulletVWEL</defaultProjectile>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>		
+				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+					<defName>GF40K_RelicLaserSMGBulletVWEL</defName>
+					<label>relic las SMG shot</label>
+					<textures>
+						<li>Things/Projectile/Shot_LaserShotgun</li>
+					</textures>
+					<seam>0.0</seam>
+					<causefireChance>0.05</causefireChance>
+					<beamWidth>1.2</beamWidth>
+					<projectile>
+						<damageDef>Burn</damageDef>
+						<damageAmountBase>10</damageAmountBase>
+						<armorPenetrationBase>0.8</armorPenetrationBase>
+						<stoppingPower>1</stoppingPower>
+					</projectile>
+				</ThingDef>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="GF40K_LaserSMGRelic"]/verbs/li[1]/defaultProjectile</xpath>
+			<value>		
+				<defaultProjectile>GF40K_RelicLaserSMGBulletVWEL</defaultProjectile>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="GF40K_LaserSniper"]/verbs/li[1]/defaultProjectile</xpath>
+			<value>		
+				<defaultProjectile>GF40K_LaserSniperBulletVWEL</defaultProjectile>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>		
+				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+					<defName>GF40K_RelicLaserCarbineBulletVWEL</defName>
+					<label>relic las caraine shot</label>
+					<textures>
+						<li>Things/Projectile/Shot_LaserShotgun</li>
+					</textures>
+					<seam>0.0</seam>
+					<causefireChance>0.15</causefireChance>
+					<beamWidth>1.2</beamWidth>
+					<projectile>
+						<damageDef>Burn</damageDef>
+						<damageAmountBase>23.9</damageAmountBase>
+						<armorPenetrationBase>.85</armorPenetrationBase>
+						<stoppingPower>1.7</stoppingPower>
+					</projectile>
+				</ThingDef>
+			</value>
+		 </li>
+	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="GF40K_LaserCarbineRelic"]/verbs/li[1]/defaultProjectile</xpath>
+			<value>		
+				<defaultProjectile>GF40K_RelicLaserCarbineBulletVWEL</defaultProjectile>
+			</value>
+		 </li>
+
 
       </operations>
     </match>

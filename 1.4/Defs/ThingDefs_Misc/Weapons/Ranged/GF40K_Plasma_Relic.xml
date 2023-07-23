@@ -20,6 +20,20 @@
         <weaponTags>
             <li>ImperiumRangedRelic</li>
         </weaponTags>
+		<comps Inherit="False">
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>	
+				<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+			</li> 
+			<li Class="CompProperties_Forbiddable"/>      
+			<li Class="CompProperties_Styleable"/>
+		</comps>
 	</ThingDef>
 	
     <ThingDef ParentName="GF40K_BaseRangedPlasmaRelic">
@@ -40,26 +54,18 @@
             <AccuracyShort>1</AccuracyShort>
             <AccuracyMedium>0.8</AccuracyMedium>
             <AccuracyLong>0.7</AccuracyLong>
-            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
-        </statBases>
-        <!--costList>
-            <Steel>111</Steel>
-			<Plasteel>115</Plasteel>
-			<ComponentSpacer>10</ComponentSpacer>
-        </costList-->
+            <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+        </statBases> 
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaPistolRelicBullet</defaultProjectile>
-                <warmupTime>0.7</warmupTime>
-                <range>20.9</range>
-				<burstShotCount>2</burstShotCount>
-				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+                <warmupTime>0.8</warmupTime>
+                <range>27.9</range>
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
-                <forcedMissRadius>0.2</forcedMissRadius>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -114,7 +120,6 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_PlasmaPistolRelicBullet</defName>
 		<label>relic plasma pistol shot</label>
-        <thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/W_P_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -122,14 +127,20 @@
 			<drawSize>0.7</drawSize>
 		</graphicData>
 		<projectile>
-			<damageDef>GF40K_Plasma</damageDef>
-            <explosionRadius>0.9</explosionRadius>
-			<damageAmountBase>12.8</damageAmountBase>
-			<stoppingPower>0.5</stoppingPower>
-			<armorPenetrationBase>0.64</armorPenetrationBase>
-			<speed>85</speed>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>24</damageAmountBase>
+			<stoppingPower>2.1</stoppingPower>
+			<armorPenetrationBase>0.5</armorPenetrationBase>
+			<speed>75</speed>
+			<extraDamages>
+				<li>
+					<def>EMP</def>
+					<amount>5</amount>
+					<chance>0.4</chance>
+				</li>
+			</extraDamages>
 		</projectile>
-	</ThingDef>
+    </ThingDef>
 	
     <ThingDef ParentName="GF40K_BaseRangedPlasmaRelic">
         <defName>GF40K_PlasmaGunRelic</defName>
@@ -138,7 +149,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/PlasmaGun_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
+			<drawSize>1</drawSize>
         </graphicData>
 		
         <statBases>
@@ -149,27 +160,24 @@
             <AccuracyShort>1</AccuracyShort>
             <AccuracyMedium>1</AccuracyMedium>
             <AccuracyLong>1</AccuracyLong>
-            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
         </statBases>
         <!--costList>
             <Steel>111</Steel>
 			<Plasteel>115</Plasteel>
 			<ComponentSpacer>10</ComponentSpacer>
         </costList-->
-		<equippedAngleOffset>50</equippedAngleOffset>
+		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaGunRelicBullet</defaultProjectile>
-                <warmupTime>0.85</warmupTime>
-                <range>31.9</range>
-				<burstShotCount>3</burstShotCount>
-				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <warmupTime>1.2</warmupTime>
+                <range>25.9</range>
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
-                <forcedMissRadius>0.2</forcedMissRadius>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -224,7 +232,6 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_PlasmaGunRelicBullet</defName>
 		<label>relic plasma gun shot</label>
-        <thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/W_P_Medium</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -232,12 +239,19 @@
 			<drawSize>0.9</drawSize>
 		</graphicData>
 		<projectile>
-			<damageDef>GF40K_Plasma</damageDef>
-            <explosionRadius>0.9</explosionRadius>
-			<damageAmountBase>14.40</damageAmountBase>
-			<stoppingPower>0.5</stoppingPower>
-			<armorPenetrationBase>0.72</armorPenetrationBase>
-			<speed>90</speed>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>5</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>0.55</armorPenetrationBase>
+			<speed>80</speed>
+			<extraDamages>
+				<li>
+					<def>EMP</def>
+					<amount>5</amount>
+					<chance>0.45</chance>
+				</li>
+			</extraDamages>
 		</projectile>
 	</ThingDef>
+	
 </Defs>

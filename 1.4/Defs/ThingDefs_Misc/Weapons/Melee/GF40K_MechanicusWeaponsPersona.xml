@@ -2,13 +2,13 @@
 <Defs>
 	<ThingDef Name="GF40K_BaseMeleeMechanicusPersona" ParentName="GF40K_BaseMeleeMechanicus" Abstract="True">
 		<recipeMaker Inherit="False">
-			<recipeUsers>
+			<!--recipeUsers>
 				<li>FabricationBench</li>
 			</recipeUsers>
 			<researchPrerequisites>
 				<li>GF40K_RegularMeleeMechanicus</li>
 				<li>GF40K_RegularMeleePersona</li>
-			</researchPrerequisites>
+			</researchPrerequisites-->
 		</recipeMaker>
 		
 		<statBases>

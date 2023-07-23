@@ -28,8 +28,26 @@
 			<li>GF40K_ImperiumRanged</li>
         </tradeTags>
         <weaponTags>
-            <li>ImperiumRanged</li>
+            <li>ImperiumRangedGalvanic</li>
         </weaponTags>
+		<comps Inherit="False">
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>	
+				<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>  
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>      
+			<li Class="CompProperties_Styleable"/>
+		</comps>
 	</ThingDef>
 	
     <ThingDef ParentName="GF40K_BaseRangedGauss">

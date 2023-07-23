@@ -44,7 +44,7 @@
 				<li>GF40K_ImperiumMelee</li>
         </tradeTags>
         <weaponTags>
-            <li>ImperiumMelee</li>
+            <li>ImperiumMeleeRegular</li>
         </weaponTags>	
 	</ThingDef>
 	

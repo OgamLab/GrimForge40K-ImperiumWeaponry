@@ -11,18 +11,26 @@
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
 		<notifyMapRemoved>true</notifyMapRemoved>
-		<comps>
-		  <li Class="CompProperties_Art">
-			<nameMaker>NamerArtWeaponGun</nameMaker>
-			<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-		  </li>      
-		</comps>
         <tradeTags>
 			<li>GF40K_ImperiumRelic</li>
         </tradeTags>
         <weaponTags>
             <li>ImperiumRangedRelic</li>
         </weaponTags>
+		<comps Inherit="False">
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>	
+				<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+			</li>  
+			<li Class="CompProperties_Forbiddable"/>      
+			<li Class="CompProperties_Styleable"/>
+		</comps>
 	</ThingDef>
 	
     <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
@@ -42,9 +50,9 @@
             <Mass>1.8</Mass>
             <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
-            <AccuracyMedium>1</AccuracyMedium>
-            <AccuracyLong>0.88</AccuracyLong>
-            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+            <AccuracyMedium>0.98</AccuracyMedium>
+            <AccuracyLong>0.83</AccuracyLong>
+            <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
         </statBases>
         <!--costList>
             <Steel>132</Steel>
@@ -56,10 +64,8 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_LaserPistolRelicBullet</defaultProjectile>
-                <warmupTime>0.8</warmupTime>
-                <range>20.9</range>
-				<burstShotCount>1</burstShotCount>
-				<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+                <warmupTime>1</warmupTime>
+                <range>23.9</range>
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -116,19 +122,19 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserPistolRelicBullet</defName>
-		<label>relic laspistol shot</label>
+		<label>relic laspistol bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 			<drawSize>0.8</drawSize>
-			<color>(255, 150, 138)</color>
+			<color>(195, 97, 88)</color>
 		</graphicData>
 		<projectile>
 			<damageDef>Burn</damageDef>
-			<damageAmountBase>18.72</damageAmountBase>
-			<armorPenetrationBase>1.1</armorPenetrationBase>
-			<stoppingPower>0.8</stoppingPower>
+			<damageAmountBase>21</damageAmountBase>
+			<armorPenetrationBase>0.82</armorPenetrationBase>
+			<stoppingPower>1.2</stoppingPower>
 			<speed>95</speed>
 		</projectile>
 	</ThingDef>
@@ -147,7 +153,7 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.05</MoveSpeed>
 		</equippedStatOffsets>
-		<equippedAngleOffset>50</equippedAngleOffset>
+		<equippedAngleOffset>45</equippedAngleOffset>
 		
         <statBases>
             <WorkToMake>170200</WorkToMake>
@@ -157,19 +163,15 @@
             <AccuracyShort>1</AccuracyShort>
             <AccuracyMedium>1</AccuracyMedium>
             <AccuracyLong>1</AccuracyLong>
-            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
         </statBases>
-        <!--costList>
-            <Steel>91</Steel>
-			<Plasteel>116</Plasteel>
-			<ComponentSpacer>10</ComponentSpacer>
-        </costList-->
+		
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_LaserGunRelicBullet</defaultProjectile>
-                <warmupTime>1.2</warmupTime>
+                <warmupTime>0.8</warmupTime>
                 <range>30.9</range>
 				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
@@ -229,17 +231,17 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserGunRelicBullet</defName>
-		<label>relic lasgun shot</label>
+		<label>relic lasgun bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 			<drawSize>1.4</drawSize>
-			<color>(255, 150, 138)</color>
+			<color>(195, 97, 88)</color>
 		</graphicData>
 		<projectile>
 			<damageDef>Burn</damageDef>
-			<damageAmountBase>15.36</damageAmountBase>
+			<damageAmountBase>27</damageAmountBase>
 			<armorPenetrationBase>1.1</armorPenetrationBase>
 			<stoppingPower>2.4</stoppingPower>
 			<speed>110</speed>
@@ -267,8 +269,8 @@
             <WorkToMake>245800</WorkToMake>
 			<MarketValue>7300</MarketValue>
             <Mass>11</Mass>
-            <AccuracyTouch>0.8</AccuracyTouch>
-            <AccuracyShort>0.96</AccuracyShort>
+            <AccuracyTouch>0.75</AccuracyTouch>
+            <AccuracyShort>0.9</AccuracyShort>
             <AccuracyMedium>1</AccuracyMedium>
             <AccuracyLong>1</AccuracyLong>
             <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
@@ -343,7 +345,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserSniperRelicBullet</defName>
-		<label>relic long-las shot</label>
+		<label>relic long-las bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -353,7 +355,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Burn</damageDef>
-			<damageAmountBase>72</damageAmountBase>
+			<damageAmountBase>45</damageAmountBase>
 			<armorPenetrationBase>1.3</armorPenetrationBase>
 			<stoppingPower>2.5</stoppingPower>
 			<speed>130</speed>
@@ -381,11 +383,11 @@
             <WorkToMake>137600</WorkToMake>
 			<MarketValue>4000</MarketValue>
             <Mass>11</Mass>
-            <AccuracyTouch>1</AccuracyTouch>
-            <AccuracyShort>1</AccuracyShort>
-            <AccuracyMedium>1</AccuracyMedium>
-            <AccuracyLong>0.8</AccuracyLong>
-            <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+            <AccuracyTouch>0.75</AccuracyTouch>
+            <AccuracyShort>0.98</AccuracyShort>
+            <AccuracyMedium>0.60</AccuracyMedium>
+            <AccuracyLong>0.30</AccuracyLong>
+            <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
         </statBases>
         <!--costList>
 			<Steel>125</Steel>
@@ -397,8 +399,8 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_LaserSMGRelicBullet</defaultProjectile>
-                <warmupTime>1.5</warmupTime>
-                <range>24.9</range>
+                <warmupTime>0.2</warmupTime>
+                <range>19.9</range>
 				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
                 <soundCast>GF40K_LaserPistolShot</soundCast>
@@ -466,15 +468,15 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Burn</damageDef>
-			<damageAmountBase>14.4</damageAmountBase>
-			<armorPenetrationBase>1.1</armorPenetrationBase>
-			<stoppingPower>0.8</stoppingPower>
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationBase>0.8</armorPenetrationBase>
+			<stoppingPower>1</stoppingPower>
 			<speed>105</speed>
 		</projectile>
 	</ThingDef>
 		
     <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
-        <defName>GF40K_LaserCarabineRelic</defName>
+        <defName>GF40K_LaserCarbineRelic</defName>
         <label>relic lascarbine</label>
         <description>PLACEHOLDER</description>
         <graphicData>
@@ -509,11 +511,9 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GF40K_LaserCarabineRelicBullet</defaultProjectile>
-                <warmupTime>2</warmupTime>
+                <defaultProjectile>GF40K_LaserCarbineRelicBullet</defaultProjectile>
+                <warmupTime>1.5</warmupTime>
                 <range>34.9</range>
-				<burstShotCount>1</burstShotCount>
-				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -569,8 +569,8 @@
     </ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>GF40K_LaserCarabineRelicBullet</defName>
-		<label>relic lascarbine shot</label>
+		<defName>GF40K_LaserCarbineRelicBullet</defName>
+		<label>relic lascarbine bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -579,9 +579,9 @@
 		</graphicData>
 		<projectile>
 			<damageDef>GF40K_Gauss</damageDef>
-			<damageAmountBase>38.24</damageAmountBase>
-			<armorPenetrationBase>1.04</armorPenetrationBase>
-			<stoppingPower>2.72</stoppingPower>
+			<damageAmountBase>27</damageAmountBase>
+			<armorPenetrationBase>0.85</armorPenetrationBase>
+			<stoppingPower>1.7</stoppingPower>
 			<speed>110</speed>
 		</projectile>
 	</ThingDef>

@@ -33,7 +33,7 @@
             <li>RangedHeavy</li>
         </weaponClasses>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>ImperiumRangedPlasma</li>
         </weaponTags>
 		<comps Inherit="False">
 			<li>
@@ -164,7 +164,7 @@
 				<li>
 					<def>EMP</def>
 					<amount>1</amount>
-					<chance>0.5</chance>
+					<chance>0.25</chance>
 				</li>
 			</extraDamages>
 			
@@ -202,8 +202,6 @@
                 <defaultProjectile>GF40K_PlasmaGunBullet</defaultProjectile>
                 <warmupTime>1.2</warmupTime>
                 <range>25.9</range>
-				<!-- <burstShotCount>3</burstShotCount> -->
-				<!-- <ticksBetweenBurstShots>12</ticksBetweenBurstShots> -->
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -266,7 +264,7 @@
 				<li>
 					<def>EMP</def>
 					<amount>1</amount>
-					<chance>0.55</chance>
+					<chance>0.3</chance>
 				</li>
 			</extraDamages>
 		</projectile>

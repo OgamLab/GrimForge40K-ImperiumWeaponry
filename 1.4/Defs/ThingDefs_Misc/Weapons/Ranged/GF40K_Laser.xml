@@ -28,13 +28,31 @@
 			<li>GF40K_ImperiumRanged</li>
         </tradeTags>
         <weaponTags>
-            <li>ImperiumRanged</li>
+            <li>ImperiumRangedLas</li>
         </weaponTags>
+		<comps Inherit="False">
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>	
+				<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>  
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>      
+			<li Class="CompProperties_Styleable"/>
+		</comps>
 	</ThingDef>
 	
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserPistol</defName>
-        <label>las-pistol</label>
+        <label>laspistol</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasPistol</texPath>
@@ -121,7 +139,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserBullet</defName>
-		<label>laspistol shot</label>
+		<label>laspistol bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -140,7 +158,7 @@
 	
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserGun</defName>
-        <label>las-gun</label>
+        <label>lasgun</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasGun</texPath>
@@ -231,7 +249,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserGunBullet</defName>
-		<label>lasgun shot</label>
+		<label>lasgun bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -250,7 +268,7 @@
 
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserSniper</defName>
-        <label>las-sniper</label>
+        <label>long-las</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasSniper</texPath>
@@ -345,7 +363,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserSniperBullet</defName>
-		<label>long-las shot</label>
+		<label>long-las bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -356,7 +374,7 @@
 		<projectile>
 			<damageDef>Burn</damageDef>
 			<damageAmountBase>30</damageAmountBase>
-			<armorPenetrationBase>0.8</armorPenetrationBase>
+			<armorPenetrationBase>0.9</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
 			<speed>125</speed>
 		</projectile>
@@ -364,7 +382,7 @@
 		
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserSMG</defName>
-        <label>las-SMG</label>
+        <label>laser SMG</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasSubMachineGun</texPath>
@@ -466,7 +484,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Burn</damageDef>
-			<damageAmountBase>4</damageAmountBase>
+			<damageAmountBase>7</damageAmountBase>
 			<armorPenetrationBase>0.8</armorPenetrationBase>
 			<stoppingPower>0.8</stoppingPower>
 			<speed>100</speed>
@@ -475,7 +493,7 @@
 		
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserCarabine</defName>
-        <label>las-carbine</label>
+        <label>lascarbine</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasCarabine</texPath>
@@ -510,10 +528,8 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_LaserCarabineBullet</defaultProjectile>
-                <warmupTime>2</warmupTime>
+                <warmupTime>1.5</warmupTime>
                 <range>34.9</range>
-				<burstShotCount>1</burstShotCount>
-				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -570,7 +586,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_LaserCarabineBullet</defName>
-		<label>las-carbine shot</label>
+		<label>lascarbine bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -580,7 +596,7 @@
 		<projectile>
 			<damageDef>Burn</damageDef>
 			<damageAmountBase>23.9</damageAmountBase>
-			<armorPenetrationBase>0.65</armorPenetrationBase>
+			<armorPenetrationBase>0.85</armorPenetrationBase>
 			<stoppingPower>1.7</stoppingPower>
 			<speed>105</speed>
 		</projectile>

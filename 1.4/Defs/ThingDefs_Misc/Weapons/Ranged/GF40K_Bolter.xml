@@ -27,9 +27,12 @@
 			<li>GF40K_ImperiumRanged</li>
         </tradeTags>
         <weaponTags>
-            <li>ImperiumRanged</li>
+            <li>ImperiumRangedBolter</li>
         </weaponTags>
 		<comps Inherit="False">
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
 			<li>
 				<compClass>CompColorable</compClass>
 			</li>	
