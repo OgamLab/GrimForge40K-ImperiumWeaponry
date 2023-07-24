@@ -54,7 +54,7 @@
     <ThingDef ParentName="GF40K_BaseRangedArk">
         <defName>GF40K_ArkPistol</defName>
         <label>arc pistol</label>
-        <description>PLACEHOLDER</description>
+        <description>The Arc Pistol, a marvel of Adeptus Mechanicus technology, harnesses the raw power of ancient perma-capacitors sourced from Mars' revered repositorum. Encased in zinc-plated blocks, these energy reservoirs store untamed power from the Imperium's distant past. With each discharge, the Arc Pistol unleashes thunderous cracks, firing bolts of electrifying blue-white energy that can incapacitate even the hardiest of foes. Whether frying a man's brain or overloading a mechanoid's data-cortex in a solar second, this formidable sidearm leaves a trail of electric vengeance in its wake.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Ark/ArkPistol</texPath>
         </graphicData>
@@ -153,7 +153,7 @@
     <ThingDef ParentName="GF40K_BaseRangedArk">
         <defName>GF40K_ArkRifle</defName>
         <label>arc rifle</label>
-        <description>PLACEHOLDER</description>
+        <description>The Arc Rifle, an epitome of Mechanicus ingenuity, channels the unforgiving power of ancient perma-capacitors retrieved from the sacred vaults of Mars. Within its frame of revered zinc-plated blocks lies the unleashed potential of forgotten eras. As it unleashes its directed energy blasts, the Arc Rifle fills the air with resonating cracks, propelling blots of blue-white electricity that can obliterate the strongest of adversaries. In the hands of a skilled marksman, this extraordinary rifle can disable a foe's very essence, leaving machines crippled and mortal flesh smoldering with awe and terror.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Ark/ArkRifle</texPath>
         </graphicData>
