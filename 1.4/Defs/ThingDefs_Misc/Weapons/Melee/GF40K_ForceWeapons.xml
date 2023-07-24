@@ -80,7 +80,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleeForce_Oversize">
 		<defName>GF40K_ForceHalberd</defName>
 		<label>force halberd</label>
-		<description>The Force Halberd is a formidable weapon, a polearm that channels the power of the Warp. Its razor-sharp tip is capable of piercing even the toughest armor, while the energy field that surrounds it grants additional strength to each strike.</description>
+		<description>The Force Halberd, a marvel of artifice and mastery over the psychic currents, exudes an aura of psionic might. Forged by skilled hands, this melee weapon blends the elegance of a traditional halberd with the arcane prowess of the Adeptus Mechanicus. With each sweeping strike, the Force Halberd channels the latent psychic energies within its wielder, enhancing their psionic abilities and bolstering their combat prowess. In the hands of a skilled warrior, this weapon becomes an instrument of both physical and psychic devastation, cleaving through foes and empowering the mind to transcend the limits of mere mortals.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/ForceHalberd</texPath>
 			<drawSize>1.5</drawSize>
@@ -119,7 +119,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleeForce_Oversize">
 		<defName>GF40K_ForceStaff</defName>
 		<label>force staff</label>
-		<description>The Force Staff is a weapon of elegance and force, combining the weight of a blunt weapon with the precision of its wielder. Fashioned with advanced Mechanicus technology, it can deliver devastating concussive blows capable of incapacitating enemies.</description>
+		<description>A masterpiece of techno-sorcery and esoteric artifice, the Force Staff embodies the essence of the Omnissiah's divine power. Crafted with utmost precision, this melee weapon resonates with psychic energies, amplifying the psionic potential of its bearer. As it crackles with an iridescent glow, the Force Staff becomes an extension of the mind, channeling the latent psychic energies to new heights. In the hands of a skilled psion, this staff transforms into an instrument of both defense and offense, capable of unleashing devastating psionic waves that rend the fabric of reality itself.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/ForceStaff</texPath>
 			<drawSize>1.5</drawSize>
@@ -159,7 +159,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleeForce">
 		<defName>GF40K_ForceSword</defName>
 		<label>force sword</label>
-		<description>The Force Sword is a deadly weapon that seamlessly combines cutting and stabbing capabilities with the power of the Warp. Its shimmering blade, infused with arcane energy, can slice through armor and strike true against any foe. Wielded by those in pursuit of forbidden knowledge and mastery of the arcane, the Force Sword is a weapon of both physical and psychic prowess.</description>
+		<description>The Force Sword, an epitome of martial and psychic synergy, marries the grace of a traditional sword with the awe-inspiring psionic might. Forged with sacred incantations and precision engineering, this melee weapon hums with the whispers of the Warp. As its radiant blade glows with a celestial luminescence, the Force Sword unlocks the true potential of its wielder's psionic abilities, allowing them to channel the raw energies of the cosmos. With each swing, this weapon becomes an instrument of psionic devastation, cutting through armor and flesh with ethereal power while guiding the mind to new psychic frontiers.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/ForceSword</texPath>
 		</graphicData>
