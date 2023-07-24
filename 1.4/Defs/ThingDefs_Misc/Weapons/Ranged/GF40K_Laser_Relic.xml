@@ -36,7 +36,7 @@
     <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
         <defName>GF40K_LaserPistolRelic</defName>
         <label>relic laspistol</label>
-        <description>PLACEHOLDER</description>
+        <description>The Las Pistol Relic, a beacon of the Emperor's divine grace, marks its wielder as a champion of the faith. Bathed in an iridescent luminescence, this legendary pistol channels the Emperor's light into focused beams of cleansing energy. As its radiant shots strike true, the air is filled with burning righteousness, engulfing the fallen in holy conflagration. The Las Pistol Relic stands as a testament to the indomitable spirit of the faithful, bearing the burden of divine wrath against all who oppose the Imperium.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasPistol_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -142,7 +142,9 @@
     <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
         <defName>GF40K_LaserGunRelic</defName>
         <label>relic lasgun</label>
-        <description>PLACEHOLDER</description>
+        <description>Behold the revered Las Gun Relic, a sacred artifact of forgotten ages, wielded only by the chosen guardians of the Imperium. Infused with the essence of ancient rites, this legendary Las Gun radiates an aura of celestial power. With each searing discharge, it illuminates the battlefield like a star bursting forth from the darkness, bathing the foes in ethereal radiance. The touch of its energy beams is not just death, but the promise of eternal torment, for those struck by its wrath shall be engulfed in holy flames, a testament to the fury of the God-Emperor.
+
+</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasGun_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -251,7 +253,7 @@
     <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
         <defName>GF40K_LaserSniperRelic</defName>
         <label>relic long-las</label>
-        <description>PLACEHOLDER</description>
+        <description>Long-Las Relic, a relic of ancient genius, embodies the wisdom of the Machine Cult's most revered tech-sages. Enveloped in an ethereal shroud, this legendary long-las weapon extends its gaze beyond the material realm. Its searing energy beams reach out like celestial fingers, finding their mark with celestial precision. Struck by the Long-Las Relic's divine judgment, the enemies writhe in agony as the holy fire ignites their very essence, a testament to the indomitable will of the Adeptus Mechanicus.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/LongLas_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -365,7 +367,7 @@
     <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
         <defName>GF40K_LaserSMGRelic</defName>
         <label>laser SMG</label>
-        <description>PLACEHOLDER</description>
+        <description>The Las SMG Relic, an embodiment of forgotten knowledge, represents the pinnacle of martial prowess and technological mastery. Infused with archaic sigils, this legendary submachine gun showers the battlefield in cascading streams of celestial fire. With every relentless burst, it invokes the fury of the God-Emperor, immolating the enemies in cleansing flames. The Las SMG Relic stands as a living testament to the unyielding resolve of the Adeptus Mechanicus, its divine purpose made manifest in the fires of war.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasSMG_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -478,7 +480,7 @@
     <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
         <defName>GF40K_LaserCarbineRelic</defName>
         <label>relic lascarbine</label>
-        <description>PLACEHOLDER</description>
+        <description>The Las Carbine Relic, a masterpiece of archaic artistry, channels the divine will of the Omnissiah, marking its bearer as an instrument of divine retribution. Blessed with a mesmerizing glow, this legendary carbine sends forth luminous energy with unerring precision. Its beams of incandescent light sear through armor and flesh alike, and with each shot, it leaves behind a trail of smoldering embers. In the midst of battle, as the air crackles with unleashed power, the fallen adversaries bear the mark of the righteous fire, their flesh scorched and souls purified.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasCarbine_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
