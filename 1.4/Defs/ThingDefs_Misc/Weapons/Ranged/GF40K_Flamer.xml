@@ -3,7 +3,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>GF40K_Flamer</defName>
         <label>flamer</label>
-        <description>PLACEHOLDER</description>
+        <description>The Flamer, a tool of holy cleansing and purging, embodies the inferno's wrath, as wielded by the zealous warriors of the Adeptus Ministorum. Forged in devotion to the God-Emperor, this weapon is an offering of fiery retribution to the heretics and abominations that threaten the Imperium. With a resolute hiss, it unleashes a torrent of searing promethium, engulfing the battlefield in waves of incendiary doom. The Flamer leaves no refuge for the unfaithful, consuming them in a relentless blaze that sings the righteous hymn of purification. From the darkest corners to the foulest nests, the Flamer's fiery embrace brings forth the Emperor's divine judgement upon all those who dare to defy His sacred will.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Special/Flamer</texPath>
             <graphicClass>Graphic_Single</graphicClass>
