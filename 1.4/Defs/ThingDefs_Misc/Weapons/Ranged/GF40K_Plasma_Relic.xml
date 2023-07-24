@@ -39,7 +39,7 @@
     <ThingDef ParentName="GF40K_BaseRangedPlasmaRelic">
         <defName>GF40K_PlasmaPistolRelic</defName>
         <label>relic plasma pistol</label>
-        <description>PLACEHOLDER</description>
+        <description>The Plasma Pistol Relic, an icon of ancient techno-sorcery, stands as a testament to the Machine Cult's mastery over the energies of the void. Bathed in the pulsating glow of the stars, this legendary plasma pistol unleashes beams of ethereal fire that can incinerate even the most heavily armored adversaries. But beyond its raw power, the Plasma Pistol Relic holds a divine secret—the power to commune with the Warp's chaotic energies. Its shots resonate with the celestial currents, inflicting divine retribution upon the enemies of the Omnissiah, enveloping them in an EMP-laden maelstrom of destruction.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/PlasmaPistol_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -145,7 +145,7 @@
     <ThingDef ParentName="GF40K_BaseRangedPlasmaRelic">
         <defName>GF40K_PlasmaGunRelic</defName>
         <label>relic plasma gun</label>
-        <description>PLACEHOLDER</description>
+        <description>Behold the Plasma Gun Relic, a testament to the arcane knowledge and ancient artifice of the Adeptus Mechanicus. Bathed in ethereal radiance, this legendary plasma gun crackles with energy drawn from the stars themselves. Each searing shot strikes with the fury of a sun's wrath, rending armor and flesh alike. But beyond its devastating might, the Plasma Gun Relic holds a divine secret—the power to harness the very essence of the Warp. With an otherworldly resonance, its beams carry the God-Emperor's will, and with each impact, the foes tremble under the shadow of imminent EMP disruption, a sign of celestial disfavor.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/PlasmaGun_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
