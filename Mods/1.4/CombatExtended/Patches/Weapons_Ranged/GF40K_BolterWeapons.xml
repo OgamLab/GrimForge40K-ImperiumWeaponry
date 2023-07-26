@@ -104,8 +104,10 @@
 						<defaultProjectile>Bullet_Bolter75_GF_Standard</defaultProjectile>
 						<warmupTime>0.5</warmupTime>
 						<range>15</range>
-						<soundCast>Shot_IncendiaryLauncher</soundCast>
-						<soundCastTail>GunTail_Light</soundCastTail>
+						<burstShotCount>2</burstShotCount>
+						<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+						<soundCast>Shot_SniperRifle</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
@@ -139,8 +141,10 @@
 						<defaultProjectile>Bullet_Bolter75_GF_Standard_Relic</defaultProjectile>
 						<warmupTime>0.45</warmupTime>
 						<range>16</range>
-						<soundCast>Shot_IncendiaryLauncher</soundCast>
-						<soundCastTail>GunTail_Light</soundCastTail>
+						<burstShotCount>3</burstShotCount>
+						<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+						<soundCast>Shot_SniperRifle</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
@@ -149,6 +153,7 @@
 						<ammoSet>AmmoSet_Bolter75_GF_Relic</ammoSet>
 					</AmmoUser>
 					<FireModes>
+						<aimedBurstShotCount>2</aimedBurstShotCount>
 						<aiAimMode>Snapshot</aiAimMode>
 					</FireModes>
 					<weaponTags>
@@ -174,10 +179,10 @@
 						<defaultProjectile>Bullet_Bolter75_GF_Standard</defaultProjectile>
 						<warmupTime>1</warmupTime>
 						<range>51</range>
-						<burstShotCount>6</burstShotCount>
+						<burstShotCount>3</burstShotCount>
 						<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-						<soundCast>Shot_IncendiaryLauncher</soundCast>
-						<soundCastTail>GunTail_Light</soundCastTail>
+						<soundCast>Shot_SniperRifle</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
@@ -188,7 +193,7 @@
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
 						<aiUseBurstMode>True</aiUseBurstMode>
-						<aimedBurstShotCount>3</aimedBurstShotCount>
+						<aimedBurstShotCount>2</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
@@ -212,8 +217,8 @@
 						<range>55</range>
 						<burstShotCount>6</burstShotCount>
 						<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-						<soundCast>Shot_IncendiaryLauncher</soundCast>
-						<soundCastTail>GunTail_Light</soundCastTail>
+						<soundCast>Shot_SniperRifle</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
@@ -247,8 +252,10 @@
 						<defaultProjectile>Bullet_Bolter75_GF_Standard</defaultProjectile>
 						<warmupTime>1.7</warmupTime>
 						<range>75</range>
-						<soundCast>Shot_IncendiaryLauncher</soundCast>
-						<soundCastTail>GunTail_Light</soundCastTail>
+						<burstShotCount>2</burstShotCount>
+						<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+						<soundCast>Shot_SniperRifle</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
@@ -280,8 +287,10 @@
 						<defaultProjectile>Bullet_Bolter75_GF_Standard_Relic</defaultProjectile>
 						<warmupTime>1.5</warmupTime>
 						<range>81</range>
-						<soundCast>Shot_IncendiaryLauncher</soundCast>
-						<soundCastTail>GunTail_Light</soundCastTail>
+						<burstShotCount>3</burstShotCount>
+						<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+						<soundCast>Shot_SniperRifle</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
@@ -290,6 +299,7 @@
 						<ammoSet>AmmoSet_Bolter75_GF_Relic</ammoSet>
 					</AmmoUser>
 					<FireModes>
+						<aimedBurstShotCount>2</aimedBurstShotCount>
 						<aiAimMode>AimedShot</aiAimMode>
 					</FireModes>
 				</li>
