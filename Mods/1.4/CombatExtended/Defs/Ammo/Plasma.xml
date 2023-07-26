@@ -54,6 +54,11 @@
 					<def>GF40K_Plasma</def>
 					<amount>9</amount>
 				</li>
+				<li>
+					<def>EMP</def>
+					<amount>1</amount>
+					<chance>0.6</chance>
+				</li>
 			</secondaryDamage>
 			<screenShakeFactor>0</screenShakeFactor>
 		</projectile>
@@ -77,6 +82,11 @@
 					<def>GF40K_Plasma</def>
 					<amount>13</amount>
 				</li>
+				<li>
+					<def>EMP</def>
+					<amount>1</amount>
+					<chance>0.6</chance>
+				</li>
 			</secondaryDamage>
 			<screenShakeFactor>0</screenShakeFactor>
 		</projectile>
@@ -98,6 +108,11 @@
 				<li>
 					<def>GF40K_Plasma</def>
 					<amount>10</amount>
+				</li>
+				<li>
+					<def>EMP</def>
+					<amount>2</amount>
+					<chance>0.6</chance>
 				</li>
 			</secondaryDamage>
 			<screenShakeFactor>0</screenShakeFactor>
@@ -121,6 +136,11 @@
 				<li>
 					<def>GF40K_Plasma</def>
 					<amount>15</amount>
+				</li>
+				<li>
+					<def>EMP</def>
+					<amount>2</amount>
+					<chance>0.6</chance>
 				</li>
 			</secondaryDamage>
 			<screenShakeFactor>0</screenShakeFactor>
