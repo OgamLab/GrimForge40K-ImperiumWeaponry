@@ -56,7 +56,7 @@
     <ThingDef ParentName="GF40K_BaseRangedGrenade">
         <defName>GF40K_GrenadeLauncher</defName>
         <label>grenade launcher</label>
-        <description>The Grenade Launcher, a grim herald of devastation, hurls high-explosive munitions with unyielding force. Assembled to serve as a deliverer of destruction on the battlefield, this fearsome weapon launches explosive ordnance with deadly accuracy. Its thunderous impact sweeps the ground with fiery chaos, leaving naught but ruin and despair in its wake. When the air is filled with the chorus of falling grenades, mortal foes tremble, for the Grenade Launcher's reign of explosive terror has begun.</description>
+        <description>The Grenade Launcher is a grim herald of devastation that hurls high-explosive munitions with unyielding force. Assembled to serve as a deliverer of destruction on the battlefield, this weapon launches explosive ordnance with deadly accuracy. Its thunderous impact sweeps the ground with fiery chaos, leaving only ruin and despair in its wake.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Special/GrandeLuncher</texPath>
             <graphicClass>Graphic_Single</graphicClass>

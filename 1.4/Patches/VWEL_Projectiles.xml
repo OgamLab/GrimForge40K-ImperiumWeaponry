@@ -254,7 +254,7 @@
 			<value>		
 				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
 					<defName>GF40K_RelicLaserSMGBulletVWEL</defName>
-					<label>relic las SMG shot</label>
+					<label>relic las-SMG shot</label>
 					<textures>
 						<li>Things/Projectile/Shot_LaserShotgun</li>
 					</textures>
@@ -290,7 +290,7 @@
 			<value>		
 				<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
 					<defName>GF40K_RelicLaserCarbineBulletVWEL</defName>
-					<label>relic las caraine shot</label>
+					<label>relic lascarbine shot</label>
 					<textures>
 						<li>Things/Projectile/Shot_LaserShotgun</li>
 					</textures>

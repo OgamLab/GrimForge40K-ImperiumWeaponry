@@ -52,7 +52,7 @@
     <ThingDef ParentName="GF40K_BaseRangedBolt">
         <defName>GF40K_BoltPistol</defName>
         <label>bolt pistol</label>
-        <description>The Bolt Pistol unleashes a relentless storm of self-propelled 0.75 Caliber projectiles, each carrying the power to rend limbs and shatter bones upon impact. With precision craftsmanship, it offers both a deadly single-shot mode for surgical strikes and a double-fire mode that hurls twin bolts of destruction. The latter, while shorter in range, ensures that any foe caught in its path will meet a gruesome end, leaving nothing but carnage in its wake.</description>
+        <description>The Bolt Pistol unleashes a relentless storm of self-propelled 0.75 caliber projectiles, each carrying the power to rend limbs and shatter bones upon impact. A favored choice among the Imperium's military forces, the Bolt Pistol serves as a powerful and utilitarian sidearm. Its deadly precision and versatility have earned it a place of honor in countless battles across the galaxy.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Bolter/BoltPistol</texPath>
 			<drawSize>1</drawSize>
@@ -181,7 +181,7 @@
     <ThingDef ParentName="GF40K_BaseRangedBolt">
         <defName>GF40K_BoltGun</defName>
         <label>boltgun</label>
-        <description>The Bolt Gun roars with ferocity as it launches self-propelled 0.75 Caliber munitions that detonate upon contact, leaving devastation in their wake. Capable of dismembering entire limbs, this weapon strikes terror into the hearts of its targets. Its well-balanced design provides a choice between a precise single-shot mode and a double-fire mode, ideal for unleashing a deadly hail of explosive fury at close quarters.</description>
+        <description>The Bolt Gun roars with ferocity as it launches self-propelled 0.75 caliber munitions that detonate upon contact, leaving a trail of devastation. Capable of dismembering entire limbs, this fearsome weapon strikes terror into the hearts of enemies, becoming a symbol of relentless destruction on the battlefield.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Bolter/BoltGun</texPath>
 			<drawSize>1</drawSize>
@@ -312,7 +312,7 @@
     <ThingDef ParentName="GF40K_BaseRangedBolt">
         <defName>GF40K_BoltSniper</defName>
         <label>bolt sniper rifle</label>
-        <description>A masterful instrument of death, the Bolt Sniper employs self-propelled 0.75 Caliber projectiles, each engineered to deliver deadly accuracy and sheer destructive force. With a deadly focus on long-range engagements, this weapon can sever limbs and leave its prey in disarray. The Bolt Sniper offers both a methodical single-shot mode, ensuring the pinpoint elimination of high-value targets, and a double-fire mode, albeit with reduced range, for those who seek to annihilate multiple foes with swift and devastating precision.</description>
+        <description>A masterful instrument of death, the Bolt Sniper Rifle employs self-propelled 0.75 caliber projectiles, each engineered to deliver sheer destructive force. With a focus on long-range engagements, this weapon can sever limbs and leave its prey in disarray.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Bolter/SniperBoltGun</texPath>
 			<drawSize>1.1</drawSize>

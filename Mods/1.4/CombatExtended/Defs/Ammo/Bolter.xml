@@ -54,7 +54,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBolter75_GFBase">
 		<defName>Ammo_Bolter75_GF_Standard</defName>
-		<label>.75 cal bolt shell (Standard)</label>
+		<label>.75 cal bolt shell (standard)</label>
 		<graphicData>
 			<texPath>ThirdParty/Warhammer/Bolter/Standard</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -68,7 +68,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBolter75_GFBase">
 		<defName>Ammo_Bolter75_GF_Inferno</defName>
-		<label>.75 cal bolt shell (Inferno)</label>
+		<label>.75 cal bolt shell (inferno)</label>
 		<graphicData>
 			<texPath>ThirdParty/Warhammer/Bolter/Inferno</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -82,7 +82,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBolter75_GFBase">
 		<defName>Ammo_Bolter75_GF_MetalStorm</defName>
-		<label>.75 cal bolt shell (Metal Storm)</label>
+		<label>.75 cal bolt shell (metal storm)</label>
 		<graphicData>
 			<texPath>ThirdParty/Warhammer/Bolter/MetalStorm</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -96,7 +96,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBolter75_GFBase">
 		<defName>Ammo_Bolter75_GF_Kraken</defName>
-		<label>.75 cal bolt shell (Kraken)</label>
+		<label>.75 cal bolt shell (kraken)</label>
 		<graphicData>
 			<texPath>ThirdParty/Warhammer/Bolter/Kraken</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

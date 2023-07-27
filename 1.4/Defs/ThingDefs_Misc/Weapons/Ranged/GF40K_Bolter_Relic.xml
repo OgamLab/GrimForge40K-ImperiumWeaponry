@@ -40,7 +40,7 @@
     <ThingDef ParentName="GF40K_BaseRangedBoltRelic">
         <defName>GF40K_BoltPistolRelic</defName>
         <label>relic bolt pistol</label>
-        <description>The Relic Bolt Pistol, a coveted treasure of ancient times, embodies the pinnacle of craftsmanship and awe-inspiring power. Forged from forgotten rites and blessed by the Omnissiah's touch, this legendary sidearm carries the legacy of battles long past. With an upgraded capacity, it now holds two self-propelling 0.75 caliber projectiles, each capable of severing limbs and shattering defenses. In its relentless pursuit of destruction, the Relic Bolt Pistol grants its wielder an additional fire mode, a triumphant trio of shots that leaves enemies engulfed in explosive devastation.</description>
+        <description>The Relic Bolt Pistol, a coveted treasure of ancient times, embodies the pinnacle of craftsmanship and awe-inspiring power. Forged from forgotten rites and blessed by the Omnissiah's touch, this legendary sidearm carries the legacy of battles long past.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/BoltPistol_relic</texPath>
 			<drawSize>1</drawSize>
@@ -170,7 +170,7 @@
     <ThingDef ParentName="GF40K_BaseRangedBoltRelic">
         <defName>GF40K_BoltGunRelic</defName>
         <label>relic boltgun</label>
-        <description>The Relic Bolt Gun, an artifact revered by the Mechanicus, exudes the grandeur of ancient mastery. Enveloped in myths of glorious victories, this legendary weapon possesses the mightiest of traits. Augmented with the ability to hold two rounds within its chamber, it launches 0.75 caliber projectiles that eviscerate all who stand in defiance. Alongside its unyielding single-shot prowess, it grants a newfound fire mode, a triumvirate of unleashed power that rends through foes with unmatched fury.</description>
+        <description>The Relic Bolt Gun, an artifact revered by the Mechanicus, emits the grandeur of ancient mastery. Enveloped in myths of glorious victories, this legendary weapon possesses the mightiest of traits. Augmented with the ability to hold two rounds within its chamber, it launches 0.75 caliber projectiles that eviscerate all who stand in defiance.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/Boltgun_relic</texPath>
         </graphicData>
@@ -299,7 +299,7 @@
     <ThingDef ParentName="GF40K_BaseRangedBoltRelic">
         <defName>GF40K_BoltSniperRelic</defName>
         <label>relic bolt sniper rifle</label>
-        <description>The Relic Bolt Sniper, a sacred relic among sharpshooters, embodies the zenith of marksmanship and deadly precision. Unearthed from the annals of history, this legendary rifle emerges with unmatched potency. With an expanded magazine that cradles two lethal 0.75 caliber rounds, its bullets pierce armor and flesh alike. This masterful firearm offers its wielder the added advantage of a three-round burst, unleashing a symphony of death that dances upon the battlefield with deadly elegance.</description>
+        <description>The Relic Bolt Sniper Rifle is a sacred relic among sharpshooters that embodies the zenith of marksmanship and deadly precision. With an expanded magazine that cradles two lethal 0.75 caliber rounds, its bullets pierce armor and flesh alike.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/SniperBoltgun_relic</texPath>
         </graphicData>

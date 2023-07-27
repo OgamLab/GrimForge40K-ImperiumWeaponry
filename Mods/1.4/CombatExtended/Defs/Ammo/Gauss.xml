@@ -15,7 +15,7 @@
 
 	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="BaseLaserBullet">
 		<defName>Bullet_Gauss_Galvanic</defName>
-		<label>Galvanic gauss shot</label>
+		<label>galvanic gauss shot</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<isInstant>true</isInstant>
 			<damageFalloff>False</damageFalloff>

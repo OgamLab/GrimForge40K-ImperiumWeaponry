@@ -53,7 +53,7 @@
     <ThingDef ParentName="GF40K_BaseRangedGauss">
         <defName>GF40K_GalvanicRifle</defName>
         <label>galvanic rifle</label>
-        <description>The Galvanic Rifle, a marvel of Mechanicus ingenuity in Rimworld, mirrors the legacy of ancient flintlock guns from Mars. Known as the Mk IV Arkhan, these exquisitely hand-crafted rifles project specialized gauss bullets over vast distances, unleashing deadly electric force upon their targets. With unparalleled armor-piercing capabilities, the Galvanic Rifle's shots can pierce through multiple adversaries in a haunting display of relentless precision and destructive power.</description>
+        <description>The Galvanic Rifle, a marvel of Mechanicus ingenuity, resembles ancient flintlock guns from Mars. Its handcrafted, antique body conceals advanced galvanic servitor-bullets that deliver deadly electric force. With unparalleled armor-piercing capabilities, the Galvanic Rifle's shots can pierce through multiple adversaries in a haunting display of relentless precision and destructive power.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/GalvanicRifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>

@@ -29,7 +29,7 @@
 
     <ThingCategoryDef>
       <defName>GF40K_RangedBolter</defName>
-      <label>GF40K Ranged: bolter</label>
+      <label>GF40K Ranged: bolt weapons</label>
       <parent>Weapons</parent>
     </ThingCategoryDef>
 

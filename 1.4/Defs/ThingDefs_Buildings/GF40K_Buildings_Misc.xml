@@ -3,8 +3,8 @@
 
   <ThingDef ParentName="BuildingBase">
     <defName>GF40K_ImperiumWeaponry</defName>
-    <label>Omnissiah's Cogitator Array</label>
-    <description>The Omnissiah's Cogitator Array is an intricate and imposing machine, an epitome of technological marvel and arcane knowledge. Constructed by the adept hands of the Adeptus Mechanicus, this massive array of cogitators, data-crunching engines, and forbidden techno-sorceries serves as the pinnacle of research and analysis technology. Encased within a formidable chassis adorned with intricate Mechanicus symbols and glowing energy conduits, the Omnissiah's Cogitator Array hums with unfathomable power and intellect.</description>
+    <label>weaponry cogitator node</label>
+    <description>The Weaponry Cogitator Node is a special module used with an advanced research table to explore armament technologies of the Imperium of Man. According to the beliefs of the Mechanicus, all cogitators possess a highly intelligent Machine Spirit, but it does not approach that of true Artificial Intelligence. The node adheres to these principles while enabling weapon research.</description>
     <graphicData>
       <texPath>Things/Building/Misc/ImperiumWeaponry</texPath>
 			<shaderType>CutoutComplex</shaderType>

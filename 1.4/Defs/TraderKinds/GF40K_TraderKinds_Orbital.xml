@@ -3,7 +3,7 @@
 
   <TraderKindDef>
     <defName>GF40K_ImperiumCombatSupplier</defName>
-    <label>imperium's combat supplier</label>
+    <label>Imperium's combat supplier</label>
     <orbital>true</orbital>
     <stockGenerators>
 

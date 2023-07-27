@@ -53,7 +53,7 @@
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserPistol</defName>
         <label>laspistol</label>
-        <description>The Las Pistol, a compact and dependable sidearm, projects a searing energy beam with admirable velocity and potent armor-piercing capabilities. As a trusty companion in the heat of battle, it ensures soldiers can respond to threats with speed and accuracy. Whether for personal defense or as a finishing tool in close-quarters encounters, the Las Pistol's energetic fury serves as a deadly reminder of its wielder's resolve.</description>
+        <description>The Laspistol is a compact and dependable sidearm that projects a searing energy beam with admirable velocity and potent armor-piercing capabilities. As a trusty companion in the heat of battle, it ensures that soldiers can respond to threats with speed and accuracy. Whether for personal defense or as a finishing tool in close-quarters encounters, the Laspistol's energetic fury serves as a deadly reminder of its wielder's resolve.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasPistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -159,7 +159,7 @@
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserGun</defName>
         <label>lasgun</label>
-        <description>The Las Gun, a steadfast staple of the battlefield, unleashes a relentless barrage of focused energy beams that breach armor with tenacious determination. Its moderate fire rate grants soldiers the ability to engage enemies in sustained firefights, making it a versatile weapon for both close-quarters combat and medium-range battles. Whether facing the hordes of the damned or heavily-armored adversaries, the Las Gun's unyielding energy beams herald the doom of any who dare oppose it.</description>
+        <description>The Lasgun is a steadfast staple of the battlefield that unleashes a relentless barrage of focused energy beams that breach armor with tenacious determination. Its moderate fire rate grants soldiers the ability to engage enemies in sustained firefights, making it a versatile weapon for both close-quarters combat and medium-range battles. Whether facing the hordes of the damned or heavily-armored adversaries, the Lasgun's unyielding energy beams herald the doom of any who dare oppose it.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -269,7 +269,7 @@
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserSniper</defName>
         <label>long-las</label>
-        <description>The Long-Las stands tall as a marksman's instrument of death, harnessing the might of a focused energy beam to pierce through armor with surgical precision. Its measured fire rate ensures each shot is carefully aimed, delivering devastating armor-piercing power over great distances. Whether dealing with heavily-armored foes or distant threats, the Long-Las proves to be the vengeful judge of any battlefield, leaving a trail of scorched adversaries in its wake.</description>
+        <description>The Long-las stands tall as a marksman's instrument of death, harnessing the might of a focused energy beam to pierce through armor with surgical precision. Its measured fire rate ensures each shot is carefully aimed, delivering devastating armor-piercing power over great distances. Whether dealing with heavily-armored foes or distant threats, the Long-las proves to be the vengeful judge of any battlefield, leaving a trail of scorched adversaries behind it.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasSniper</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -383,7 +383,7 @@
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserSMG</defName>
         <label>laser SMG</label>
-        <description>Description: The Las SMG, a rapid-fire marvel, employs a rapid succession of focused energy beams that effortlessly slice through armor and overwhelm foes with sheer volume. Unleashing a maelstrom of energy, this close-quarters weapon excels in dealing with tightly-packed enemy formations and armored targets alike. In the hands of a skilled operator, the Las SMG becomes an unstoppable force, leaving enemies obliterated by the relentless storm of searing energy.</description>
+        <description>The Las-SMG is a rapid-fire marvel that employs a rapid succession of focused energy beams that effortlessly slice through armor and overwhelm foes with sheer volume. Unleashing a maelstrom of energy, this close-quarters weapon excels in dealing with tightly-packed enemy formations and armored targets alike. In the hands of a skilled operator, the Las-SMG becomes an unstoppable force, leaving enemies obliterated by the relentless storm of searing energy.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasSubMachineGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -494,7 +494,7 @@
     <ThingDef ParentName="GF40K_BaseRangedLaser">
         <defName>GF40K_LaserCarabine</defName>
         <label>lascarbine</label>
-        <description>The Las Carbine, compact yet lethal, channels a concentrated energy beam that surges through enemy defenses with remarkable speed and armor-piercing prowess. Offering a balanced blend of mobility and firepower, this weapon excels in mid-range engagements, ensuring swift and calculated strikes against both armored targets and agile adversaries. In the hands of a skilled user, the Las Carbine dances with deadly grace, leaving a trail of defeated foes in its wake.</description>
+        <description>The Lascarbine is a compact yet lethal weapon that channels a concentrated energy beam, surging through enemy defenses with remarkable speed and armor-piercing prowess. Offering a balanced blend of mobility and firepower, this weapon excels in mid-range engagements, ensuring swift and calculated strikes against both armored targets and agile adversaries. In the hands of a skilled user, the Lascarbine dances with deadly grace, leaving a trail of defeated foes in its wake.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasCarabine</texPath>
             <graphicClass>Graphic_Single</graphicClass>

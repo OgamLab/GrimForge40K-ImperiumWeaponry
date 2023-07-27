@@ -58,7 +58,7 @@
     <ThingDef ParentName="GF40K_BaseRangedPlasma">
         <defName>GF40K_PlasmaPistol</defName>
         <label>plasma pistol</label>
-        <description>The Plasma Pistol, an epitome of devastating firepower, unleashes projectiles with unparalleled armor-piercing capabilities. Upon impact, these superheated rounds generate scorching heat and release an electromagnetic pulse, rendering mechanical adversaries helpless in its wake. With a focus on close-to-medium-range engagements, this handheld inferno is a formidable force to be reckoned with, capable of reducing even the most heavily-armored foes to smoldering ruins.</description>
+        <description>The Plasma Pistol, an epitome of devastating firepower, unleashes projectiles with unparalleled armor-piercing capabilities. Upon impact, its rounds generate scorching heat and release an electromagnetic pulse, rendering mechanical adversaries helpless in its wake. With a focus on close-to-medium-range engagements, this weapon is a formidable force to be reckoned with, capable of reducing even the most heavily-armored foes to smoldering ruins.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Plasma/PlasmaPistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -174,7 +174,7 @@
     <ThingDef ParentName="GF40K_BaseRangedPlasma">
         <defName>GF40K_PlasmaGun</defName>
         <label>plasma gun</label>
-        <description>The Plasma Gun stands as a beacon of technological prowess, firing rounds that tear through armor with unyielding force. As each shot strikes its target, a blazing surge of heat and an electromagnetic surge engulf the battlefield, making it a bane for mechanoid adversaries. Expertly crafted for medium-to-long-range encounters, this weapon brings an end to enemy advances and transforms the opposition into a blazing spectacle of destruction.</description>
+        <description>The Plasma Gun is a rifle-sized Plasma Weapon capable of firing rounds that tear through armor with unyielding force, engulfing the battlefield in scorching heat and electromagnetic energy. Expertly crafted for medium-to-long-range encounters, this weapon becomes the harbinger of doom for any advancing enemy force.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Plasma/PlasmaGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>

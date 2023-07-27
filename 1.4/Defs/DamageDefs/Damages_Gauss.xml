@@ -4,7 +4,7 @@
 	  <defName>GF40K_GaussShot</defName>
 	  <label>gauss shot</label>
 	  <labelNoun>a gauss shot wound</labelNoun>
-	  <description>A wound caused by a Gauss round.</description>
+	  <description>A wound caused by a gauss round.</description>
 	  <comps>
 		<li Class="HediffCompProperties_TendDuration">
 		  <labelTendedWell>bandaged</labelTendedWell>
@@ -34,7 +34,7 @@
 	  <label>gauss</label>
 	  <workerClass>DamageWorker_AddInjury</workerClass>
 	  <externalViolence>true</externalViolence>
-	  <deathMessage>{0} has been hit by a Gauss round.</deathMessage>
+	  <deathMessage>{0} has been hit by a gauss round.</deathMessage>
 	  <hediff>GF40K_GaussShot</hediff>
 	  <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 	  <impactSoundType>Bullet</impactSoundType>
