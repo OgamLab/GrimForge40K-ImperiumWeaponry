@@ -17,7 +17,7 @@
 			</recipeUsers>
 			<researchPrerequisite Inherit="False"/>
 			<researchPrerequisites>
-				<li>GF40K_RegularRangedSpecial</li>
+				<li>GF40K_RegularRangedArc</li>
 			</researchPrerequisites>
 		</recipeMaker>
         <soundInteract>Interact_Rifle</soundInteract>
