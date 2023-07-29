@@ -1,5 +1,5 @@
 <Defs>
-	<ThingDef Name="GF40K_BaseRangedArk" ParentName="BaseHumanMakeableGun" Abstract="True">
+	<ThingDef Name="GF40K_BaseRangedArkRelic" ParentName="BaseHumanMakeableGun" Abstract="True">
 		<techLevel>Ultra</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
@@ -8,17 +8,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- <relicChance>3</relicChance> -->
-		<recipeMaker>
-			<skillRequirements>
-				<Crafting>12</Crafting>
-			</skillRequirements>
-			<recipeUsers>
-				<li>FabricationBench</li>
-			</recipeUsers>
-			<researchPrerequisite Inherit="False"/>
-			<researchPrerequisites>
-				<li>GF40K_RegularArc</li>
-			</researchPrerequisites>
+		<recipeMaker Inherit="False">
 		</recipeMaker>
         <soundInteract>Interact_Rifle</soundInteract>
 		<smeltable>false</smeltable>
@@ -35,37 +25,31 @@
 			<li>
 				<compClass>CompEquippable</compClass>
 			</li>
-			<li>
-				<compClass>CompColorable</compClass>
-			</li>	
-				<li Class="CompProperties_Art">
+			<li Class="CompProperties_Art">
 				<nameMaker>NamerArtWeaponGun</nameMaker>
 				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
 				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>  
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
 			<li Class="CompProperties_Forbiddable"/>      
 			<li Class="CompProperties_Styleable"/>
 		</comps>
 	</ThingDef>
 	
-    <ThingDef ParentName="GF40K_BaseRangedArk">
-        <defName>GF40K_ArkPistol</defName>
-        <label>arc pistol</label>
+    <ThingDef ParentName="GF40K_BaseRangedArkRelic">
+        <defName>GF40K_RelicArkPistol</defName>
+        <label>relic arc pistol</label>
         <description>The Arc Pistol is a compact sidearm that harnesses cutting-edge Arc Weapon technology and draws the raw power from ancient perma-capacitors sourced from Mars' revered repository. With each discharge, the Arc Pistol unleashes thunderous cracks, firing bolts of electrifying blue-white energy that can incapacitate even the hardiest of foes.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/Ark/ArkPistol</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/ArkPistol_relic</texPath>
         </graphicData>
         <statBases>
             <WorkToMake>30000</WorkToMake>
 			<MarketValue>2000</MarketValue>
             <Mass>2</Mass>
-            <AccuracyTouch>0.75</AccuracyTouch>
-            <AccuracyShort>0.86</AccuracyShort>
-            <AccuracyMedium>0.42</AccuracyMedium>
-            <AccuracyLong>0.20</AccuracyLong>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>0.63</AccuracyMedium>
+            <AccuracyLong>0.3</AccuracyLong>
             <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
         </statBases>
 		<costList>
@@ -77,11 +61,11 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GF40K_ArkPistolBullet</defaultProjectile>
+                <defaultProjectile>GF40K_RelicArkPistolBullet</defaultProjectile>
                 <warmupTime>0.8</warmupTime>
                 <range>21.9</range>
 				<burstShotCount>1</burstShotCount>
-				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>22</ticksBetweenBurstShots>
                 <soundCast>Shot_ChargeRifle</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -122,7 +106,7 @@
     </ThingDef>
 	
     <ThingDef ParentName="BaseBullet">
-        <defName>GF40K_ArkPistolBullet</defName>
+        <defName>GF40K_RelicArkPistolBullet</defName>
         <label>arc pistol shot</label>
         <category>Projectile</category>
         <useHitPoints>False</useHitPoints>
@@ -136,7 +120,7 @@
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>15.6</damageAmountBase>
+            <damageAmountBase>22</damageAmountBase>
 			<stoppingPower>0.8</stoppingPower>
 			<armorPenetrationBase>0.45</armorPenetrationBase>
             <speed>120</speed>
@@ -144,27 +128,27 @@
 				<li>
 					<def>Stun</def>
 					<amount>1</amount>
-					<chance>0.3</chance>
+					<chance>0.4</chance>
 				</li>
 			</extraDamages>
         </projectile>
     </ThingDef>
 	
-    <ThingDef ParentName="GF40K_BaseRangedArk">
-        <defName>GF40K_ArkRifle</defName>
-        <label>arc rifle</label>
+    <ThingDef ParentName="GF40K_BaseRangedArkRelic">
+        <defName>GF40K_RelicArkRifle</defName>
+        <label>relic arc rifle</label>
         <description>The Arc Rifle is a rapid-firing weapon of remarkable Mechanicus ingenuity. Its shots channel the unforgiving power of ancient perma-capacitors retrieved from the sacred vaults of Mars. Encased within its revered zinc-plated blocks lies the untapped potential of long-forgotten eras. With each discharge, the Arc Rifle fills the air with resonating cracks, propelling blots of blue-white electricity that can obliterate the strongest of adversaries.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/Ark/ArkRifle</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/ArkRifle_relic</texPath>
         </graphicData>
         <statBases>
             <WorkToMake>32000</WorkToMake>
 			<MarketValue>2000</MarketValue>
             <Mass>2</Mass>
-            <AccuracyTouch>0.70</AccuracyTouch>
-            <AccuracyShort>0.84</AccuracyShort>
-            <AccuracyMedium>0.85</AccuracyMedium>
-            <AccuracyLong>0.72</AccuracyLong>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>1</AccuracyMedium>
+            <AccuracyLong>1</AccuracyLong>
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
 		<costList>
@@ -176,7 +160,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GF40K_ArkRifleBullet</defaultProjectile>
+                <defaultProjectile>GF40K_RelicArkRifleBullet</defaultProjectile>
                 <warmupTime>0.8</warmupTime>
                 <range>33.9</range>
 				<burstShotCount>3</burstShotCount>
@@ -221,7 +205,7 @@
     </ThingDef>
 	
     <ThingDef ParentName="BaseBullet">
-        <defName>GF40K_ArkRifleBullet</defName>
+        <defName>GF40K_RelicArkRifleBullet</defName>
         <label>arc rifle shot</label>
         <category>Projectile</category>
         <useHitPoints>False</useHitPoints>
@@ -234,7 +218,7 @@
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>15</damageAmountBase>
+            <damageAmountBase>21</damageAmountBase>
 			<stoppingPower>1</stoppingPower>
 			<armorPenetrationBase>0.5</armorPenetrationBase>
             <speed>115</speed>
@@ -242,7 +226,7 @@
 				<li>
 					<def>Stun</def>
 					<amount>1</amount>
-					<chance>0.3</chance>
+					<chance>0.4</chance>
 				</li>
 			</extraDamages>
         </projectile>

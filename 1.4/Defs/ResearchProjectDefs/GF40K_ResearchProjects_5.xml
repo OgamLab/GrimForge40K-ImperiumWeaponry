@@ -49,7 +49,7 @@
 		<researchViewY>0</researchViewY> 	
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+	<!--ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularMeleeMechanicus</defName>
 		<label>Adeptus Mechanicus weapons</label>
 		<description>Embark on a journey into the secrets of the Adeptus Mechanicus with the Mechanicus Arsenal Research project. Study the sacred tomes and rediscovered schematics to uncover the blueprints for Arc Mauls, Omnisian Axes, Mechanicus Power Swords, Taser Goads, Transonic Blades, and Transonic Razors. Unleash the power of the Omnissiah in your hands as you forge these powerful melee weapons. With this research, your colony will possess a formidable arsenal of Mechanicus melee weapons, striking fear into your enemies and defending your lands with the blessings of Mars.</description>
@@ -59,7 +59,7 @@
 		</prerequisites>	
 		<researchViewX>3</researchViewX>
 		<researchViewY>0</researchViewY> 	
-	</ResearchProjectDef>
+	</ResearchProjectDef-->
 
 	<!--ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularMeleePersona</defName>
@@ -74,6 +74,19 @@
 	</ResearchProjectDef-->
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularArc</defName>
+		<label>Adeptus Mechanicus arc weapons</label>
+		<description>Embark on a pioneering research project to unravel the enigmatic mysteries of Arc Weapons.</description>
+		<baseCost>9000</baseCost>
+		<prerequisites>
+		  <li>GF40K_ImperiumCore</li>
+		</prerequisites>	
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY> 	
+	</ResearchProjectDef>
+
+
+	<!--ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularRangedArc</defName>
 		<label>Adeptus Mechanicus arc weapons</label>
 		<description>Embark on a pioneering research project to unravel the enigmatic mysteries of Arc Weapons. Delve into the arcane technology that powers the fearsome Galvanic Rifle, Arc Pistol, and Arc Rifle. These legendary firearms harness the power of electrical force and are revered for their ability to deliver devastating shocks to both flesh and machine. Through this research, your colony will gain access to the formidable and electrifying Arc Weapons, ensuring your enemies will tremble before your might.</description>
@@ -83,7 +96,7 @@
 		</prerequisites>	
 		<researchViewX>1</researchViewX>
 		<researchViewY>1</researchViewY> 	
-	</ResearchProjectDef>
+	</ResearchProjectDef-->
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularRangedPlasma</defName>

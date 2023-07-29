@@ -17,7 +17,7 @@
 				<li>FabricationBench</li>
 			</recipeUsers>
 			<researchPrerequisites>
-				<li>GF40K_RegularMeleeMechanicus</li>
+				<li>GF40K_RegularArc</li>
 			</researchPrerequisites>
 		</recipeMaker>
 		<smeltable>false</smeltable>

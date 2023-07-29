@@ -8,17 +8,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- <relicChance>3</relicChance> -->
-		<recipeMaker>
-			<skillRequirements>
-				<Crafting>12</Crafting>
-			</skillRequirements>
-			<recipeUsers>
-				<li>FabricationBench</li>
-			</recipeUsers>
-			<researchPrerequisite Inherit="False"/>
-			<researchPrerequisites Inherit="False">
-				<li>GF40K_RegularArc</li>
-			</researchPrerequisites>
+		<recipeMaker Inherit="False">
 		</recipeMaker>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
@@ -40,11 +30,7 @@
 				<li Class="CompProperties_Art">
 				<nameMaker>NamerArtWeaponGun</nameMaker>
 				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>  
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
+			</li> 
 			<li Class="CompProperties_Forbiddable"/>      
 			<li Class="CompProperties_Styleable"/>
 		</comps>
@@ -55,7 +41,7 @@
         <label>galvanic rifle</label>
         <description>The Galvanic Rifle, a marvel of Mechanicus ingenuity, resembles ancient flintlock guns from Mars. Its handcrafted, antique body conceals advanced galvanic servitor-bullets that deliver deadly electric force. With unparalleled armor-piercing capabilities, the Galvanic Rifle's shots can pierce through multiple adversaries in a haunting display of relentless precision and destructive power.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/Ark/GalvanicRifle</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/GalvanicRifle_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <uiIconScale>1</uiIconScale>
@@ -70,7 +56,7 @@
             <li>SpacerGun</li>
         </weaponTags>
 		
-		<equippedAngleOffset>50</equippedAngleOffset>
+		<equippedAngleOffset>45</equippedAngleOffset>
 		
         <statBases>
             <WorkToMake>35000</WorkToMake>

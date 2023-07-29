@@ -46,7 +46,7 @@
         <statBases>
             <WorkToMake>169000</WorkToMake>
 			<MarketValue>4800</MarketValue>
-            <Mass>1.5</Mass>
+            <Mass>2</Mass>
             <AccuracyTouch>0.94</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
             <AccuracyMedium>0.64</AccuracyMedium>
@@ -174,7 +174,7 @@
         <statBases>
             <WorkToMake>170000</WorkToMake>
 			<MarketValue>4900</MarketValue>
-            <Mass>2</Mass>
+            <Mass>4</Mass>
             <AccuracyTouch>0.99</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
             <AccuracyMedium>0.62</AccuracyMedium>
@@ -303,7 +303,7 @@
         <statBases>
             <WorkToMake>170000</WorkToMake>
 			<MarketValue>4000</MarketValue>
-            <Mass>2.5</Mass>
+            <Mass>5.5</Mass>
             <AccuracyTouch>0.72</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
             <AccuracyMedium>1</AccuracyMedium>
