@@ -251,8 +251,6 @@
 						<defaultProjectile>BulletCE_GF40K_LaserSMG</defaultProjectile>
 						<warmupTime>0.5</warmupTime>
 						<range>28</range>
-						<burstShotCount>5</burstShotCount>
-						<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 						<soundCast>GF40K_LaserPistolShot</soundCast>
 						<soundCastTail>GunTail_Light</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
@@ -264,7 +262,6 @@
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>Snapshot</aiAimMode>
-						<aimedBurstShotCount>3</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
@@ -283,15 +280,12 @@
 								<defaultProjectile>BulletCE_GF40K_LaserSMGOC</defaultProjectile>
 								<ammoConsumedPerShotCount>3</ammoConsumedPerShotCount>
 								<warmupTime>0.45</warmupTime>
-								<burstShotCount>5</burstShotCount>
-								<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 								<range>28</range>
 								<soundCast>GF40K_LaserPistolShot</soundCast>
 								<soundCastTail>GunTail_Light</soundCastTail>
 								<muzzleFlashScale>9</muzzleFlashScale>
 							</verbPropsUnderBarrel>
 							<propsFireModesUnderBarrel>
-								<aimedBurstShotCount>3</aimedBurstShotCount>
 								<aiAimMode>AimedShot</aiAimMode>
 							</propsFireModesUnderBarrel>
 						</li>
@@ -316,8 +310,8 @@
 						<defaultProjectile>BulletCE_GF40K_LaserSMGRelicOC</defaultProjectile>
 						<warmupTime>0.5</warmupTime>
 						<range>28</range>
-						<burstShotCount>5</burstShotCount>
-						<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+						<burstShotCount>3</burstShotCount>
+						<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
 						<soundCast>GF40K_LaserPistolShot</soundCast>
 						<soundCastTail>GunTail_Light</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
@@ -329,7 +323,7 @@
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>Snapshot</aiAimMode>
-						<aimedBurstShotCount>3</aimedBurstShotCount>
+						<aimedBurstShotCount>2</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
@@ -348,15 +342,15 @@
 								<defaultProjectile>BulletCE_GF40K_LaserSMGRelicOC</defaultProjectile>
 								<ammoConsumedPerShotCount>3</ammoConsumedPerShotCount>
 								<warmupTime>0.4</warmupTime>
-								<burstShotCount>7</burstShotCount>
-								<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+								<burstShotCount>3</burstShotCount>
+								<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
 								<range>28</range>
 								<soundCast>GF40K_LaserPistolShot</soundCast>
 								<soundCastTail>GunTail_Light</soundCastTail>
 								<muzzleFlashScale>9</muzzleFlashScale>
 							</verbPropsUnderBarrel>
 							<propsFireModesUnderBarrel>
-								<aimedBurstShotCount>3</aimedBurstShotCount>
+								<aimedBurstShotCount>2</aimedBurstShotCount>
 								<aiAimMode>AimedShot</aiAimMode>
 							</propsFireModesUnderBarrel>
 						</li>
@@ -381,8 +375,6 @@
 						<defaultProjectile>BulletCE_GF40K_LaserGun</defaultProjectile>
 						<warmupTime>1</warmupTime>
 						<range>62</range>
-						<burstShotCount>6</burstShotCount>
-						<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 						<soundCast>GF40K_LaserGunShot</soundCast>
 						<soundCastTail>GunTail_Light</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
@@ -394,8 +386,6 @@
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
-						<aiUseBurstMode>True</aiUseBurstMode>
-						<aimedBurstShotCount>3</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
@@ -414,15 +404,12 @@
 								<defaultProjectile>BulletCE_GF40K_LaserGunOC</defaultProjectile>
 								<ammoConsumedPerShotCount>3</ammoConsumedPerShotCount>
 								<warmupTime>1</warmupTime>
-								<burstShotCount>6</burstShotCount>
-								<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 								<range>62</range>
 								<soundCast>GF40K_LaserGunShot</soundCast>
 								<soundCastTail>GunTail_Light</soundCastTail>
 								<muzzleFlashScale>9</muzzleFlashScale>
 							</verbPropsUnderBarrel>
 							<propsFireModesUnderBarrel>
-								<aimedBurstShotCount>3</aimedBurstShotCount>
 								<aiAimMode>AimedShot</aiAimMode>
 							</propsFireModesUnderBarrel>
 						</li>
@@ -447,8 +434,6 @@
 						<defaultProjectile>BulletCE_GF40K_LaserGunRelic</defaultProjectile>
 						<warmupTime>0.95</warmupTime>
 						<range>62</range>
-						<burstShotCount>6</burstShotCount>
-						<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 						<soundCast>GF40K_LaserGunShot</soundCast>
 						<soundCastTail>GunTail_Light</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
@@ -460,8 +445,6 @@
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
-						<aiUseBurstMode>True</aiUseBurstMode>
-						<aimedBurstShotCount>3</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
@@ -480,17 +463,13 @@
 								<defaultProjectile>BulletCE_GF40K_LaserGunRelicOC</defaultProjectile>
 								<ammoConsumedPerShotCount>3</ammoConsumedPerShotCount>
 								<warmupTime>0.95</warmupTime>
-								<burstShotCount>6</burstShotCount>
-								<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 								<range>62</range>
 								<soundCast>GF40K_LaserGunShot</soundCast>
 								<soundCastTail>GunTail_Light</soundCastTail>
 								<muzzleFlashScale>9</muzzleFlashScale>
 							</verbPropsUnderBarrel>
 							<propsFireModesUnderBarrel>
-								<aimedBurstShotCount>3</aimedBurstShotCount>
 								<aiAimMode>AimedShot</aiAimMode>
-								<aiUseBurstMode>True</aiUseBurstMode>
 							</propsFireModesUnderBarrel>
 						</li>
 					</value>
@@ -525,8 +504,6 @@
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
-						<aiUseBurstMode>True</aiUseBurstMode>
-						<aimedBurstShotCount>3</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
@@ -551,7 +528,6 @@
 								<muzzleFlashScale>9</muzzleFlashScale>
 							</verbPropsUnderBarrel>
 							<propsFireModesUnderBarrel>
-								<aimedBurstShotCount>3</aimedBurstShotCount>
 								<aiAimMode>AimedShot</aiAimMode>
 							</propsFireModesUnderBarrel>
 						</li>
@@ -587,8 +563,6 @@
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
-						<aiUseBurstMode>True</aiUseBurstMode>
-						<aimedBurstShotCount>3</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
@@ -613,9 +587,7 @@
 								<muzzleFlashScale>9</muzzleFlashScale>
 							</verbPropsUnderBarrel>
 							<propsFireModesUnderBarrel>
-								<aimedBurstShotCount>3</aimedBurstShotCount>
 								<aiAimMode>AimedShot</aiAimMode>
-								<aiUseBurstMode>True</aiUseBurstMode>
 							</propsFireModesUnderBarrel>
 						</li>
 					</value>
