@@ -28,7 +28,7 @@
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularMelee</defName>
 		<label>Imperial melee weapons</label>
-		<description>Delve deep into ancient combat techniques and experimental designs to unlock the secrets of Power Swords, Power Staves, Chainswords, Eviscerators, and Power Sabres. Harness the raw might of these deadly close-combat weapons, each with unique features and devastating strikes. With this research, your colony will gain access to a formidable arsenal of advanced melee weapons, arming your warriors with the cutting edge of close-quarters combat. Turn the tide of battle in your favor and dominate your foes with unmatched precision and lethality.</description>
+		<description>Delve deep into ancient combat techniques and experimental designs to unlock the secrets of Power Swords, Power Sabres, Chainswords and Eviscerators. Harness the raw might of these deadly close-combat weapons, each with unique features and devastating strikes. With this research, your colony will gain access to a formidable arsenal of advanced melee weapons, arming your warriors with the cutting edge of close-quarters combat. Turn the tide of battle in your favor and dominate your foes with unmatched precision and lethality.</description>
 		<baseCost>4000</baseCost>
 		<prerequisites>
 		  <li>GF40K_ImperiumCore</li>
@@ -125,7 +125,7 @@
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularRangedLaser</defName>
 		<label>Imperial las-weapons</label>
-		<description>Unravel the secrets of harnessing focused energy beams to pierce through enemy defenses and deliver swift justice. Develop advanced Las Weapons like the Long-Las, Las Carbine, Las Gun, Las Pistol, and Las SMG. With this research, your colony will wield firepower capable of searing through armor and incinerating adversaries with blistering precision. Embrace the power of laser technology and usher in a new era of ranged combat superiority.</description>
+		<description>Unravel the secrets of harnessing focused energy beams to pierce through enemy defenses and deliver swift justice. Develop advanced Las Weapons like the Long-Las, Lascarbine, Lasgun, Laspistol, and Las SMG. With this research, your colony will wield firepower capable of searing through armor and incinerating adversaries with blistering precision. Embrace the power of laser technology and usher in a new era of ranged combat superiority.</description>
 		<baseCost>4000</baseCost>
 		<prerequisites>
 		  <li>GF40K_ImperiumCore</li>
