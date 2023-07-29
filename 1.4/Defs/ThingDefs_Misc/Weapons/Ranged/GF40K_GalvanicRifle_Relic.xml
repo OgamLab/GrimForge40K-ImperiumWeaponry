@@ -1,5 +1,5 @@
 <Defs>
-	<ThingDef Name="GF40K_BaseRangedGauss" ParentName="BaseHumanMakeableGun" Abstract="True">
+	<ThingDef Name="GF40K_RelicBaseRangedGauss" ParentName="BaseHumanMakeableGun" Abstract="True">
 		<techLevel>Ultra</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
@@ -36,8 +36,8 @@
 		</comps>
 	</ThingDef>
 	
-    <ThingDef ParentName="GF40K_BaseRangedGauss">
-        <defName>GF40K_GalvanicRifle</defName>
+    <ThingDef ParentName="GF40K_RelicBaseRangedGauss">
+        <defName>GF40K_RelicGalvanicRifle</defName>
         <label>galvanic rifle</label>
         <description>The Galvanic Rifle, a marvel of Mechanicus ingenuity, resembles ancient flintlock guns from Mars. Its handcrafted, antique body conceals advanced galvanic servitor-bullets that deliver deadly electric force. With unparalleled armor-piercing capabilities, the Galvanic Rifle's shots can pierce through multiple adversaries in a haunting display of relentless precision and destructive power.</description>
         <graphicData>
@@ -62,10 +62,10 @@
             <WorkToMake>35000</WorkToMake>
 			<MarketValue>3000</MarketValue>
             <Mass>1.8</Mass>
-            <AccuracyTouch>0.82</AccuracyTouch>
-            <AccuracyShort>0.70</AccuracyShort>
-            <AccuracyMedium>0.65</AccuracyMedium>
-            <AccuracyLong>0.55</AccuracyLong>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>.98</AccuracyMedium>
+            <AccuracyLong>.83</AccuracyLong>
             <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
         </statBases>
         <costList>
@@ -77,7 +77,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GF40K_GalvanicBullet</defaultProjectile>
+                <defaultProjectile>GF40K_RelicGalvanicBullet</defaultProjectile>
                 <warmupTime>2</warmupTime>
                 <range>34.9</range>
 				<burstShotCount>1</burstShotCount>
@@ -122,7 +122,7 @@
     </ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>GF40K_GalvanicBullet</defName>
+		<defName>GF40K_RelicGalvanicBullet</defName>
 		<label>Gauss bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/Needle</texPath>
@@ -132,7 +132,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>GF40K_Gauss</damageDef>
-			<damageAmountBase>25</damageAmountBase>
+			<damageAmountBase>38</damageAmountBase>
 			<armorPenetrationBase>1.2</armorPenetrationBase>
 			<stoppingPower>1.8</stoppingPower>
 			<speed>200</speed>
