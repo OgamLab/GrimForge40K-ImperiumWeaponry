@@ -153,7 +153,7 @@
     <ThingDef ParentName="GF40K_BaseRangedArk">
         <defName>GF40K_ArkRifle</defName>
         <label>arc rifle</label>
-        <description>The Arc Rifle is a rapid-firing weapon of remarkable Mechanicus ingenuity. Its shots channel the unforgiving power of ancient perma-capacitors retrieved from the sacred vaults of Mars. Encased within its revered zinc-plated blocks lies the untapped potential of long-forgotten eras. With each discharge, the Arc Rifle fills the air with resonating cracks, propelling blots of blue-white electricity that can obliterate the strongest of adversaries.</description>
+        <description>The Arc Rifle is a rapid-firing weapon of remarkable Mechanicus ingenuity. Its shots channel the unforgiving power of ancient perma-capacitors retrieved from the sacred vaults of Mars. Encased within its revered zinc-plated blocks lies the untapped potential of long-forgotten eras. With each discharge, the Arc Rifle fills the air with resonating cracks, propelling bolts of blue-white electricity that can obliterate the strongest of adversaries.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Ark/ArkRifle</texPath>
         </graphicData>
