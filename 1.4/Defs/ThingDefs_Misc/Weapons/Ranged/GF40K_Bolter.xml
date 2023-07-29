@@ -31,9 +31,6 @@
         </weaponTags>
 		<comps Inherit="False">
 			<li>
-				<compClass>CompEquippable</compClass>
-			</li>
-			<li>
 				<compClass>CompColorable</compClass>
 			</li>	
 				<li Class="CompProperties_Art">

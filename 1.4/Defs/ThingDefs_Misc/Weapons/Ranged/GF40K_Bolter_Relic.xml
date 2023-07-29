@@ -20,9 +20,6 @@
             <li>ImperiumRangedRelic</li>
         </weaponTags>
 		<comps Inherit="False">
-			<li>
-				<compClass>CompEquippable</compClass>
-			</li>
 				<li Class="CompProperties_Art">
 				<nameMaker>NamerArtWeaponGun</nameMaker>
 				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>

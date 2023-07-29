@@ -34,7 +34,7 @@
 		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
 		<researchViewX>1</researchViewX>
-		<researchViewY>1</researchViewY> 	
+		<researchViewY>0</researchViewY> 	
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
@@ -46,7 +46,7 @@
 		  <li>GF40K_RegularMelee</li>
 		</prerequisites>	
 		<researchViewX>2</researchViewX>
-		<researchViewY>1</researchViewY> 	
+		<researchViewY>0</researchViewY> 	
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
@@ -58,7 +58,7 @@
 		  <li>GF40K_RegularMeleeForce</li>
 		</prerequisites>	
 		<researchViewX>3</researchViewX>
-		<researchViewY>1</researchViewY> 	
+		<researchViewY>0</researchViewY> 	
 	</ResearchProjectDef>
 
 	<!--ResearchProjectDef ParentName="GF40K_ResearchBase">
@@ -79,10 +79,10 @@
 		<description>Embark on a pioneering research project to unravel the enigmatic mysteries of Arc Weapons. Delve into the arcane technology that powers the fearsome Galvanic Rifle, Arc Pistol, and Arc Rifle. These legendary firearms harness the power of electrical force and are revered for their ability to deliver devastating shocks to both flesh and machine. Through this research, your colony will gain access to the formidable and electrifying Arc Weapons, ensuring your enemies will tremble before your might.</description>
 		<baseCost>7000</baseCost>
 		<prerequisites>
-		  <li>GF40K_RegularRangedPlasma</li>
+		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
-		<researchViewX>4</researchViewX>
-		<researchViewY>2</researchViewY> 	
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY> 	
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
@@ -91,9 +91,9 @@
 		<description>Venture into the realm of Plasma Weaponry with this ambitious research project. Uncover the arcane knowledge of channeling superheated energy into devastating plasma projectiles. Explore the mysteries of Plasma Pistols and Plasma Guns, weapons that can melt through enemy defenses with unparalleled ferocity. Master the volatile power of plasma weaponry to turn the tide of battle in your favor. Through this research, your colony will wield the scorching might of plasma arms, capable of obliterating even the most formidable adversaries and unleashing havoc upon the battlefield.</description>
 		<baseCost>6000</baseCost>
 		<prerequisites>
-		  <li>GF40K_RegularRangedBolter</li>
+		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
-		<researchViewX>3</researchViewX>
+		<researchViewX>1</researchViewX>
 		<researchViewY>2</researchViewY> 	
 	</ResearchProjectDef>
 
@@ -103,10 +103,10 @@
 		<description>Delve into the mysteries of Bolt Weapons with this ambitious research project. Uncover the ancient art of crafting and utilizing devastating firearms that fire self-propelling 0.75 caliber explosive projectiles. These weapons are capable of discharging powerful explosive rounds, tearing through armor and rending foes asunder. Unleash the thunderous fury of Bolt Pistols, Bolt Guns, and Bolt Snipers upon your enemies. Through this research, your colony will gain access to a versatile and lethal arsenal of ranged weaponry, perfect for annihilating your foes and asserting dominance on the battlefield.</description>
 		<baseCost>5000</baseCost>
 		<prerequisites>
-		  <li>GF40K_RegularRangedLaser</li>
+		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
-		<researchViewX>2</researchViewX>
-		<researchViewY>2</researchViewY> 	
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY> 	
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
@@ -118,7 +118,7 @@
 		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
 		<researchViewX>1</researchViewX>
-		<researchViewY>2</researchViewY> 	
+		<researchViewY>4</researchViewY> 	
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
@@ -130,6 +130,6 @@
 		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
 		<researchViewX>1</researchViewX>
-		<researchViewY>3</researchViewY> 	
+		<researchViewY>5</researchViewY> 	
 	</ResearchProjectDef>
 </Defs>
