@@ -12,9 +12,9 @@
 				<!-- === Tools === -->
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[
-						defName = "GF40K_LaserPistol" or 
-						defName = "GF40K_LaserSMG" or 
-						defName = "GF40K_LaserPistolRelic" or 
+						defName = "GF40K_LaserPistol" or
+						defName = "GF40K_LaserSMG" or
+						defName = "GF40K_LaserPistolRelic" or
 						defName = "GF40K_LaserSMGRelic"
 						]/tools</xpath>
 					<value>
@@ -46,13 +46,13 @@
 
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[
-						defName = "GF40K_LaserSMG" or 
-						defName = "GF40K_LaserGun" or 
-						defName = "GF40K_LaserCarabine" or 
-						defName = "GF40K_LaserSniper" or 
-						defName = "GF40K_LaserSMGRelic" or 
-						defName = "GF40K_LaserGunRelic" or 
-						defName = "GF40K_LaserCarabineRelic" or 
+						defName = "GF40K_LaserSMG" or
+						defName = "GF40K_LaserGun" or
+						defName = "GF40K_LaserCarabine" or
+						defName = "GF40K_LaserSniper" or
+						defName = "GF40K_LaserSMGRelic" or
+						defName = "GF40K_LaserGunRelic" or
+						defName = "GF40K_LaserCarabineRelic" or
 						defName = "GF40K_LaserSniperRelic"
 						]/tools</xpath>
 					<value>
@@ -96,10 +96,10 @@
 
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[
-						defName = "GF40K_LaserPistol" or 
-						defName = "GF40K_LaserSMG" or 
-						defName = "GF40K_LaserPistolRelic" or 
-						defName = "GF40K_LaserSMGRelic" or 
+						defName = "GF40K_LaserPistol" or
+						defName = "GF40K_LaserSMG" or
+						defName = "GF40K_LaserPistolRelic" or
+						defName = "GF40K_LaserSMGRelic" or
 						defName = "GF40K_LaserGun" or
 						defName = "GF40K_LaserCarabine" or
 						defName = "GF40K_LaserSniper" or
@@ -132,7 +132,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>40</magazineSize>
+						<magazineSize>12</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserPistol</ammoSet>
 					</AmmoUser>
@@ -149,7 +149,7 @@
 					<value>
 						<li Class="CombatExtended.CompProperties_UnderBarrel">
 							<propsUnderBarrel>
-								<magazineSize>30</magazineSize>
+								<magazineSize>12</magazineSize>
 								<reloadTime>6</reloadTime>
 								<ammoSet>AmmoSet_GF40K_LaserPistolOC</ammoSet>
 							</propsUnderBarrel>
@@ -194,7 +194,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>40</magazineSize>
+						<magazineSize>12</magazineSize>
 						<reloadTime>3.8</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserPistolRelic</ammoSet>
 					</AmmoUser>
@@ -211,7 +211,7 @@
 					<value>
 						<li Class="CombatExtended.CompProperties_UnderBarrel">
 							<propsUnderBarrel>
-								<magazineSize>30</magazineSize>
+								<magazineSize>12</magazineSize>
 								<reloadTime>5.4</reloadTime>
 								<ammoSet>AmmoSet_GF40K_LaserPistolRelicOC</ammoSet>
 							</propsUnderBarrel>
@@ -251,20 +251,17 @@
 						<defaultProjectile>BulletCE_GF40K_LaserSMG</defaultProjectile>
 						<warmupTime>0.5</warmupTime>
 						<range>28</range>
-						<burstShotCount>5</burstShotCount>
-						<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 						<soundCast>GF40K_LaserPistolShot</soundCast>
 						<soundCastTail>GunTail_Light</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>45</magazineSize>
+						<magazineSize>30</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserSMG</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>Snapshot</aiAimMode>
-						<aimedBurstShotCount>3</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
@@ -273,7 +270,7 @@
 					<value>
 						<li Class="CombatExtended.CompProperties_UnderBarrel">
 							<propsUnderBarrel>
-								<magazineSize>31</magazineSize>
+								<magazineSize>30</magazineSize>
 								<reloadTime>6</reloadTime>
 								<ammoSet>AmmoSet_GF40K_LaserSMGOC</ammoSet>
 							</propsUnderBarrel>
@@ -283,15 +280,12 @@
 								<defaultProjectile>BulletCE_GF40K_LaserSMGOC</defaultProjectile>
 								<ammoConsumedPerShotCount>3</ammoConsumedPerShotCount>
 								<warmupTime>0.45</warmupTime>
-								<burstShotCount>5</burstShotCount>
-								<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 								<range>28</range>
 								<soundCast>GF40K_LaserPistolShot</soundCast>
 								<soundCastTail>GunTail_Light</soundCastTail>
 								<muzzleFlashScale>9</muzzleFlashScale>
 							</verbPropsUnderBarrel>
 							<propsFireModesUnderBarrel>
-								<aimedBurstShotCount>3</aimedBurstShotCount>
 								<aiAimMode>AimedShot</aiAimMode>
 							</propsFireModesUnderBarrel>
 						</li>
@@ -316,20 +310,20 @@
 						<defaultProjectile>BulletCE_GF40K_LaserSMGRelicOC</defaultProjectile>
 						<warmupTime>0.5</warmupTime>
 						<range>28</range>
-						<burstShotCount>5</burstShotCount>
-						<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+						<burstShotCount>3</burstShotCount>
+						<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
 						<soundCast>GF40K_LaserPistolShot</soundCast>
 						<soundCastTail>GunTail_Light</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>45</magazineSize>
+						<magazineSize>30</magazineSize>
 						<reloadTime>3.8</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserSMGRelicOC</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>Snapshot</aiAimMode>
-						<aimedBurstShotCount>3</aimedBurstShotCount>
+						<aimedBurstShotCount>2</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
@@ -348,15 +342,15 @@
 								<defaultProjectile>BulletCE_GF40K_LaserSMGRelicOC</defaultProjectile>
 								<ammoConsumedPerShotCount>3</ammoConsumedPerShotCount>
 								<warmupTime>0.4</warmupTime>
-								<burstShotCount>7</burstShotCount>
-								<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+								<burstShotCount>3</burstShotCount>
+								<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
 								<range>28</range>
 								<soundCast>GF40K_LaserPistolShot</soundCast>
 								<soundCastTail>GunTail_Light</soundCastTail>
 								<muzzleFlashScale>9</muzzleFlashScale>
 							</verbPropsUnderBarrel>
 							<propsFireModesUnderBarrel>
-								<aimedBurstShotCount>3</aimedBurstShotCount>
+								<aimedBurstShotCount>2</aimedBurstShotCount>
 								<aiAimMode>AimedShot</aiAimMode>
 							</propsFireModesUnderBarrel>
 						</li>
@@ -381,21 +375,17 @@
 						<defaultProjectile>BulletCE_GF40K_LaserGun</defaultProjectile>
 						<warmupTime>1</warmupTime>
 						<range>62</range>
-						<burstShotCount>6</burstShotCount>
-						<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 						<soundCast>GF40K_LaserGunShot</soundCast>
 						<soundCastTail>GunTail_Light</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>60</magazineSize>
+						<magazineSize>20</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserGun</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
-						<aiUseBurstMode>True</aiUseBurstMode>
-						<aimedBurstShotCount>3</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
@@ -404,7 +394,7 @@
 					<value>
 						<li Class="CombatExtended.CompProperties_UnderBarrel">
 							<propsUnderBarrel>
-								<magazineSize>45</magazineSize>
+								<magazineSize>20</magazineSize>
 								<reloadTime>6</reloadTime>
 								<ammoSet>AmmoSet_GF40K_LaserGunOC</ammoSet>
 							</propsUnderBarrel>
@@ -414,15 +404,12 @@
 								<defaultProjectile>BulletCE_GF40K_LaserGunOC</defaultProjectile>
 								<ammoConsumedPerShotCount>3</ammoConsumedPerShotCount>
 								<warmupTime>1</warmupTime>
-								<burstShotCount>6</burstShotCount>
-								<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 								<range>62</range>
 								<soundCast>GF40K_LaserGunShot</soundCast>
 								<soundCastTail>GunTail_Light</soundCastTail>
 								<muzzleFlashScale>9</muzzleFlashScale>
 							</verbPropsUnderBarrel>
 							<propsFireModesUnderBarrel>
-								<aimedBurstShotCount>3</aimedBurstShotCount>
 								<aiAimMode>AimedShot</aiAimMode>
 							</propsFireModesUnderBarrel>
 						</li>
@@ -447,21 +434,17 @@
 						<defaultProjectile>BulletCE_GF40K_LaserGunRelic</defaultProjectile>
 						<warmupTime>0.95</warmupTime>
 						<range>62</range>
-						<burstShotCount>6</burstShotCount>
-						<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 						<soundCast>GF40K_LaserGunShot</soundCast>
 						<soundCastTail>GunTail_Light</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>60</magazineSize>
+						<magazineSize>20</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserGunRelic</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
-						<aiUseBurstMode>True</aiUseBurstMode>
-						<aimedBurstShotCount>3</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
@@ -470,7 +453,7 @@
 					<value>
 						<li Class="CombatExtended.CompProperties_UnderBarrel">
 							<propsUnderBarrel>
-								<magazineSize>45</magazineSize>
+								<magazineSize>20</magazineSize>
 								<reloadTime>6</reloadTime>
 								<ammoSet>AmmoSet_GF40K_LaserGunRelicOC</ammoSet>
 							</propsUnderBarrel>
@@ -480,17 +463,13 @@
 								<defaultProjectile>BulletCE_GF40K_LaserGunRelicOC</defaultProjectile>
 								<ammoConsumedPerShotCount>3</ammoConsumedPerShotCount>
 								<warmupTime>0.95</warmupTime>
-								<burstShotCount>6</burstShotCount>
-								<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 								<range>62</range>
 								<soundCast>GF40K_LaserGunShot</soundCast>
 								<soundCastTail>GunTail_Light</soundCastTail>
 								<muzzleFlashScale>9</muzzleFlashScale>
 							</verbPropsUnderBarrel>
 							<propsFireModesUnderBarrel>
-								<aimedBurstShotCount>3</aimedBurstShotCount>
 								<aiAimMode>AimedShot</aiAimMode>
-								<aiUseBurstMode>True</aiUseBurstMode>
 							</propsFireModesUnderBarrel>
 						</li>
 					</value>
@@ -525,8 +504,6 @@
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
-						<aiUseBurstMode>True</aiUseBurstMode>
-						<aimedBurstShotCount>3</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
@@ -551,7 +528,6 @@
 								<muzzleFlashScale>9</muzzleFlashScale>
 							</verbPropsUnderBarrel>
 							<propsFireModesUnderBarrel>
-								<aimedBurstShotCount>3</aimedBurstShotCount>
 								<aiAimMode>AimedShot</aiAimMode>
 							</propsFireModesUnderBarrel>
 						</li>
@@ -560,7 +536,7 @@
 
 				<!-- === Relic Las Carabine === -->
 				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-					<defName>GF40K_LaserCarabineRelic</defName>
+					<defName>GF40K_LaserCarbineRelic</defName>
 					<statBases>
 						<Mass>8.50</Mass>
 						<Bulk>10.00</Bulk>
@@ -583,23 +559,21 @@
 					<AmmoUser>
 						<magazineSize>30</magazineSize>
 						<reloadTime>4</reloadTime>
-						<ammoSet>AmmoSet_LaserCarabineRelic</ammoSet>
+						<ammoSet>AmmoSet_GF40K_LaserCarabine</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
-						<aiUseBurstMode>True</aiUseBurstMode>
-						<aimedBurstShotCount>3</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="GF40K_LaserCarabineRelic"]/comps</xpath>
+					<xpath>Defs/ThingDef[defName="GF40K_LaserCarbineRelic"]/comps</xpath>
 					<value>
 						<li Class="CombatExtended.CompProperties_UnderBarrel">
 							<propsUnderBarrel>
 								<magazineSize>22</magazineSize>
 								<reloadTime>6</reloadTime>
-								<ammoSet>AmmoSet_LaserCarabineRelicOC</ammoSet>
+								<ammoSet>AmmoSet_GF40K_LaserCarabineRelicOC</ammoSet>
 							</propsUnderBarrel>
 							<verbPropsUnderBarrel>
 								<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -613,9 +587,7 @@
 								<muzzleFlashScale>9</muzzleFlashScale>
 							</verbPropsUnderBarrel>
 							<propsFireModesUnderBarrel>
-								<aimedBurstShotCount>3</aimedBurstShotCount>
 								<aiAimMode>AimedShot</aiAimMode>
-								<aiUseBurstMode>True</aiUseBurstMode>
 							</propsFireModesUnderBarrel>
 						</li>
 					</value>
@@ -645,7 +617,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>15</magazineSize>
+						<magazineSize>10</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserSniper</ammoSet>
 					</AmmoUser>
@@ -705,7 +677,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>15</magazineSize>
+						<magazineSize>10</magazineSize>
 						<reloadTime>3.9</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserSniperRelic</ammoSet>
 					</AmmoUser>

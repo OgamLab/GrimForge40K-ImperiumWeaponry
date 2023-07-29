@@ -72,7 +72,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>10</magazineSize>
+						<magazineSize>12</magazineSize>
 						<reloadOneAtATime>true</reloadOneAtATime>
 						<reloadTime>0.85</reloadTime>
 						<ammoSet>AmmoSet_8mmGauss_Galvanic</ammoSet>
