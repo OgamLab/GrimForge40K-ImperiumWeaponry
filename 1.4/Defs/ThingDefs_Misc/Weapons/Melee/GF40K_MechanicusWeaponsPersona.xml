@@ -42,7 +42,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleeMechanicusPersona">
 		<defName>GF40K_PersonaMechanicusPowerSword</defName>
 		<label>persona mechanicus power sword</label>
-		<description>The Persona Mechanicus Power Sword is an embodiment of technological mastery and personalized aesthetics. Its blade, meticulously crafted and adorned with arcane symbols, combines cutting and stabbing capabilities with devastating effectiveness. Infused with an EMP discharge system, the Persona Mechanicus Power Sword allows its wielder to unleash a surge of electromagnetic energy upon striking, incapacitating and disrupting enemy targets.</description>
+		<description>The Persona Mechanicus Power Sword is an embodiment of technological mastery and personalized aesthetics. Its blade, meticulously crafted and adorned with arcane symbols, combines cutting and stabbing capabilities with devastating effectiveness. Possessing a sentient nature, the sword forms a psychic bond with its wielder, empowering them to strike with enhanced strength and precision. Infused with an EMP discharge system, the weapon allows its wielder to unleash a surge of electromagnetic energy upon striking, incapacitating and disrupting enemy targets.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/PersonaMechanicusPowerSword</texPath>
 		</graphicData>

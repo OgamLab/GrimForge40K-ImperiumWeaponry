@@ -80,7 +80,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleeForce_Oversize">
 		<defName>GF40K_ForceHalberd</defName>
 		<label>force halberd</label>
-		<description>The Force Halberd, a marvel of artifice and mastery over the psychic currents, exudes an aura of psionic might. Forged by skilled hands, this melee weapon blends the elegance of a traditional halberd with the arcane prowess of the Adeptus Mechanicus. With each sweeping strike, the Force Halberd channels the latent psychic energies within its wielder, enhancing their psionic abilities and bolstering their combat prowess. In the hands of a skilled warrior, this weapon becomes an instrument of both physical and psychic devastation, cleaving through foes and empowering the mind to transcend the limits of mere mortals.</description>
+		<description>The Force Halberd is a finely crafted polearm with a long, curved blade and a sturdy haft. Its blade emits an aura of psychic might. Each strike taps into the wielder's psychic energies, enhancing their innate psychic abilities. In skilled hands, it becomes a devastating weapon, slicing through foes and unlocking untold mental potential.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/ForceHalberd</texPath>
 			<drawSize>1.5</drawSize>

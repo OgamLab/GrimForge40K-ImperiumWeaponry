@@ -152,7 +152,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_GalvanicBullet</defName>
-		<label>gauss bullet</label>
+		<label>Gauss bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/Needle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

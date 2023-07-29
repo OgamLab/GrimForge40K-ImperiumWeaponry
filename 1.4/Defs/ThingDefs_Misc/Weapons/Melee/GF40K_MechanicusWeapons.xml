@@ -83,7 +83,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
 		<defName>GF40K_MechanicusArcMaul</defName>
 		<label>arc maul</label>
-		<description>The Mechanicus Arc Maul is a heavy blunt weapon, resonating with the power of electromagnetism. Its energized head delivers devastating concussive blows that can shatter armor and incapacitate mechanical foes. Equipped with an integrated EMP generator, the Arc Maul is the weapon of choice for Tech-Priests engaged in the relentless pursuit of subduing and dismantling their adversaries.</description>
+		<description>The Mechanicus Arc Maul is a heavy blunt weapon, resonating with the power of electromagnetism. When activated, the energized head delivers devastating, lightning infused blows upon its unfortunate targets, often leading them to convulse to death.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusArcMaul</texPath>
 		</graphicData>
@@ -173,7 +173,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
 		<defName>GF40K_MechanicusPowerSword</defName>
 		<label>mechanicus power sword</label>
-		<description>The Mechanicus Power Sword is a fusion of arcane technology and martial precision. Its blade, crackling with energy, combines cutting and stabbing capabilities to devastating effect. Infused with an EMP discharge mechanism, the Power Sword allows Tech-Priests to unleash a surge of electromagnetic energy upon striking, disrupting enemy systems and leaving them vulnerable to further attacks.</description>
+		<description>The Mechanicus Power Sword combines advanced technology with martial precision. Its blade crackles with energy, enhancing cutting and stabbing capabilities to deliver a devastating effect. Infused with an EMP discharge mechanism, the Power Sword allows Tech-Priests to unleash a surge of electromagnetic energy upon striking, disrupting enemy systems and leaving them vulnerable to further attacks.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusPowerSword</texPath>
 		</graphicData>
@@ -263,7 +263,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
 		<defName>GF40K_MechanicusTransonicBlade</defName>
 		<label>transonic blade</label>
-		<description>The Mechanicus Transonic Blade is a weapon of silent annihilation. Its molecular-edged blade is capable of vibrating at incredible frequencies, effortlessly slicing through flesh and armor with surgical precision. When activated, the blade emits disruptive energy pulses, causing destabilization at the molecular level and inflicting devastating damage on both organic and mechanical targets.</description>
+		<description>The Mechanicus Transonic Blade is a dreadful weapon, renowned for its fearsome capabilities on the battlefield. When activated, it emits a disquieting, low buzz that churns stomach and causes eyes to vibrate in their sockets. Upon impact, these blades adjust their sonic fields to the resonant frequency of the targeted material, allowing them to effortlessly slice through both flesh and armor with remarkable precision.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusTransonicBlade</texPath>
 		</graphicData>
@@ -302,7 +302,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleeMechanicus">
 		<defName>GF40K_MechanicusTransonicRazor</defName>
 		<label>transonic razor</label>
-		<description>The Mechanicus Transonic Razor is a refined and deadly instrument, honed to perfection by the Tech-Priests of the Adeptus Mechanicus. Its dual blades, crafted with molecular precision, cut through flesh and armor with unparalleled speed and accuracy. Enhanced with molecular destabilization technology, the Transonic Razor wreaks havoc on its victims, causing their molecular structures to break down with each lethal strike.</description>
+		<description>The Mechanicus Transonic Razor is a shorter and lighter variant of the Transonic Blade, allowing its user to dual-wield more effectively. Emitting a disquieting, low buzz upon activation, this compact weapon swiftly adjusts its sonic field to match the target's resonant frequency, enabling precise slicing through flesh and armor.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusTransonicRazor</texPath>
 		</graphicData>

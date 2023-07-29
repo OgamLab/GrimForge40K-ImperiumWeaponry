@@ -5,7 +5,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_8mmGauss_Galvanic</defName>
-		<label>8mm galvanic gauss</label>
+		<label>8mm galvanic Gauss</label>
 		<ammoTypes>
 			<Ammo_8mmRailgun_Sabot>Bullet_Gauss_Galvanic</Ammo_8mmRailgun_Sabot>
 		</ammoTypes>
@@ -15,7 +15,7 @@
 
 	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="BaseLaserBullet">
 		<defName>Bullet_Gauss_Galvanic</defName>
-		<label>galvanic gauss shot</label>
+		<label>galvanic Gauss shot</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<isInstant>true</isInstant>
 			<damageFalloff>False</damageFalloff>

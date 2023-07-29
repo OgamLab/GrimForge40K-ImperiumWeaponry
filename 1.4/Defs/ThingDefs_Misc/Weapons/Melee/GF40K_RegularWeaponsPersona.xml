@@ -42,7 +42,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleePersona">
 		<defName>GF40K_PersonaChainSword</defName>
 		<label>persona chainsword</label>
-		<description>The Persona Chainsword is a variant of the standard Chainsword, enhanced with specialized modifications to suit the needs and preferences of individual warriors. With a reputation for its reliability and cutting power, the Persona Chainsword has become a favored weapon among those who seek to personalize their armament, making it an extension of their own identity on the battlefield.</description>
+		<description>The Persona Chainsword is an enhanced variant of the standard Chainsword. In the hands of a skilled warrior, it becomes an extension of their will, carving a path through the battlefield with precision and unwavering determination. Its relentless nature embodies the unyielding spirit of those who serve the Emperor and strive to protect humanity from the countless threats.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/PersonaChainSword</texPath>
 		</graphicData>
@@ -82,7 +82,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleePersona">
 		<defName>GF40K_PersonaEviscerator</defName>
 		<label>persona eviscerator</label>
-		<description>The Persona Eviscerator is an imposing and deadly two-handed weapon, customized and adapted to reflect the personality and combat style of its wielder. Its massive blade, uniquely adorned and inscribed, possess a keen edge and cutting power that can maim and destroy with unparalleled efficiency. Those who brandish the Persona Eviscerator do so with a fierce determination to leave their mark on the battlefield.</description>
+		<description>The Persona Eviscerator is an imposing and deadly two-handed chain weapon, customized and adapted to reflect the personality and combat style of its wielder. Its massive blade possess a keen edge and cutting power that can maim and destroy with unparalleled efficiency. Those who brandish the Persona Eviscerator do so with a fierce determination to leave their mark on the battlefield.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/PersonaEviscerator</texPath>
 			<drawSize>1.25</drawSize>
@@ -123,7 +123,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleePersona">
 		<defName>GF40K_PersonaPowerSabre</defName>
 		<label>persona power sabre</label>
-		<description>The Persona Power Sabre represents the culmination of craftsmanship and personalization, combining the elegance of a stabbing weapon with the raw power of energy-infused strikes. Its design and adornments reflect the individuality and tastes of its owner, making it not only a formidable weapon but also a statement of their own unique identity in the grim darkness of the far future.</description>
+		<description>The Persona Power Sabre epitomizes the pinnacle of craftsmanship and personalization, seamlessly blending the grace of a piercing weapon with the sheer might of energy-infused strikes. Achieving mastery with this weapon demands a profound synchronization of strength and warrior instincts. However, those who wield the might of the Persona Power Sabre transform into a formidable lightning on the battlefield, cutting through adversaries with unyielding force and indomitable determination, undeterred by fatigue.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/PersonaPowerSabre</texPath>
 		</graphicData>
@@ -162,7 +162,7 @@
 	<ThingDef ParentName="GF40K_BaseMeleePersona">
 		<defName>GF40K_PersonaPowerSword</defName>
 		<label>persona power sword</label>
-		<description>The Persona Power Sword is a testament to the bond forged between a warrior and their weapon. Customized and personalized to reflect the desires and characteristics of its owner, this formidable blade blends cutting and stabbing capabilities with the raw power of an energy field. Wielded by those who have embraced their individuality and seek to leave an indelible mark on the galaxy.</description>
+		<description>The Persona Power Sword stands as a testament to the bond forged between a warrior and their weapon. Customized and personalized to reflect the desires and characteristics of its owner, this formidable blade blends cutting and stabbing capabilities with the raw power of an energy field. With each and every swing, it reflects the unyielding determination of those who serve the Imperium, delivering justice upon the enemies of mankind.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/PersonaPowerSword</texPath>
 		</graphicData>

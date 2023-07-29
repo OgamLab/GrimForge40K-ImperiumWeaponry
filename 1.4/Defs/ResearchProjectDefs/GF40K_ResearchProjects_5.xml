@@ -28,7 +28,7 @@
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularMelee</defName>
 		<label>Imperial melee weapons</label>
-		<description>Embark on a journey into the realm of advanced melee weaponry with this groundbreaking research project. Delve deep into ancient combat techniques and experimental designs to unlock the secrets of Power Swords, Power Staves, Chainswords, Eviscerators, and Power Sabres. Harness the raw might of these deadly close-combat weapons, each with unique features and devastating strikes. With this research, your colony will gain access to a formidable arsenal of advanced melee weapons, arming your warriors with the cutting edge of close-quarters combat. Turn the tide of battle in your favor and dominate your foes with unmatched precision and lethality.</description>
+		<description>Delve deep into ancient combat techniques and experimental designs to unlock the secrets of Power Swords, Power Staves, Chainswords, Eviscerators, and Power Sabres. Harness the raw might of these deadly close-combat weapons, each with unique features and devastating strikes. With this research, your colony will gain access to a formidable arsenal of advanced melee weapons, arming your warriors with the cutting edge of close-quarters combat. Turn the tide of battle in your favor and dominate your foes with unmatched precision and lethality.</description>
 		<baseCost>4000</baseCost>
 		<prerequisites>
 		  <li>GF40K_ImperiumCore</li>
@@ -52,7 +52,7 @@
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularMeleeMechanicus</defName>
 		<label>Adeptus Mechanicus weapons</label>
-		<description>Embark on a journey into the secrets of the Adeptus Mechanicus with the Mechanicus Arsenal Research project. Study the sacred tomes and rediscovered schematics to uncover the blueprints for Mechanicus Arc Mauls, Mechanicus Omnisian Axes, Mechanicus Power Swords, Mechanicus Taser Goads, Mechanicus Transonic Blades, and Mechanicus Transonic Razors. Unleash the power of the Omnissiah in your hands as you forge these powerful melee weapons, infused with the technological might of the Mechanicus. With this research, your colony will possess a formidable arsenal of Mechanicus melee weapons, striking fear into your enemies and defending your lands with the blessings of Mars.</description>
+		<description>Embark on a journey into the secrets of the Adeptus Mechanicus with the Mechanicus Arsenal Research project. Study the sacred tomes and rediscovered schematics to uncover the blueprints for Arc Mauls, Omnisian Axes, Mechanicus Power Swords, Taser Goads, Transonic Blades, and Transonic Razors. Unleash the power of the Omnissiah in your hands as you forge these powerful melee weapons. With this research, your colony will possess a formidable arsenal of Mechanicus melee weapons, striking fear into your enemies and defending your lands with the blessings of Mars.</description>
 		<baseCost>6000</baseCost>
 		<prerequisites>
 		  <li>GF40K_RegularMeleeForce</li>
@@ -88,7 +88,7 @@
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularRangedPlasma</defName>
 		<label>Imperial plasma weapons</label>
-		<description>Venture into the realm of Plasma Weaponry with this ambitious research project. Uncover the arcane knowledge of channeling superheated energy into devastating plasma projectiles. Explore the mysteries of Plasma Pistols and Plasma Guns, weapons that can melt through enemy defenses with unparalleled ferocity. Master the volatile power of plasma weaponry to turn the tide of battle in your favor. Through this research, your colony will wield the scorching might of plasma arms, capable of obliterating even the most formidable adversaries and unleashing havoc upon the battlefield.</description>
+		<description>Uncover the arcane knowledge of channeling superheated energy into devastating plasma projectiles. Explore the mysteries of Plasma Pistols and Plasma Guns, weapons that can melt through enemy defenses with unparalleled ferocity. Master the volatile power of plasma weaponry to turn the tide of battle in your favor. Through this research, your colony will wield the scorching might of plasma arms, capable of obliterating even the most formidable adversaries and unleashing havoc upon the battlefield.</description>
 		<baseCost>6000</baseCost>
 		<prerequisites>
 		  <li>GF40K_ImperiumCore</li>
@@ -100,7 +100,7 @@
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularRangedBolter</defName>
 		<label>Imperial bolt weapons</label>
-		<description>Delve into the mysteries of Bolt Weapons with this ambitious research project. Uncover the ancient art of crafting and utilizing devastating firearms that fire self-propelling 0.75 caliber explosive projectiles. These weapons are capable of discharging powerful explosive rounds, tearing through armor and rending foes asunder. Unleash the thunderous fury of Bolt Pistols, Bolt Guns, and Bolt Snipers upon your enemies. Through this research, your colony will gain access to a versatile and lethal arsenal of ranged weaponry, perfect for annihilating your foes and asserting dominance on the battlefield.</description>
+		<description>Uncover the ancient art of crafting and utilizing devastating firearms that fire self-propelling 0.75 caliber explosive projectiles. These weapons are capable of discharging powerful explosive rounds, tearing through armor and rending foes asunder. Unleash the thunderous fury of Bolt Pistols, Bolt Guns, and Bolt Snipers upon your enemies. Through this research, your colony will gain access to a versatile and lethal arsenal of ranged weaponry, perfect for annihilating your foes and asserting dominance on the battlefield.</description>
 		<baseCost>5000</baseCost>
 		<prerequisites>
 		  <li>GF40K_ImperiumCore</li>
@@ -112,7 +112,7 @@
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularRangedLaser</defName>
 		<label>Imperial las-weapons</label>
-		<description>Embark on a scientific exploration of Laser Weaponry with this groundbreaking research project. Unravel the secrets of harnessing focused energy beams to pierce through enemy defenses and deliver swift justice. Develop advanced Las Weapons like the Long-Las, Las Carbine, Las Gun, Las Pistol, and Las SMG. With this research, your colony will wield firepower capable of searing through armor and incinerating adversaries with blistering precision. Embrace the power of laser technology and usher in a new era of ranged combat superiority.</description>
+		<description>Unravel the secrets of harnessing focused energy beams to pierce through enemy defenses and deliver swift justice. Develop advanced Las Weapons like the Long-Las, Las Carbine, Las Gun, Las Pistol, and Las SMG. With this research, your colony will wield firepower capable of searing through armor and incinerating adversaries with blistering precision. Embrace the power of laser technology and usher in a new era of ranged combat superiority.</description>
 		<baseCost>4000</baseCost>
 		<prerequisites>
 		  <li>GF40K_ImperiumCore</li>
