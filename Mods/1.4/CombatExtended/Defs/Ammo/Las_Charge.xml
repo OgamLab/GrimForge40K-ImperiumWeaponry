@@ -60,7 +60,7 @@
 	</CombatExtended.AmmoSetDef>
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_LaserCarabineRelic</defName>
+		<defName>AmmoSet_GF40K_LaserCarabineRelic</defName>
 		<label>laser charge</label>
 		<ammoTypes>
 			<Ammo_LaserChargePack>BulletCE_GF40K_LaserCarabineRelic</Ammo_LaserChargePack>
@@ -142,7 +142,7 @@
 	</CombatExtended.AmmoSetDef>
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_LaserCarabineRelicOC</defName>
+		<defName>AmmoSet_GF40K_LaserCarabineRelicOC</defName>
 		<label>laser charge (overcharged)</label>
 		<ammoTypes>
 			<Ammo_LaserChargePack>BulletCE_GF40K_LaserCarabineRelicOC</Ammo_LaserChargePack>

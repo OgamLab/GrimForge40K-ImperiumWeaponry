@@ -12,9 +12,9 @@
 				<!-- === Tools === -->
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[
-						defName = "GF40K_LaserPistol" or 
-						defName = "GF40K_LaserSMG" or 
-						defName = "GF40K_LaserPistolRelic" or 
+						defName = "GF40K_LaserPistol" or
+						defName = "GF40K_LaserSMG" or
+						defName = "GF40K_LaserPistolRelic" or
 						defName = "GF40K_LaserSMGRelic"
 						]/tools</xpath>
 					<value>
@@ -46,13 +46,13 @@
 
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[
-						defName = "GF40K_LaserSMG" or 
-						defName = "GF40K_LaserGun" or 
-						defName = "GF40K_LaserCarabine" or 
-						defName = "GF40K_LaserSniper" or 
-						defName = "GF40K_LaserSMGRelic" or 
-						defName = "GF40K_LaserGunRelic" or 
-						defName = "GF40K_LaserCarabineRelic" or 
+						defName = "GF40K_LaserSMG" or
+						defName = "GF40K_LaserGun" or
+						defName = "GF40K_LaserCarabine" or
+						defName = "GF40K_LaserSniper" or
+						defName = "GF40K_LaserSMGRelic" or
+						defName = "GF40K_LaserGunRelic" or
+						defName = "GF40K_LaserCarabineRelic" or
 						defName = "GF40K_LaserSniperRelic"
 						]/tools</xpath>
 					<value>
@@ -96,10 +96,10 @@
 
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[
-						defName = "GF40K_LaserPistol" or 
-						defName = "GF40K_LaserSMG" or 
-						defName = "GF40K_LaserPistolRelic" or 
-						defName = "GF40K_LaserSMGRelic" or 
+						defName = "GF40K_LaserPistol" or
+						defName = "GF40K_LaserSMG" or
+						defName = "GF40K_LaserPistolRelic" or
+						defName = "GF40K_LaserSMGRelic" or
 						defName = "GF40K_LaserGun" or
 						defName = "GF40K_LaserCarabine" or
 						defName = "GF40K_LaserSniper" or
@@ -132,7 +132,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>40</magazineSize>
+						<magazineSize>12</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserPistol</ammoSet>
 					</AmmoUser>
@@ -149,7 +149,7 @@
 					<value>
 						<li Class="CombatExtended.CompProperties_UnderBarrel">
 							<propsUnderBarrel>
-								<magazineSize>30</magazineSize>
+								<magazineSize>12</magazineSize>
 								<reloadTime>6</reloadTime>
 								<ammoSet>AmmoSet_GF40K_LaserPistolOC</ammoSet>
 							</propsUnderBarrel>
@@ -194,7 +194,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>40</magazineSize>
+						<magazineSize>12</magazineSize>
 						<reloadTime>3.8</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserPistolRelic</ammoSet>
 					</AmmoUser>
@@ -211,7 +211,7 @@
 					<value>
 						<li Class="CombatExtended.CompProperties_UnderBarrel">
 							<propsUnderBarrel>
-								<magazineSize>30</magazineSize>
+								<magazineSize>12</magazineSize>
 								<reloadTime>5.4</reloadTime>
 								<ammoSet>AmmoSet_GF40K_LaserPistolRelicOC</ammoSet>
 							</propsUnderBarrel>
@@ -258,7 +258,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>45</magazineSize>
+						<magazineSize>30</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserSMG</ammoSet>
 					</AmmoUser>
@@ -273,7 +273,7 @@
 					<value>
 						<li Class="CombatExtended.CompProperties_UnderBarrel">
 							<propsUnderBarrel>
-								<magazineSize>31</magazineSize>
+								<magazineSize>30</magazineSize>
 								<reloadTime>6</reloadTime>
 								<ammoSet>AmmoSet_GF40K_LaserSMGOC</ammoSet>
 							</propsUnderBarrel>
@@ -323,7 +323,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>45</magazineSize>
+						<magazineSize>30</magazineSize>
 						<reloadTime>3.8</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserSMGRelicOC</ammoSet>
 					</AmmoUser>
@@ -388,7 +388,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>60</magazineSize>
+						<magazineSize>20</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserGun</ammoSet>
 					</AmmoUser>
@@ -404,7 +404,7 @@
 					<value>
 						<li Class="CombatExtended.CompProperties_UnderBarrel">
 							<propsUnderBarrel>
-								<magazineSize>45</magazineSize>
+								<magazineSize>20</magazineSize>
 								<reloadTime>6</reloadTime>
 								<ammoSet>AmmoSet_GF40K_LaserGunOC</ammoSet>
 							</propsUnderBarrel>
@@ -454,7 +454,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>60</magazineSize>
+						<magazineSize>20</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserGunRelic</ammoSet>
 					</AmmoUser>
@@ -470,7 +470,7 @@
 					<value>
 						<li Class="CombatExtended.CompProperties_UnderBarrel">
 							<propsUnderBarrel>
-								<magazineSize>45</magazineSize>
+								<magazineSize>20</magazineSize>
 								<reloadTime>6</reloadTime>
 								<ammoSet>AmmoSet_GF40K_LaserGunRelicOC</ammoSet>
 							</propsUnderBarrel>
@@ -560,7 +560,7 @@
 
 				<!-- === Relic Las Carabine === -->
 				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-					<defName>GF40K_LaserCarabineRelic</defName>
+					<defName>GF40K_LaserCarbineRelic</defName>
 					<statBases>
 						<Mass>8.50</Mass>
 						<Bulk>10.00</Bulk>
@@ -583,7 +583,7 @@
 					<AmmoUser>
 						<magazineSize>30</magazineSize>
 						<reloadTime>4</reloadTime>
-						<ammoSet>AmmoSet_LaserCarabineRelic</ammoSet>
+						<ammoSet>AmmoSet_GF40K_LaserCarabine</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
@@ -593,13 +593,13 @@
 				</li>
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="GF40K_LaserCarabineRelic"]/comps</xpath>
+					<xpath>Defs/ThingDef[defName="GF40K_LaserCarbineRelic"]/comps</xpath>
 					<value>
 						<li Class="CombatExtended.CompProperties_UnderBarrel">
 							<propsUnderBarrel>
 								<magazineSize>22</magazineSize>
 								<reloadTime>6</reloadTime>
-								<ammoSet>AmmoSet_LaserCarabineRelicOC</ammoSet>
+								<ammoSet>AmmoSet_GF40K_LaserCarabineRelicOC</ammoSet>
 							</propsUnderBarrel>
 							<verbPropsUnderBarrel>
 								<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -645,7 +645,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>15</magazineSize>
+						<magazineSize>10</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserSniper</ammoSet>
 					</AmmoUser>
@@ -705,7 +705,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>15</magazineSize>
+						<magazineSize>10</magazineSize>
 						<reloadTime>3.9</reloadTime>
 						<ammoSet>AmmoSet_GF40K_LaserSniperRelic</ammoSet>
 					</AmmoUser>
