@@ -102,14 +102,12 @@
 						<defaultProjectile>Bullet_PlasmaCellPistol_GF</defaultProjectile>
 						<warmupTime>0.5</warmupTime>
 						<range>16</range>
-						<burstShotCount>2</burstShotCount>
-						<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
 						<soundCast>GF40K_LaserPistolShot</soundCast>
 						<soundCastTail>GunTail_Light</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>50</magazineSize>
+						<magazineSize>15</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_PlasmaCellPistol_GF</ammoSet>
 					</AmmoUser>
@@ -139,14 +137,12 @@
 						<defaultProjectile>Bullet_PlasmaCellPistol_GF_Relic</defaultProjectile>
 						<warmupTime>0.45</warmupTime>
 						<range>18</range>
-						<burstShotCount>2</burstShotCount>
-						<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
 						<soundCast>GF40K_LaserPistolShot</soundCast>
 						<soundCastTail>GunTail_Light</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>60</magazineSize>
+						<magazineSize>15</magazineSize>
 						<reloadTime>3.8</reloadTime>
 						<ammoSet>AmmoSet_PlasmaCellPistol_GF_Relic</ammoSet>
 					</AmmoUser>
@@ -176,21 +172,17 @@
 						<defaultProjectile>Bullet_PlasmaCellRifle_GF</defaultProjectile>
 						<warmupTime>1</warmupTime>
 						<range>55</range>
-						<burstShotCount>5</burstShotCount>
-						<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
 						<soundCast>GF40K_LaserPistolShot</soundCast>
 						<soundCastTail>GunTail_Light</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>40</magazineSize>
+						<magazineSize>30</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_PlasmaCellRifle_GF</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
-						<aiUseBurstMode>True</aiUseBurstMode>
-						<aimedBurstShotCount>2</aimedBurstShotCount>
 					</FireModes>
 				</li>
 
@@ -212,21 +204,17 @@
 						<defaultProjectile>Bullet_PlasmaCellRifle_GF_Relic</defaultProjectile>
 						<warmupTime>0.95</warmupTime>
 						<range>58</range>
-						<burstShotCount>5</burstShotCount>
-						<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
 						<soundCast>GF40K_LaserPistolShot</soundCast>
 						<soundCastTail>GunTail_Light</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>50</magazineSize>
+						<magazineSize>30</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_PlasmaCellRifle_GF_Relic</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
-						<aiUseBurstMode>True</aiUseBurstMode>
-						<aimedBurstShotCount>2</aimedBurstShotCount>
 					</FireModes>
 				</li>
 

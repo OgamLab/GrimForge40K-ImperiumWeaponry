@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingCategoryDef>
-		<defName>AmmoBolter75_GF_GF</defName>
+		<defName>AmmoBolter75_GF</defName>
 		<label>.75 cal bolt</label>
 		<parent>AmmoAdvanced</parent>
 		<iconPath>UI/Icons/ThingCategories/CaliberHighCaliber</iconPath>
@@ -120,7 +120,7 @@
 			<damageDef>Bullet</damageDef>
 			<speed>80</speed>
 			<dropsCasings>true</dropsCasings>
-			<casingMoteDefname>Mote_BolterCasing</casingMoteDefname>
+			<casingMoteDefname>Mote_BolterCasing_GF</casingMoteDefname>
 		</projectile>
 	</ThingDef>
 
@@ -128,13 +128,13 @@
 		<defName>Bullet_Bolter75_GF_Standard</defName>
 		<label>.75 cal bolt (standard)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>37</damageAmountBase>
+			<damageAmountBase>17</damageAmountBase>
 			<armorPenetrationSharp>14</armorPenetrationSharp>
 			<armorPenetrationBlunt>2.931</armorPenetrationBlunt>
 			<secondaryDamage>
 				<li>
 					<def>Bomb_Secondary</def>
-					<amount>22</amount>
+					<amount>5</amount>
 				</li>
 			</secondaryDamage>
 		</projectile>
@@ -146,7 +146,7 @@
 		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>PrometheumFlame</damageDef>
-			<damageAmountBase>3</damageAmountBase>
+			<damageAmountBase>2</damageAmountBase>
 			<explosionRadius>0.5</explosionRadius>
 			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>1</preExplosionSpawnChance>
@@ -154,7 +154,7 @@
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<damageAmountBase>4</damageAmountBase>
+				<damageAmountBase>1</damageAmountBase>
 				<explosiveDamageType>Thermobaric</explosiveDamageType>
 				<explosiveRadius>0.5</explosiveRadius>
 				<explosionSound>MortarIncendiary_Explode</explosionSound>
@@ -170,7 +170,7 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<explosionRadius>0.5</explosionRadius>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>10</damageAmountBase>
+			<damageAmountBase>5</damageAmountBase>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<aimHeightOffset>1.2</aimHeightOffset>
 			<armingDelay>1.5</armingDelay>
@@ -178,7 +178,7 @@
 		<comps>
 			<li Class="CombatExtended.CompProperties_Fragments">
 				<fragments>
-					<Fragment_Small>6</Fragment_Small>
+					<Fragment_Small>3</Fragment_Small>
 				</fragments>
 				<fragAngleRange>-89~-5</fragAngleRange>
 			</li>
@@ -190,13 +190,13 @@
 		<label>.75 cal bolt (kraken)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>104</damageAmountBase>
+			<damageAmountBase>34</damageAmountBase>
 			<armorPenetrationSharp>27.6</armorPenetrationSharp>
 			<armorPenetrationBlunt>2.931</armorPenetrationBlunt>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<damageAmountBase>10</damageAmountBase>
+				<damageAmountBase>5</damageAmountBase>
 				<explosiveDamageType>Bomb</explosiveDamageType>
 				<explosiveRadius>0.25</explosiveRadius>
 				<explosionSound>MortarBomb_Explode</explosionSound>
@@ -209,13 +209,13 @@
 		<defName>Bullet_Bolter75_GF_Standard_Relic</defName>
 		<label>.75 cal bolt (standard)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>42</damageAmountBase>
+			<damageAmountBase>25</damageAmountBase>
 			<armorPenetrationSharp>14</armorPenetrationSharp>
 			<armorPenetrationBlunt>2.931</armorPenetrationBlunt>
 			<secondaryDamage>
 				<li>
 					<def>Bomb_Secondary</def>
-					<amount>22</amount>
+					<amount>5</amount>
 				</li>
 			</secondaryDamage>
 		</projectile>
@@ -227,7 +227,7 @@
 		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>PrometheumFlame</damageDef>
-			<damageAmountBase>4</damageAmountBase>
+			<damageAmountBase>3</damageAmountBase>
 			<explosionRadius>0.5</explosionRadius>
 			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>1</preExplosionSpawnChance>
@@ -235,7 +235,7 @@
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<damageAmountBase>5</damageAmountBase>
+				<damageAmountBase>2</damageAmountBase>
 				<explosiveDamageType>Thermobaric</explosiveDamageType>
 				<explosiveRadius>0.5</explosiveRadius>
 				<explosionSound>MortarIncendiary_Explode</explosionSound>
@@ -251,7 +251,7 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<explosionRadius>0.5</explosionRadius>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>11</damageAmountBase>
+			<damageAmountBase>6</damageAmountBase>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<aimHeightOffset>1.2</aimHeightOffset>
 			<armingDelay>1.5</armingDelay>
@@ -259,7 +259,7 @@
 		<comps>
 			<li Class="CombatExtended.CompProperties_Fragments">
 				<fragments>
-					<Fragment_Small>6</Fragment_Small>
+					<Fragment_Small>3</Fragment_Small>
 				</fragments>
 				<fragAngleRange>-89~-5</fragAngleRange>
 			</li>
@@ -271,13 +271,13 @@
 		<label>.75 cal bolt (kraken)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>120</damageAmountBase>
+			<damageAmountBase>38</damageAmountBase>
 			<armorPenetrationSharp>27.6</armorPenetrationSharp>
 			<armorPenetrationBlunt>2.931</armorPenetrationBlunt>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<damageAmountBase>11</damageAmountBase>
+				<damageAmountBase>6</damageAmountBase>
 				<explosiveDamageType>Bomb</explosiveDamageType>
 				<explosiveRadius>0.25</explosiveRadius>
 				<explosionSound>MortarBomb_Explode</explosionSound>

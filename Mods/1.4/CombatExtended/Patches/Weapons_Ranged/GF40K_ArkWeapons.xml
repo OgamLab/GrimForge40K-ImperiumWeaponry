@@ -101,7 +101,7 @@
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>16</magazineSize>
+						<magazineSize>15</magazineSize>
 						<reloadTime>4</reloadTime>
 						<ammoSet>AmmoSet_10x18mmCharged</ammoSet>
 					</AmmoUser>
@@ -131,8 +131,8 @@
 						<defaultProjectile>Bullet_8x35mmCharged</defaultProjectile>
 						<warmupTime>1.0</warmupTime>
 						<range>62</range>
-						<burstShotCount>5</burstShotCount>
-						<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+						<burstShotCount>3</burstShotCount>
+						<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
 						<soundCast>GF40K_LaserPistolShot</soundCast>
 						<soundCastTail>GunTail_Light</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
