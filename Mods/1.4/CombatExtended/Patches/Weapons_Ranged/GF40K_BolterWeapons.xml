@@ -87,7 +87,7 @@
 				</li>
 
 				<!-- === No MVCF Comp === -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[
 						defName = "GF40K_BoltPistol" or
 						defName = "GF40K_BoltPistolRelic" or
@@ -95,7 +95,13 @@
 						defName = "GF40K_BoltSniper" or
 						defName = "GF40K_BoltGunRelic" or
 						defName = "GF40K_BoltSniperRelic"
-						]/comps/li[@Class="MVCF.Comps.CompProperties_VerbProps"]</xpath>
+						]/comps/li[@Class="MVCF.Comps.CompProperties_VerbProps"]
+					</xpath>
+					<value>
+						<li>
+							<compClass>CompEquippable</compClass>
+						</li>
+					</value>
 				</li>
 
 				<!-- === Bolt Pistol === -->
