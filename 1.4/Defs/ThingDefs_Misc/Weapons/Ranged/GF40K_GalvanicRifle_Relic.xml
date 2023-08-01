@@ -38,7 +38,7 @@
 	
     <ThingDef ParentName="GF40K_RelicBaseRangedGauss">
         <defName>GF40K_RelicGalvanicRifle</defName>
-        <label>galvanic rifle</label>
+        <label>relic galvanic rifle</label>
         <description>The Galvanic Rifle, a marvel of Mechanicus ingenuity, resembles ancient flintlock guns from Mars. Its handcrafted, antique body conceals advanced galvanic servitor-bullets that deliver deadly electric force. With unparalleled armor-piercing capabilities, the Galvanic Rifle's shots can pierce through multiple adversaries in a haunting display of relentless precision and destructive power.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/GalvanicRifle_relic</texPath>

@@ -75,8 +75,8 @@
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularArc</defName>
-		<label>Adeptus Mechanicus arc weapons</label>
-		<description>Embark on a pioneering research project to unravel the enigmatic mysteries of Arc Weapons.</description>
+		<label>Adeptus Mechanicus weapons</label>
+		<description>Embark on a journey into the secrets of the Adeptus Mechanicus weaponry. Study the sacred tomes and rediscovered schematics to uncover the blueprints for Arc Mauls, Omnisian Axes, Mechanicus Power Swords, Taser Goads, Transonic Blades, Transonic Razors, Galvanic Rifles, Arc Pistols, and Arc Rifles. Unleash the power of the Omnissiah in your hands as you forge these powerful weapons. With this research, your colony will possess a formidable arsenal of Mechanicus melee and ranged weapons, striking fear into your enemies and defending your lands with the blessings of Mars.</description>
 		<baseCost>9000</baseCost>
 		<prerequisites>
 		  <li>GF40K_ImperiumCore</li>
