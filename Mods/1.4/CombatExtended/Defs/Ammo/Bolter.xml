@@ -19,7 +19,6 @@
 			<Ammo_Bolter75_GF_MetalStorm>Bullet_Bolter75_GF_MetalStorm</Ammo_Bolter75_GF_MetalStorm>
 			<Ammo_Bolter75_GF_Kraken>Bullet_Bolter75_GF_Kraken</Ammo_Bolter75_GF_Kraken>
 		</ammoTypes>
-		<similarTo>AmmoSet_AntiMateriel</similarTo>
 	</CombatExtended.AmmoSetDef>
 
 	<CombatExtended.AmmoSetDef>
@@ -31,7 +30,6 @@
 			<Ammo_Bolter75_GF_MetalStorm>Bullet_Bolter75_GF_MetalStorm_Relic</Ammo_Bolter75_GF_MetalStorm>
 			<Ammo_Bolter75_GF_Kraken>Bullet_Bolter75_GF_Kraken_Relic</Ammo_Bolter75_GF_Kraken>
 		</ammoTypes>
-		<similarTo>AmmoSet_AntiMateriel</similarTo>
 	</CombatExtended.AmmoSetDef>
 
 	<!-- ==================== Ammo ========================== -->
