@@ -48,6 +48,27 @@
 			<li Class="CompProperties_Forbiddable"/>      
 			<li Class="CompProperties_Styleable"/>
 		</comps>
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+			  <weight>10</weight>
+			  <only>(0.33,0.33,0.33,1)</only>
+			</li>
+			<li>
+			  <weight>10</weight>
+			  <only>(0.65,0.65,0.65,1)</only>
+			</li>
+			<li>
+			  <weight>6</weight>
+			  <min>(0.3,0.3,0.3,1)</min>
+			  <max>(0.5,0.5,0.5,1)</max>
+			</li>
+			<li>
+			  <weight>10</weight>
+			  <only>(0.9,0.9,0.9,1)</only>
+			</li>
+		  </options>
+		</colorGenerator>
 	</ThingDef>
 	
     <ThingDef ParentName="GF40K_BaseRangedLaser">
@@ -173,7 +194,7 @@
 		<equippedAngleOffset>50</equippedAngleOffset>
 		
         <statBases>
-            <WorkToMake>106300</WorkToMake>
+            <WorkToMake>38000</WorkToMake>
 			<MarketValue>3100</MarketValue>
             <Mass>2.8</Mass>
             <AccuracyTouch>0.72</AccuracyTouch>
@@ -509,7 +530,7 @@
 		<equippedAngleOffset>50</equippedAngleOffset>
 		
         <statBases>
-            <WorkToMake>106600</WorkToMake>
+            <WorkToMake>34000</WorkToMake>
 			<MarketValue>3100</MarketValue>
             <Mass>3.4</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>

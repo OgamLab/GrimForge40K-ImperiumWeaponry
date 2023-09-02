@@ -77,7 +77,7 @@
 				<burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
             </li>
-            <li>
+            <!--li>
 				<label>secondary</label>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -93,7 +93,7 @@
 				</targetParams>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-            </li>
+            </li-->
         </verbs>
 		<comps>
 			<li Class="MVCF.Comps.CompProperties_VerbProps">
@@ -103,10 +103,10 @@
 				  <label>primary</label>
 				  <canBeToggled>true</canBeToggled>
 				</li>
-				<li>
+				<!--li>
 				  <label>secondary</label>
 				  <canBeToggled>true</canBeToggled>
-				</li>
+				</li-->
 			  </verbProps>
 			</li>
 		</comps>
@@ -205,7 +205,7 @@
 				<burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
             </li>
-            <li>
+            <!--li>
 				<label>secondary</label>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -221,7 +221,7 @@
 				</targetParams>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-            </li>
+            </li-->
         </verbs>
 		<comps>
 			<li Class="MVCF.Comps.CompProperties_VerbProps">
@@ -231,10 +231,10 @@
 				  <label>primary</label>
 				  <canBeToggled>true</canBeToggled>
 				</li>
-				<li>
+				<!--li>
 				  <label>secondary</label>
 				  <canBeToggled>true</canBeToggled>
-				</li>
+				</li-->
 			  </verbProps>
 			</li>
 		</comps>
@@ -331,7 +331,7 @@
 				<burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
             </li>
-            <li>
+            <!--li>
 				<label>secondary</label>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -347,7 +347,7 @@
 				</targetParams>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
-            </li>
+            </li-->
         </verbs>
 		<comps>
 			<li Class="MVCF.Comps.CompProperties_VerbProps">
@@ -357,10 +357,10 @@
 				  <label>primary</label>
 				  <canBeToggled>true</canBeToggled>
 				</li>
-				<li>
+				<!--li>
 				  <label>secondary</label>
 				  <canBeToggled>true</canBeToggled>
-				</li>
+				</li-->
 			  </verbProps>
 			</li>
 		</comps>
@@ -446,7 +446,7 @@
             <explosionRadius>0.98</explosionRadius>
             <stoppingPower>1.5</stoppingPower>
 			<armorPenetrationBase>0.5</armorPenetrationBase>
-            <speed>65</speed>
+            <speed>90</speed>
         </projectile>
     </ThingDef>
 	
@@ -469,7 +469,7 @@
             <explosionRadius>1.98</explosionRadius>
             <stoppingPower>1.5</stoppingPower>
 			<armorPenetrationBase>0.5</armorPenetrationBase>
-            <speed>70</speed>
+            <speed>95</speed>
         </projectile>
     </ThingDef>
 </Defs>

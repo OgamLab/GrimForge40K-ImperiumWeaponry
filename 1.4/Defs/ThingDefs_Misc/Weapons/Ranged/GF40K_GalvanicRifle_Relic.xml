@@ -79,7 +79,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_RelicGalvanicBullet</defaultProjectile>
                 <warmupTime>2</warmupTime>
-                <range>34.9</range>
+                <range>39.9</range>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
                 <soundCast>ChargeLance_Fire</soundCast>

@@ -124,7 +124,7 @@
 			<texPath>Things/Projectile/W_P_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>0.7</drawSize>
+			<drawSize>1.7</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
@@ -236,7 +236,7 @@
 			<texPath>Things/Projectile/W_P_Medium</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>0.9</drawSize>
+			<drawSize>1.8</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>

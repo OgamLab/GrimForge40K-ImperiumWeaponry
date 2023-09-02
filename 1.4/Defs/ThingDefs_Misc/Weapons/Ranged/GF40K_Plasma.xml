@@ -53,6 +53,27 @@
 			  <compClass>CompEquippable</compClass>
 			</li>
 		</comps>
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+			  <weight>10</weight>
+			  <only>(0.33,0.33,0.33,1)</only>
+			</li>
+			<li>
+			  <weight>10</weight>
+			  <only>(0.65,0.65,0.65,1)</only>
+			</li>
+			<li>
+			  <weight>6</weight>
+			  <min>(0.3,0.3,0.3,1)</min>
+			  <max>(0.5,0.5,0.5,1)</max>
+			</li>
+			<li>
+			  <weight>10</weight>
+			  <only>(0.9,0.9,0.9,1)</only>
+			</li>
+		  </options>
+		</colorGenerator>
 	</ThingDef>
 	
     <ThingDef ParentName="GF40K_BaseRangedPlasma">
@@ -66,7 +87,7 @@
         </graphicData>
 		
         <statBases>
-            <WorkToMake>31000</WorkToMake>
+            <WorkToMake>40000</WorkToMake>
 			<MarketValue>2000</MarketValue>
             <Mass>1.8</Mass>
             <AccuracyTouch>0.82</AccuracyTouch>
@@ -88,7 +109,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaPistolBullet</defaultProjectile>
                 <warmupTime>0.8</warmupTime>
-                <range>27.9</range>
+                <range>23.9</range>
 				<!--burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots-->
                 <soundCast>GF40K_LaserPistolShot</soundCast>
@@ -152,13 +173,13 @@
 			<texPath>Things/Projectile/W_P_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>0.7</drawSize>
+			<drawSize>1.7</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>24</damageAmountBase>
 			<stoppingPower>2.1</stoppingPower>
-			<armorPenetrationBase>0.5</armorPenetrationBase>
+			<armorPenetrationBase>0.55</armorPenetrationBase>
 			<speed>75</speed>
 			<extraDamages>
 				<li>
@@ -180,7 +201,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-            <WorkToMake>48000</WorkToMake>
+            <WorkToMake>63000</WorkToMake>
 			<MarketValue>3000</MarketValue>
             <Mass>2.3</Mass>
             <AccuracyTouch>0.7</AccuracyTouch>
@@ -201,7 +222,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaGunBullet</defaultProjectile>
                 <warmupTime>1.2</warmupTime>
-                <range>25.9</range>
+                <range>21.9</range>
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -252,13 +273,13 @@
 			<texPath>Things/Projectile/W_P_Medium</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>0.9</drawSize>
+			<drawSize>1.8</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>34</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
-			<armorPenetrationBase>0.55</armorPenetrationBase>
+			<armorPenetrationBase>0.6</armorPenetrationBase>
 			<speed>80</speed>
 			<extraDamages>
 				<li>

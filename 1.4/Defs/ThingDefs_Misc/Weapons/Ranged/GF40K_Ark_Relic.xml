@@ -113,7 +113,7 @@
         <tickerType>Normal</tickerType>
         <altitudeLayer>Projectile</altitudeLayer>
         <graphicData>
-            <texPath>Things/Projectile/LauncherShot</texPath>
+            <texPath>Things/Projectile/ChargeLanceShot</texPath>
             <shaderType>TransparentPostLight</shaderType>
             <graphicClass>Graphic_Single</graphicClass>
             <color>(103, 103, 103)</color>
@@ -212,7 +212,7 @@
         <tickerType>Normal</tickerType>
         <altitudeLayer>Projectile</altitudeLayer>
         <graphicData>
-            <texPath>Things/Projectile/LauncherShot</texPath>
+            <texPath>Things/Projectile/ChargeLanceShot</texPath>
             <shaderType>TransparentPostLight</shaderType>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
