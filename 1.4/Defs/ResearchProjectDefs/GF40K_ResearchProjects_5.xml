@@ -74,6 +74,18 @@
 	</ResearchProjectDef-->
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularStub</defName>
+		<label>Stub weapons</label>
+		<description>Delve into the ancient texts and rediscover the sacred art of Stub Weaponry. From the merciless thunder of the Stub Shotgun in close-quarters battles, to the steady roar of the Stub HMG, laying waste to your foes at medium range. The Stub Carbine and Pistol, symbols of precision and tenacity, will hold their own against any foe, their high stopping power a testament to their craft. And in the hands of your expert marksman, the Stub Sniper, a weapon of unmatched accuracy and deadly finesse, will deliver death from afar.</description>
+		<baseCost>2000</baseCost>
+		<prerequisites>
+		  <li>GF40K_ImperiumCore</li>
+		</prerequisites>	
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY> 	
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_RegularArc</defName>
 		<label>Adeptus Mechanicus weapons</label>
 		<description>Embark on a journey into the secrets of the Adeptus Mechanicus weaponry. Study the sacred tomes and rediscovered schematics to uncover the blueprints for Arc Mauls, Omnisian Axes, Mechanicus Power Swords, Taser Goads, Transonic Blades, Transonic Razors, Galvanic Rifles, Arc Pistols, and Arc Rifles. Unleash the power of the Omnissiah in your hands as you forge these powerful weapons. With this research, your colony will possess a formidable arsenal of Mechanicus melee and ranged weapons, striking fear into your enemies and defending your lands with the blessings of Mars.</description>
@@ -82,7 +94,7 @@
 		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
 		<researchViewX>1</researchViewX>
-		<researchViewY>1</researchViewY> 	
+		<researchViewY>2.00</researchViewY> 	
 	</ResearchProjectDef>
 
 
@@ -107,7 +119,7 @@
 		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
 		<researchViewX>1</researchViewX>
-		<researchViewY>2</researchViewY> 	
+		<researchViewY>2.70</researchViewY> 	
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
@@ -119,7 +131,7 @@
 		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
 		<researchViewX>1</researchViewX>
-		<researchViewY>3</researchViewY> 	
+		<researchViewY>3.40</researchViewY> 	
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
@@ -131,7 +143,7 @@
 		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
 		<researchViewX>1</researchViewX>
-		<researchViewY>4</researchViewY> 	
+		<researchViewY>3.95</researchViewY> 	
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
@@ -143,6 +155,6 @@
 		  <li>GF40K_ImperiumCore</li>
 		</prerequisites>	
 		<researchViewX>1</researchViewX>
-		<researchViewY>5</researchViewY> 	
+		<researchViewY>4.55</researchViewY> 	
 	</ResearchProjectDef>
 </Defs>

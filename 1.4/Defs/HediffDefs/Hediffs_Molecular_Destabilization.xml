@@ -3,6 +3,7 @@
 	<HediffDef>
 	  <defName>GF40K_MolecularDestabilization</defName>
 	  <label>molecular destabilization</label>
+	  <hediffClass>HediffWithComps</hediffClass>
 	  <description>The presence of toxic substances or exposure to energy creates molecular instability within the body, causing considerable harm to its cells, and consequently leading to severe health consequences.\n\nMolecular destabilization progressively worsens over time and can be lethal if left untreated.</description>
 	  <lethalSeverity>1</lethalSeverity>
 	  <makesSickThought>true</makesSickThought>
@@ -85,7 +86,16 @@
 			</li>
 		  </hediffGivers>
 		</li>
-	  </stages>
+	  </stages> 
 	  <tendable>true</tendable>
+	  <comps>
+		  <li Class="HediffCompProperties_TendDuration">
+			<baseTendDurationHours>16</baseTendDurationHours>
+			<severityPerDayTended>-0.4</severityPerDayTended>
+		  </li>	 
+		  <li Class="HediffCompProperties_Immunizable">
+			<severityPerDayNotImmune>0.1</severityPerDayNotImmune>
+		  </li>	  
+	  </comps>
 	</HediffDef>
 </Defs>

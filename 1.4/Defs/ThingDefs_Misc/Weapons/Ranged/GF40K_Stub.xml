@@ -17,7 +17,7 @@
 				<li>FabricationBench</li>
 			</recipeUsers>
 			<researchPrerequisites>
-				<li>GF40K_RegularRangedPlasma</li>
+				<li>GF40K_RegularStub</li>
 			</researchPrerequisites>
 		</recipeMaker>
 		<smeltable>false</smeltable>
@@ -26,7 +26,7 @@
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
         <tradeTags>
-            <li>GF40K_RangedStubb</li>
+            <li>GF40K_RangedStub</li>
 			<li>GF40K_ImperiumRanged</li>
         </tradeTags>
         <weaponClasses>
@@ -79,7 +79,7 @@
     <ThingDef ParentName="GF40K_BaseRangedStubb">
         <defName>GF40K_StubShotgun</defName>
         <label>stub shotgun</label>
-        <description>Stub guns are a name that refers to a wide variety of low-velocity, high-calibre weapons.</description>
+        <description>A brutal close-quarters scattergun, the Stub Shotgun delivers a devastating burst of fire, making it ideal for point-blank confrontations, though its limited armor penetration means it's best suited for foes without substantial protection.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Stub/1</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -159,7 +159,7 @@
     <ThingDef ParentName="GF40K_BaseRangedStubb">
         <defName>GF40K_StubHMG</defName>
         <label>stub HMG</label>
-        <description>Stub guns are a name that refers to a wide variety of low-velocity, high-calibre weapons.</description>
+        <description>The Stub HMG is a medium-range beast of a weapon, capable of unleashing a storm of bullets in a burst. While it lacks the punch to breach heavy armor, it excels at suppressing foes and tearing through lightly protected targets.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Stub/2</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -238,8 +238,8 @@
 		
     <ThingDef ParentName="GF40K_BaseRangedStubb">
         <defName>GF40K_StubCarbine</defName>
-        <label>stub carabine</label>
-        <description>Stub guns are a name that refers to a wide variety of low-velocity, high-calibre weapons.</description>
+        <label>stub carbine</label>
+        <description>A versatile Stub Carbine, offering both accuracy and stopping power at medium to short ranges. Whether it's taking down foes in a firefight or providing support, this weapon proves its worth against those who dare challenge the Emperor's will.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Stub/3</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -267,7 +267,8 @@
                 <defaultProjectile>GF40K_StubCarbineBullet</defaultProjectile>
                 <warmupTime>1</warmupTime>
                 <range>25.9</range>
-                <soundCastTail>GunTail_Light</soundCastTail>
+				<soundCast>Shot_Shotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
@@ -316,7 +317,7 @@
     <ThingDef ParentName="GF40K_BaseRangedStubb">
         <defName>GF40K_StubPistol</defName>
         <label>stub pistol</label>
-        <description>Stub guns are a name that refers to a wide variety of low-velocity, high-calibre weapons.</description>
+        <description>In close-quarters combat, the Stub Pistol is a faithful companion. It boasts decent accuracy up close, delivering substantial stopping power. While not designed for armor penetration, it can handle most threats with ruthless efficiency.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Stub/3</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -344,7 +345,8 @@
                 <defaultProjectile>GF40K_StubPistolBullet</defaultProjectile>
                 <warmupTime>0.3</warmupTime>
                 <range>25.9</range>
-                <soundCastTail>GunTail_Light</soundCastTail>
+				<soundCast>Shot_Shotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
@@ -393,7 +395,7 @@
     <ThingDef ParentName="GF40K_BaseRangedStubb">
         <defName>GF40K_StubSniper</defName>
         <label>stub sniper</label>
-        <description>Stub guns are a name that refers to a wide variety of low-velocity, high-calibre weapons.</description>
+        <description>For the sharp-eyed marksman, the Stub Sniper is the embodiment of precision at long to medium ranges. While it lacks the brute force of some weapons, its accuracy and reach make it a formidable choice against targets foolish enough to show themselves</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Stub/5</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -421,7 +423,8 @@
                 <defaultProjectile>GF40K_StubSniperBullet</defaultProjectile>
                 <warmupTime>3</warmupTime>
                 <range>45.9</range>
-                <soundCastTail>GunTail_Light</soundCastTail>
+				<soundCast>Shot_Shotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>

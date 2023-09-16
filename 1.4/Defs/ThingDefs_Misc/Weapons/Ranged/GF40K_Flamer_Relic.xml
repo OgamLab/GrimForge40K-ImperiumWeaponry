@@ -1,48 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>GF40K_Flamer</defName>
-        <label>flamer</label>
+        <defName>GF40K_RelicFlamer</defName>
+        <label>relic flamer</label>
+		<tradeNeverStack>true</tradeNeverStack>
+		<relicChance>3</relicChance>
         <description>The Flamer is a instrument of divine purification that embodies the righteous fury of holy cleansing. It unleashes an unyielding torrent of fire, leaving a trail of devastation in its wake. The intense jet of liquid fire engulfs the battlefield, making escape nearly impossible for its enemies. This sacred weapon offers fiery retribution to those deemed heretics and abominations, delivering swift justice with its relentless blaze.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/Special/Flamer</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/Flamer_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <uiIconScale>1.5</uiIconScale>
         <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisite>GF40K_RegularRangedSpecial</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-            <displayPriority>405</displayPriority>
-        </recipeMaker>
         <tradeTags>
             <li>GF40K_RangedSpecial</li>
 			<li>GF40K_ImperiumRanged</li>
         </tradeTags>
+		<equippedAngleOffset Inherit="False">45</equippedAngleOffset>
         <weaponTags>
             <li>ImperiumRangedFlamer</li>
         </weaponTags>
+        <costList>
+            <Steel>69</Steel>
+			<Plasteel>72</Plasteel>
+			<ComponentSpacer>6</ComponentSpacer>
+        </costList>
         <statBases>
-            <WorkToMake>46000</WorkToMake>
             <Mass>11</Mass>
-            <AccuracyTouch>0.66</AccuracyTouch>
-            <AccuracyShort>0.77</AccuracyShort>
-            <AccuracyMedium>0.42</AccuracyMedium>
-            <AccuracyLong>0.20</AccuracyLong>
+            <AccuracyTouch>0.99</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>0.63</AccuracyMedium>
+            <AccuracyLong>0.3</AccuracyLong>
             <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
         </statBases>
-		<equippedAngleOffset Inherit="False">45</equippedAngleOffset>
-        <costList>
-            <Steel>30</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
-        </costList>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GF40K_FlamerBullet</defaultProjectile>
+                <defaultProjectile>GF40K_RelicFlamerBullet</defaultProjectile>
                 <warmupTime>0.9</warmupTime>
                 <range>21.9</range>
                 <!--forcedMissRadius>0.2</forcedMissRadius-->
@@ -79,45 +74,17 @@
 			<li>
 				<compClass>CompEquippable</compClass>
 			</li>
-			<li>
-				<compClass>CompColorable</compClass>
-			</li>	
-				<li Class="CompProperties_Art">
+			<li Class="CompProperties_Art">
 				<nameMaker>NamerArtWeaponGun</nameMaker>
 				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>  
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
 			<li Class="CompProperties_Forbiddable"/>      
 			<li Class="CompProperties_Styleable"/>
 		</comps>
-		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.33,0.33,0.33,1)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.65,0.65,0.65,1)</only>
-			</li>
-			<li>
-			  <weight>6</weight>
-			  <min>(0.3,0.3,0.3,1)</min>
-			  <max>(0.5,0.5,0.5,1)</max>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.9,0.9,0.9,1)</only>
-			</li>
-		  </options>
-		</colorGenerator>
     </ThingDef>
 	
 	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
-		<defName>GF40K_FlamerBullet</defName>
+		<defName>GF40K_RelicFlamerBullet</defName>
 		<label>flamer's flame</label>
 		<thingClass>VFECore.FlamethrowProjectile</thingClass>
 		<graphicData>
@@ -128,7 +95,7 @@
 		<projectile>
 			<damageDef>Flame</damageDef>
 			<speed>45</speed>
-			<damageAmountBase>9.6</damageAmountBase>
+			<damageAmountBase>14</damageAmountBase>
 		</projectile>
 		
 		<drawOffscreen>true</drawOffscreen>
