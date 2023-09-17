@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>AmmoStabber_GF</defName>
+		<label>stabber round</label>
+		<parent>AmmoRifles</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_Stabber_GF</defName>
+		<label>stabber round</label>
+		<ammoTypes>
+			<Ammo_Stabber_Standard>Bullet_Stabber_GF_Standard</Ammo_Stabber_Standard>
+			<Ammo_Stabber_AP>Bullet_Stabber_GF_AP</Ammo_Stabber_AP>
+			<Ammo_Stabber_HP>Bullet_Stabber_GF_HP</Ammo_Stabber_HP>
+			<Ammo_Stabber_Incendiary>Bullet_Stabber_GF_Incendiary</Ammo_Stabber_Incendiary>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="AmmoStabber_GFBase" ParentName="SmallAmmoBase" Abstract="True">
+		<description>High-velocity rifle bullet used in a variety of stabber weapons.</description>
+		<statBases>
+			<Mass>0.017</Mass>
+			<Bulk>0.03</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+		<thingCategories>
+			<li>AmmoStabber_GF</li>
+		</thingCategories>
+		<stackLimit>5000</stackLimit>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoStabber_GFBase">
+		<defName>Ammo_Stabber_Standard</defName>
+		<label>stabber standart round</label>
+		<graphicData>
+			<texPath>Things/Ammo/Rifle/FMJ</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.12</MarketValue>
+		</statBases>
+		<ammoClass>FullMetalJacket</ammoClass>
+		<cookOffProjectile>Bullet_Stabber_GF_Standard</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoStabber_GFBase">
+		<defName>Ammo_Stabber_AP</defName>
+		<label>stabber AP round</label>
+		<graphicData>
+			<texPath>Things/Ammo/Rifle/AP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.18</MarketValue>
+		</statBases>
+		<ammoClass>ArmorPiercing</ammoClass>
+		<cookOffProjectile>Bullet_Stabber_GF_AP</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoStabber_GFBase">
+		<defName>Ammo_Stabber_HP</defName>
+		<label>stabber HP round</label>
+		<graphicData>
+			<texPath>Things/Ammo/Rifle/HP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.15</MarketValue>
+		</statBases>
+		<ammoClass>HollowPoint</ammoClass>
+		<cookOffProjectile>Bullet_Stabber_GF_HP</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoStabber_GFBase">
+		<defName>Ammo_Stabber_Incendiary</defName>
+		<label>stabber incendiary round</label>
+		<graphicData>
+			<texPath>Things/Ammo/Rifle/Incendiary</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.20</MarketValue>
+		</statBases>
+		<ammoClass>IncendiaryAP</ammoClass>
+		<cookOffProjectile>Bullet_Stabber_GF_Incendiary</cookOffProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="AmmoStabber_GFBase" ParentName="BaseBulletCE" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>CombatExtended.BulletCE</thingClass>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>160</speed>
+			<dropsCasings>true</dropsCasings>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AmmoStabber_GFBase">
+		<defName>Bullet_Stabber_GF_Standard</defName>
+		<label>stabber standart bullet</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>18</damageAmountBase>
+			<armorPenetrationSharp>6.5</armorPenetrationSharp>
+			<armorPenetrationBlunt>35</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AmmoStabber_GFBase">
+		<defName>Bullet_Stabber_GF_AP</defName>
+		<label>stabber AP bullet</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>11</damageAmountBase>
+			<armorPenetrationSharp>13</armorPenetrationSharp>
+			<armorPenetrationBlunt>35</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AmmoStabber_GFBase">
+		<defName>Bullet_Stabber_GF_HP</defName>
+		<label>stabber HP bullet</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>22</damageAmountBase>
+			<armorPenetrationSharp>3.7</armorPenetrationSharp>
+			<armorPenetrationBlunt>35</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AmmoStabber_GFBase">
+		<defName>Bullet_Stabber_GF_Incendiary</defName>
+		<label>stabber incendiary bullet</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>11</damageAmountBase>
+			<armorPenetrationSharp>13</armorPenetrationSharp>
+			<armorPenetrationBlunt>35</armorPenetrationBlunt>
+			<secondaryDamage>
+				<li>
+					<def>Flame_Secondary</def>
+					<amount>6</amount>
+				</li>
+			</secondaryDamage>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_Stabber_Standard</defName>
+		<label>make standart stabber rounds x500</label>
+		<description>Craft 500 standart stabber rounds.</description>
+		<jobString>Making standart stabber rounds.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Stabber_Standard>500</Ammo_Stabber_Standard>
+		</products>
+		<workAmount>1800</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_Stabber_AP</defName>
+		<label>make AP stabber rounds x500</label>
+		<description>Craft 500 AP stabber rounds.</description>
+		<jobString>Making AP stabber rounds.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Stabber_AP>500</Ammo_Stabber_AP>
+		</products>
+		<workAmount>1800</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_Stabber_HP</defName>
+		<label>make HP stabber rounds x500</label>
+		<description>Craft 500 HP stabber rounds.</description>
+		<jobString>Making HP stabber rounds.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Stabber_HP>500</Ammo_Stabber_HP>
+		</products>
+		<workAmount>1800</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_Stabber_Incendiary</defName>
+		<label>make incendiary stabber rounds x500</label>
+		<description>Craft 500 incendiary stabber rounds.</description>
+		<jobString>Making incendiary stabber rounds.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Prometheum</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Stabber_Incendiary>500</Ammo_Stabber_Incendiary>
+		</products>
+		<workAmount>2500</workAmount>
+	</RecipeDef>
+
+</Defs>
