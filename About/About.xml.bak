@@ -6,10 +6,7 @@
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>
-  <description>
-	
-GrimForge 40.000 - is a collaboration project between many artists and coder to bring vanilla taste to the blood of Warhammer world. Motto of this project is: "Vanilla art, vanilla balance, fuck the VOID".
-  </description>
+  <description></description>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>
