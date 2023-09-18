@@ -319,7 +319,7 @@
         <label>stub pistol</label>
         <description>In close-quarters combat, the Stub Pistol is a faithful companion. It boasts decent accuracy up close, delivering substantial stopping power. While not designed for armor penetration, it can handle most threats with ruthless efficiency.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/Stub/3</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/Stub/4</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
