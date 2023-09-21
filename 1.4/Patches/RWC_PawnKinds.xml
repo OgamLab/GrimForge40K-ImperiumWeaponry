@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+			
+		<li Class="PatchOperationTest">
+			<xpath>Defs/PawnKindDef[defName="Town_Guard"]</xpath>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/PawnKindDef[defName="Town_Guard"]/weaponTags</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Town_Guard"]</xpath>
+				<value>
+					<weaponTags>
+						<li>ImperiumRangedStub</li>
+						<li>ImperiumMeleeRegular</li>
+					</weaponTags>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Town_Guard"]/weaponTags</xpath>
+				<value>
+					<li>ImperiumRangedStub</li>
+					<li>ImperiumMeleeRegular</li>
+				</value>
+			</match>
+		</li>
+			
+		<li Class="PatchOperationTest">
+			<xpath>Defs/PawnKindDef[defName="Town_Guard"]</xpath>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/PawnKindDef[defName="Town_Guard"]/weaponTags</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Town_Guard"]</xpath>
+				<value>
+					<weaponTags>
+						<li>ImperiumRangedStub</li>
+						<li>ImperiumMeleeRegular</li>
+					</weaponTags>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Town_Guard"]/weaponTags</xpath>
+				<value>
+					<li>ImperiumRangedStub</li>
+					<li>ImperiumMeleeRegular</li>
+				</value>
+			</match>
+		</li>
+			
+		<li Class="PatchOperationTest">
+			<xpath>Defs/PawnKindDef[defName="Grenadier_Destructive"]</xpath>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/PawnKindDef[defName="Grenadier_Destructive"]/weaponTags</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Grenadier_Destructive"]</xpath>
+				<value>
+					<weaponTags>
+						<li>ImperiumRangedGrenade</li>
+					</weaponTags>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Grenadier_Destructive"]/weaponTags</xpath>
+				<value>
+					<li>ImperiumRangedGrenade</li>
+				</value>
+			</match>
+		</li>
+			
+		<li Class="PatchOperationTest">
+			<xpath>Defs/PawnKindDef[@Name="MercenaryGunnerBase"]</xpath>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/PawnKindDef[@Name="MercenaryGunnerBase"]/weaponTags</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[@Name="MercenaryGunnerBase"]</xpath>
+				<value>
+					<weaponTags>
+						<li>ImperiumRangedStub</li>
+						<li>ImperiumMeleeRegular</li>
+					</weaponTags>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[@Name="MercenaryGunnerBase"]/weaponTags</xpath>
+				<value>
+					<li>ImperiumRangedStub</li>
+					<li>ImperiumMeleeRegular</li>
+				</value>
+			</match>
+		</li>
+			
+		<li Class="PatchOperationTest">
+			<xpath>Defs/PawnKindDef[@Name="MercenarySniperBase"]</xpath>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/PawnKindDef[@Name="MercenarySniperBase"]/weaponTags</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[@Name="MercenarySniperBase"]</xpath>
+				<value>
+					<weaponTags>
+						<li>ImperiumRangedStubSniper</li>
+					</weaponTags>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[@Name="MercenarySniperBase"]/weaponTags</xpath>
+				<value>
+					<li>ImperiumRangedStubSniper</li>
+				</value>
+			</match>
+		</li>
+			
+			
+		 
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>

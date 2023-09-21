@@ -13,6 +13,12 @@
 			<value>		
 				<li>ImperiumRangedBolter</li>
 				<li>ImperiumRangedPlasma</li>
+				<li>ImperiumRangedArk</li>
+				<li>ImperiumRangedFlamer</li>
+				<li>ImperiumRangedGalvanic</li>
+				<li>ImperiumRangedGrenade</li>
+				<li>ImperiumRangedLas</li>
+				<li>ImperiumRangedStub</li>
 			</value>
 		 </li>
 	  

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef Name="GF40K_BaseRangedStubb" ParentName="BaseHumanMakeableGun" Abstract="True">
+	<ThingDef Name="GF40K_BaseRangedRelicStub" ParentName="BaseHumanMakeableGun" Abstract="True">
 		<techLevel>Spacer</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
@@ -8,90 +8,49 @@
 			<drawSize>1</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!-- <relicChance>3</relicChance> -->
-		<recipeMaker>
-			<skillRequirements>
-				<Crafting>8</Crafting>
-			</skillRequirements>
-			<recipeUsers>
-				<li>FabricationBench</li>
-			</recipeUsers>
-			<researchPrerequisites>
-				<li>GF40K_RegularStub</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
 		<notifyMapRemoved>true</notifyMapRemoved>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
         <tradeTags>
-            <li>GF40K_RangedStub</li>
-			<li>GF40K_ImperiumRanged</li>
+			<li>GF40K_ImperiumRelic</li>
         </tradeTags>
-        <weaponClasses>
-            <li>RangedHeavy</li>
-        </weaponClasses>
         <weaponTags>
-            <li>ImperiumRangedStub</li>
+            <li>ImperiumRangedRelic</li>
         </weaponTags>
 		<comps Inherit="False">
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
 			<li>
 				<compClass>CompColorable</compClass>
 			</li>	
 				<li Class="CompProperties_Art">
 				<nameMaker>NamerArtWeaponGun</nameMaker>
 				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>  
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
+			</li> 
 			<li Class="CompProperties_Forbiddable"/>      
 			<li Class="CompProperties_Styleable"/>
-			<li>
-			  <compClass>CompEquippable</compClass>
-			</li>
 		</comps>
-		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.33,0.33,0.33,1)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.65,0.65,0.65,1)</only>
-			</li>
-			<li>
-			  <weight>6</weight>
-			  <min>(0.3,0.3,0.3,1)</min>
-			  <max>(0.5,0.5,0.5,1)</max>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.9,0.9,0.9,1)</only>
-			</li>
-		  </options>
-		</colorGenerator>
 	</ThingDef>
 		
-    <ThingDef ParentName="GF40K_BaseRangedStubb">
-        <defName>GF40K_StubShotgun</defName>
-        <label>stub shotgun</label>
+    <ThingDef ParentName="GF40K_BaseRangedRelicStub">
+        <defName>GF40K_RelicStubShotgun</defName>
+        <label>relic stub shotgun</label>
         <description>A brutal close-quarters scattergun, the Stub Shotgun delivers a devastating burst of fire, making it ideal for point-blank confrontations, though its limited armor penetration means it's best suited for foes without substantial protection.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/Stub/1</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/Stub/1</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
             <WorkToMake>31000</WorkToMake>
 			<MarketValue>2500</MarketValue>
             <Mass>3.5</Mass>
-            <AccuracyTouch>0.82</AccuracyTouch>
-            <AccuracyShort>0.76</AccuracyShort>
-            <AccuracyMedium>0.62</AccuracyMedium>
-            <AccuracyLong>0.4</AccuracyLong>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>0.93</AccuracyMedium>
+            <AccuracyLong>0.63</AccuracyLong>
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
         <costList>
@@ -104,7 +63,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GF40K_StubShotgunBullet</defaultProjectile>
+                <defaultProjectile>GF40K_RelicStubShotgunBullet</defaultProjectile>
                 <warmupTime>1.5</warmupTime>
                 <range>13.9</range>
 				<soundCast>Shot_Shotgun</soundCast>
@@ -139,8 +98,8 @@
     </ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>GF40K_StubShotgunBullet</defName>
-		<label>stub shotgun shot</label>
+		<defName>GF40K_RelicStubShotgunBullet</defName>
+		<label>relic stub shotgun shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -149,29 +108,29 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>10</damageAmountBase>
+			<damageAmountBase>15</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<armorPenetrationBase>0.16</armorPenetrationBase>
 			<speed>60</speed>
 		</projectile>
 	</ThingDef>
 		
-    <ThingDef ParentName="GF40K_BaseRangedStubb">
-        <defName>GF40K_StubHMG</defName>
+    <ThingDef ParentName="GF40K_BaseRangedRelicStub">
+        <defName>GF40K_RelicStubHMG</defName>
         <label>stub HMG</label>
         <description>The Stub HMG is a medium-range beast of a weapon, capable of unleashing a storm of bullets in a burst. While it lacks the punch to breach heavy armor, it excels at suppressing foes and tearing through lightly protected targets.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/Stub/2</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/Stub/2</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
             <WorkToMake>31000</WorkToMake>
 			<MarketValue>2500</MarketValue>
             <Mass>4</Mass>
-            <AccuracyTouch>0.62</AccuracyTouch>
-            <AccuracyShort>0.55</AccuracyShort>
-            <AccuracyMedium>0.37</AccuracyMedium>
-            <AccuracyLong>0.15</AccuracyLong>
+            <AccuracyTouch>0.93</AccuracyTouch>
+            <AccuracyShort>0.82</AccuracyShort>
+            <AccuracyMedium>0.56</AccuracyMedium>
+            <AccuracyLong>0.22</AccuracyLong>
             <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
         </statBases>
         <costList>
@@ -184,7 +143,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GF40K_StubHMGBullet</defaultProjectile>
+                <defaultProjectile>GF40K_RelicStubHMGBullet</defaultProjectile>
                 <warmupTime>1.5</warmupTime>
                 <range>23.9</range>
 				<soundCast>Shot_Shotgun</soundCast>
@@ -219,8 +178,8 @@
     </ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>GF40K_StubHMGBullet</defName>
-		<label>stub HMG shot</label>
+		<defName>GF40K_RelicStubHMGBullet</defName>
+		<label>relic stub HMG shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -229,29 +188,29 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>10</damageAmountBase>
+			<damageAmountBase>15</damageAmountBase>
 			<stoppingPower>1.1</stoppingPower>
 			<armorPenetrationBase>0.14</armorPenetrationBase>
 			<speed>55</speed>
 		</projectile>
 	</ThingDef>
 		
-    <ThingDef ParentName="GF40K_BaseRangedStubb">
-        <defName>GF40K_StubCarbine</defName>
-        <label>stub carbine</label>
+    <ThingDef ParentName="GF40K_BaseRangedRelicStub">
+        <defName>GF40K_RelicStubCarbine</defName>
+        <label>relic stub carbine</label>
         <description>A versatile Stub Carbine, offering both accuracy and stopping power at medium to short ranges. Whether it's taking down foes in a firefight or providing support, this weapon proves its worth against those who dare challenge the Emperor's will.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/Stub/3</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/Stub/3</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
             <WorkToMake>42000</WorkToMake>
 			<MarketValue>2500</MarketValue>
             <Mass>3.7</Mass>
-            <AccuracyTouch>0.65</AccuracyTouch>
-            <AccuracyShort>0.72</AccuracyShort>
-            <AccuracyMedium>0.57</AccuracyMedium>
-            <AccuracyLong>0.4</AccuracyLong>
+            <AccuracyTouch>0.98</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>0.86</AccuracyMedium>
+            <AccuracyLong>0.6</AccuracyLong>
             <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
         </statBases>
         <costList>
@@ -264,7 +223,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GF40K_StubCarbineBullet</defaultProjectile>
+                <defaultProjectile>GF40K_RelicStubCarbineBullet</defaultProjectile>
                 <warmupTime>1</warmupTime>
                 <range>25.9</range>
 				<soundCast>Shot_Shotgun</soundCast>
@@ -297,8 +256,8 @@
     </ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>GF40K_StubCarbineBullet</defName>
-		<label>stub carbine shot</label>
+		<defName>GF40K_RelicStubCarbineBullet</defName>
+		<label>relic stub carbine shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -307,29 +266,29 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>16.5</damageAmountBase>
+			<damageAmountBase>24</damageAmountBase>
 			<stoppingPower>2.5</stoppingPower>
 			<armorPenetrationBase>0.43</armorPenetrationBase>
 			<speed>60</speed>
 		</projectile>
 	</ThingDef>
 		
-    <ThingDef ParentName="GF40K_BaseRangedStubb">
-        <defName>GF40K_StubPistol</defName>
-        <label>stub pistol</label>
+    <ThingDef ParentName="GF40K_BaseRangedRelicStub">
+        <defName>GF40K_RelicStubPistol</defName>
+        <label>relic stub pistol</label>
         <description>In close-quarters combat, the Stub Pistol is a faithful companion. It boasts decent accuracy up close, delivering substantial stopping power. While not designed for armor penetration, it can handle most threats with ruthless efficiency.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/Stub/4</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/Stub/4</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
             <WorkToMake>18000</WorkToMake>
 			<MarketValue>2500</MarketValue>
             <Mass>3.7</Mass>
-            <AccuracyTouch>0.8</AccuracyTouch>
-            <AccuracyShort>0.73</AccuracyShort>
-            <AccuracyMedium>0.42</AccuracyMedium>
-            <AccuracyLong>0.32</AccuracyLong>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>0.63</AccuracyMedium>
+            <AccuracyLong>0.48</AccuracyLong>
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
         <costList>
@@ -342,7 +301,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GF40K_StubPistolBullet</defaultProjectile>
+                <defaultProjectile>GF40K_RelicStubPistolBullet</defaultProjectile>
                 <warmupTime>0.3</warmupTime>
                 <range>25.9</range>
 				<soundCast>Shot_Shotgun</soundCast>
@@ -375,8 +334,8 @@
     </ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>GF40K_StubPistolBullet</defName>
-		<label>stub pistol shot</label>
+		<defName>GF40K_RelicStubPistolBullet</defName>
+		<label>relic stub pistol shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -385,29 +344,29 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>14</damageAmountBase>
+			<damageAmountBase>21</damageAmountBase>
 			<stoppingPower>2.5</stoppingPower>
 			<armorPenetrationBase>0.43</armorPenetrationBase>
 			<speed>60</speed>
 		</projectile>
 	</ThingDef>
 		
-    <ThingDef ParentName="GF40K_BaseRangedStubb">
-        <defName>GF40K_StubSniper</defName>
-        <label>stub sniper</label>
+    <ThingDef ParentName="GF40K_BaseRangedRelicStub">
+        <defName>GF40K_RelicStubSniper</defName>
+        <label>relic stub sniper</label>
         <description>For the sharp-eyed marksman, the Stub Sniper is the embodiment of precision at long to medium ranges. While it lacks the brute force of some weapons, its accuracy and reach make it a formidable choice against targets foolish enough to show themselves</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/Stub/5</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/Stub/5</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
             <WorkToMake>45000</WorkToMake>
 			<MarketValue>2500</MarketValue>
             <Mass>4.1</Mass>
-            <AccuracyTouch>0.6</AccuracyTouch>
-            <AccuracyShort>0.72</AccuracyShort>
-            <AccuracyMedium>0.78</AccuracyMedium>
-            <AccuracyLong>0.81</AccuracyLong>
+            <AccuracyTouch>.9</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>1</AccuracyMedium>
+            <AccuracyLong>1</AccuracyLong>
             <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
         </statBases>
         <costList>
@@ -420,7 +379,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GF40K_StubSniperBullet</defaultProjectile>
+                <defaultProjectile>GF40K_RelicStubSniperBullet</defaultProjectile>
                 <warmupTime>3</warmupTime>
                 <range>45.9</range>
 				<soundCast>Shot_Shotgun</soundCast>
@@ -453,8 +412,8 @@
     </ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>GF40K_StubSniperBullet</defName>
-		<label>stub sniper shot</label>
+		<defName>GF40K_RelicStubSniperBullet</defName>
+		<label>relic stub sniper shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -463,7 +422,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>25</damageAmountBase>
+			<damageAmountBase>38</damageAmountBase>
 			<stoppingPower>1.8</stoppingPower>
 			<armorPenetrationBase>0.2</armorPenetrationBase>
 			<speed>95</speed>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+	
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+			<value>		
+				<li>GF40K_ImperiumWeaponry</li>
+			</value>
+		 </li>	  
+	  
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="Empire_Fighter_StellicGuardRanged"]/weaponTags</xpath>
+			<value>		
+				<li>ImperiumRangedBolter</li>
+				<li>ImperiumRangedGalvanic</li>
+				<li>ImperiumRangedFlamer</li>
+				<li>ImperiumRangedPlasma</li>
+				<li>ImperiumRangedArk</li>
+				<li>ImperiumRangedGrenade</li>
+				<li>ImperiumRangedLas</li>
+				<li>ImperiumRangedStub</li>
+			</value>
+		 </li>
+	  
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="Empire_Fighter_StellicGuardMelee"]/weaponTags</xpath>
+			<value>		
+				<li>ImperiumMeleeRegular</li>
+				<li>ImperiumMeleeForce</li>
+			</value>
+		 </li>
+			
+		<li Class="PatchOperationTest">
+			<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Trooper"]</xpath>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Trooper"]/weaponTags</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Trooper"]</xpath>
+				<value>
+					<weaponTags>
+						<li>ImperiumRangedLas</li>
+						<li>ImperiumRangedStub</li>
+						<li>ImperiumMeleeRegular</li>
+					</weaponTags>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Trooper"]/weaponTags</xpath>
+				<value>
+					<li>ImperiumRangedLas</li>
+					<li>ImperiumRangedStub</li>
+					<li>ImperiumMeleeRegular</li>
+				</value>
+			</match>
+		</li>
+			
+		<li Class="PatchOperationTest">
+			<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Grenadier"]</xpath>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Grenadier"]/weaponTags</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Grenadier"]</xpath>
+				<value>
+					<weaponTags>
+						<li>ImperiumRangedFlamer</li>
+						<li>ImperiumRangedGrenade</li>
+					</weaponTags>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Grenadier"]/weaponTags</xpath>
+				<value>
+					<li>ImperiumRangedFlamer</li>
+					<li>ImperiumRangedGrenade</li>
+				</value>
+			</match>
+		</li>
+			
+		<li Class="PatchOperationTest">
+			<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Janissary"]</xpath>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Janissary"]/weaponTags</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Janissary"]</xpath>
+				<value>
+					<weaponTags>
+						<li>ImperiumRangedBolter</li>
+						<li>ImperiumMeleeForce</li>
+					</weaponTags>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Janissary"]/weaponTags</xpath>
+				<value>
+					<li>ImperiumRangedBolter</li>
+					<li>ImperiumMeleeForce</li>
+				</value>
+			</match>
+		</li>
+			
+		<li Class="PatchOperationTest">
+			<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Champion"]</xpath>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Champion"]/weaponTags</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Champion"]</xpath>
+				<value>
+					<weaponTags>
+						<li>ImperiumRangedPlasma</li>
+						<li>ImperiumRangedArk</li>
+						<li>ImperiumMeleeForce</li>
+						<li>ImperiumMeleeRegular</li>
+					</weaponTags>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Champion"]/weaponTags</xpath>
+				<value>
+					<li>ImperiumRangedPlasma</li>
+					<li>ImperiumRangedArk</li>
+					<li>ImperiumMeleeForce</li>
+					<li>ImperiumMeleeRegular</li>
+				</value>
+			</match>
+		</li>
+			
+		<li Class="PatchOperationTest">
+			<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Cataphract"]</xpath>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Cataphract"]/weaponTags</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Cataphract"]</xpath>
+				<value>
+					<weaponTags>	
+						<li>ImperiumRangedBolter</li>
+						<li>ImperiumRangedGalvanic</li>
+						<li>ImperiumRangedFlamer</li>
+						<li>ImperiumRangedPlasma</li>
+						<li>ImperiumRangedArk</li>
+						<li>ImperiumMeleeForce</li>
+					</weaponTags>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Cataphract"]/weaponTags</xpath>
+				<value>	
+					<li>ImperiumRangedBolter</li>
+					<li>ImperiumRangedGalvanic</li>
+					<li>ImperiumRangedFlamer</li>
+					<li>ImperiumRangedPlasma</li>
+					<li>ImperiumRangedArk</li>
+					<li>ImperiumMeleeForce</li>
+				</value>
+			</match>
+		</li>
+		 
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>
