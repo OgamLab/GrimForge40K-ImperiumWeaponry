@@ -8,7 +8,7 @@
 			<drawSize>1</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!-- <relicChance>3</relicChance> -->
+		<relicChance>0</relicChance>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>12</Crafting>
@@ -30,23 +30,10 @@
         <weaponTags>
             <li>ImperiumRangedLas</li>
         </weaponTags>
-		<comps Inherit="False">
-			<li>
-				<compClass>CompEquippable</compClass>
-			</li>
+		<comps>
 			<li>
 				<compClass>CompColorable</compClass>
-			</li>	
-				<li Class="CompProperties_Art">
-				<nameMaker>NamerArtWeaponGun</nameMaker>
-				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>  
-			<li>
-				<compClass>CompQuality</compClass>
 			</li>
-			<li Class="CompProperties_Forbiddable"/>      
-			<li Class="CompProperties_Styleable"/>
 		</comps>
 		<colorGenerator Class="ColorGenerator_Options">
 		  <options>
@@ -78,6 +65,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasPistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
@@ -93,7 +81,7 @@
             <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>57</Plasteel>
+			<Plasteel>60</Plasteel>
 			<Uranium>5</Uranium>
 			<ComponentSpacer>4</ComponentSpacer>
         </costList>
@@ -201,10 +189,10 @@
             <AccuracyShort>0.85</AccuracyShort>
             <AccuracyMedium>0.84</AccuracyMedium>
             <AccuracyLong>0.70</AccuracyLong>
-            <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>73</Plasteel>
+			<Plasteel>75</Plasteel>
 			<ComponentSpacer>6</ComponentSpacer>
         </costList>
         <verbs>
@@ -212,7 +200,9 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_LaserGunBullet</defaultProjectile>
-                <warmupTime>0.8</warmupTime>
+                <warmupTime>2</warmupTime>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
                 <range>30.9</range>
                 <soundCast>GF40K_LaserGunShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
@@ -315,16 +305,16 @@
             <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
         </statBases>
 		<costList>
-			<Plasteel>135</Plasteel>
-			<Uranium>11</Uranium>
-			<ComponentSpacer>13</ComponentSpacer>
+			<Plasteel>140</Plasteel>
+			<Uranium>10</Uranium>
+			<ComponentSpacer>12</ComponentSpacer>
 		</costList>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_LaserSniperBullet</defaultProjectile>
-                <warmupTime>2.2</warmupTime>
+                <warmupTime>2.5</warmupTime>
                 <range>45.9</range>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -408,7 +398,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasSubMachineGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.2</drawSize>
+			<drawSize>1</drawSize>
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
@@ -426,11 +416,11 @@
             <AccuracyShort>0.65</AccuracyShort>
             <AccuracyMedium>0.4</AccuracyMedium>
             <AccuracyLong>0.2</AccuracyLong>
-            <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>88</Plasteel>
-			<Uranium>7</Uranium>
+			<Plasteel>90</Plasteel>
+			<Uranium>10</Uranium>
 			<ComponentSpacer>5</ComponentSpacer>
         </costList>
         <verbs>
@@ -438,7 +428,9 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_LaserSMGBullet</defaultProjectile>
-                <warmupTime>0.2</warmupTime>
+				<warmupTime>2</warmupTime>
+				<burstShotCount>7</burstShotCount>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                 <range>24.9</range>
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
@@ -513,7 +505,7 @@
 	</ThingDef>
 		
     <ThingDef ParentName="GF40K_BaseRangedLaser">
-        <defName>GF40K_LaserCarabine</defName>
+        <defName>GF40K_LaserCarbine</defName>
         <label>lascarbine</label>
         <description>The Lascarbine is a compact yet lethal weapon that channels a concentrated energy beam, surging through enemy defenses with remarkable speed and armor-piercing prowess. Offering a balanced blend of mobility and firepower, this weapon excels in mid-range engagements, ensuring swift and calculated strikes against both armored targets and agile adversaries. In the hands of a skilled user, the Lascarbine dances with deadly grace, leaving a trail of defeated foes in its wake.</description>
         <graphicData>
@@ -537,11 +529,11 @@
             <AccuracyShort>0.84</AccuracyShort>
             <AccuracyMedium>0.88</AccuracyMedium>
             <AccuracyLong>0.65</AccuracyLong>
-            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Steel>57</Steel>
-			<Plasteel>73</Plasteel>
+			<Steel>60</Steel>
+			<Plasteel>75</Plasteel>
 			<ComponentSpacer>6</ComponentSpacer>
         </costList>
         <verbs>
@@ -616,7 +608,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Burn</damageDef>
-			<damageAmountBase>23.9</damageAmountBase>
+			<damageAmountBase>24</damageAmountBase>
 			<armorPenetrationBase>0.85</armorPenetrationBase>
 			<stoppingPower>1.7</stoppingPower>
 			<speed>105</speed>

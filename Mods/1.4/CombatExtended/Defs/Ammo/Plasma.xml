@@ -47,12 +47,14 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>137</speed>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>2</damageAmountBase>
+			<damageAmountBase>12</damageAmountBase>
+			<armorPenetrationSharp>42</armorPenetrationSharp>
+			<armorPenetrationBlunt>396</armorPenetrationBlunt>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<secondaryDamage>
 				<li>
 					<def>GF40K_Plasma</def>
-					<amount>9</amount>
+					<amount>12</amount>
 				</li>
 				<li>
 					<def>EMP</def>
@@ -74,17 +76,19 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>178</speed>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>3</damageAmountBase>
+			<damageAmountBase>20</damageAmountBase>
+			<armorPenetrationSharp>48</armorPenetrationSharp>
+			<armorPenetrationBlunt>580</armorPenetrationBlunt>
 			<explosionRadius>0.5</explosionRadius>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<secondaryDamage>
 				<li>
 					<def>GF40K_Plasma</def>
-					<amount>13</amount>
+					<amount>20</amount>
 				</li>
 				<li>
 					<def>EMP</def>
-					<amount>1</amount>
+					<amount>2</amount>
 					<chance>0.6</chance>
 				</li>
 			</secondaryDamage>
@@ -102,12 +106,14 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>137</speed>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>3</damageAmountBase>
+			<damageAmountBase>14</damageAmountBase>
+			<armorPenetrationSharp>45</armorPenetrationSharp>
+			<armorPenetrationBlunt>440</armorPenetrationBlunt>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<secondaryDamage>
 				<li>
 					<def>GF40K_Plasma</def>
-					<amount>10</amount>
+					<amount>14</amount>
 				</li>
 				<li>
 					<def>EMP</def>
@@ -129,18 +135,20 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>178</speed>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>4</damageAmountBase>
+			<damageAmountBase>25</damageAmountBase>
+			<armorPenetrationSharp>52</armorPenetrationSharp>
+			<armorPenetrationBlunt>653</armorPenetrationBlunt>
 			<explosionRadius>0.5</explosionRadius>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<secondaryDamage>
 				<li>
 					<def>GF40K_Plasma</def>
-					<amount>15</amount>
+					<amount>25</amount>
 				</li>
 				<li>
 					<def>EMP</def>
 					<amount>2</amount>
-					<chance>0.6</chance>
+					<chance>0.8</chance>
 				</li>
 			</secondaryDamage>
 			<screenShakeFactor>0</screenShakeFactor>

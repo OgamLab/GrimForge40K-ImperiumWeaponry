@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef Name="GF40K_BaseRangedStubb" ParentName="BaseHumanMakeableGun" Abstract="True">
+	<ThingDef Name="GF40K_BaseRangedStub" ParentName="BaseHumanMakeableGun" Abstract="True">
 		<techLevel>Spacer</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
@@ -76,7 +76,7 @@
 		</colorGenerator>
 	</ThingDef>
 		
-    <ThingDef ParentName="GF40K_BaseRangedStubb">
+    <ThingDef ParentName="GF40K_BaseRangedStub">
         <defName>GF40K_StubShotgun</defName>
         <label>stub shotgun</label>
         <description>A brutal close-quarters scattergun, the Stub Shotgun delivers a devastating burst of fire, making it ideal for point-blank confrontations, though its limited armor penetration means it's best suited for foes without substantial protection.</description>
@@ -95,8 +95,8 @@
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>30</Plasteel>
-			<Uranium>2</Uranium>
+			<Plasteel>40</Plasteel>
+			<Uranium>5</Uranium>
 			<ComponentIndustrial>3</ComponentIndustrial>
         </costList>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -156,7 +156,7 @@
 		</projectile>
 	</ThingDef>
 		
-    <ThingDef ParentName="GF40K_BaseRangedStubb">
+    <ThingDef ParentName="GF40K_BaseRangedStub">
         <defName>GF40K_StubHMG</defName>
         <label>stub HMG</label>
         <description>The Stub HMG is a medium-range beast of a weapon, capable of unleashing a storm of bullets in a burst. While it lacks the punch to breach heavy armor, it excels at suppressing foes and tearing through lightly protected targets.</description>
@@ -175,8 +175,8 @@
             <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>32</Plasteel>
-			<Uranium>3</Uranium>
+			<Plasteel>60</Plasteel>
+			<Uranium>5</Uranium>
 			<ComponentIndustrial>3</ComponentIndustrial>
         </costList>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -236,7 +236,7 @@
 		</projectile>
 	</ThingDef>
 		
-    <ThingDef ParentName="GF40K_BaseRangedStubb">
+    <ThingDef ParentName="GF40K_BaseRangedStub">
         <defName>GF40K_StubCarbine</defName>
         <label>stub carbine</label>
         <description>A versatile Stub Carbine, offering both accuracy and stopping power at medium to short ranges. Whether it's taking down foes in a firefight or providing support, this weapon proves its worth against those who dare challenge the Emperor's will.</description>
@@ -252,11 +252,11 @@
             <AccuracyShort>0.72</AccuracyShort>
             <AccuracyMedium>0.57</AccuracyMedium>
             <AccuracyLong>0.4</AccuracyLong>
-            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
         </statBases>
         <costList>
 			<Plasteel>50</Plasteel>
-			<Uranium>4</Uranium>
+			<Uranium>5</Uranium>
 			<ComponentIndustrial>5</ComponentIndustrial>
         </costList>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -266,6 +266,8 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_StubCarbineBullet</defaultProjectile>
                 <warmupTime>1</warmupTime>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <range>25.9</range>
 				<soundCast>Shot_Shotgun</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -307,20 +309,21 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>16.5</damageAmountBase>
+			<damageAmountBase>17</damageAmountBase>
 			<stoppingPower>2.5</stoppingPower>
 			<armorPenetrationBase>0.43</armorPenetrationBase>
 			<speed>60</speed>
 		</projectile>
 	</ThingDef>
 		
-    <ThingDef ParentName="GF40K_BaseRangedStubb">
+    <ThingDef ParentName="GF40K_BaseRangedStub">
         <defName>GF40K_StubPistol</defName>
         <label>stub pistol</label>
         <description>In close-quarters combat, the Stub Pistol is a faithful companion. It boasts decent accuracy up close, delivering substantial stopping power. While not designed for armor penetration, it can handle most threats with ruthless efficiency.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Stub/4</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.6</drawSize>
         </graphicData>
         <statBases>
             <WorkToMake>18000</WorkToMake>
@@ -333,11 +336,10 @@
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>38</Plasteel>
-			<Uranium>3</Uranium>
+			<Plasteel>30</Plasteel>
+			<Uranium>5</Uranium>
 			<ComponentIndustrial>4</ComponentIndustrial>
         </costList>
-		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -392,7 +394,7 @@
 		</projectile>
 	</ThingDef>
 		
-    <ThingDef ParentName="GF40K_BaseRangedStubb">
+    <ThingDef ParentName="GF40K_BaseRangedStub">
         <defName>GF40K_StubSniper</defName>
         <label>stub sniper</label>
         <description>For the sharp-eyed marksman, the Stub Sniper is the embodiment of precision at long to medium ranges. While it lacks the brute force of some weapons, its accuracy and reach make it a formidable choice against targets foolish enough to show themselves</description>
@@ -411,8 +413,8 @@
             <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>50</Plasteel>
-			<Uranium>4</Uranium>
+			<Plasteel>60</Plasteel>
+			<Uranium>5</Uranium>
 			<ComponentIndustrial>5</ComponentIndustrial>
         </costList>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -469,4 +471,5 @@
 			<speed>95</speed>
 		</projectile>
 	</ThingDef>
+
 </Defs>

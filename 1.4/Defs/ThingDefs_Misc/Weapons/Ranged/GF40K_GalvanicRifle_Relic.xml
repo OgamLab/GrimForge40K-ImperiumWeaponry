@@ -1,15 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef Name="GF40K_RelicBaseRangedGauss" ParentName="BaseHumanMakeableGun" Abstract="True">
+		<!-- Gun Base -->
+	<ThingDef Name="GF40K_RelicBaseRangedGauss" ParentName="BaseGun" Abstract="True">
 		<techLevel>Ultra</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
+		<relicChance>2</relicChance>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!-- <relicChance>3</relicChance> -->
-		<recipeMaker Inherit="False">
-		</recipeMaker>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
 		<notifyMapRemoved>true</notifyMapRemoved>
@@ -23,16 +23,14 @@
 		<comps Inherit="False">
 			<li>
 				<compClass>CompEquippable</compClass>
-			</li>
-			<li>
-				<compClass>CompColorable</compClass>
 			</li>	
-				<li Class="CompProperties_Art">
+			<li Class="CompProperties_Art">
 				<nameMaker>NamerArtWeaponGun</nameMaker>
 				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
 			</li> 
 			<li Class="CompProperties_Forbiddable"/>      
 			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Biocodable"/>
 		</comps>
 	</ThingDef>
 	
@@ -59,7 +57,6 @@
 		<equippedAngleOffset>45</equippedAngleOffset>
 		
         <statBases>
-            <WorkToMake>35000</WorkToMake>
 			<MarketValue>3000</MarketValue>
             <Mass>1.8</Mass>
             <AccuracyTouch>1</AccuracyTouch>
@@ -68,11 +65,6 @@
             <AccuracyLong>.83</AccuracyLong>
             <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
         </statBases>
-        <costList>
-			<Plasteel>75</Plasteel>
-			<Uranium>6</Uranium>
-			<ComponentSpacer>8</ComponentSpacer>
-        </costList>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -136,6 +128,13 @@
 			<armorPenetrationBase>1.2</armorPenetrationBase>
 			<stoppingPower>1.8</stoppingPower>
 			<speed>200</speed>
+			<extraDamages>
+				<li>
+					<def>EMP</def>
+					<amount>38</amount>
+					<chance>0.4</chance>
+				</li>
+			</extraDamages>
 		</projectile>
 	</ThingDef>
 </Defs>

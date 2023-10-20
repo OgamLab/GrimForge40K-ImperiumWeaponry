@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="GF40K_BaseRangedPlasmaRelic">
+        <defName>GF40K_PhosphorPistolRelic</defName>
+        <label>relic phosphor blast pistol</label>
+        <description>Phosphor Weapons are an ancient and very deadly form of unique weapon utilised by the armed forces of the Adeptus Mechanicus. Though the crawling horror of what were known in ancient times as Phosphex Weapons is all but forgotten in the Imperium of the late 41st Millennium, the blinding white fire of phosphor weaponry is still utilised by the warriors of the Skitarii Legions to mark out high priority targets amongst battlefield murk.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/PhosphorPistol_relic</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+        </graphicData>
+		
+        <statBases>
+			<MarketValue>6000</MarketValue>
+            <Mass>1.8</Mass>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>0.7</AccuracyMedium>
+            <AccuracyLong>0.6</AccuracyLong>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+        </statBases> 
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_PhosphorPistolRelicBullet</defaultProjectile>
+                <warmupTime>1</warmupTime>
+                <range>27.9</range>
+                <soundCast>GF40K_LaserPistolShot</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+		<thingClass MayRequire="vanillaexpanded.vwel">VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+		<comps>
+			<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor" MayRequire="vanillaexpanded.vwel">
+				<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
+				<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
+				<Overheats>true</Overheats>
+				<OverheatDestroys>false</OverheatDestroys>
+				<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
+				<OverheatBlastExtraDamage>3</OverheatBlastExtraDamage>
+				<OverheatBlastRadius>1</OverheatBlastRadius>
+				<OverheatChance>0.04</OverheatChance>
+				<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
+				<OverheatMoteSize>1</OverheatMoteSize>
+			</li>		
+		</comps>
+		
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(1,1)</drawSize>
+				<offsets>
+					<li>(0.35,0.05)</li>
+				</offsets>
+			</li>		
+		</modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GF40K_PhosphorPistolRelicBullet</defName>
+		<label>relic phosphor blast pistol shot</label>
+        <thingClass>GF40K_Misc.Projectile_Explosive_SafeForHunting</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/W_P_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.7</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>GF40K_ToxBullet</damageDef>
+			<damageAmountBase>20</damageAmountBase>
+			<stoppingPower>2.1</stoppingPower>
+			<armorPenetrationBase>0.6</armorPenetrationBase>
+			<speed>75</speed>
+			<explosionRadius>0.5</explosionRadius>
+			<explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
+			<postExplosionGasType MayRequire="Ludeon.RimWorld.Biotech">ToxGas</postExplosionGasType>
+			<ai_IsIncendiary>false</ai_IsIncendiary>
+		</projectile>
+    </ThingDef>
+	
+	
+	   <ThingDef ParentName="GF40K_BaseRangedRelicStub">
+        <defName>GF40K_RelicRadiumCarbine</defName>
+        <label>relic radium carbine</label>
+        <description>The Radium Carbine is a rapid-firing weapon capable of a punishing rate of fire, and serves as the main armament of the Skitarii Vanguard.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/Stub/3</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+			<MarketValue>4000</MarketValue>
+            <Mass>3.7</Mass>
+            <AccuracyTouch>0.98</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>0.86</AccuracyMedium>
+            <AccuracyLong>0.6</AccuracyLong>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+        </statBases>
+		<equippedAngleOffset>45</equippedAngleOffset>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_RelicRadiumCarbineBullet</defaultProjectile>
+                <warmupTime>1</warmupTime>
+                <range>25.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>Shot_Shotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GF40K_RelicRadiumCarbineBullet</defName>
+		<label>relic radium carbine shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/LauncherShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>GF40K_ToxBullet</damageDef>
+			<damageAmountBase>24</damageAmountBase>
+			<stoppingPower>2.5</stoppingPower>
+			<armorPenetrationBase>0.43</armorPenetrationBase>
+			<speed>60</speed>
+		</projectile>
+	</ThingDef>
+		
+    <ThingDef ParentName="GF40K_BaseRangedRelicStub">
+        <defName>GF40K_RelicRadiumPistol</defName>
+        <label>relic radium pistol</label>
+        <description>The Radium Pistol is a small pistol that uses scaled-down radium technology, and serves as a side-arm for Skitarii Vanguard and Ranger Alphas.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/RadiumPistol_relic</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.6</drawSize>
+        </graphicData>
+        <statBases>
+			<MarketValue>3500</MarketValue>
+            <Mass>3.7</Mass>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>0.60</AccuracyMedium>
+            <AccuracyLong>0.45</AccuracyLong>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_RelicRadiumPistolBullet</defaultProjectile>
+                <warmupTime>0.5</warmupTime>
+                <range>25.9</range>
+				<soundCast>Shot_Shotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GF40K_RelicRadiumPistolBullet</defName>
+		<label>relic radium pistol shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/LauncherShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>GF40K_ToxBullet</damageDef>
+			<damageAmountBase>21</damageAmountBase>
+			<stoppingPower>2.5</stoppingPower>
+			<armorPenetrationBase>0.43</armorPenetrationBase>
+			<speed>60</speed>
+		</projectile>
+	</ThingDef>
+	
+	
+</Defs>

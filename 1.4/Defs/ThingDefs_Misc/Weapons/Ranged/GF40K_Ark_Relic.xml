@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef Name="GF40K_BaseRangedArkRelic" ParentName="BaseHumanMakeableGun" Abstract="True">
+		<!-- Gun Base -->
+	<ThingDef Name="GF40K_BaseRangedArkRelic" ParentName="BaseGun" Abstract="True">
 		<techLevel>Ultra</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
@@ -7,9 +9,7 @@
 			<drawSize>1</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!-- <relicChance>3</relicChance> -->
-		<recipeMaker Inherit="False">
-		</recipeMaker>
+		<relicChance>2</relicChance>
         <soundInteract>Interact_Rifle</soundInteract>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
@@ -28,10 +28,10 @@
 			<li Class="CompProperties_Art">
 				<nameMaker>NamerArtWeaponGun</nameMaker>
 				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>  
 			<li Class="CompProperties_Forbiddable"/>      
 			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Biocodable"/>
 		</comps>
 	</ThingDef>
 	
@@ -41,9 +41,9 @@
         <description>The Arc Pistol is a compact sidearm that harnesses cutting-edge Arc Weapon technology and draws the raw power from ancient perma-capacitors sourced from Mars' revered repository. With each discharge, the Arc Pistol unleashes thunderous cracks, firing bolts of electrifying blue-white energy that can incapacitate even the hardiest of foes.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/ArkPistol_relic</texPath>
+			<drawSize>0.6</drawSize>
         </graphicData>
         <statBases>
-            <WorkToMake>30000</WorkToMake>
 			<MarketValue>2000</MarketValue>
             <Mass>2</Mass>
             <AccuracyTouch>1</AccuracyTouch>
@@ -52,11 +52,6 @@
             <AccuracyLong>0.3</AccuracyLong>
             <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
         </statBases>
-		<costList>
-			<Plasteel>63</Plasteel>
-			<Uranium>5</Uranium>
-			<ComponentSpacer>6</ComponentSpacer>
-		</costList>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -126,7 +121,7 @@
             <speed>120</speed>
 			<extraDamages>
 				<li>
-					<def>Stun</def>
+					<def>EMP</def>
 					<amount>1</amount>
 					<chance>0.4</chance>
 				</li>
@@ -142,7 +137,6 @@
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/ArkRifle_relic</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>32000</WorkToMake>
 			<MarketValue>2000</MarketValue>
             <Mass>2</Mass>
             <AccuracyTouch>1</AccuracyTouch>
@@ -151,11 +145,6 @@
             <AccuracyLong>1</AccuracyLong>
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
-		<costList>
-			<Plasteel>68</Plasteel>
-			<Uranium>5</Uranium>
-			<ComponentSpacer>7</ComponentSpacer>
-		</costList>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -224,7 +213,7 @@
             <speed>115</speed>
 			<extraDamages>
 				<li>
-					<def>Stun</def>
+					<def>EMP</def>
 					<amount>1</amount>
 					<chance>0.4</chance>
 				</li>

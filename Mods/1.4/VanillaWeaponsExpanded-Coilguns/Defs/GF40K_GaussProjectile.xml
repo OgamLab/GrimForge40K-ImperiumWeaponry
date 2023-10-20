@@ -6,7 +6,7 @@
 		<label>arc pistol bullet</label>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>15.6</damageAmountBase>
+			<damageAmountBase>16</damageAmountBase>
 			<armorPenetrationBase>0.45</armorPenetrationBase>
 			<stoppingPower>0.8</stoppingPower>
 			<speed>120</speed>

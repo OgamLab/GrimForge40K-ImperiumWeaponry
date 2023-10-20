@@ -1,13 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+		<!-- Gun Base -->
 	<ThingDef Name="GF40K_BaseRangedArk" ParentName="BaseHumanMakeableGun" Abstract="True">
 		<techLevel>Ultra</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
+		<relicChance>0</relicChance>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!-- <relicChance>3</relicChance> -->
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>12</Crafting>
@@ -78,6 +80,7 @@
         <description>The Arc Pistol is a compact sidearm that harnesses cutting-edge Arc Weapon technology and draws the raw power from ancient perma-capacitors sourced from Mars' revered repository. With each discharge, the Arc Pistol unleashes thunderous cracks, firing bolts of electrifying blue-white energy that can incapacitate even the hardiest of foes.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Ark/ArkPistol</texPath>
+			<drawSize>0.6</drawSize>
         </graphicData>
         <statBases>
             <WorkToMake>34000</WorkToMake>
@@ -90,7 +93,7 @@
             <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
         </statBases>
 		<costList>
-			<Plasteel>63</Plasteel>
+			<Plasteel>50</Plasteel>
 			<Uranium>5</Uranium>
 			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
@@ -157,13 +160,13 @@
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>15.6</damageAmountBase>
+            <damageAmountBase>16</damageAmountBase>
 			<stoppingPower>0.8</stoppingPower>
 			<armorPenetrationBase>0.45</armorPenetrationBase>
             <speed>120</speed>
 			<extraDamages>
 				<li>
-					<def>Stun</def>
+					<def>EMP</def>
 					<amount>1</amount>
 					<chance>0.3</chance>
 				</li>
@@ -189,7 +192,7 @@
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
 		<costList>
-			<Plasteel>68</Plasteel>
+			<Plasteel>70</Plasteel>
 			<Uranium>5</Uranium>
 			<ComponentSpacer>7</ComponentSpacer>
 		</costList>
@@ -261,7 +264,7 @@
             <speed>115</speed>
 			<extraDamages>
 				<li>
-					<def>Stun</def>
+					<def>EMP</def>
 					<amount>1</amount>
 					<chance>0.3</chance>
 				</li>

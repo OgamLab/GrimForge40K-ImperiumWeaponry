@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="BaseGun">
         <defName>GF40K_RelicFlamer</defName>
         <label>relic flamer</label>
 		<tradeNeverStack>true</tradeNeverStack>
-		<relicChance>3</relicChance>
+		<relicChance>2</relicChance>
         <description>The Flamer is a instrument of divine purification that embodies the righteous fury of holy cleansing. It unleashes an unyielding torrent of fire, leaving a trail of devastation in its wake. The intense jet of liquid fire engulfs the battlefield, making escape nearly impossible for its enemies. This sacred weapon offers fiery retribution to those deemed heretics and abominations, delivering swift justice with its relentless blaze.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/Flamer_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <uiIconScale>1.5</uiIconScale>
+		<smeltable>false</smeltable>
         <soundInteract>Interact_Rifle</soundInteract>
         <tradeTags>
             <li>GF40K_RangedSpecial</li>
@@ -20,11 +21,6 @@
         <weaponTags>
             <li>ImperiumRangedFlamer</li>
         </weaponTags>
-        <costList>
-            <Steel>69</Steel>
-			<Plasteel>72</Plasteel>
-			<ComponentSpacer>6</ComponentSpacer>
-        </costList>
         <statBases>
             <Mass>11</Mass>
             <AccuracyTouch>0.99</AccuracyTouch>
@@ -79,7 +75,8 @@
 				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
 			</li>  
 			<li Class="CompProperties_Forbiddable"/>      
-			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Styleable"/> 
+			<li Class="CompProperties_Biocodable"/>
 		</comps>
     </ThingDef>
 	

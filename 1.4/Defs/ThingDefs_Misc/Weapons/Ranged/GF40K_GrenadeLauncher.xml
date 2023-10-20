@@ -8,7 +8,7 @@
 			<drawSize>1</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!-- <relicChance>3</relicChance> -->
+		<relicChance>0</relicChance>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>12</Crafting>
@@ -33,23 +33,10 @@
         <weaponTags>
             <li>ImperiumRangedGrenade</li>
         </weaponTags>
-		<comps Inherit="False">
-			<li>
-				<compClass>CompEquippable</compClass>
-			</li>
+		<comps>
 			<li>
 				<compClass>CompColorable</compClass>
-			</li>	
-				<li Class="CompProperties_Art">
-				<nameMaker>NamerArtWeaponGun</nameMaker>
-				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>  
-			<li>
-				<compClass>CompQuality</compClass>
 			</li>
-			<li Class="CompProperties_Forbiddable"/>      
-			<li Class="CompProperties_Styleable"/>
 		</comps>
 	</ThingDef>
 	
@@ -74,9 +61,9 @@
             <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <Steel>69</Steel>
-			<Plasteel>72</Plasteel>
-			<ComponentSpacer>6</ComponentSpacer>
+            <Steel>80</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
         </costList>
 		<verbs>
 			<li>
@@ -141,7 +128,7 @@
 		<projectile>
 		  <damageDef>Bomb</damageDef>
 		  <!-- damage amount is the damage def default -->
-		  <speed>41</speed>
+		  <speed>45</speed>
 		  <explosionRadius>3.9</explosionRadius>
 		  <flyOverhead>true</flyOverhead>
 		  <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>

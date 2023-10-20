@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef Name="GF40K_BaseRangedRelicGrenade" ParentName="BaseHumanMakeableGun" Abstract="True">
+	<ThingDef Name="GF40K_BaseRangedRelicGrenade" ParentName="BaseGun" Abstract="True">
 		<techLevel>Ultra</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
@@ -8,7 +8,7 @@
 			<drawSize>1</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!-- <relicChance>3</relicChance> -->
+		<relicChance>2</relicChance>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
 		<notifyMapRemoved>true</notifyMapRemoved>
@@ -49,7 +49,6 @@
         </graphicData>
 		
         <statBases>
-            <WorkToMake>106000</WorkToMake>
 			<MarketValue>3000</MarketValue>
             <Mass>1.8</Mass>
             <AccuracyTouch>1</AccuracyTouch>
@@ -58,11 +57,6 @@
             <AccuracyLong>0.83</AccuracyLong>
             <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
         </statBases>
-        <costList>
-            <Steel>69</Steel>
-			<Plasteel>72</Plasteel>
-			<ComponentSpacer>6</ComponentSpacer>
-        </costList>
 		<verbs>
 			<li>
 				<verbClass>HeavyWeapons.Verb_Shoot</verbClass>
