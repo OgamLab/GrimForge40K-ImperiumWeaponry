@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef Name="GF40K_BaseMeleeForce" ParentName="BaseMeleeWeapon" Abstract="True">
+		<ThingDef Name="GF40K_BaseRangedForce" ParentName="BaseHumanMakeableGun" Abstract="True">
 		<techLevel>Ultra</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
@@ -8,7 +8,7 @@
 			<drawSize>1</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!-- <relicChance>3</relicChance> -->
+		<relicChance>2</relicChance>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>12</Crafting>
@@ -25,7 +25,7 @@
 		<notifyMapRemoved>true</notifyMapRemoved>
 		
 		<statBases>
-			<MarketValue>2139</MarketValue>
+			<MarketValue>3000</MarketValue>
 			<WorkToMake>19000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>
@@ -44,14 +44,15 @@
 		
         <tradeTags>
             <li>GF40K_ForceMelee</li>
-				<li>GF40K_ImperiumMelee</li>
+			<li>GF40K_ImperiumMelee</li>
+			<li>GF40K_ImperiumRanged</li>
         </tradeTags>
         <weaponTags>
             <li>ImperiumMeleeForce</li>
         </weaponTags>	
 	</ThingDef>
 	
-	<ThingDef Name="GF40K_BaseMeleeForce_Oversize" ParentName="GF40K_BaseMeleeForce" Abstract="True">
+	<ThingDef Name="GF40K_BaseRangedForce_Oversize" ParentName="GF40K_BaseMeleeForce" Abstract="True">
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
@@ -77,53 +78,38 @@
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="GF40K_BaseMeleeForce_Oversize">
-		<defName>GF40K_ForceHalberd</defName>
-		<label>force halberd</label>
-		<description>The Force Halberd is a finely crafted polearm with a long, curved blade and a sturdy haft. Its blade emits an aura of psychic might. Each strike taps into the wielder's psychic energies, enhancing their innate psychic abilities. In skilled hands, it becomes a devastating weapon, slicing through foes and unlocking untold mental potential.</description>
-		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponMelee/ForceHalberd</texPath>
-			<drawSize>1.5</drawSize>
-		</graphicData>
-		<tools>
-			<li>
-				<label>point</label>
-				<capacities>
-					<li>Stab</li>
-				</capacities>
-				<power>28.35</power>
-				<cooldownTime>2</cooldownTime>
-				<armorPenetration>0.55</armorPenetration>
-			</li>
-			<li>
-				<label>blade</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>26</power>
-				<cooldownTime>2.2</cooldownTime>
-				<armorPenetration>0.5</armorPenetration>
-			</li>
-			<li>
-				<label>handle</label>
-				<capacities>
-					<li>Poke</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>1.8</cooldownTime>
-				<armorPenetration>0.12</armorPenetration>
-			</li>
-		</tools>		
-	</ThingDef>
 	
-	<!--<ThingDef ParentName="GF40K_BaseMeleeForce_Oversize">
+	<ThingDef ParentName="GF40K_BaseRangedForce_Oversize">
 		<defName>GF40K_ForceStaff</defName>
 		<label>force staff</label>
 		<description>A masterpiece of techno-sorcery and esoteric artifice, the Force Staff embodies the essence of the Omnissiah's divine power. Crafted with utmost precision, this melee weapon resonates with psychic energies, amplifying the psionic potential of its bearer. As it crackles with an iridescent glow, the Force Staff becomes an extension of the mind, channeling the latent psychic energies to new heights. In the hands of a skilled psion, this staff transforms into an instrument of both defense and offense, capable of unleashing devastating psionic waves that rend the fabric of reality itself.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponMelee/ForceStaff</texPath>
+			<texPath>Things/Item/Equipment/WeaponRanged/Special/ForceStaff</texPath>
 			<drawSize>1.5</drawSize>
 		</graphicData>
+		
+		<statBases>
+		  <AccuracyTouch>0.60</AccuracyTouch>
+		  <AccuracyShort>0.70</AccuracyShort>
+		  <AccuracyMedium>0.65</AccuracyMedium>
+		  <AccuracyLong>0.55</AccuracyLong>
+		  <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+		  <li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>GF40K_ForceStaffZap</defaultProjectile>
+			<warmupTime>3.0</warmupTime>
+			<range>30.9</range>
+			<burstShotCount>3</burstShotCount>
+			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			<soundCast>Shot_ChargeRifle</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		  </li>
+		</verbs>
+		
 		
 		<tools>
 			<li>
@@ -131,7 +117,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>31.77</power>
+				<power>30</power>
 				<cooldownTime>2.1</cooldownTime>
 				<armorPenetration>0.4</armorPenetration>
 			</li>
@@ -154,44 +140,33 @@
 				<armorPenetration>0.12</armorPenetration>
 			</li>
 		</tools>	
-	</ThingDef>-->
-	
-	<ThingDef ParentName="GF40K_BaseMeleeForce">
-		<defName>GF40K_ForceSword</defName>
-		<label>force sword</label>
-		<description>The Force Sword, an epitome of martial and psychic synergy, marries the grace of a traditional sword with the awe-inspiring psionic might. Forged with sacred incantations and precision engineering, this melee weapon hums with the whispers of the Warp. As its radiant blade glows with a celestial luminescence, the Force Sword unlocks the true potential of its wielder's psionic abilities, allowing them to channel the raw energies of the cosmos. With each swing, this weapon becomes an instrument of psionic devastation, cutting through armor and flesh with ethereal power while guiding the mind to new psychic frontiers.</description>
-		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponMelee/ForceSword</texPath>
-		</graphicData>
-		<equippedAngleOffset>-65</equippedAngleOffset>
-		<tools>
-			<li>
-				<label>blade</label>
-				<capacities>
-					<li>Stab</li>
-				</capacities>
-				<power>28.43</power>
-				<cooldownTime>2.2</cooldownTime>
-				<armorPenetration>0.4</armorPenetration>
-			</li>
-			<li>
-				<label>blade</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>28.43</power>
-				<cooldownTime>2.2</cooldownTime>
-				<armorPenetration>0.35</armorPenetration>
-			</li>
-			<li>
-				<label>handle</label>
-				<capacities>
-					<li>Poke</li>
-				</capacities>
-				<power>12</power>
-				<cooldownTime>1.8</cooldownTime>
-				<armorPenetration>0.12</armorPenetration>
-			</li>
-		</tools>
 	</ThingDef>
+	
+	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>GF40K_ForceStaffZap</defName>
+		<label>force staff zap</label>
+		<graphicData>
+			<texPath>Things/Projectile/GF40K/Shot_TeslaGun</texPath>
+			<texPathFadeOut>Things/Projectile/GF40K/Shot_TeslaGun</texPathFadeOut>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<speed>45</speed>
+			<damageAmountBase>10</damageAmountBase>
+		</projectile>
+		
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>35</lifeTimeDuration>
+		<widthScaleFactor>0.85</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+		<totalSizeScale>1.15</totalSizeScale>
+		<tickFrameRate>2</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+	</VFECore.ExpandableProjectileDef>
+	
 </Defs>

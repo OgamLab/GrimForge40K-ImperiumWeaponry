@@ -25,10 +25,10 @@
 		<defName>AmmoSet_Bolter75_GF_Relic</defName>
 		<label>.75 cal bolt</label>
 		<ammoTypes>
-			<Ammo_Bolter75_GF_Standard>Bullet_Bolter75_GF_Standard_Relic</Ammo_Bolter75_GF_Standard>
-			<Ammo_Bolter75_GF_Inferno>Bullet_Bolter75_GF_Inferno_Relic</Ammo_Bolter75_GF_Inferno>
-			<Ammo_Bolter75_GF_MetalStorm>Bullet_Bolter75_GF_MetalStorm_Relic</Ammo_Bolter75_GF_MetalStorm>
-			<Ammo_Bolter75_GF_Kraken>Bullet_Bolter75_GF_Kraken_Relic</Ammo_Bolter75_GF_Kraken>
+			<Ammo_Bolter75_GF_Relic_Standard>Bullet_Bolter75_GF_Standard_Relic</Ammo_Bolter75_GF_Relic_Standard>
+			<Ammo_Bolter75_GF_Relic_Inferno>Bullet_Bolter75_GF_Inferno_Relic</Ammo_Bolter75_GF_Relic_Inferno>
+			<Ammo_Bolter75_GF_Relic_MetalStorm>Bullet_Bolter75_GF_MetalStorm_Relic</Ammo_Bolter75_GF_Relic_MetalStorm>
+			<Ammo_Bolter75_GF_Relic_Kraken>Bullet_Bolter75_GF_Kraken_Relic</Ammo_Bolter75_GF_Relic_Kraken>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
@@ -105,6 +105,62 @@
 		<ammoClass>Kraken_Bolter_GF</ammoClass>
 		<cookOffProjectile>Bullet_Bolter75_GF_Kraken</cookOffProjectile>
 	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBolter75_GFBase">
+		<defName>Ammo_Bolter75_GF_Relic_Standard</defName>
+		<label>.75 cal relic bolt shell (standard)</label>
+		<graphicData>
+			<texPath>ThirdParty/Warhammer/Bolter/Standard</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.48</MarketValue>
+		</statBases>
+		<ammoClass>Standard_Bolter_GF</ammoClass>
+		<cookOffProjectile>Bullet_Bolter75_GF_Standard</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBolter75_GFBase">
+		<defName>Ammo_Bolter75_GF_Relic_Inferno</defName>
+		<label>.75 cal relic bolt shell (inferno)</label>
+		<graphicData>
+			<texPath>ThirdParty/Warhammer/Bolter/Inferno</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.07</MarketValue>
+		</statBases>
+		<ammoClass>Inferno_Bolter_GF</ammoClass>
+		<cookOffProjectile>Bullet_Bolter75_GF_Inferno</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBolter75_GFBase">
+		<defName>Ammo_Bolter75_GF_Relic_MetalStorm</defName>
+		<label>.75 cal relic bolt shell (metal storm)</label>
+		<graphicData>
+			<texPath>ThirdParty/Warhammer/Bolter/MetalStorm</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.28</MarketValue>
+		</statBases>
+		<ammoClass>MetalStorm_Bolter_GF</ammoClass>
+		<cookOffProjectile>Bullet_Bolter75_GF_MetalStorm</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBolter75_GFBase">
+		<defName>Ammo_Bolter75_GF_Relic_Kraken</defName>
+		<label>.75 cal relic bolt shell (kraken)</label>
+		<graphicData>
+			<texPath>ThirdParty/Warhammer/Bolter/Kraken</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.28</MarketValue>
+		</statBases>
+		<ammoClass>Kraken_Bolter_GF</ammoClass>
+		<cookOffProjectile>Bullet_Bolter75_GF_Kraken</cookOffProjectile>
+	</ThingDef>
 
 	<!-- ================== Projectiles ================== -->
 
@@ -116,7 +172,7 @@
 		<thingClass>CombatExtended.BulletCE</thingClass>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
-			<speed>80</speed>
+			<speed>95</speed>
 			<dropsCasings>true</dropsCasings>
 			<casingMoteDefname>Mote_BolterCasing_GF</casingMoteDefname>
 		</projectile>
@@ -126,13 +182,13 @@
 		<defName>Bullet_Bolter75_GF_Standard</defName>
 		<label>.75 cal bolt (standard)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>17</damageAmountBase>
-			<armorPenetrationSharp>14</armorPenetrationSharp>
-			<armorPenetrationBlunt>2.931</armorPenetrationBlunt>
+			<damageAmountBase>18</damageAmountBase>
+			<armorPenetrationSharp>30</armorPenetrationSharp>
+			<armorPenetrationBlunt>527</armorPenetrationBlunt>
 			<secondaryDamage>
 				<li>
 					<def>Bomb_Secondary</def>
-					<amount>5</amount>
+					<amount>22</amount>
 				</li>
 			</secondaryDamage>
 		</projectile>
@@ -144,7 +200,9 @@
 		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>PrometheumFlame</damageDef>
-			<damageAmountBase>2</damageAmountBase>
+			<damageAmountBase>18</damageAmountBase>
+			<armorPenetrationSharp>27</armorPenetrationSharp>
+			<armorPenetrationBlunt>511</armorPenetrationBlunt>
 			<explosionRadius>0.5</explosionRadius>
 			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>1</preExplosionSpawnChance>
@@ -152,7 +210,7 @@
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<damageAmountBase>1</damageAmountBase>
+				<damageAmountBase>14</damageAmountBase>
 				<explosiveDamageType>Thermobaric</explosiveDamageType>
 				<explosiveRadius>0.5</explosiveRadius>
 				<explosionSound>MortarIncendiary_Explode</explosionSound>
@@ -168,7 +226,9 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<explosionRadius>0.5</explosionRadius>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>5</damageAmountBase>
+			<damageAmountBase>18</damageAmountBase>
+			<armorPenetrationSharp>30</armorPenetrationSharp>
+			<armorPenetrationBlunt>527</armorPenetrationBlunt>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<aimHeightOffset>1.2</aimHeightOffset>
 			<armingDelay>1.5</armingDelay>
@@ -176,7 +236,7 @@
 		<comps>
 			<li Class="CombatExtended.CompProperties_Fragments">
 				<fragments>
-					<Fragment_Small>3</Fragment_Small>
+					<Fragment_Small>5</Fragment_Small>
 				</fragments>
 				<fragAngleRange>-89~-5</fragAngleRange>
 			</li>
@@ -188,13 +248,13 @@
 		<label>.75 cal bolt (kraken)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>34</damageAmountBase>
-			<armorPenetrationSharp>27.6</armorPenetrationSharp>
-			<armorPenetrationBlunt>2.931</armorPenetrationBlunt>
+			<damageAmountBase>22</damageAmountBase>
+			<armorPenetrationSharp>36</armorPenetrationSharp>
+			<armorPenetrationBlunt>574</armorPenetrationBlunt>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<damageAmountBase>5</damageAmountBase>
+				<damageAmountBase>22</damageAmountBase>
 				<explosiveDamageType>Bomb</explosiveDamageType>
 				<explosiveRadius>0.25</explosiveRadius>
 				<explosionSound>MortarBomb_Explode</explosionSound>
@@ -205,15 +265,15 @@
 
 	<ThingDef ParentName="BaseBolter75_GFBullet">
 		<defName>Bullet_Bolter75_GF_Standard_Relic</defName>
-		<label>.75 cal bolt (standard)</label>
+		<label>.75 cal relic bolt (standard)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>25</damageAmountBase>
-			<armorPenetrationSharp>14</armorPenetrationSharp>
-			<armorPenetrationBlunt>2.931</armorPenetrationBlunt>
+			<damageAmountBase>20</damageAmountBase>
+			<armorPenetrationSharp>34.5</armorPenetrationSharp>
+			<armorPenetrationBlunt>606</armorPenetrationBlunt>
 			<secondaryDamage>
 				<li>
 					<def>Bomb_Secondary</def>
-					<amount>5</amount>
+					<amount>24</amount>
 				</li>
 			</secondaryDamage>
 		</projectile>
@@ -221,19 +281,21 @@
 
 	<ThingDef ParentName="BaseBolter75_GFBullet">
 		<defName>Bullet_Bolter75_GF_Inferno_Relic</defName>
-		<label>.75 cal bolt (inferno)</label>
+		<label>.75 cal relic bolt (inferno)</label>
 		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>PrometheumFlame</damageDef>
-			<damageAmountBase>3</damageAmountBase>
+			<damageAmountBase>20</damageAmountBase>
 			<explosionRadius>0.5</explosionRadius>
+			<armorPenetrationSharp>30</armorPenetrationSharp>
+			<armorPenetrationBlunt>573</armorPenetrationBlunt>
 			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>1</preExplosionSpawnChance>
 			<soundExplode>MortarIncendiary_Explode</soundExplode>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<damageAmountBase>2</damageAmountBase>
+				<damageAmountBase>15</damageAmountBase>
 				<explosiveDamageType>Thermobaric</explosiveDamageType>
 				<explosiveRadius>0.5</explosiveRadius>
 				<explosionSound>MortarIncendiary_Explode</explosionSound>
@@ -245,11 +307,13 @@
 	<ThingDef ParentName="BaseBolter75_GFBullet">
 		<defName>Bullet_Bolter75_GF_MetalStorm_Relic</defName>
 		<thingClass>CombatExtended.ProjectileCE_Bursting</thingClass>
-		<label>.75 cal bolt (metal storm)</label>
+		<label>.75 cal relic bolt (metal storm)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<explosionRadius>0.5</explosionRadius>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>6</damageAmountBase>
+			<damageAmountBase>20</damageAmountBase>
+			<armorPenetrationSharp>34.5</armorPenetrationSharp>
+			<armorPenetrationBlunt>606</armorPenetrationBlunt>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<aimHeightOffset>1.2</aimHeightOffset>
 			<armingDelay>1.5</armingDelay>
@@ -257,7 +321,7 @@
 		<comps>
 			<li Class="CombatExtended.CompProperties_Fragments">
 				<fragments>
-					<Fragment_Small>3</Fragment_Small>
+					<Fragment_Small>5</Fragment_Small>
 				</fragments>
 				<fragAngleRange>-89~-5</fragAngleRange>
 			</li>
@@ -266,16 +330,16 @@
 
 	<ThingDef ParentName="BaseBolter75_GFBullet">
 		<defName>Bullet_Bolter75_GF_Kraken_Relic</defName>
-		<label>.75 cal bolt (kraken)</label>
+		<label>.75 cal relic bolt (kraken)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>38</damageAmountBase>
-			<armorPenetrationSharp>27.6</armorPenetrationSharp>
-			<armorPenetrationBlunt>2.931</armorPenetrationBlunt>
+			<damageAmountBase>24</damageAmountBase>
+			<armorPenetrationSharp>41.4</armorPenetrationSharp>
+			<armorPenetrationBlunt>660.1</armorPenetrationBlunt>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<damageAmountBase>6</damageAmountBase>
+				<damageAmountBase>24</damageAmountBase>
 				<explosiveDamageType>Bomb</explosiveDamageType>
 				<explosiveRadius>0.25</explosiveRadius>
 				<explosionSound>MortarBomb_Explode</explosionSound>
@@ -469,6 +533,195 @@
 			<Ammo_Bolter75_GF_Kraken>200</Ammo_Bolter75_GF_Kraken>
 		</products>
 		<workAmount>13200</workAmount>
+	</RecipeDef>
+	
+	
+	
+	
+	
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_Bolter75_GF_Relic_Standard</defName>
+		<label>make .75 cal relic bolt (standard) shell x200</label>
+		<description>Craft 200 .75 cal relic bolt (standard) shells.</description>
+		<jobString>Making .75 cal relic bolt (standard) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>74</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>FSX</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Bolter75_GF_Relic_Standard>200</Ammo_Bolter75_GF_Relic_Standard>
+		</products>
+		<workAmount>12800</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_Bolter75_GF_Relic_Inferno</defName>
+		<label>make .75 cal relic bolt (inferno) shell x200</label>
+		<description>Craft 200 .75 cal relic bolt (inferno) shells.</description>
+		<jobString>Making .75 cal relic bolt (inferno) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>74</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Prometheum</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Bolter75_GF_Relic_Inferno>200</Ammo_Bolter75_GF_Relic_Inferno>
+		</products>
+		<workAmount>10800</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_Bolter75_GF_Relic_MetalStorm</defName>
+		<label>make .75 cal relic bolt (metal storm) shell x200</label>
+		<description>Craft 200 .75 cal relic bolt (metal storm) shells.</description>
+		<jobString>Making .75 cal relic bolt (metal storm) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>74</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>FSX</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Bolter75_GF_Relic_MetalStorm>200</Ammo_Bolter75_GF_Relic_MetalStorm>
+		</products>
+		<workAmount>14200</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_Bolter75_GF_Relic_Kraken</defName>
+		<label>make .75 cal relic bolt (kraken) shell x200</label>
+		<description>Craft 200 .75 cal relic bolt (kraken) shells.</description>
+		<jobString>Making .75 cal relic bolt (kraken) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>74</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>FSX</li>
+				<li>ComponentIndustrial</li>
+				<li>Uranium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Bolter75_GF_Relic_Kraken>200</Ammo_Bolter75_GF_Relic_Kraken>
+		</products>
+		<workAmount>15200</workAmount>
 	</RecipeDef>
 
 </Defs>

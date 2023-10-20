@@ -8,6 +8,7 @@
             <texPath>Things/Item/Equipment/WeaponRanged/Special/Flamer</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+		<relicChance>0</relicChance>
         <uiIconScale>1.5</uiIconScale>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
@@ -35,8 +36,9 @@
         </statBases>
 		<equippedAngleOffset Inherit="False">45</equippedAngleOffset>
         <costList>
-            <Steel>30</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
+            <Steel>100</Steel>
+            <Chemfuel>100</Chemfuel>
+            <ComponentIndustrial>5</ComponentIndustrial>
         </costList>
         <verbs>
             <li>
@@ -75,23 +77,10 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-		<comps Inherit="False">
-			<li>
-				<compClass>CompEquippable</compClass>
-			</li>
+		<comps>
 			<li>
 				<compClass>CompColorable</compClass>
-			</li>	
-				<li Class="CompProperties_Art">
-				<nameMaker>NamerArtWeaponGun</nameMaker>
-				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>  
-			<li>
-				<compClass>CompQuality</compClass>
 			</li>
-			<li Class="CompProperties_Forbiddable"/>      
-			<li Class="CompProperties_Styleable"/>
 		</comps>
 		<colorGenerator Class="ColorGenerator_Options">
 		  <options>
@@ -128,7 +117,7 @@
 		<projectile>
 			<damageDef>Flame</damageDef>
 			<speed>45</speed>
-			<damageAmountBase>9.6</damageAmountBase>
+			<damageAmountBase>10</damageAmountBase>
 		</projectile>
 		
 		<drawOffscreen>true</drawOffscreen>

@@ -40,12 +40,12 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasPistol_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
 		
         <statBases>
-            <WorkToMake>144700</WorkToMake>
 			<MarketValue>3500</MarketValue>
             <Mass>1.8</Mass>
             <AccuracyTouch>1</AccuracyTouch>
@@ -54,11 +54,6 @@
             <AccuracyLong>0.83</AccuracyLong>
             <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
         </statBases>
-        <!--costList>
-            <Steel>132</Steel>
-			<Plasteel>105</Plasteel>
-			<ComponentSpacer>7</ComponentSpacer>
-        </costList-->
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -156,14 +151,13 @@
 		<equippedAngleOffset>45</equippedAngleOffset>
 		
         <statBases>
-            <WorkToMake>170200</WorkToMake>
 			<MarketValue>5000</MarketValue>
             <Mass>2.8</Mass>
             <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
             <AccuracyMedium>1</AccuracyMedium>
             <AccuracyLong>1</AccuracyLong>
-            <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
         </statBases>
 		
         <verbs>
@@ -171,9 +165,9 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_LaserGunRelicBullet</defaultProjectile>
-                <warmupTime>0.8</warmupTime>
+                <warmupTime>2</warmupTime>
                 <range>30.9</range>
-				<burstShotCount>4</burstShotCount>
+				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>GF40K_LaserGunShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
@@ -266,20 +260,14 @@
 		<equippedAngleOffset>50</equippedAngleOffset>
 		
         <statBases>
-            <WorkToMake>245800</WorkToMake>
 			<MarketValue>7300</MarketValue>
             <Mass>4</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
             <AccuracyShort>0.9</AccuracyShort>
             <AccuracyMedium>1</AccuracyMedium>
             <AccuracyLong>1</AccuracyLong>
-            <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
         </statBases>
-		<!--costList>
-			<Steel>133</Steel>
-			<Plasteel>143</Plasteel>
-			<ComponentSpacer>16</ComponentSpacer>
-		</costList-->
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -369,7 +357,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/LasSMG_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.2</drawSize>
+			<drawSize>1</drawSize>
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
@@ -380,29 +368,23 @@
 		<equippedAngleOffset>50</equippedAngleOffset>
 		
         <statBases>
-            <WorkToMake>137600</WorkToMake>
 			<MarketValue>4000</MarketValue>
             <Mass>3.5</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
             <AccuracyShort>0.98</AccuracyShort>
             <AccuracyMedium>0.60</AccuracyMedium>
             <AccuracyLong>0.30</AccuracyLong>
-            <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
         </statBases>
-        <!--costList>
-			<Steel>125</Steel>
-			<Plasteel>100</Plasteel>
-			<ComponentSpacer>8</ComponentSpacer>
-        </costList-->
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_LaserSMGRelicBullet</defaultProjectile>
-                <warmupTime>0.2</warmupTime>
                 <range>19.9</range>
-				<burstShotCount>4</burstShotCount>
-				<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+				<warmupTime>2</warmupTime>
+				<burstShotCount>7</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -493,20 +475,14 @@
 		<equippedAngleOffset>50</equippedAngleOffset>
 		
         <statBases>
-            <WorkToMake>170500</WorkToMake>
 			<MarketValue>5000</MarketValue>
             <Mass>3.4</Mass>
             <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
             <AccuracyMedium>1</AccuracyMedium>
             <AccuracyLong>1</AccuracyLong>
-            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
         </statBases>
-        <costList>
-			<Steel>57</Steel>
-			<Plasteel>73</Plasteel>
-			<ComponentSpacer>6</ComponentSpacer>
-        </costList>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>

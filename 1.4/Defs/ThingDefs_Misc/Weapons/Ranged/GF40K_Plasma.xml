@@ -8,7 +8,7 @@
 			<drawSize>1</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!-- <relicChance>3</relicChance> -->
+		<relicChance>0</relicChance>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>12</Crafting>
@@ -35,23 +35,10 @@
         <weaponTags>
             <li>ImperiumRangedPlasma</li>
         </weaponTags>
-		<comps Inherit="False">
+		<comps>
 			<li>
 				<compClass>CompColorable</compClass>
 			</li>	
-				<li Class="CompProperties_Art">
-				<nameMaker>NamerArtWeaponGun</nameMaker>
-				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>  
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-			<li Class="CompProperties_Forbiddable"/>      
-			<li Class="CompProperties_Styleable"/>
-			<li>
-			  <compClass>CompEquippable</compClass>
-			</li>
 		</comps>
 		<colorGenerator Class="ColorGenerator_Options">
 		  <options>
@@ -177,15 +164,20 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>24</damageAmountBase>
+			<damageAmountBase>15</damageAmountBase>
 			<stoppingPower>2.1</stoppingPower>
 			<armorPenetrationBase>0.55</armorPenetrationBase>
 			<speed>75</speed>
 			<extraDamages>
 				<li>
+					<def>Burn</def>
+					<amount>15</amount>
+					<chance>1</chance>
+				</li>
+				<li>
 					<def>EMP</def>
-					<amount>1</amount>
-					<chance>0.25</chance>
+					<amount>20</amount>
+					<chance>0.3</chance>
 				</li>
 			</extraDamages>
 			
@@ -211,9 +203,9 @@
             <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>102</Plasteel>
-			<Uranium>8</Uranium>
-			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Uranium>10</Uranium>
+			<ComponentSpacer>5</ComponentSpacer>
         </costList>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
@@ -277,14 +269,19 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>34</damageAmountBase>
+			<damageAmountBase>25</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<armorPenetrationBase>0.6</armorPenetrationBase>
 			<speed>80</speed>
 			<extraDamages>
 				<li>
+					<def>Burn</def>
+					<amount>15</amount>
+					<chance>1</chance>
+				</li>
+				<li>
 					<def>EMP</def>
-					<amount>1</amount>
+					<amount>30</amount>
 					<chance>0.3</chance>
 				</li>
 			</extraDamages>

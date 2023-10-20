@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 	<ThingDef Name="GF40K_BaseRangedGauss" ParentName="BaseHumanMakeableGun" Abstract="True">
 		<techLevel>Ultra</techLevel>
@@ -7,7 +8,7 @@
 			<drawSize>1</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!-- <relicChance>3</relicChance> -->
+		<relicChance>0</relicChance>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>12</Crafting>
@@ -30,23 +31,10 @@
         <weaponTags>
             <li>ImperiumRangedGalvanic</li>
         </weaponTags>
-		<comps Inherit="False">
-			<li>
-				<compClass>CompEquippable</compClass>
-			</li>
+		<comps>
 			<li>
 				<compClass>CompColorable</compClass>
-			</li>	
-				<li Class="CompProperties_Art">
-				<nameMaker>NamerArtWeaponGun</nameMaker>
-				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>  
-			<li>
-				<compClass>CompQuality</compClass>
 			</li>
-			<li Class="CompProperties_Forbiddable"/>      
-			<li Class="CompProperties_Styleable"/>
 		</comps>
 		<colorGenerator Class="ColorGenerator_Options">
 		  <options>
@@ -171,6 +159,13 @@
 			<armorPenetrationBase>1.2</armorPenetrationBase>
 			<stoppingPower>1.8</stoppingPower>
 			<speed>200</speed>
+			<extraDamages>
+				<li>
+					<def>EMP</def>
+					<amount>25</amount>
+					<chance>0.4</chance>
+				</li>
+			</extraDamages>
 		</projectile>
 	</ThingDef>
 </Defs>

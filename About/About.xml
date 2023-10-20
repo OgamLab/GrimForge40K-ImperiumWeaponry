@@ -1,14 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>GrimForge 40.000: Imperium Weaponry</name>
+  <name>Warhammer 40.000: Imperium Weaponry</name>
   <author>Ogam</author>
   <packageId>GF40K.IoM.Weaponry</packageId>
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>
-  <description>
-	
-GrimForge 40.000 - is a collaboration project between many artists and coder to bring vanilla taste to the blood of Warhammer world. Motto of this project is: "Vanilla art, vanilla balance, fuck the VOID".
+  <description>Warhammer 40.000 - is a collaboration project between many artists and coder to bring vanilla taste to the blood of Warhammer world. Motto of this project is: "Vanilla art, vanilla balance, fuck the VOID".
   </description>
   <modDependencies>
     <li>

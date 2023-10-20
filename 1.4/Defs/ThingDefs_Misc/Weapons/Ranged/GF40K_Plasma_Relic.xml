@@ -8,7 +8,7 @@
 			<drawSize>1</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<relicChance>3</relicChance>
+		<relicChance>2</relicChance>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
 		<notifyMapRemoved>true</notifyMapRemoved>
@@ -47,8 +47,7 @@
         </graphicData>
 		
         <statBases>
-            <WorkToMake>169000</WorkToMake>
-			<MarketValue>4800</MarketValue>
+			<MarketValue>5000</MarketValue>
             <Mass>1.8</Mass>
             <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
@@ -128,14 +127,19 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>24</damageAmountBase>
+			<damageAmountBase>20</damageAmountBase>
 			<stoppingPower>2.1</stoppingPower>
-			<armorPenetrationBase>0.5</armorPenetrationBase>
+			<armorPenetrationBase>0.6</armorPenetrationBase>
 			<speed>75</speed>
 			<extraDamages>
 				<li>
+					<def>Burn</def>
+					<amount>15</amount>
+					<chance>1</chance>
+				</li>
+				<li>
 					<def>EMP</def>
-					<amount>5</amount>
+					<amount>25</amount>
 					<chance>0.4</chance>
 				</li>
 			</extraDamages>
@@ -153,8 +157,7 @@
         </graphicData>
 		
         <statBases>
-            <WorkToMake>170000</WorkToMake>
-			<MarketValue>4900</MarketValue>
+			<MarketValue>5000</MarketValue>
             <Mass>2.3</Mass>
             <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
@@ -162,11 +165,6 @@
             <AccuracyLong>1</AccuracyLong>
             <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
         </statBases>
-        <!--costList>
-            <Steel>111</Steel>
-			<Plasteel>115</Plasteel>
-			<ComponentSpacer>10</ComponentSpacer>
-        </costList-->
 		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
             <li>
@@ -240,14 +238,19 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>5</damageAmountBase>
+			<damageAmountBase>30</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
-			<armorPenetrationBase>0.55</armorPenetrationBase>
+			<armorPenetrationBase>0.7</armorPenetrationBase>
 			<speed>80</speed>
 			<extraDamages>
 				<li>
+					<def>Burn</def>
+					<amount>15</amount>
+					<chance>1</chance>
+				</li>
+				<li>
 					<def>EMP</def>
-					<amount>5</amount>
+					<amount>35</amount>
 					<chance>0.45</chance>
 				</li>
 			</extraDamages>

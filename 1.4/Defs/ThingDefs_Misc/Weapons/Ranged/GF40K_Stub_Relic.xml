@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef Name="GF40K_BaseRangedRelicStub" ParentName="BaseHumanMakeableGun" Abstract="True">
+		<!-- Gun Base -->
+	<ThingDef Name="GF40K_BaseRangedRelicStub" ParentName="BaseGun" Abstract="True">
 		<techLevel>Spacer</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
+		<relicChance>2</relicChance>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1</drawSize>
@@ -32,6 +34,7 @@
 			</li> 
 			<li Class="CompProperties_Forbiddable"/>      
 			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Biocodable"/>
 		</comps>
 	</ThingDef>
 		
@@ -44,8 +47,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-            <WorkToMake>31000</WorkToMake>
-			<MarketValue>2500</MarketValue>
+			<MarketValue>4000</MarketValue>
             <Mass>3.5</Mass>
             <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
@@ -53,11 +55,6 @@
             <AccuracyLong>0.63</AccuracyLong>
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
-        <costList>
-			<Plasteel>30</Plasteel>
-			<Uranium>2</Uranium>
-			<ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
             <li>
@@ -124,8 +121,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-            <WorkToMake>31000</WorkToMake>
-			<MarketValue>2500</MarketValue>
+			<MarketValue>4000</MarketValue>
             <Mass>4</Mass>
             <AccuracyTouch>0.93</AccuracyTouch>
             <AccuracyShort>0.82</AccuracyShort>
@@ -133,11 +129,6 @@
             <AccuracyLong>0.22</AccuracyLong>
             <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
         </statBases>
-        <costList>
-			<Plasteel>32</Plasteel>
-			<Uranium>3</Uranium>
-			<ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
             <li>
@@ -204,20 +195,14 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-            <WorkToMake>42000</WorkToMake>
-			<MarketValue>2500</MarketValue>
+			<MarketValue>4000</MarketValue>
             <Mass>3.7</Mass>
             <AccuracyTouch>0.98</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
             <AccuracyMedium>0.86</AccuracyMedium>
             <AccuracyLong>0.6</AccuracyLong>
-            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
-        <costList>
-			<Plasteel>50</Plasteel>
-			<Uranium>4</Uranium>
-			<ComponentIndustrial>5</ComponentIndustrial>
-        </costList>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
             <li>
@@ -226,6 +211,8 @@
                 <defaultProjectile>GF40K_RelicStubCarbineBullet</defaultProjectile>
                 <warmupTime>1</warmupTime>
                 <range>25.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>Shot_Shotgun</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -280,10 +267,10 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/Stub/4</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.6</drawSize>
         </graphicData>
         <statBases>
-            <WorkToMake>18000</WorkToMake>
-			<MarketValue>2500</MarketValue>
+			<MarketValue>3500</MarketValue>
             <Mass>3.7</Mass>
             <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
@@ -291,12 +278,6 @@
             <AccuracyLong>0.48</AccuracyLong>
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
-        <costList>
-			<Plasteel>38</Plasteel>
-			<Uranium>3</Uranium>
-			<ComponentIndustrial>4</ComponentIndustrial>
-        </costList>
-		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -360,8 +341,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-            <WorkToMake>45000</WorkToMake>
-			<MarketValue>2500</MarketValue>
+			<MarketValue>4500</MarketValue>
             <Mass>4.1</Mass>
             <AccuracyTouch>.9</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
@@ -369,11 +349,6 @@
             <AccuracyLong>1</AccuracyLong>
             <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
         </statBases>
-        <costList>
-			<Plasteel>50</Plasteel>
-			<Uranium>4</Uranium>
-			<ComponentIndustrial>5</ComponentIndustrial>
-        </costList>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
             <li>
