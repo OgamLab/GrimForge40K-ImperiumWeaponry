@@ -41,7 +41,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoStabber_GFBase">
 		<defName>Ammo_Stabber_Standard</defName>
-		<label>stabber standart round</label>
+		<label>stabber standard round</label>
 		<graphicData>
 			<texPath>Things/Ammo/Rifle/FMJ</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -112,7 +112,7 @@
 
 	<ThingDef ParentName="BulletStabber_GFBase">
 		<defName>Bullet_Stabber_GF_Standard</defName>
-		<label>stabber standart bullet</label>
+		<label>stabber standard bullet</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>18</damageAmountBase>
 			<armorPenetrationSharp>6.5</armorPenetrationSharp>
@@ -160,9 +160,9 @@
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_Stabber_Standard</defName>
-		<label>make standart stabber rounds x500</label>
-		<description>Craft 500 standart stabber rounds.</description>
-		<jobString>Making standart stabber rounds.</jobString>
+		<label>make standard stabber rounds x500</label>
+		<description>Craft 500 standard stabber rounds.</description>
+		<jobString>Making standard stabber rounds.</jobString>
 		<ingredients>
 			<li>
 				<filter>
