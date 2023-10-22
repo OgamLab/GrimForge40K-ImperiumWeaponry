@@ -20,10 +20,10 @@
 	</CombatExtended.AmmoSetDef>
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_GF40K_LaserCarabine</defName>
+		<defName>AmmoSet_GF40K_LaserCarbine</defName>
 		<label>laser charge</label>
 		<ammoTypes>
-			<Ammo_LaserChargePack>BulletCE_GF40K_LaserCarabine</Ammo_LaserChargePack>
+			<Ammo_LaserChargePack>BulletCE_GF40K_LaserCarbine</Ammo_LaserChargePack>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
@@ -60,10 +60,10 @@
 	</CombatExtended.AmmoSetDef>
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_GF40K_LaserCarabineRelic</defName>
+		<defName>AmmoSet_GF40K_LaserCarbineRelic</defName>
 		<label>laser charge</label>
 		<ammoTypes>
-			<Ammo_LaserChargePack>BulletCE_GF40K_LaserCarabineRelic</Ammo_LaserChargePack>
+			<Ammo_LaserChargePack>BulletCE_GF40K_LaserCarbineRelic</Ammo_LaserChargePack>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
@@ -102,10 +102,10 @@
 	</CombatExtended.AmmoSetDef>
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_GF40K_LaserCarabineOC</defName>
+		<defName>AmmoSet_GF40K_LaserCarbineOC</defName>
 		<label>laser charge (overcharged)</label>
 		<ammoTypes>
-			<Ammo_LaserChargePack>BulletCE_GF40K_LaserCarabineOC</Ammo_LaserChargePack>
+			<Ammo_LaserChargePack>BulletCE_GF40K_LaserCarbineOC</Ammo_LaserChargePack>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
@@ -142,10 +142,10 @@
 	</CombatExtended.AmmoSetDef>
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_GF40K_LaserCarabineRelicOC</defName>
+		<defName>AmmoSet_GF40K_LaserCarbineRelicOC</defName>
 		<label>laser charge (overcharged)</label>
 		<ammoTypes>
-			<Ammo_LaserChargePack>BulletCE_GF40K_LaserCarabineRelicOC</Ammo_LaserChargePack>
+			<Ammo_LaserChargePack>BulletCE_GF40K_LaserCarbineRelicOC</Ammo_LaserChargePack>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
@@ -219,7 +219,7 @@
 	</ThingDef>
 
 	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
-		<defName>BulletCE_GF40K_LaserCarabine</defName>
+		<defName>BulletCE_GF40K_LaserCarbine</defName>
 		<label>laser beam</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
@@ -304,7 +304,7 @@
 	</ThingDef>
 
 	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
-		<defName>BulletCE_GF40K_LaserCarabineRelic</defName>
+		<defName>BulletCE_GF40K_LaserCarbineRelic</defName>
 		<label>laser beam</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
@@ -390,7 +390,7 @@
 	</ThingDef>
 
 	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
-		<defName>BulletCE_GF40K_LaserCarabineOC</defName>
+		<defName>BulletCE_GF40K_LaserCarbineOC</defName>
 		<label>laser beam</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
@@ -475,7 +475,7 @@
 	</ThingDef>
 
 	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
-		<defName>BulletCE_GF40K_LaserCarabineRelicOC</defName>
+		<defName>BulletCE_GF40K_LaserCarbineRelicOC</defName>
 		<label>laser beam</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>

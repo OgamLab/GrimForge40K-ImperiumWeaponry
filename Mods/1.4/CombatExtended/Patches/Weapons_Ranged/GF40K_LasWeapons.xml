@@ -48,11 +48,11 @@
 					<xpath>Defs/ThingDef[
 						defName = "GF40K_LaserSMG" or
 						defName = "GF40K_LaserGun" or
-						defName = "GF40K_LaserCarabine" or
+						defName = "GF40K_LaserCarbine" or
 						defName = "GF40K_LaserSniper" or
 						defName = "GF40K_LaserSMGRelic" or
 						defName = "GF40K_LaserGunRelic" or
-						defName = "GF40K_LaserCarabineRelic" or
+						defName = "GF40K_LaserCarbineRelic" or
 						defName = "GF40K_LaserSniperRelic"
 						]/tools</xpath>
 					<value>
@@ -101,10 +101,10 @@
 						defName = "GF40K_LaserPistolRelic" or
 						defName = "GF40K_LaserSMGRelic" or
 						defName = "GF40K_LaserGun" or
-						defName = "GF40K_LaserCarabine" or
+						defName = "GF40K_LaserCarbine" or
 						defName = "GF40K_LaserSniper" or
 						defName = "GF40K_LaserGunRelic" or
-						defName = "GF40K_LaserCarabineRelic" or
+						defName = "GF40K_LaserCarbineRelic" or
 						defName = "GF40K_LaserSniperRelic"
 						]/comps/li[@Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor"]</xpath>
 				</li>
@@ -475,9 +475,9 @@
 					</value>
 				</li>
 
-				<!-- === Las Carabine === -->
+				<!-- === Las Carbine === -->
 				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-					<defName>GF40K_LaserCarabine</defName>
+					<defName>GF40K_LaserCarbine</defName>
 					<statBases>
 						<Mass>8.50</Mass>
 						<Bulk>10.00</Bulk>
@@ -490,7 +490,7 @@
 						<recoilAmount>0.01</recoilAmount>
 						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 						<hasStandardCommand>True</hasStandardCommand>
-						<defaultProjectile>BulletCE_GF40K_LaserCarabine</defaultProjectile>
+						<defaultProjectile>BulletCE_GF40K_LaserCarbine</defaultProjectile>
 						<warmupTime>1.1</warmupTime>
 						<range>75</range>
 						<soundCast>GF40K_LaserPistolShot</soundCast>
@@ -500,7 +500,7 @@
 					<AmmoUser>
 						<magazineSize>30</magazineSize>
 						<reloadTime>4</reloadTime>
-						<ammoSet>AmmoSet_GF40K_LaserCarabine</ammoSet>
+						<ammoSet>AmmoSet_GF40K_LaserCarbine</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
@@ -508,18 +508,18 @@
 				</li>
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="GF40K_LaserCarabine"]/comps</xpath>
+					<xpath>Defs/ThingDef[defName="GF40K_LaserCarbine"]/comps</xpath>
 					<value>
 						<li Class="CombatExtended.CompProperties_UnderBarrel">
 							<propsUnderBarrel>
 								<magazineSize>22</magazineSize>
 								<reloadTime>6</reloadTime>
-								<ammoSet>AmmoSet_GF40K_LaserCarabineOC</ammoSet>
+								<ammoSet>AmmoSet_GF40K_LaserCarbineOC</ammoSet>
 							</propsUnderBarrel>
 							<verbPropsUnderBarrel>
 								<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 								<hasStandardCommand>true</hasStandardCommand>
-								<defaultProjectile>BulletCE_GF40K_LaserCarabineOC</defaultProjectile>
+								<defaultProjectile>BulletCE_GF40K_LaserCarbineOC</defaultProjectile>
 								<ammoConsumedPerShotCount>3</ammoConsumedPerShotCount>
 								<warmupTime>1.1</warmupTime>
 								<range>75</range>
@@ -534,7 +534,7 @@
 					</value>
 				</li>
 
-				<!-- === Relic Las Carabine === -->
+				<!-- === Relic Las Carbine === -->
 				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
 					<defName>GF40K_LaserCarbineRelic</defName>
 					<statBases>
@@ -549,7 +549,7 @@
 						<recoilAmount>0.01</recoilAmount>
 						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 						<hasStandardCommand>True</hasStandardCommand>
-						<defaultProjectile>BulletCE_GF40K_LaserCarabineRelic</defaultProjectile>
+						<defaultProjectile>BulletCE_GF40K_LaserCarbineRelic</defaultProjectile>
 						<warmupTime>1.0</warmupTime>
 						<range>75</range>
 						<soundCast>GF40K_LaserPistolShot</soundCast>
@@ -559,7 +559,7 @@
 					<AmmoUser>
 						<magazineSize>30</magazineSize>
 						<reloadTime>4</reloadTime>
-						<ammoSet>AmmoSet_GF40K_LaserCarabine</ammoSet>
+						<ammoSet>AmmoSet_GF40K_LaserCarbine</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aiAimMode>AimedShot</aiAimMode>
@@ -573,12 +573,12 @@
 							<propsUnderBarrel>
 								<magazineSize>22</magazineSize>
 								<reloadTime>6</reloadTime>
-								<ammoSet>AmmoSet_GF40K_LaserCarabineRelicOC</ammoSet>
+								<ammoSet>AmmoSet_GF40K_LaserCarbineRelicOC</ammoSet>
 							</propsUnderBarrel>
 							<verbPropsUnderBarrel>
 								<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 								<hasStandardCommand>true</hasStandardCommand>
-								<defaultProjectile>BulletCE_GF40K_LaserCarabineRelicOC</defaultProjectile>
+								<defaultProjectile>BulletCE_GF40K_LaserCarbineRelicOC</defaultProjectile>
 								<ammoConsumedPerShotCount>3</ammoConsumedPerShotCount>
 								<warmupTime>1.0</warmupTime>
 								<range>75</range>

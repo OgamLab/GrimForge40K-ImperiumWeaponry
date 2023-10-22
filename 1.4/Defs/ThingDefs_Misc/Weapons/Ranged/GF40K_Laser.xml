@@ -509,7 +509,7 @@
         <label>lascarbine</label>
         <description>The Lascarbine is a compact yet lethal weapon that channels a concentrated energy beam, surging through enemy defenses with remarkable speed and armor-piercing prowess. Offering a balanced blend of mobility and firepower, this weapon excels in mid-range engagements, ensuring swift and calculated strikes against both armored targets and agile adversaries. In the hands of a skilled user, the Lascarbine dances with deadly grace, leaving a trail of defeated foes in its wake.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasCarabine</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasCarbine</texPath>
             <graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.1</drawSize>
         </graphicData>
@@ -540,7 +540,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GF40K_LaserCarabineBullet</defaultProjectile>
+                <defaultProjectile>GF40K_LaserCarbineBullet</defaultProjectile>
                 <warmupTime>1.5</warmupTime>
                 <range>34.9</range>
                 <soundCast>GF40K_LaserPistolShot</soundCast>
@@ -598,7 +598,7 @@
     </ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>GF40K_LaserCarabineBullet</defName>
+		<defName>GF40K_LaserCarbineBullet</defName>
 		<label>lascarbine bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
