@@ -93,6 +93,7 @@
 			<damageDef>Flame</damageDef>
 			<speed>45</speed>
 			<damageAmountBase>14</damageAmountBase>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
 		</projectile>
 		
 		<drawOffscreen>true</drawOffscreen>
