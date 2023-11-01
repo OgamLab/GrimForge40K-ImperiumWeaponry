@@ -34,9 +34,9 @@
         <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
       </li>
     </comps>
-    <weaponTags>
-      <li>Gun</li>
-    </weaponTags>
+	<thingCategories>
+		<li>IW_Ranged</li>
+	</thingCategories>
 	<weaponClasses>
       <li>RangedHeavy</li>
     </weaponClasses>
@@ -47,7 +47,6 @@
       <Steel>150</Steel>
       <Chemfuel>50</Chemfuel>
 	  <Shell_HighExplosive>3</Shell_HighExplosive>
-	  <HE
     </costList>
     <recipeMaker>
       <skillRequirements>

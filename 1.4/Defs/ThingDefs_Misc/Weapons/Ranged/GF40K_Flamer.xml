@@ -18,6 +18,9 @@
             </skillRequirements>
             <displayPriority>405</displayPriority>
         </recipeMaker>
+		<thingCategories>
+			<li>IW_Ranged</li>
+		</thingCategories>
         <tradeTags>
             <li>GF40K_RangedSpecial</li>
 			<li>GF40K_ImperiumRanged</li>

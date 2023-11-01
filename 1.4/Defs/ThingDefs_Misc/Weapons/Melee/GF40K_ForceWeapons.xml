@@ -42,6 +42,9 @@
 			<PsychicSensitivityOffset MayRequire="ludeon.rimworld.royalty">0.268</PsychicSensitivityOffset>
 		</equippedStatOffsets>
 		
+		<thingCategories>
+			<li>IW_Melee</li>
+		</thingCategories>
         <tradeTags>
             <li>GF40K_ForceMelee</li>
 				<li>GF40K_ImperiumMelee</li>

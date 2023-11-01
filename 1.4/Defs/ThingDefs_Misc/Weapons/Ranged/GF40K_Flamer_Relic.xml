@@ -13,6 +13,9 @@
         <uiIconScale>1.5</uiIconScale>
 		<smeltable>false</smeltable>
         <soundInteract>Interact_Rifle</soundInteract>
+		<thingCategories>
+			<li>IW_Ranged</li>
+		</thingCategories>
         <tradeTags>
             <li>GF40K_RangedSpecial</li>
 			<li>GF40K_ImperiumRanged</li>

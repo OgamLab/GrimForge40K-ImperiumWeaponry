@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Weapons -->
+	
+    <ThingCategoryDef>
+      <defName>GF40K_Cat_IW</defName>
+      <label>imperium weaponry</label>
+      <parent>Weapons</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>WeaponsMelee</defName>
+      <label>melee weapons</label>
+      <parent>GF40K_Cat_IW</parent>
+    </ThingCategoryDef>
+	
+    <ThingCategoryDef>
+      <defName>WeaponsRanged</defName>
+      <label>ranged weapons</label>
+      <parent>GF40K_Cat_IW</parent>
+    </ThingCategoryDef>
+	
+  <!-- Apparel -->
+
+    <ThingCategoryDef>
+      <defName>GF40K_Cat_IA</defName>
+      <label>imperium armory</label>
+      <parent>Apparel</parent>
+    </ThingCategoryDef>
+	
+    <ThingCategoryDef>
+      <defName>Headgear</defName>
+      <label>headgear</label>
+      <parent>GF40K_Cat_IA</parent>
+    </ThingCategoryDef>
+  
+    <ThingCategoryDef>
+      <defName>ApparelArmor</defName>
+      <label>armor</label>
+      <parent>GF40K_Cat_IA</parent>
+    </ThingCategoryDef>
+	
+    <ThingCategoryDef>
+      <defName>ApparelUtility</defName>
+      <label>utility</label>
+      <parent>GF40K_Cat_IA</parent>
+    </ThingCategoryDef>
+
+</Defs>

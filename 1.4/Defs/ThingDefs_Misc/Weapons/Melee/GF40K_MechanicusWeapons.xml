@@ -45,6 +45,9 @@
 			</li>
 		</comps>	
 		
+		<thingCategories>
+			<li>IW_Melee</li>
+		</thingCategories>
         <tradeTags>
             <li>GF40K_MechanicusMelee</li>
 				<li>GF40K_ImperiumMelee</li>

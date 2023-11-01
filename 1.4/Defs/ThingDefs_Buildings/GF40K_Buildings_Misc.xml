@@ -7,12 +7,15 @@
     <description>The Weaponry Cogitator Node is a special module used with an advanced research table to explore armament technologies of the Imperium of Man. According to the beliefs of the Mechanicus, all cogitators possess a highly intelligent Machine Spirit, but it does not approach that of true Artificial Intelligence. The node adheres to these principles while enabling weapon research.</description>
     <graphicData>
       <texPath>Things/Building/Misc/ImperiumWeaponry</texPath>
-			<shaderType>CutoutComplex</shaderType>
+	  <shaderType>CutoutComplex</shaderType>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>4</drawSize><!--2.46875-->
     </graphicData>
     <uiIconScale>0.85</uiIconScale>
-    <researchPrerequisites><li>GF40K_ImperiumCore</li></researchPrerequisites>
+    <researchPrerequisites>
+		<li>GF40K_ImperiumCore</li>
+		<!-- hmm....... -->
+	</researchPrerequisites>
     <size>(2,2)</size>
     <rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>
@@ -31,7 +34,7 @@
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToBuild>10000</WorkToBuild>
       <Mass>60</Mass>
-      <Flammability>1.0</Flammability>
+      <Flammability>0</Flammability>
     </statBases>
     <stuffCategories>
       <li>Metallic</li>
@@ -45,6 +48,7 @@
     </costList>
     <building>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+      <paintable>true</paintable>
     </building>
     <comps>
       <li Class="CompProperties_Power">
@@ -63,7 +67,7 @@
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
-    <constructionSkillPrerequisite>14</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
   </ThingDef>
 
 

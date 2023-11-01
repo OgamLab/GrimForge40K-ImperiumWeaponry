@@ -15,6 +15,9 @@
 		<notifyMapRemoved>true</notifyMapRemoved>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
+		<thingCategories>
+			<li>IW_Ranged</li>
+		</thingCategories>
         <tradeTags>
 			<li>GF40K_ImperiumRelic</li>
         </tradeTags>
