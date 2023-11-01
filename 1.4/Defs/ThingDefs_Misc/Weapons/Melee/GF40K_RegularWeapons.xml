@@ -39,9 +39,12 @@
 		  <li>Metallic</li>
 		</stuffCategories>
 		
+		<thingCategories>
+			<li>IW_Melee</li>
+		</thingCategories>
         <tradeTags>
             <li>GF40K_RegularMelee</li>
-				<li>GF40K_ImperiumMelee</li>
+			<li>GF40K_ImperiumMelee</li>
         </tradeTags>
         <weaponTags>
             <li>ImperiumMeleeRegular</li>

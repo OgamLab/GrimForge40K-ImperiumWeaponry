@@ -18,6 +18,9 @@
             </skillRequirements>
             <displayPriority>405</displayPriority>
         </recipeMaker>
+		<thingCategories>
+			<li>IW_Ranged</li>
+		</thingCategories>
         <tradeTags>
             <li>GF40K_RangedSpecial</li>
 			<li>GF40K_ImperiumRanged</li>
@@ -118,6 +121,7 @@
 			<damageDef>Flame</damageDef>
 			<speed>45</speed>
 			<damageAmountBase>10</damageAmountBase>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
 		</projectile>
 		
 		<drawOffscreen>true</drawOffscreen>

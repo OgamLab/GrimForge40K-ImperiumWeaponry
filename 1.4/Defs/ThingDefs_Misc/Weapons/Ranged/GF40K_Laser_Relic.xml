@@ -11,6 +11,9 @@
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
 		<notifyMapRemoved>true</notifyMapRemoved>
+		<thingCategories>
+			<li>IW_Ranged</li>
+		</thingCategories>
         <tradeTags>
 			<li>GF40K_ImperiumRelic</li>
         </tradeTags>

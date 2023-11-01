@@ -4,69 +4,21 @@
   <!-- Weapons -->
 
     <ThingCategoryDef>
-      <defName>GF40K_RegularMelee</defName>
-      <label>GF40K Melee: regular weapons</label>
+      <defName>GF40K_Cat_IW</defName>
+      <label>imperium weaponry</label>
       <parent>Weapons</parent>
     </ThingCategoryDef>
-
-    <ThingCategoryDef>
-      <defName>GF40K_ForceMelee</defName>
-      <label>GF40K Melee: force weapons</label>
-      <parent>Weapons</parent>
-    </ThingCategoryDef>
-
-    <ThingCategoryDef>
-      <defName>GF40K_MechanicusMelee</defName>
-      <label>GF40K Melee: mechanicus weapons</label>
-      <parent>Weapons</parent>
-    </ThingCategoryDef>
-
-    <ThingCategoryDef>
-      <defName>GF40K_PersonaMelee</defName>
-      <label>GF40K Melee: persona weapons</label>
-      <parent>Weapons</parent>
-    </ThingCategoryDef>
-
-    <ThingCategoryDef>
-      <defName>GF40K_RangedBolter</defName>
-      <label>GF40K Ranged: bolt weapons</label>
-      <parent>Weapons</parent>
-    </ThingCategoryDef>
-
-    <ThingCategoryDef>
-      <defName>GF40K_RangedPlasma</defName>
-      <label>GF40K Ranged: plasma weapons</label>
-      <parent>Weapons</parent>
-    </ThingCategoryDef>
-
-    <ThingCategoryDef>
-      <defName>GF40K_RangedSpecial</defName>
-      <label>GF40K Ranged: special weapons</label>
-      <parent>Weapons</parent>
-    </ThingCategoryDef>
-
-    <ThingCategoryDef>
-      <defName>GF40K_RangedLaser</defName>
-      <label>GF40K Ranged: laser weapons</label>
-      <parent>Weapons</parent>
-    </ThingCategoryDef>	
-
-    <ThingCategoryDef>
-      <defName>GF40K_ImperiumMelee</defName>
-      <label>GF40K Melee: Imperium</label>
-      <parent>Weapons</parent>
-    </ThingCategoryDef>	
-
-    <ThingCategoryDef>
-      <defName>GF40K_ImperiumRanged</defName>
-      <label>GF40K Ranged: Imperium</label>
-      <parent>Weapons</parent>
-    </ThingCategoryDef>	
-
-    <ThingCategoryDef>
-      <defName>GF40K_ImperiumRelic</defName>
-      <label>GF40K Ranged: Imperium Relic</label>
-      <parent>Weapons</parent>
-    </ThingCategoryDef>	
-
+	
+		<ThingCategoryDef>
+		  <defName>IW_Melee</defName>
+		  <label>melee weapons</label>
+		  <parent>GF40K_Cat_IW</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+		  <defName>IW_Ranged</defName>
+		  <label>ranged weapons</label>
+		  <parent>GF40K_Cat_IW</parent>
+		</ThingCategoryDef>
+	
 </Defs>

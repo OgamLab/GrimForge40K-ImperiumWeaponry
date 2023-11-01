@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-		<ThingDef Name="GF40K_BaseRangedForce" ParentName="BaseHumanMakeableGun" Abstract="True">
+	<ThingDef Name="GF40K_BaseRangedForce" ParentName="BaseHumanMakeableGun" Abstract="True">
 		<techLevel>Ultra</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
@@ -42,6 +42,9 @@
 			<PsychicSensitivityOffset MayRequire="ludeon.rimworld.royalty">0.268</PsychicSensitivityOffset>
 		</equippedStatOffsets>
 		
+		<thingCategories>
+			<li>IW_Ranged</li>
+		</thingCategories>
         <tradeTags>
             <li>GF40K_ForceMelee</li>
 			<li>GF40K_ImperiumMelee</li>
@@ -53,7 +56,7 @@
 	</ThingDef>
 	
 	<ThingDef Name="GF40K_BaseRangedForce_Oversize" ParentName="GF40K_BaseMeleeForce" Abstract="True">
-		<equippedAngleOffset>45</equippedAngleOffset>
+		<equippedAngleOffset>20</equippedAngleOffset>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
@@ -103,7 +106,7 @@
 			<warmupTime>3.0</warmupTime>
 			<range>30.9</range>
 			<burstShotCount>3</burstShotCount>
-			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			<ticksBetweenBurstShots>14</ticksBetweenBurstShots>
 			<soundCast>Shot_ChargeRifle</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -145,6 +148,8 @@
 	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
 		<defName>GF40K_ForceStaffZap</defName>
 		<label>force staff zap</label>
+		<thingClass>VFECore.ExpandableProjectile</thingClass>
+		
 		<graphicData>
 			<texPath>Things/Projectile/GF40K/Shot_TeslaGun</texPath>
 			<texPathFadeOut>Things/Projectile/GF40K/Shot_TeslaGun</texPathFadeOut>
@@ -152,17 +157,17 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Flame</damageDef>
-			<speed>45</speed>
+			<speed>200</speed>
 			<damageAmountBase>10</damageAmountBase>
 		</projectile>
 		
 		<drawOffscreen>true</drawOffscreen>
-		<lifeTimeDuration>35</lifeTimeDuration>
-		<widthScaleFactor>0.85</widthScaleFactor>
+		<lifeTimeDuration>5</lifeTimeDuration>
+		<widthScaleFactor>0.25</widthScaleFactor>
 		<heightScaleFactor>1</heightScaleFactor>
 		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
-		<totalSizeScale>1.15</totalSizeScale>
-		<tickFrameRate>2</tickFrameRate>
+		<totalSizeScale>1</totalSizeScale>
+		<tickFrameRate>5</tickFrameRate>
 		<finalTickFrameRate>5</finalTickFrameRate>
 		<tickDamageRate>20</tickDamageRate>
 		<dealsDamageOnce>true</dealsDamageOnce>
