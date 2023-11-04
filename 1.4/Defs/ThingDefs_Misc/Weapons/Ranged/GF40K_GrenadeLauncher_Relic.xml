@@ -67,6 +67,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<forcedMissRadius>2.9</forcedMissRadius>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
 				<warmupTime>3.5</warmupTime>
 				<minRange>6.9</minRange>
 				<range>36.9</range>
@@ -124,8 +125,9 @@
 		  <damageDef>Bomb</damageDef>
 		  <damageAmountBase>75</damageAmountBase>
 		  <armorPenetrationBase>0.25</armorPenetrationBase>
-		  <speed>60</speed>
+		  <speed>50</speed>
 		  <explosionRadius>4.9</explosionRadius>
+		  <arcHeightFactor>0.3</arcHeightFactor>
 		  <flyOverhead>true</flyOverhead>
 		  <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 		  <soundExplode>MortarBomb_Explode</soundExplode>

@@ -96,6 +96,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<forcedMissRadius>2.9</forcedMissRadius>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
 				<warmupTime>3.5</warmupTime>
 				<minRange>6.9</minRange>
 				<range>36.9</range>
@@ -152,8 +153,9 @@
 		<projectile>
 		  <damageDef>Bomb</damageDef>
 		  <!-- damage amount is the damage def default, so 50 dmg and 0.1 AP? -->
-		  <speed>45</speed>
+		  <speed>40</speed>
 		  <explosionRadius>3.9</explosionRadius>
+		  <arcHeightFactor>0.3</arcHeightFactor>
 		  <flyOverhead>true</flyOverhead>
 		  <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 		  <soundExplode>MortarBomb_Explode</soundExplode>
