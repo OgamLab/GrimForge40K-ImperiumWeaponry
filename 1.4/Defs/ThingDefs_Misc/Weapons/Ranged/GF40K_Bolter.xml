@@ -341,7 +341,7 @@
         </projectile>
 		<modExtensions>
 			<li Class="GF40K_Misc.ModExt_ExplosionRadius">
-				<radius>1.9</radius>
+				<radius>1.1</radius>
 			</li>
 		</modExtensions>
     </ThingDef>

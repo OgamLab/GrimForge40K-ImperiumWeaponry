@@ -92,7 +92,7 @@
 		<verbs>
 			<li>
 				<verbClass>HeavyWeapons.Verb_Shoot</verbClass>
-				<defaultProjectile>Bullet_Shell_HighExplosive</defaultProjectile>
+				<defaultProjectile>GF40K_HEShell</defaultProjectile>
 				<hasStandardCommand>true</hasStandardCommand>
 				<forcedMissRadius>2.9</forcedMissRadius>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
@@ -151,7 +151,7 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 		  <damageDef>Bomb</damageDef>
-		  <!-- damage amount is the damage def default -->
+		  <!-- damage amount is the damage def default, so 50 dmg and 0.1 AP? -->
 		  <speed>45</speed>
 		  <explosionRadius>3.9</explosionRadius>
 		  <flyOverhead>true</flyOverhead>

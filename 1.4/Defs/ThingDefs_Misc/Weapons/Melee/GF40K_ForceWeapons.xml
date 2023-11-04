@@ -55,29 +55,29 @@
 	</ThingDef>
 	
 	<ThingDef Name="GF40K_BaseMeleeForce_Oversize" ParentName="GF40K_BaseMeleeForce" Abstract="True">
-		<equippedAngleOffset>45</equippedAngleOffset>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
 					<north>
-						<drawOffset>(0.34,0,0.50)</drawOffset>
+						<drawOffset>(0.34,0,0.60)</drawOffset>
 						<angleOffset>-143</angleOffset>
 					</north>
 					<east>
-						<drawOffset>(0.1,0,0.50)</drawOffset>
+						<drawOffset>(0.1,0,0.60)</drawOffset>
 						<angleOffset>-122</angleOffset>
 					</east>
 					<south>
-						<drawOffset>(-0.34,0,0.50)</drawOffset>
+						<drawOffset>(-0.34,0,0.60)</drawOffset>
 						<angleOffset>-143</angleOffset>
 					</south>
 					<west>
-						<drawOffset>(-0.1,0,0.50)</drawOffset>
+						<drawOffset>(-0.1,0,0.60)</drawOffset>
 						<angleOffset>122</angleOffset>
 					</west>
 				</weaponDraftedDrawOffsets>		
 			</li>
 		</modExtensions>
+		<equippedAngleOffset>45</equippedAngleOffset>
 	</ThingDef>
 	
 	<ThingDef ParentName="GF40K_BaseMeleeForce_Oversize">

@@ -140,7 +140,7 @@
 					<xpath>Defs</xpath>
 					<value>		
 						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
-							<defName>GF40K_LaserCarabineBulletVWEL</defName>
+							<defName>GF40K_LaserCarbineBulletVWEL</defName>
 							<label>laser gun shot</label>
 							<textures>
 								<li>Things/Projectile/Shot_LaserShotgun</li>
@@ -159,9 +159,9 @@
 				 </li>
 			
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="GF40K_LaserCarabine"]/verbs/li[1]/defaultProjectile</xpath>
+					<xpath>Defs/ThingDef[defName="GF40K_LaserCarbine"]/verbs/li[1]/defaultProjectile</xpath>
 					<value>		
-						<defaultProjectile>GF40K_LaserCarabineBulletVWEL</defaultProjectile>
+						<defaultProjectile>GF40K_LaserCarbineBulletVWEL</defaultProjectile>
 					</value>
 				 </li>
 				

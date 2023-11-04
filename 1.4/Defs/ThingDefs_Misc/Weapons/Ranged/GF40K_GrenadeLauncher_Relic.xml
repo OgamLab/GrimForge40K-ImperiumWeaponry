@@ -63,7 +63,7 @@
 		<verbs>
 			<li>
 				<verbClass>HeavyWeapons.Verb_Shoot</verbClass>
-				<defaultProjectile>Bullet_Shell_HighExplosive</defaultProjectile>
+				<defaultProjectile>GF40K_HEShell_Relic</defaultProjectile>
 				<hasStandardCommand>true</hasStandardCommand>
 				<forcedMissRadius>2.9</forcedMissRadius>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
@@ -110,5 +110,28 @@
 			</li>		
 		</modExtensions>
     </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GF40K_HEShell_Relic</defName>
+		<label>high-explosive shell</label>
+		<graphicData>
+		  <texPath>Things/Projectile/ShellHighExplosive</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+		  <damageDef>Bomb</damageDef>
+		  <damageAmountBase>75</damageAmountBase>
+		  <armorPenetrationBase>0.25</armorPenetrationBase>
+		  <speed>60</speed>
+		  <explosionRadius>4.9</explosionRadius>
+		  <flyOverhead>true</flyOverhead>
+		  <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+		  <soundExplode>MortarBomb_Explode</soundExplode>
+		  <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+		  <soundAmbient>MortarRound_Ambient</soundAmbient>
+		</projectile>
+	</ThingDef>
 
 </Defs>

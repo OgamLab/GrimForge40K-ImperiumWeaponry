@@ -17,7 +17,7 @@
             <AccuracyShort>1</AccuracyShort>
             <AccuracyMedium>0.7</AccuracyMedium>
             <AccuracyLong>0.6</AccuracyLong>
-            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases> 
         <verbs>
             <li>
@@ -104,35 +104,35 @@
     </ThingDef>
 	
 	
-	   <ThingDef ParentName="GF40K_BaseRangedRelicStub">
+	<ThingDef ParentName="GF40K_BaseRangedArkRelic">
         <defName>GF40K_RelicRadiumCarbine</defName>
         <label>relic radium carbine</label>
         <description>The Radium Carbine is a rapid-firing weapon capable of a punishing rate of fire, and serves as the main armament of the Skitarii Vanguard.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/Relic/Stub/3</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/Relic/RadiumRifle_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
         <statBases>
-			<MarketValue>4000</MarketValue>
-            <Mass>3.7</Mass>
-            <AccuracyTouch>0.98</AccuracyTouch>
+			<MarketValue>2000</MarketValue>
+            <Mass>2</Mass>
+            <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
-            <AccuracyMedium>0.86</AccuracyMedium>
-            <AccuracyLong>0.6</AccuracyLong>
+            <AccuracyMedium>1</AccuracyMedium>
+            <AccuracyLong>1</AccuracyLong>
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
-		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_RelicRadiumCarbineBullet</defaultProjectile>
                 <warmupTime>1</warmupTime>
-                <range>25.9</range>
+                <range>33.9</range>
 				<burstShotCount>3</burstShotCount>
-				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Shot_Shotgun</soundCast>
-				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+                <soundCast>Shot_ChargeRifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
@@ -178,7 +178,7 @@
 		</projectile>
 	</ThingDef>
 		
-    <ThingDef ParentName="GF40K_BaseRangedRelicStub">
+    <ThingDef ParentName="GF40K_BaseRangedArkRelic">
         <defName>GF40K_RelicRadiumPistol</defName>
         <label>relic radium pistol</label>
         <description>The Radium Pistol is a small pistol that uses scaled-down radium technology, and serves as a side-arm for Skitarii Vanguard and Ranger Alphas.</description>
@@ -188,23 +188,25 @@
 			<drawSize>0.6</drawSize>
         </graphicData>
         <statBases>
-			<MarketValue>3500</MarketValue>
-            <Mass>3.7</Mass>
+			<MarketValue>2000</MarketValue>
+            <Mass>2</Mass>
             <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
-            <AccuracyMedium>0.60</AccuracyMedium>
-            <AccuracyLong>0.45</AccuracyLong>
-            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+            <AccuracyMedium>0.63</AccuracyMedium>
+            <AccuracyLong>0.3</AccuracyLong>
+            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
         </statBases>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_RelicRadiumPistolBullet</defaultProjectile>
-                <warmupTime>0.5</warmupTime>
-                <range>25.9</range>
-				<soundCast>Shot_Shotgun</soundCast>
-				<soundCastTail>GunTail_Heavy</soundCastTail>
+                <warmupTime>0.8</warmupTime>
+                <range>21.9</range>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>22</ticksBetweenBurstShots>
+                <soundCast>Shot_ChargeRifle</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
