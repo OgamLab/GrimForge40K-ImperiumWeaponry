@@ -127,14 +127,14 @@
 		</graphicData>
 		<projectile>
 			<damageDef>GF40K_Gauss</damageDef>
-			<damageAmountBase>38</damageAmountBase>
-			<armorPenetrationBase>1.2</armorPenetrationBase>
+			<damageAmountBase>45</damageAmountBase>
+			<armorPenetrationBase>2</armorPenetrationBase>
 			<stoppingPower>1.8</stoppingPower>
 			<speed>200</speed>
 			<extraDamages>
 				<li>
 					<def>EMP</def>
-					<amount>38</amount>
+					<amount>45</amount>
 					<chance>0.4</chance>
 				</li>
 			</extraDamages>

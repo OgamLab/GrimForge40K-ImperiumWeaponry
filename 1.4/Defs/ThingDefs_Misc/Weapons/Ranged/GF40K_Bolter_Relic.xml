@@ -140,7 +140,7 @@
 				<targetParams>
 				  <canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<burstShotCount>2</burstShotCount>
+				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
             </li>
         </verbs>
@@ -269,9 +269,9 @@
         </graphicData>
         <projectile>
             <damageDef>Bomb</damageDef>
-            <damageAmountBase>31</damageAmountBase>
+            <damageAmountBase>40</damageAmountBase> <!-- wtf is this damage? -->
             <stoppingPower>1.5</stoppingPower>
-			<armorPenetrationBase>0.5</armorPenetrationBase>
+			<armorPenetrationBase>0.7</armorPenetrationBase>
             <speed>90</speed>
         </projectile>
 		<modExtensions>
@@ -296,14 +296,14 @@
         </graphicData>
         <projectile>
             <damageDef>Bomb</damageDef>
-            <damageAmountBase>45</damageAmountBase>
+            <damageAmountBase>57</damageAmountBase> <!-- wtf is this damage? -->
             <stoppingPower>1.5</stoppingPower>
-			<armorPenetrationBase>0.5</armorPenetrationBase>
+			<armorPenetrationBase>0.9</armorPenetrationBase>
             <speed>95</speed>
         </projectile>
 		<modExtensions>
 			<li Class="GF40K_Misc.ModExt_ExplosionRadius">
-				<radius>1.9</radius>
+				<radius>1.1</radius>
 			</li>
 		</modExtensions>
     </ThingDef>

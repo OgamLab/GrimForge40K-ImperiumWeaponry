@@ -11,9 +11,13 @@
         <victimSeverityScaling>ToxicResistance</victimSeverityScaling>
         <inverseStatScaling>true</inverseStatScaling>
         <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
-      </li>
+      </li>						
+	  <li>
+		<hediff>GF40K_Acid</hediff>
+		<severityPerDamageDealt>1</severityPerDamageDealt>
+	  </li>
     </additionalHediffs>
-    <applyAdditionalHediffsIfHuntingForFood>false</applyAdditionalHediffsIfHuntingForFood>
+    <damageEffecter>Impact_Toxic</damageEffecter>
     <impactSoundType>Toxic</impactSoundType>
  </DamageDef>
 </Defs>

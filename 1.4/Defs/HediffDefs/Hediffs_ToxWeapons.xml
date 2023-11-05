@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef>
+    <defName>GF40K_Acid</defName>
+    <label>acidifier</label>
+    <description>Acidifier mixture injected into veins through a toxic bullet. Causes extreme pain and internal acid burns.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+	<defaultLabelColor>(0.7, 0.8, 0.3)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>600~600</disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+	  <li Class="GF40K_Misc.HediffCompProperties_RandomDamage">
+        <intervalTicks>60</intervalTicks>
+        <amount>4~8</amount>
+        <damageDef>VEF_SecondaryAcidBurn</damageDef>
+      </li>
+    </comps>
+  </HediffDef>
+  
+</Defs>

@@ -95,7 +95,7 @@
 		<projectile>
 			<damageDef>Flame</damageDef>
 			<speed>45</speed>
-			<damageAmountBase>14</damageAmountBase>
+			<damageAmountBase>18</damageAmountBase>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 		</projectile>
 		

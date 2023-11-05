@@ -130,8 +130,8 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Burn</damageDef>
-			<damageAmountBase>21</damageAmountBase>
-			<armorPenetrationBase>0.82</armorPenetrationBase>
+			<damageAmountBase>25</damageAmountBase>
+			<armorPenetrationBase>1.4</armorPenetrationBase>
 			<stoppingPower>1.2</stoppingPower>
 			<speed>95</speed>
 		</projectile>
@@ -238,8 +238,8 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Burn</damageDef>
-			<damageAmountBase>27</damageAmountBase>
-			<armorPenetrationBase>1.1</armorPenetrationBase>
+			<damageAmountBase>32</damageAmountBase>
+			<armorPenetrationBase>1.5</armorPenetrationBase>
 			<stoppingPower>2.4</stoppingPower>
 			<speed>110</speed>
 		</projectile>
@@ -346,8 +346,8 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Burn</damageDef>
-			<damageAmountBase>45</damageAmountBase>
-			<armorPenetrationBase>1.3</armorPenetrationBase>
+			<damageAmountBase>54</damageAmountBase>
+			<armorPenetrationBase>1.6</armorPenetrationBase>
 			<stoppingPower>2.5</stoppingPower>
 			<speed>130</speed>
 		</projectile>
@@ -453,8 +453,8 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Burn</damageDef>
-			<damageAmountBase>10</damageAmountBase>
-			<armorPenetrationBase>0.8</armorPenetrationBase>
+			<damageAmountBase>12</damageAmountBase>
+			<armorPenetrationBase>1.4</armorPenetrationBase>
 			<stoppingPower>1</stoppingPower>
 			<speed>105</speed>
 		</projectile>
@@ -557,9 +557,9 @@
 			<drawSize>1.4</drawSize>
 		</graphicData>
 		<projectile>
-			<damageDef>GF40K_Gauss</damageDef>
-			<damageAmountBase>27</damageAmountBase>
-			<armorPenetrationBase>0.85</armorPenetrationBase>
+			<damageDef>Burn</damageDef>
+			<damageAmountBase>43</damageAmountBase>
+			<armorPenetrationBase>1.5</armorPenetrationBase>
 			<stoppingPower>1.7</stoppingPower>
 			<speed>110</speed>
 		</projectile>
