@@ -273,6 +273,7 @@
             <stoppingPower>1.5</stoppingPower>
 			<armorPenetrationBase>0.7</armorPenetrationBase>
             <speed>90</speed>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
         </projectile>
 		<modExtensions>
 			<li Class="GF40K_Misc.ModExt_ExplosionRadius">
@@ -300,6 +301,7 @@
             <stoppingPower>1.5</stoppingPower>
 			<armorPenetrationBase>0.9</armorPenetrationBase>
             <speed>95</speed>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
         </projectile>
 		<modExtensions>
 			<li Class="GF40K_Misc.ModExt_ExplosionRadius">
