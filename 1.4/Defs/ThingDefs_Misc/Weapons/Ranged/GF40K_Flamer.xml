@@ -9,7 +9,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
 		<relicChance>0</relicChance>
-        <uiIconScale>1.5</uiIconScale>
+        <uiIconScale>1.2</uiIconScale>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisite>GF40K_RegularRangedSpecial</researchPrerequisite>

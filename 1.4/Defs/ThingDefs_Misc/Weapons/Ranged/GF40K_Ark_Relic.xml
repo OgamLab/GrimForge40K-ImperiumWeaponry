@@ -10,6 +10,10 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<relicChance>2</relicChance>
+		<generateCommonality>1</generateCommonality>
+		<thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
         <soundInteract>Interact_Rifle</soundInteract>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
@@ -47,7 +51,7 @@
 			<drawSize>0.6</drawSize>
         </graphicData>
         <statBases>
-			<MarketValue>2000</MarketValue>
+			<MarketValue>3500</MarketValue>
             <Mass>2</Mass>
             <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
@@ -140,7 +144,7 @@
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/ArkRifle_relic</texPath>
         </graphicData>
         <statBases>
-			<MarketValue>2000</MarketValue>
+			<MarketValue>4500</MarketValue>
             <Mass>2</Mass>
             <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>

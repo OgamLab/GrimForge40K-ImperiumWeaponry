@@ -5,6 +5,10 @@
 		<techLevel>Ultra</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
 		<relicChance>2</relicChance>
+		<generateCommonality>1</generateCommonality>
+		<thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1</drawSize>
@@ -60,7 +64,7 @@
 		<equippedAngleOffset>45</equippedAngleOffset>
 		
         <statBases>
-			<MarketValue>3000</MarketValue>
+			<MarketValue>5000</MarketValue>
             <Mass>1.8</Mass>
             <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
