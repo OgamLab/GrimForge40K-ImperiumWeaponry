@@ -5,16 +5,34 @@
 		<tab>GF40K</tab>
 		<techLevel>Industrial</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<requiredResearchFacilities>
+		<!--<requiredResearchFacilities>
 		  <li>GF40K_ImperiumWeaponry</li>
-		</requiredResearchFacilities>
+		</requiredResearchFacilities>-->
 	</ResearchProjectDef>
 
+	<!--
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_ImperiumCore</defName>
 		<label>Imperial technology</label>
 		<description>Unlock the secrets of the enigmatic Weaponry Cogitator Node, a specialized module designed to interface with the advanced research table and delve into the ancient armament technologies of the Imperium of Man. According to the sacred beliefs of the Mechanicus, all cogitators are imbued with a highly intelligent Machine Spirit, though never reaching the realm of true Artificial Intelligence. The Weaponry Cogitator Node embodies these sacred principles while empowering your researchers to explore the vast realm of weapon technology, guiding your colony towards unrivaled advancements in the art of war.\n\nWith this research completed, the doors to unparalleled armament knowledge shall open before you, leading to the development of advanced weaponry that will forever change the course of your colony's battles. Forge a path towards supremacy on the battlefield, for the Omnissiah watches over those who seek knowledge in the pursuit of victory.</description>
 		<baseCost>4000</baseCost>
+		<prerequisites>
+		  <li>AdvancedFabrication</li>
+		</prerequisites>	
+		<requiredResearchFacilities Inherit="False">
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>2.45</researchViewY> 	
+	</ResearchProjectDef>
+	-->
+	
+	<!-- no special facility -->
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_ImperiumCore</defName>
+		<label>Imperial technology</label>
+		<description>Unlock the imperial research projects to explore the vast realm of weapon and protection technologies, guiding your colony towards unrivaled advancements in the art of war.\n\nWith this research completed, the doors to unparalleled armament knowledge shall open before you, leading to the development of advanced weaponry that will forever change the course of your colony's battles. Forge a path towards supremacy on the battlefield, for the Omnissiah watches over those who seek knowledge in the pursuit of victory.</description>
+		<baseCost>1000</baseCost>
 		<prerequisites>
 		  <li>AdvancedFabrication</li>
 		</prerequisites>	

@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Warhammer 40.000 - Imperium Weaponry</name>
+  <name>Warhammer 40.000: Imperium Weaponry</name>
   <author>Ogam</author>
   <packageId>GF40K.IoM.Weaponry</packageId>
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>
-  <description>Warhammer 40.000 - is a collaboration project between many artists and coder to bring vanilla taste to the blood of Warhammer world. Motto of this project is: "Vanilla art, vanilla balance, fuck the VOID".
-  </description>
+  <description>Warhammer 40.000 - is a collaboration project between many artists and coders to bring vanilla taste to the blood of Warhammer world. Motto of this project is: "Vanilla art, vanilla balance, fuck the VOID".\n\nThe Imperium Weaponry module adds various weapons from the Warhammer 40k universe.</description>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>
@@ -30,5 +29,9 @@
 	<li>oskarpotocki.vfe.pirates</li>
 	<li>co.uk.epicguru.meleeanimation</li>
 	<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+	<li>Phonicmas.40kFactions</li>
   </loadAfter>
+  <loadBefore>
+		<li>flangopink.GF40KArmoury</li>
+  </loadBefore>
 </ModMetaData>

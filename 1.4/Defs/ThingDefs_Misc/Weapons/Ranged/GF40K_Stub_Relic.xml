@@ -5,6 +5,10 @@
 		<techLevel>Spacer</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
 		<relicChance>2</relicChance>
+		<generateCommonality>1</generateCommonality>
+		<thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1</drawSize>

@@ -114,7 +114,7 @@
         </graphicData>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <statBases>
-			<MarketValue>2000</MarketValue>
+			<MarketValue>6000</MarketValue>
             <Mass>2</Mass>
             <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
@@ -188,7 +188,7 @@
 			<drawSize>0.6</drawSize>
         </graphicData>
         <statBases>
-			<MarketValue>2000</MarketValue>
+			<MarketValue>5000</MarketValue>
             <Mass>2</Mass>
             <AccuracyTouch>1</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>

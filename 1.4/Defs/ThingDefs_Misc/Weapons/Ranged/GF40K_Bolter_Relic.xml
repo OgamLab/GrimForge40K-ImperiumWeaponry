@@ -5,6 +5,10 @@
 		<techLevel>Ultra</techLevel>
 		<tradeNeverStack>true</tradeNeverStack>
 		<relicChance>2</relicChance>
+		<generateCommonality>1</generateCommonality>
+		<thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1</drawSize>
@@ -118,7 +122,7 @@
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/Boltgun_relic</texPath>
         </graphicData>
         <statBases>
-			<MarketValue>4900</MarketValue>
+			<MarketValue>5000</MarketValue>
             <Mass>4</Mass>
             <AccuracyTouch>0.99</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
@@ -184,7 +188,7 @@
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/SniperBoltgun_relic</texPath>
         </graphicData>
         <statBases>
-			<MarketValue>4000</MarketValue>
+			<MarketValue>5500</MarketValue>
             <Mass>5.5</Mass>
             <AccuracyTouch>0.72</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>

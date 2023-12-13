@@ -9,6 +9,10 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<relicChance>2</relicChance>
+		<generateCommonality>0.5</generateCommonality>
+		<thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>12</Crafting>
@@ -25,7 +29,7 @@
 		<notifyMapRemoved>true</notifyMapRemoved>
 		
 		<statBases>
-			<MarketValue>3000</MarketValue>
+			<MarketValue>4000</MarketValue>
 			<WorkToMake>19000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>

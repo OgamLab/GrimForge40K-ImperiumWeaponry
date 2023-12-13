@@ -5,12 +5,16 @@
         <label>relic flamer</label>
 		<tradeNeverStack>true</tradeNeverStack>
 		<relicChance>2</relicChance>
+		<generateCommonality>1</generateCommonality>
+		<thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
         <description>The Flamer is a instrument of divine purification that embodies the righteous fury of holy cleansing. It unleashes an unyielding torrent of fire, leaving a trail of devastation in its wake. The intense jet of liquid fire engulfs the battlefield, making escape nearly impossible for its enemies. This sacred weapon offers fiery retribution to those deemed heretics and abominations, delivering swift justice with its relentless blaze.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/Flamer_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconScale>1.5</uiIconScale>
+        <uiIconScale>1.2</uiIconScale>
 		<smeltable>false</smeltable>
         <soundInteract>Interact_Rifle</soundInteract>
 		<thingCategories>
@@ -25,6 +29,7 @@
             <li>ImperiumRangedFlamer</li>
         </weaponTags>
         <statBases>
+			<MarketValue>6000</MarketValue>
             <Mass>11</Mass>
             <AccuracyTouch>0.99</AccuracyTouch>
             <AccuracyShort>1</AccuracyShort>
