@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="GF40K_BaseRangedBrazier" ParentName="BaseHumanMakeableGun" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<relicChance>0</relicChance>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisites Inherit="False">
+				<li>GF40K_RegularMeleeForce</li>
+			</researchPrerequisites>
+			<researchPrerequisite/>
+		</recipeMaker>
+        <soundInteract>Interact_Rifle</soundInteract>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<notifyMapRemoved>true</notifyMapRemoved>
+		<thingCategories>
+			<li>IW_Ranged</li>
+		</thingCategories>
+        <tradeTags>
+            <li>GF40K_ForceMelee</li>
+			<li>GF40K_ImperiumMelee</li>
+			<li>GF40K_ImperiumRanged</li>
+        </tradeTags>
+        <weaponTags>
+            <li>ImperiumMeleeForce</li>
+        </weaponTags>
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<comps>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+			  <weight>10</weight>
+			  <only>(0.33,0.33,0.33,1)</only>
+			</li>
+			<li>
+			  <weight>10</weight>
+			  <only>(0.65,0.65,0.65,1)</only>
+			</li>
+			<li>
+			  <weight>6</weight>
+			  <min>(0.3,0.3,0.3,1)</min>
+			  <max>(0.5,0.5,0.5,1)</max>
+			</li>
+			<li>
+			  <weight>10</weight>
+			  <only>(0.9,0.9,0.9,1)</only>
+			</li>
+		  </options>
+		</colorGenerator>
+	</ThingDef>
+
+		<!-- New -->
+    <ThingDef ParentName="GF40K_BaseRangedBrazier">
+        <defName>GF40K_Brazier</defName>
+        <label>brazier</label>
+        <description>...</description> <!-- Description here -->
+		<graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Special/Brazier</texPath>
+			<drawSize>1</drawSize>
+        </graphicData>
+        <statBases>
+            <WorkToMake>38000</WorkToMake>
+			<MarketValue>3000</MarketValue>
+            <Mass>3</Mass>
+            <AccuracyTouch>0.50</AccuracyTouch>
+            <AccuracyShort>0.60</AccuracyShort>
+            <AccuracyMedium>0.50</AccuracyMedium>
+            <AccuracyLong>0.40</AccuracyLong>
+            <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+        </statBases>
+		
+		<costList>
+			<Uranium>10</Uranium>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<costStuffCount>120</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_Bullet_Brazier</defaultProjectile>
+                <warmupTime>1.5</warmupTime>
+                <range>17.9</range>
+                <soundCast>InfernoCannon_Fire</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>24</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+	
+    <ThingDef ParentName="BaseBullet">
+        <defName>GF40K_Bullet_Brazier</defName>
+        <label>brazier fireball</label>
+        <thingClass>GF40K_Misc.Projectile_Explosive_SafeForHunting</thingClass>
+        <category>Projectile</category>
+        <graphicData>
+            <texPath>Things/Projectile/Fireball</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>GF40K_Bolt</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+            <stoppingPower>2</stoppingPower>
+			<armorPenetrationBase>0.5</armorPenetrationBase>
+            <speed>80</speed>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+        </projectile>
+		<modExtensions>
+			<li Class="GF40K_Misc.ModExt_ExplosionRadius">
+				<radius>0.9</radius>
+			</li>
+		</modExtensions>
+    </ThingDef>
+	
+</Defs>

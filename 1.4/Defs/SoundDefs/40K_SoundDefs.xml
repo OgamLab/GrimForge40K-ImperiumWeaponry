@@ -80,4 +80,20 @@
 		  </li>
 		</subSounds>
 	</SoundDef>	
+	
+    <SoundDef>
+        <defName>ReloadRocket</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>ReloadRocket</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>48~48</volumeRange>
+            </li>
+        </subSounds>
+    </SoundDef>
 </Defs>

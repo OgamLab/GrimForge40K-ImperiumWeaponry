@@ -23,10 +23,11 @@
 		</thingCategories>
         <tradeTags>
             <li>GF40K_RangedSpecial</li>
-			<li>GF40K_ImperiumRanged</li>
+			<li>GF40K_ImperiumRelic</li>
         </tradeTags>
         <weaponTags>
             <li>ImperiumRangedGrenade</li>
+            <li>ImperiumRangedRelic</li>
         </weaponTags>
 		<comps Inherit="False">
 			<li>

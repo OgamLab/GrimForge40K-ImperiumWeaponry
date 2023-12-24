@@ -3,23 +3,27 @@
 
 	<!-- New -->
  <ThingDef ParentName="BaseGun">
-    <defName>GF40K_MissileLauncher</defName>
-    <label>Proteus Missile Launcher</label>
+    <defName>GF40K_MissileLauncher_Relic</defName>
+    <label>Relic Proteus Missile Launcher</label>
     <description>...</description> <!-- Desc here -->
     <tickerType>Normal</tickerType>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Special/MissileLauncher</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Special/RelicMissileLauncher</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+	
+	<relicChance>2</relicChance>
+	<generateCommonality>1</generateCommonality>
+	<smeltable>false</smeltable>
+	<burnableByRecipe>true</burnableByRecipe>
     <statBases>
-      <MarketValue>4500</MarketValue>
+      <MarketValue>6000</MarketValue>
       <Mass>10</Mass>
-      <AccuracyTouch>0.80</AccuracyTouch>
-      <AccuracyShort>0.75</AccuracyShort>
-      <AccuracyMedium>0.55</AccuracyMedium>
-      <AccuracyLong>0.45</AccuracyLong>
-      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
-      <WorkToMake>30000</WorkToMake>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
     </statBases>
     <techLevel>Spacer</techLevel>
 	<comps>
@@ -32,7 +36,7 @@
 					<comps>
 						<li Class="MVCF.Reloading.Comps.VerbCompProperties_Reloadable">
 							<compClass>MVCF.Reloading.Comps.VerbComp_Reloadable</compClass>
-							<MaxShots>6</MaxShots>
+							<MaxShots>12</MaxShots>
 							<AmmoFilter>
 								<thingDefs>
 									<li>Shell_HighExplosive</li>
@@ -48,14 +52,11 @@
 				</li>
 			</verbProps>
 		</li>
-        <li Class="CompProperties_Explosive">
-			<explosiveRadius>3.9</explosiveRadius>
-			<explosiveDamageType>Bomb</explosiveDamageType>
-			<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
-		</li>
-		<li>
-			<compClass>CompColorable</compClass>
-		</li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>4.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
     </comps>
 	<thingCategories>
 		<li>IW_Ranged</li>
@@ -64,31 +65,12 @@
       <li>RangedHeavy</li>
     </weaponClasses>
 	<tradeTags>
-		<li>GF40K_RangedSpecial</li>
-		<li>GF40K_ImperiumRanged</li>
+		<li>GF40K_ImperiumRelic</li>
 	</tradeTags>
 	<weaponTags>
 		<li>ImperiumRangedGrenade</li>
+        <li>ImperiumRangedRelic</li>
 	</weaponTags>
-    <costList>
-      <Plasteel>150</Plasteel>
-      <Chemfuel>50</Chemfuel>
-	  <Shell_HighExplosive>4</Shell_HighExplosive>
-    </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>10</Crafting>
-      </skillRequirements>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Smith</soundWorking>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-      <researchPrerequisite>GF40K_RegularRangedSpecial</researchPrerequisite>
-    </recipeMaker>
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
@@ -97,11 +79,11 @@
 		<label>Rocket</label>
         <verbClass>Verb_ShootOneUse</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GF40K_Bullet_Missile</defaultProjectile>
+        <defaultProjectile>GF40K_Bullet_MissileRelic</defaultProjectile>
         <forcedMissRadius>1</forcedMissRadius>
-        <warmupTime>3</warmupTime>
+        <warmupTime>2.5</warmupTime>
         <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
-        <range>29.9</range>
+        <range>31.9</range>
         <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
         <burstShotCount>1</burstShotCount>
         <soundCast>InfernoCannon_Fire</soundCast>
@@ -124,32 +106,11 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
     </tools>
-	<colorGenerator Class="ColorGenerator_Options">
-	  <options>
-		<li>
-		  <weight>10</weight>
-		  <only>(0.33,0.33,0.33,1)</only>
-		</li>
-		<li>
-		  <weight>10</weight>
-		  <only>(0.65,0.65,0.65,1)</only>
-		</li>
-		<li>
-		  <weight>6</weight>
-		  <min>(0.3,0.3,0.3,1)</min>
-		  <max>(0.5,0.5,0.5,1)</max>
-		</li>
-		<li>
-		  <weight>10</weight>
-		  <only>(0.9,0.9,0.9,1)</only>
-		</li>
-	  </options>
-	</colorGenerator>
   </ThingDef>
   
   <ThingDef ParentName="BaseBullet">
-    <defName>GF40K_Bullet_Missile</defName>
-    <label>proteus missile</label>
+    <defName>GF40K_Bullet_MissileRelic</defName>
+    <label>relic proteus missile</label>
     <graphicData>
       <texPath>Things/Projectile/Rocket_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -158,10 +119,10 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>Bomb</damageDef>
-      <damageAmountBase>120</damageAmountBase>
+      <damageAmountBase>180</damageAmountBase>
 	  <arcHeightFactor>0.1</arcHeightFactor>
-      <explosionRadius>3.9</explosionRadius>
-      <speed>60</speed>
+      <explosionRadius>4.9</explosionRadius>
+      <speed>65</speed>
     </projectile>
    </ThingDef>
 

@@ -25,16 +25,16 @@
 		<notifyMapRemoved>true</notifyMapRemoved>
 		
 		<statBases>
-			<MarketValue>2224</MarketValue>
+			<MarketValue>2200</MarketValue>
 			<WorkToMake>20000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>
 		<costList>
-			<Plasteel>26</Plasteel>
-			<Uranium>13</Uranium>
+			<Plasteel>25</Plasteel>
+			<Uranium>15</Uranium>
 			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
-		<costStuffCount>164</costStuffCount>
+		<costStuffCount>150</costStuffCount>
 		<stuffCategories>
 		  <li>Metallic</li>
 		</stuffCategories>
