@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- New -->
+    <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
+        <defName>GF40K_HellgunRelic</defName>
+        <label>relic hellgun</label>
+        <description>...</description> <!-- Description here -->
+		<graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Special/RelicHellgun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1</uiIconScale>
+        <soundInteract>Interact_ChargeLance</soundInteract>
+
+		<equippedStatOffsets>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<equippedAngleOffset>50</equippedAngleOffset>
+		
+        <statBases>
+			<MarketValue>6000</MarketValue>
+            <Mass>5</Mass>
+            <AccuracyTouch>0.80</AccuracyTouch>
+            <AccuracyShort>1.00</AccuracyShort>
+            <AccuracyMedium>0.90</AccuracyMedium>
+            <AccuracyLong>0.75</AccuracyLong>
+            <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GF40K_Bullet_HellgunRelic</defaultProjectile>
+                <warmupTime>3</warmupTime>
+				<range>27.9</range>
+                <soundCast>GF40K_LaserGunShot</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+		<thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+		<comps>
+			<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor" MayRequire="vanillaexpanded.vwel">
+				<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
+				<WarmUpReductionPerShot>0.18</WarmUpReductionPerShot>
+				<Overheats>true</Overheats>
+				<OverheatDestroys>false</OverheatDestroys>
+				<OverheatBlastDamageDef>Burn</OverheatBlastDamageDef>
+				<OverheatBlastExtraDamage>4</OverheatBlastExtraDamage>
+				<OverheatBlastRadius>1.9</OverheatBlastRadius>
+				<OverheatChance>0.05</OverheatChance>
+				<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
+				<OverheatMoteSize>1</OverheatMoteSize>
+			</li>
+		</comps>
+		
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
+				<def>MF_ChargedMuzzleFalsh</def>
+				<drawSize>(1.4,1.4)</drawSize>
+				<offsets>
+					<li>(0.48,0.1)</li>
+				</offsets>
+			</li>		
+		</modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="GF40K_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+		<defName>GF40K_Bullet_HellgunRelic</defName>
+		<label>relic hellgun shot</label>
+		<description>a relic hellgun shot.</description>
+		<textures>
+			<li>Things/Projectile/GF40K/Shot_SalvagedLaserRifle</li>
+		</textures>
+		<seam>0</seam>
+		<causefireChance>0</causefireChance>
+		<beamWidth>1.25</beamWidth>
+		<lifetime>100</lifetime>
+		<projectile>
+			<damageDef>Burn</damageDef>
+			<damageAmountBase>42</damageAmountBase>
+			<armorPenetrationBase>0.85</armorPenetrationBase>
+			<stoppingPower>2.5</stoppingPower>
+		</projectile>
+	</ThingDef>
+</Defs>

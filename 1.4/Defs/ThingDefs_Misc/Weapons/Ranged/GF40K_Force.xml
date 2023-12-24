@@ -20,24 +20,14 @@
 			<recipeUsers>
 				<li>FabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisites>
+			<researchPrerequisites Inherit="False">
 				<li>GF40K_RegularMeleeForce</li>
 			</researchPrerequisites>
+			<researchPrerequisite/>
 		</recipeMaker>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
 		<notifyMapRemoved>true</notifyMapRemoved>
-		
-		<statBases>
-			<MarketValue>4000</MarketValue>
-			<WorkToMake>19000</WorkToMake>
-			<Mass>3</Mass>
-		</statBases>
-		<costList>
-			<Plasteel>170</Plasteel>
-			<Uranium>6</Uranium>
-			<ComponentSpacer>1</ComponentSpacer>
-		</costList>
 		
 		<equippedStatOffsets>
 			<PsychicEntropyMax MayRequire="ludeon.rimworld.royalty">5</PsychicEntropyMax>
@@ -95,7 +85,16 @@
 			<drawSize>1.5</drawSize>
 		</graphicData>
 		
+		<costList>
+			<Plasteel>160</Plasteel>
+			<Uranium>10</Uranium>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		
 		<statBases>
+		  <MarketValue>4000</MarketValue>
+		  <WorkToMake>38000</WorkToMake>
+		  <Mass>5</Mass>
 		  <AccuracyTouch>0.60</AccuracyTouch>
 		  <AccuracyShort>0.70</AccuracyShort>
 		  <AccuracyMedium>0.65</AccuracyMedium>
@@ -108,12 +107,15 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>GF40K_ForceStaffZap</defaultProjectile>
 			<warmupTime>3.0</warmupTime>
-			<range>30.9</range>
+			<range>27.9</range>
 			<burstShotCount>3</burstShotCount>
 			<ticksBetweenBurstShots>14</ticksBetweenBurstShots>
 			<soundCast>Shot_ChargeRifle</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+			  <canTargetLocations>true</canTargetLocations>
+			</targetParams>
 		  </li>
 		</verbs>
 		
@@ -149,11 +151,66 @@
 		</tools>	
 	</ThingDef>
 	
-	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
-		<defName>GF40K_ForceStaffZap</defName>
-		<label>force staff zap</label>
-		<thingClass>VFECore.ExpandableProjectile</thingClass>
+	<!-- New -->
+	<ThingDef ParentName="GF40K_BaseRangedForce">
+		<defName>GF40K_ForceTome</defName>
+		<label>relic tome</label>
+		<description>...</description> <!-- Desc here -->
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Special/RelicTome</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
 		
+		<costList>
+			<Plasteel>80</Plasteel>
+			<Uranium>15</Uranium>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		
+		<statBases>
+		  <MarketValue>3500</MarketValue>
+		  <WorkToMake>32000</WorkToMake>
+		  <Mass>3</Mass>
+		  <AccuracyTouch>0.70</AccuracyTouch>
+		  <AccuracyShort>0.80</AccuracyShort>
+		  <AccuracyMedium>0.70</AccuracyMedium>
+		  <AccuracyLong>0.60</AccuracyLong>
+		  <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+		  <li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>GF40K_ForceTomeZap</defaultProjectile>
+			<warmupTime>1.5</warmupTime>
+			<range>31.9</range>
+			<soundCast>Shot_ChargeRifle</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<burstShotCount>5</burstShotCount>
+			<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+			<targetParams>
+			  <canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		  </li>
+		</verbs>
+		
+		
+		<tools>
+			<li>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<label>tome</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
+		</tools>	
+	</ThingDef>
+	
+	<VFECore.ExpandableProjectileDef Name="GF40K_ZapBullet" ParentName="BaseBullet" Abstract="True">
+		<thingClass>VFECore.ExpandableProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/GF40K/Shot_TeslaGun</texPath>
 			<texPathFadeOut>Things/Projectile/GF40K/Shot_TeslaGun</texPathFadeOut>
@@ -165,18 +222,32 @@
 			<damageAmountBase>10</damageAmountBase>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 		</projectile>
-		
 		<drawOffscreen>true</drawOffscreen>
-		<lifeTimeDuration>5</lifeTimeDuration>
+		<lifeTimeDuration>8</lifeTimeDuration>
 		<widthScaleFactor>0.25</widthScaleFactor>
 		<heightScaleFactor>1</heightScaleFactor>
 		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
 		<totalSizeScale>1</totalSizeScale>
 		<tickFrameRate>5</tickFrameRate>
 		<finalTickFrameRate>5</finalTickFrameRate>
-		<tickDamageRate>20</tickDamageRate>
+		<tickDamageRate>30</tickDamageRate>
 		<dealsDamageOnce>true</dealsDamageOnce>
 		<minDistanceToAffect>2</minDistanceToAffect>
+	</VFECore.ExpandableProjectileDef>
+	
+	<VFECore.ExpandableProjectileDef ParentName="GF40K_ZapBullet">
+		<defName>GF40K_ForceStaffZap</defName>
+		<label>force staff zap</label>
+	</VFECore.ExpandableProjectileDef>
+	
+	<VFECore.ExpandableProjectileDef ParentName="GF40K_ZapBullet">
+		<defName>GF40K_ForceTomeZap</defName>
+		<label>relic tome zap</label>
+		<projectile>
+			<damageAmountBase>5</damageAmountBase>
+		</projectile>
+		<widthScaleFactor>0.15</widthScaleFactor>
+		<lifeTimeDuration>5</lifeTimeDuration>
 	</VFECore.ExpandableProjectileDef>
 	
 </Defs>

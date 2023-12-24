@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="GF40K_BaseMeleeRelic" ParentName="GF40K_BaseMelee" Abstract="True">
+	
+		<recipeMaker Inherit="False"/>
+		<relicChance>2</relicChance>
+		<generateCommonality>1</generateCommonality>
+		
+		<statBases>
+			<MarketValue>3000</MarketValue>
+			<Mass>5</Mass>
+		</statBases>
+		
+        <tradeTags>
+			<li>GF40K_ImperiumRelic</li>
+        </tradeTags>
+        <weaponTags>
+            <li>ImperiumMelee</li>
+        </weaponTags>	
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleeRelic">
+		<defName>GF40K_RelicChainSword</defName>
+		<label>Relic chainsword</label>
+		<description>The Relic Chainsword is an enhanced variant of the standard Chainsword. In the hands of a skilled warrior, it becomes an extension of their will, carving a path through the battlefield with precision and unwavering determination. Its relentless nature embodies the unyielding spirit of those who serve the Emperor and strive to protect humanity from the countless threats.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Relic/RelicChainSword</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>backside</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.25</armorPenetration>
+			</li>
+			<li>
+				<label>chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	
+	
+	<!-- New -->
+	<ThingDef ParentName="GF40K_BaseMeleeRelic">
+		<defName>GF40K_RelicChainAxe</defName>
+		<label>Relic chainaxe</label>
+		<description>...</description> <!-- Description here -->
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Relic/RelicChainaxe</texPath>
+		</graphicData>
+		<equippedAngleOffset>25</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>backside</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.25</armorPenetration>
+			</li>
+			<li>
+				<label>chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="GF40K_BaseMeleeRelic">
+		<defName>GF40K_RelicEviscerator</defName>
+		<label>Relic eviscerator</label>
+		<description>The Relic Eviscerator is an imposing and deadly two-handed chain weapon, customized and adapted to reflect the Reliclity and combat style of its wielder. Its massive blade possess a keen edge and cutting power that can maim and destroy with unparalleled efficiency. Those who brandish the Relic Eviscerator do so with a fierce determination to leave their mark on the battlefield.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Relic/RelicEviscerator</texPath>
+			<drawSize>1.25</drawSize>
+		</graphicData>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>backside</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>40</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.25</armorPenetration>
+			</li>
+			<li>
+				<label>chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>40</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	
+	<!-- New -->
+	<ThingDef ParentName="GF40K_BaseMeleeRelic">
+		<defName>GF40K_RelicChainSpear</defName>
+		<label>Relic chainspear</label>
+		<description>...</description> <!-- Description here -->
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Relic/RelicChainspear</texPath>
+			<drawSize>1.25</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>40</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.34,0,0.60)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.1,0,0.60)</drawOffset>
+						<angleOffset>-122</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.34,0,0.60)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.1,0,0.60)</drawOffset>
+						<angleOffset>122</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>		
+			</li>
+		</modExtensions>
+		<equippedAngleOffset>45</equippedAngleOffset>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="GF40K_BaseMeleeRelic">
+		<defName>GF40K_RelicPowerSabre</defName>
+		<label>Relic power sabre</label>
+		<description>The Relic Power Sabre epitomizes the pinnacle of craftsmanship and Reliclization, seamlessly blending the grace of a piercing weapon with the sheer might of energy-infused strikes. Achieving mastery with this weapon demands a profound synchronization of strength and warrior instincts. However, those who wield the might of the Relic Power Sabre transform into a formidable lightning on the battlefield, cutting through adversaries with unyielding force and indomitable determination, undeterred by fatigue.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Relic/RelicPowerSabre</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>1.7</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>1.7</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_BaseMeleeRelic">
+		<defName>GF40K_RelicPowerSword</defName>
+		<label>Relic power sword</label>
+		<description>The Relic Power Sword stands as a testament to the bond forged between a warrior and their weapon. Customized and Reliclized to reflect the desires and characteristics of its owner, this formidable blade blends cutting and stabbing capabilities with the raw power of an energy field. With each and every swing, it reflects the unyielding determination of those who serve the Imperium, delivering justice upon the enemies of mankind.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Relic/RelicPowerSword</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>1.9</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>1.9</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+</Defs>

@@ -25,16 +25,16 @@
 		<notifyMapRemoved>true</notifyMapRemoved>
 		
 		<statBases>
-			<MarketValue>2052</MarketValue>
+			<MarketValue>2000</MarketValue>
 			<WorkToMake>17000</WorkToMake>
-			<Mass>2</Mass>
+			<Mass>4.5</Mass>
 		</statBases>
 		<costList>
-			<Plasteel>13</Plasteel>
-			<Uranium>6</Uranium>
+			<Plasteel>20</Plasteel>
+			<Uranium>5</Uranium>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
-		<costStuffCount>151</costStuffCount>
+		<costStuffCount>150</costStuffCount>
 		<stuffCategories>
 		  <li>Metallic</li>
 		</stuffCategories>
@@ -65,7 +65,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>25.09</power>
+				<power>25</power>
 				<cooldownTime>2</cooldownTime>
 				<armorPenetration>0.25</armorPenetration>
 			</li>
@@ -74,7 +74,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>25.09</power>
+				<power>25</power>
 				<cooldownTime>2</cooldownTime>
 				<armorPenetration>0.45</armorPenetration>
 				<soundMeleeHit>40_ChainSword</soundMeleeHit>
@@ -91,6 +91,51 @@
 		</tools>
 	</ThingDef>
 	
+	
+	
+	<!-- New -->
+	<ThingDef ParentName="GF40K_BaseMelee">
+		<defName>GF40K_ChainAxe</defName>
+		<label>chainaxe</label>
+		<description>...</description> <!-- Description here -->
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Chainaxe</texPath>
+		</graphicData>
+		<equippedAngleOffset>25</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>backside</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.25</armorPenetration>
+			</li>
+			<li>
+				<label>chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	
+	
 	<ThingDef ParentName="GF40K_BaseMelee">
 		<defName>GF40K_Eviscerator</defName>
 		<label>eviscerator</label>
@@ -106,7 +151,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>30.72</power>
+				<power>32</power>
 				<cooldownTime>2.5</cooldownTime>
 				<armorPenetration>0.25</armorPenetration>
 			</li>
@@ -115,7 +160,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>30.72</power>
+				<power>32</power>
 				<cooldownTime>2.5</cooldownTime>
 				<armorPenetration>0.5</armorPenetration>
 				<soundMeleeHit>40_ChainSword</soundMeleeHit>
@@ -132,6 +177,64 @@
 		</tools>
 	</ThingDef>
 	
+	
+	<!-- New -->
+	<ThingDef ParentName="GF40K_BaseMelee">
+		<defName>GF40K_Chainspear</defName>
+		<label>chainspear</label>
+		<description>...</description> <!-- Description here -->
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Chainspear</texPath>
+			<drawSize>1.25</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>chain</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>32</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+				<soundMeleeHit>40_ChainSword</soundMeleeHit>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.34,0,0.60)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.1,0,0.60)</drawOffset>
+						<angleOffset>-122</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.34,0,0.60)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.1,0,0.60)</drawOffset>
+						<angleOffset>122</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>		
+			</li>
+		</modExtensions>
+		<equippedAngleOffset>45</equippedAngleOffset>
+	</ThingDef>
+	
+	
+	
 	<ThingDef ParentName="GF40K_BaseMelee">
 		<defName>GF40K_PowerSabre</defName>
 		<label>power sabre</label>
@@ -146,7 +249,7 @@
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>20.8</power>
+				<power>22</power>
 				<cooldownTime>1.6</cooldownTime>
 				<armorPenetration>0.5</armorPenetration>
 			</li>
@@ -155,7 +258,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>20.8</power>
+				<power>22</power>
 				<cooldownTime>1.6</cooldownTime>
 				<armorPenetration>0.45</armorPenetration>
 			</li>
@@ -186,7 +289,7 @@
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>22.91</power>
+				<power>24</power>
 				<cooldownTime>1.8</cooldownTime>
 				<armorPenetration>0.5</armorPenetration>
 			</li>
@@ -195,7 +298,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>22.91</power>
+				<power>24</power>
 				<cooldownTime>1.8</cooldownTime>
 				<armorPenetration>0.45</armorPenetration>
 			</li>
