@@ -100,9 +100,10 @@
 		<lifetime>100</lifetime>
 		<projectile>
 			<damageDef>Burn</damageDef>
-			<damageAmountBase>42</damageAmountBase>
-			<armorPenetrationBase>0.85</armorPenetrationBase>
+			<damageAmountBase>35</damageAmountBase>
+			<armorPenetrationBase>0.7</armorPenetrationBase>
 			<stoppingPower>2.5</stoppingPower>
+			<explosionRadius>1.9</explosionRadius>
 		</projectile>
 	</ThingDef>
 </Defs>

@@ -110,7 +110,7 @@
 			<range>27.9</range>
 			<burstShotCount>3</burstShotCount>
 			<ticksBetweenBurstShots>14</ticksBetweenBurstShots>
-			<soundCast>Shot_ChargeRifle</soundCast>
+			<soundCast>Shot_Autocannon</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 			<targetParams>
@@ -158,7 +158,7 @@
 		<description>...</description> <!-- Desc here -->
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/Special/RelicTome</texPath>
-			<drawSize>1.2</drawSize>
+			<drawSize>0.75</drawSize>
 		</graphicData>
 		
 		<costList>
@@ -171,10 +171,10 @@
 		  <MarketValue>3500</MarketValue>
 		  <WorkToMake>32000</WorkToMake>
 		  <Mass>3</Mass>
-		  <AccuracyTouch>0.70</AccuracyTouch>
-		  <AccuracyShort>0.80</AccuracyShort>
-		  <AccuracyMedium>0.70</AccuracyMedium>
-		  <AccuracyLong>0.60</AccuracyLong>
+		  <AccuracyTouch>0.65</AccuracyTouch>
+		  <AccuracyShort>0.75</AccuracyShort>
+		  <AccuracyMedium>0.60</AccuracyMedium>
+		  <AccuracyLong>0.45</AccuracyLong>
 		  <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -184,7 +184,7 @@
 			<defaultProjectile>GF40K_ForceTomeZap</defaultProjectile>
 			<warmupTime>1.5</warmupTime>
 			<range>31.9</range>
-			<soundCast>Shot_ChargeRifle</soundCast>
+			<soundCast>Shot_Autocannon</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 			<burstShotCount>5</burstShotCount>
@@ -218,7 +218,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Flame</damageDef>
-			<speed>200</speed>
+			<speed>300</speed>
 			<damageAmountBase>10</damageAmountBase>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 		</projectile>
@@ -244,7 +244,7 @@
 		<defName>GF40K_ForceTomeZap</defName>
 		<label>relic tome zap</label>
 		<projectile>
-			<damageAmountBase>5</damageAmountBase>
+			<damageAmountBase>7</damageAmountBase>
 		</projectile>
 		<widthScaleFactor>0.15</widthScaleFactor>
 		<lifeTimeDuration>5</lifeTimeDuration>
