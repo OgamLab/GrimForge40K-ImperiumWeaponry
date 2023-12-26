@@ -8,12 +8,14 @@
     <match Class="PatchOperationSequence">
       <operations>
 	
+		<!--
 		<li Class="PatchOperationAdd">
 			<xpath>Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
 			<value>		
 				<li>GF40K_ImperiumWeaponry</li>
 			</value>
 		 </li>	  
+		 -->
 	  
 		<li Class="PatchOperationAdd">
 			<xpath>Defs/PawnKindDef[defName="Empire_Fighter_StellicGuardRanged"]/weaponTags</xpath>
