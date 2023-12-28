@@ -10,6 +10,7 @@
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/Special/MissileLauncher</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.1</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>4500</MarketValue>
@@ -57,6 +58,30 @@
 			<compClass>CompColorable</compClass>
 		</li>
     </comps>
+	<equippedDistanceOffset>-0.4</equippedDistanceOffset>
+	<modExtensions>
+		<li Class="VFECore.ThingDefExtension">
+			<weaponDraftedDrawOffsets>
+				<north>
+					<drawOffset>(0.1,0,0.2)</drawOffset>
+					<angleOffset>-20</angleOffset>
+				</north>
+				<south>
+					<drawOffset>(-0.1,0,0.2)</drawOffset>
+					<angleOffset>-20</angleOffset>
+				</south>
+				
+				<east>
+					<drawOffset>(-0.2,0,0.2)</drawOffset>
+					<angleOffset>-20</angleOffset>
+				</east>
+				<west>
+					<drawOffset>(0.2,0,0.2)</drawOffset>
+					<angleOffset>20</angleOffset>
+				</west>
+			</weaponDraftedDrawOffsets>		
+		</li>
+	</modExtensions>
 	<thingCategories>
 		<li>IW_Ranged</li>
 	</thingCategories>
@@ -102,6 +127,7 @@
         <warmupTime>3</warmupTime>
         <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
         <range>29.9</range>
+		<minRange>4.9</minRange>
         <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
         <burstShotCount>1</burstShotCount>
         <soundCast>InfernoCannon_Fire</soundCast>
