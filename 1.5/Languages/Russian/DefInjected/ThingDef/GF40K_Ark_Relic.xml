@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Gun Base -->
+
+ <GF40K_RelicArkPistol.label>реликтовый дуговой пистолет</GF40K_RelicArkPistol.label>
+<GF40K_RelicArkPistol.description>Дуговой пистолет — это компактное оружие, которое использует передовые технологии дугового оружия и черпает чистую энергию из древних перма-конденсаторов, полученных из почитаемого хранилища Марса. С каждым выстрелом дуговой пистолет издает громоподобные трески, выпуская заряды электризующей сине-белой энергии, способной вывести из строя даже самых стойких врагов.</GF40K_RelicArkPistol.description>
+<GF40K_RelicArkPistol.tools.0.label>рукоятка</GF40K_RelicArkPistol.tools.0.label>
+<GF40K_RelicArkPistol.tools.1.label>ствол</GF40K_RelicArkPistol.tools.1.label>
+
+<GF40K_RelicArkPistolBullet.label>выстрел из дугового пистолета</GF40K_RelicArkPistolBullet.label>
+
+<GF40K_RelicArkRifle.label>реликтовая дуга винтовка</GF40K_RelicArkRifle.label>
+
+<GF40K_RelicArkRifle.description>Дуговая винтовка — скорострельное оружие замечательной изобретательности Механикус. Ее выстрелы направляют неумолимую мощь древних перма-конденсаторов, извлеченных из священных хранилищ Марса. В ее почитаемых оцинкованных блоках заключен неиспользованный потенциал давно забытых эпох. С каждым разрядом дуговая винтовка наполняет воздух резонирующими трещинами, выбрасывая сгустки сине-белого электричества, способные уничтожить самого сильного противника.</GF40K_RelicArkRifle.description>
+<GF40K_RelicArkRifle.tools.0.label>рукоятка</GF40K_RelicArkRifle.tools.0.label>
+<GF40K_RelicArkRifle.tools.1.label>ствол</GF40K_RelicArkRifle.tools.1.label>
+
+<GF40K_RelicArkRifleBullet.label>выстрел дуговой винтовки</GF40K_RelicArkRifleBullet.label>
+
+
+</LanguageData>

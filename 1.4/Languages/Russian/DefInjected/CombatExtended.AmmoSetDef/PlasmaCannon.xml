@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<!-- Наборы боеприпасов -->
+
+<AmmoSet_PlasmaCanister_Pistol.label>плазменный баллон</AmmoSet_PlasmaCanister_Pistol.label>
+<AmmoSet_PlasmaCanister_Rifle.label>плазменный баллон</AmmoSet_PlasmaCanister_Rifle.label>
+<AmmoSet_PlasmaCanister_Cannon.label>плазменный баллон</AmmoSet_PlasmaCanister_Cannon.label>
+
+<!-- Для Warhammer 40k - Imperium Weaponry -->
+
+<AmmoSet_PlasmaCanister_Pistol_Relic.label>плазменный баллон</AmmoSet_PlasmaCanister_Pistol_Relic.label>
+<AmmoSet_PlasmaCanister_Rifle_Relic.label>плазменный баллон</AmmoSet_PlasmaCanister_Rifle_Relic.label>
+
+<!-- Для Grimhammer - Транспортные средства -->
+
+<AmmoSet_PlasmaCanister_Destroyer.label>плазменный баллон</AmmoSet_PlasmaCanister_Destroyer.label>
+</LanguageData>

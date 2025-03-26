@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_PlasmaPistol.label>плазменный пистолет</GF40K_PlasmaPistol.label>
+<GF40K_PlasmaPistol.description>Плазменный пистолет, воплощение разрушительной огневой мощи, выпускает снаряды с непревзойденными бронебойными возможностями. При ударе его снаряды генерируют палящий жар и испускают электромагнитный импульс, делая механических противников беспомощными на своем пути. Это оружие, ориентированное на ближние и средние дистанции, представляет собой грозную силу, с которой нужно считаться, способную превратить даже самых тяжелобронированных врагов в дымящиеся руины.</GF40K_PlasmaPistol.description>
+<GF40K_PlasmaPistol.tools.0.label>рукоятка</GF40K_PlasmaPistol.tools.0.label>
+<GF40K_PlasmaPistol.tools.1.label>ствол</GF40K_PlasmaPistol.tools.1.label>
+
+<GF40K_PlasmaPistolBullet.label>маленький плазменный выстрел</GF40K_PlasmaPistolBullet.label>
+
+<GF40K_PlasmaGun.label>плазменная пушка</GF40K_PlasmaGun.label>
+<GF40K_PlasmaGun.description>Плазменная пушка — это плазменное оружие размером с винтовку, способное стрелять снарядами, которые с непреклонной силой прорывают броню, поглощая поле боя палящим жаром и электромагнитной энергией. Это оружие, искусно созданное для столкновений на средних и дальних дистанциях, становится предвестником гибели для любых наступающих вражеских сил.</GF40K_PlasmaGun.description>
+<GF40K_PlasmaGun.tools.0.label>рукоятка</GF40K_PlasmaGun.tools.0.label>
+<GF40K_PlasmaGun.tools.1.label>ствол</GF40K_PlasmaGun.tools.1.label>
+
+<GF40K_PlasmaGunBullet.label>выстрел плазменной пушки</GF40K_PlasmaGunBullet.label>
+
+
+</LanguageData>

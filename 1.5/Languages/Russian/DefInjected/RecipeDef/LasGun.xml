@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+ <MakeAmmo_LasgunPowerPack.label>сделать батарею для лазгана x500</MakeAmmo_LasgunPowerPack.label>
+<MakeAmmo_LasgunPowerPack.description>Сделать 500 батарей для лазгана.</MakeAmmo_LasgunPowerPack.description>
+<MakeAmmo_LasgunPowerPack.jobString>Сделать батарею для лазгана.</MakeAmmo_LasgunPowerPack.jobString>
+
+
+</LanguageData>

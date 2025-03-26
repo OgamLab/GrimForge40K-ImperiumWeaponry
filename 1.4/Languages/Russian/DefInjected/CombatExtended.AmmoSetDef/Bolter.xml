@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Набор боеприпасов -->
+
+<AmmoSet_Bolter75.label>Болтер калибра .75</AmmoSet_Bolter75.label>
+
+
+<!-- Для Warhammer 40k — Оружие Империума -->
+
+<AmmoSet_Bolter75_Relic.label>.Болтер калибра .75</AmmoSet_Bolter75_Relic.label>
+
+</LanguageData>

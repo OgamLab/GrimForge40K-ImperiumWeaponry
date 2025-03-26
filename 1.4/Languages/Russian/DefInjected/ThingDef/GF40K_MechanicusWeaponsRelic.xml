@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_RelicMechanicusPowerSword.label>Реликтовый силовой меч Механикус</GF40K_RelicMechanicusPowerSword.label>
+<GF40K_RelicMechanicusPowerSword.description>Реликтовый силовой меч Механикус является воплощением технологического мастерства и эстетики Реликтизации. Его клинок, тщательно обработанный и украшенный тайными символами, сочетает режущие и колющие возможности с разрушительной эффективностью. Обладая разумной природой, меч образует психическую связь со своим владельцем, позволяя ему наносить удары с повышенной силой и точностью. Оснащенное системой разряда ЭМИ, оружие позволяет своему владельцу высвобождать волну электромагнитной энергии при ударе, выводя из строя и разрушая вражеские цели.</GF40K_RelicMechanicusPowerSword.description>
+<GF40K_RelicMechanicusPowerSword.tools.0.label>наконечник</GF40K_RelicMechanicusPowerSword.tools.0.label>
+<GF40K_RelicMechanicusPowerSword.tools.1.label>лезвие</GF40K_RelicMechanicusPowerSword.tools.1.label>
+<GF40K_RelicMechanicusPowerSword.tools.2.label>рукоятка</GF40K_RelicMechanicusPowerSword.tools.2.label>
+
+
+</LanguageData>

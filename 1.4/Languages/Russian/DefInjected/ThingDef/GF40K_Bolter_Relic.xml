@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pistol -->
+
+ <GF40K_BoltPistolRelic.label>реликтовый болт-пистолет</GF40K_BoltPistolRelic.label>
+<GF40K_BoltPistolRelic.description>Реликтовый болт-пистолет, желанное сокровище древних времен, воплощает вершину мастерства и внушающую благоговение мощь. Выкованный из забытых обрядов и благословленный прикосновением Омниссии, этот легендарный пистолет несет в себе наследие давно минувших битв.</GF40K_BoltPistolRelic.description>
+<GF40K_BoltPistolRelic.tools.0.label>рукоятка</GF40K_BoltPistolRelic.tools.0.label>
+<GF40K_BoltPistolRelic.tools.1.label>ствол</GF40K_BoltPistolRelic.tools.1.label>
+
+<!-- Boltgun -->
+
+<GF40K_BoltGunRelic.label>реликтовый болтган</GF40K_BoltGunRelic.label>
+<GF40K_BoltGunRelic.description>Реликтовый болтган, артефакт, почитаемый Механикус, излучает величие древнего мастерства. Окутанное мифами о славных победах, это легендарное оружие обладает величайшими характеристиками. Расширенный возможностью удерживать два патрона в своем стволе, он запускает снаряды калибра 0,75, которые потрошат всех, кто осмелится бросить вызов.</GF40K_BoltGunRelic.description>
+<GF40K_BoltGunRelic.tools.0.label>рукоятка</GF40K_BoltGunRelic.tools.0.label>
+<GF40K_BoltGunRelic.tools.1.label>ствол</GF40K_BoltGunRelic.tools.1.label>
+
+<!-- Снайпер -->
+
+<GF40K_BoltSniperRelic.label>реликтовая снайперская винтовка</GF40K_BoltSniperRelic.label>
+<GF40K_BoltSniperRelic.description>Снайперская реликтовая винтовка- является священной реликвией среди снайперы, воплощающие вершину меткости и смертоносной точности. Благодаря расширенному магазину, вмещающему два смертельных патрона калибра 0,75, его пули одинаково пробивают броню и плоть.</GF40K_BoltSniperRelic.description>
+<GF40K_BoltSniperRelic.tools.0.label>ложа</GF40K_BoltSniperRelic.tools.0.label>
+<GF40K_BoltSniperRelic.tools.1.label>ствол</GF40K_BoltSniperRelic.tools.1.label>
+
+<!-- Пули -->
+
+<GF40K_075BoltBulletRelic.label>.75 реликтовый болт-пуля</GF40K_075BoltBulletRelic.label>
+<GF40K_075SniperBoltBulletRelic.label>.75 реликтовый болт пуля</GF40K_075SniperBoltBulletRelic.label>
+
+
+</LanguageData>

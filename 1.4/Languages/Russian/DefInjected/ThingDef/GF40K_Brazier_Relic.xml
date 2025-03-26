@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New -->
+
+ <GF40K_BrazierRelic.label>реликтовая жаровня</GF40K_BrazierRelic.label>
+<GF40K_BrazierRelic.description>...</GF40K_BrazierRelic.description>
+<GF40K_BrazierRelic.tools.0.label>ручка</GF40K_BrazierRelic.tools.0.label>
+<GF40K_BrazierRelic.tools.1.label>головка</GF40K_BrazierRelic.tools.1.label>
+
+<GF40K_Bullet_BrazierRelic.label>реликтовая жаровня огненный шар</GF40K_Bullet_BrazierRelic.label>
+
+
+</LanguageData>

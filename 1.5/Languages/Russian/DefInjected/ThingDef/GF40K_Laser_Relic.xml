@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_LaserPistolRelic.label>реликтовый лазпистолет</GF40K_LaserPistolRelic.label>
+<GF40K_LaserPistolRelic.description>Реликтовый лазпистолет представляет собой вершину имперской технологии и мастерства Механикус. Компактный, но надежный, он обладает непревзойденной мощью и точностью. Когда его выстрелы попадают точно в цель, воздух наполняется пылающей праведностью, поглощая павших в священном пожаре. Реликвия лазпистолета является свидетельством неукротимого духа верующих, несущих бремя божественного гнева против всех, кто выступает против Империума.</GF40K_LaserPistolRelic.description>
+<GF40K_LaserPistolRelic.tools.0.label>рукоятка</GF40K_LaserPistolRelic.tools.0.label>
+<GF40K_LaserPistolRelic.tools.1.label>ствол</GF40K_LaserPistolRelic.tools.1.label>
+
+<GF40K_LaserPistolRelicBullet.label>реликвия пуля лазпистолета</GF40K_LaserPistolRelicBullet.label>
+
+<GF40K_LaserGunRelic.label>реликвия лазган</GF40K_LaserGunRelic.label>
+<GF40K_LaserGunRelic.description>Реликтовый лазган — священный артефакт из забытых эпох, которым владеют только избранные хранители Империума. Наполненный сущностью древних обрядов, этот легендарный лазган источает ауру божественной мощи. Каждый разряд его энергетических импульсов приносит не только смерть, но и обещание вечных мучений, ибо пораженные его гневом будут охвачены священным пламенем, свидетельством ярости Бога-Императора.</GF40K_LaserGunRelic.description>
+<GF40K_LaserGunRelic.tools.0.label>рукоятка</GF40K_LaserGunRelic.tools.0.label>
+<GF40K_LaserGunRelic.tools.1.label>ствол</GF40K_LaserGunRelic.tools.1.label>
+
+<GF40K_LaserGunRelicBullet.label>реликтовая пуля лазгана</GF40K_LaserGunRelicBullet.label>
+
+<GF40K_LaserSniperRelic.label>реликтовый Длиннолаз</GF40K_LaserSniperRelic.label>
+<GF40K_LaserSniperRelic.description>реликтовый Длиннолаз — грозное и внушающее благоговение оружие, которое быстро воздает тем, кто бросает вызов воле Императора. Его безупречное сочетание простоты и исключительной боевой эффективности делает его желанной находкой для снайперов, стремящихся уничтожать врагов с безошибочной точностью с больших расстояний.</GF40K_LaserSniperRelic.description>
+<GF40K_LaserSniperRelic.tools.0.label>рукоятка</GF40K_LaserSniperRelic.tools.0.label>
+<GF40K_LaserSniperRelic.tools.1.label>ствол</GF40K_LaserSniperRelic.tools.1.label>
+
+<GF40K_LaserSniperRelicBullet.label>реликтовая длинноствольная пуля</GF40K_LaserSniperRelicBullet.label>
+
+<GF40K_LaserSMGRelic.label>реликтовый лазерный пистолет-пулемет</GF40K_LaserSMGRelic.label>
+<GF40K_LaserSMGRelic.description>реликтовый лазерный пистолет-пулемет — это внушающее благоговение чудо скорострельной технологии. Он способен выпустить несокрушимую последовательность сфокусированных энергетических лучей, которые без усилий прорезают броню, подавляя врагов чистой интенсивностью. Те, кто владеет лазерным ПП, становятся праведными орудиями божественного суда, ревностно очищая врагов Империума с непоколебимой убежденностью.</GF40K_LaserSMGRelic.description>
+<GF40K_LaserSMGRelic.tools.0.label>рукоятка</GF40K_LaserSMGRelic.tools.0.label>
+<GF40K_LaserSMGRelic.tools.1.label>ствол</GF40K_LaserSMGRelic.tools.1.label>
+
+<GF40K_LaserSMGRelicBullet.label>реликтовый выстрел из лазерного ПП</GF40K_LaserSMGRelicBullet.label>
+
+<GF40K_LaserCarbineRelic.label>реликтовый лазкарабин</GF40K_LaserCarbineRelic.label>
+<GF40K_LaserCarbineRelic.description>Заряженный редкими и мощными энергетическими ячейками, реликтовый лазкарабин выпускает несокрушимый поток обжигающих лазерных лучей, которые без усилий прорезают броню, пронзая сердце любого неудачливого врага, который осмелится встать у него на пути. Это замечательное оружие предлагает гармоничный баланс мобильности и огневой мощи, превосходя в боях на средней дистанции с смертоносной грацией. Говорят, что его лучи несут праведную ярость самого Бога-Императора, поражая врагов с непоколебимой точностью.</GF40K_LaserCarbineRelic.description>
+<GF40K_LaserCarbineRelic.tools.0.label>рукоятка</GF40K_LaserCarbineRelic.tools.0.label>
+<GF40K_LaserCarbineRelic.tools.1.label>ствол</GF40K_LaserCarbineRelic.tools.1.label>
+
+<GF40K_LaserCarbineRelicBullet.label>реликтовая пуля лазкарабин</GF40K_LaserCarbineRelicBullet.label>
+
+
+</LanguageData>

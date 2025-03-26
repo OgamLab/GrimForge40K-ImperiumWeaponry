@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Molecular Destabilization -->
+
+ <GF40K_MolDesCut.label>молекулярное разрушение</GF40K_MolDesCut.label>
+<GF40K_MolDesCut.deathMessage>{0} был порезан насмерть.</GF40K_MolDesCut.deathMessage>
+
+
+</LanguageData>

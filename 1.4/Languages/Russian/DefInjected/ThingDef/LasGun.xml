@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+ <Ammo_LasgunPowerPack.label>батарея для лазгана</Ammo_LasgunPowerPack.label>
+<Ammo_LasgunPowerPack.description>Универсальная батарея питания для лазганов.</Ammo_LasgunPowerPack.description>
+
+<!-- Снаряды -->
+
+<Bullet_Lasgun_Pistol.label>лазерный луч</Bullet_Lasgun_Pistol.label>
+<Bullet_Lasgun_Rifle.label>лазерный луч</Bullet_Lasgun_Rifle.label>
+<Bullet_Lasgun_HellGun.label>лазерный луч</Bullet_Lasgun_HellGun.label>
+<Bullet_Lasgun_Cannon.label>лазерный луч</Bullet_Lasgun_Cannon.label>
+
+
+</LanguageData>

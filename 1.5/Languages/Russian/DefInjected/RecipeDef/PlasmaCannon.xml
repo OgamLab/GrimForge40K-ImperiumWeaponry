@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+<MakeAmmo_PlasmaCanister.label>сделать плазменные баллоны x50</MakeAmmo_PlasmaCanister.label>
+<MakeAmmo_PlasmaCanister.description>Сделать 50 плазменных баллонов.</MakeAmmo_PlasmaCanister.description>
+<MakeAmmo_PlasmaCanister.jobString>Сделать плазменные баллоны.</MakeAmmo_PlasmaCanister.jobString>
+
+</LanguageData>

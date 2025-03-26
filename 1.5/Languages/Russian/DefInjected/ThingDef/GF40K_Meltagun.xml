@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New -->
+
+  <GF40K_Hellgun.label>адское ружье</GF40K_Hellgun.label>
+<GF40K_Hellgun.description>...</GF40K_Hellgun.description>
+<GF40K_Hellgun.tools.0.label>рукоятка</GF40K_Hellgun.tools.0.label>
+<GF40K_Hellgun.tools.1.label>ствол</GF40K_Hellgun.tools.1.label>
+
+<GF40K_Bullet_Hellgun.label>выстрел адского ружья</GF40K_Bullet_Hellgun.label>
+<GF40K_Bullet_Hellgun.description>выстрел адского ружья.</GF40K_Bullet_Hellgun.description>
+
+
+</LanguageData>

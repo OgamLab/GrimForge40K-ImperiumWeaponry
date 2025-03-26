@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_GaussShot.label>Выстрел Гаусса</GF40K_GaussShot.label>
+<GF40K_GaussShot.description>Рана, нанесенная выстрелом Гаусса.</GF40K_GaussShot.description>
+<GF40K_GaussShot.comps.0.labelTendedWell>перевязан</GF40K_GaussShot.comps.0.labelTendedWell>
+<GF40K_GaussShot.comps.0.labelTendedWellInner>зашит</GF40K_GaussShot.comps.0.labelTendedWellInner>
+<GF40K_GaussShot.comps.0.labelSolidTendedWell>установить</GF40K_GaussShot.comps.0.labelSolidTendedWell>
+<GF40K_GaussShot.injuryProps.destroyedLabel>Выстрелил пулей Гаусса</GF40K_GaussShot.injuryProps.destroyedLabel>
+<GF40K_GaussShot.injuryProps.destroyedOutLabel>Выстрелил пулей Гаусса</GF40K_GaussShot.injuryProps.destroyedOutLabel>
+<GF40K_GaussShot.labelNoun>ранение выстрелом Гаусса</GF40K_GaussShot.labelNoun>
+
+</LanguageData>

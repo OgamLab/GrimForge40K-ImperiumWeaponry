@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_PlasmaPistolRelic.label>реликтовый плазменный пистолет</GF40K_PlasmaPistolRelic.label>
+<GF40K_PlasmaPistolRelic.description>Реликтовый пистолет — икона древнего техноколдовства. Это легендарное оружие выпускает лучи перегретой плазмы, способные испепелить даже самых тяжелобронированных противников. Чтобы обеспечить сохранность столь мощной технологии, плазменные пистолеты Relic редко производятся массово и доверяются только самым опытным и преданным воинам Империума.</GF40K_PlasmaPistolRelic.description>
+<GF40K_PlasmaPistolRelic.tools.0.label>рукоятка</GF40K_PlasmaPistolRelic.tools.0.label>
+<GF40K_PlasmaPistolRelic.tools.1.label>ствол</GF40K_PlasmaPistolRelic.tools.1.label>
+
+<GF40K_PlasmaPistolRelicBullet.label>выстрел из реликтового плазменного пистолета</GF40K_PlasmaPistolRelicBullet.label>
+
+<GF40K_PlasmaGunRelic.label>плазма пушка</GF40K_PlasmaGunRelic.label>
+<GF40K_PlasmaGunRelic.description>Чудо смертоносной инженерии, плазменная пушка-реликт использует разрушительную силу перегретой плазмы, чтобы обрушить опустошение на врагов Империума. Когда плазменная пушка высвобождает свою палящую ярость, перегретые плазменные заряды прожигают броню и плоть с бурлящей интенсивностью, оставляя после себя только тлеющие обломки.</GF40K_PlasmaGunRelic.description>
+<GF40K_PlasmaGunRelic.tools.0.label>рукоятка</GF40K_PlasmaGunRelic.tools.0.label>
+<GF40K_PlasmaGunRelic.tools.1.label>ствол</GF40K_PlasmaGunRelic.tools.1.label>
+
+<GF40K_PlasmaGunRelicBullet.label>реликтовый плазменный выстрел</GF40K_PlasmaGunRelicBullet.label>
+
+
+</LanguageData>

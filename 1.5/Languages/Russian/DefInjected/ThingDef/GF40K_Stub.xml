@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_StubShotgun.label>дробовик</GF40K_StubShotgun.label>
+<GF40K_StubShotgun.description>Брутальный дробовик для ближнего боя, дробовик  производит разрушительную очередь огня, что делает его идеальным для столкновений в упор, хотя его ограниченное бронепробиваемость означает, что он лучше всего подходит для противников без существенной защиты.</GF40K_StubShotgun.description>
+<GF40K_StubShotgun.tools.0.label>рукоятка</GF40K_StubShotgun.tools.0.label>
+<GF40K_StubShotgun.tools.1.label>ствол</GF40K_StubShotgun.tools.1.label>
+
+<GF40K_StubShotgunBullet.label>выстрел дробовика</GF40K_StubShotgunBullet.label>
+
+<GF40K_StubHMG.label>Стаб ПП</GF40K_StubHMG.label>
+<GF40K_StubHMG.description>Стаб ПП — это зверь среди оружия средней дальности, способный выпустить град пуль за одну очередь. Хотя ему не хватает мощности для пробития тяжелой брони, он отлично справляется с подавлением врагов и прорывом сквозь слабозащищенные цели.</GF40K_StubHMG.description>
+<GF40K_StubHMG.tools.0.label>рукоятка</GF40K_StubHMG.tools.0.label>
+<GF40K_StubHMG.tools.1.label>ствол</GF40K_StubHMG.tools.1.label>
+
+<GF40K_StubHMGBullet.label>выстрел из короткоствольного пулемета</GF40K_StubHMGBullet.label>
+
+<GF40K_StubCarbine.label>карабин короткоствольный</GF40K_StubCarbine.label>
+<GF40K_StubCarbine.description>Универсальный короткоствольный карабин, обеспечивающий как точность, так и останавливающую силу на средних и коротких дистанциях. Будь то уничтожение врагов в перестрелке или оказание поддержки, это оружие доказывает свою ценность против тех, кто осмеливается бросить вызов воле Императора.</GF40K_StubCarbine.description>
+<GF40K_StubCarbine.tools.0.label>рукоятка</GF40K_StubCarbine.tools.0.label>
+<GF40K_StubCarbine.tools.1.label>ствол</GF40K_StubCarbine.tools.1.label>
+
+<GF40K_StubCarbineBullet.label>выстрел из стаб-карабина</GF40K_StubCarbineBullet.label>
+
+<GF40K_StubPistol.label>Стаб пистолет</GF40K_StubPistol.label>
+<GF40K_StubPistol.description>В ближнем бою стаб Пистолет — верный спутник. Он может похвастаться приличной точностью на близком расстоянии, обеспечивая существенную останавливающую силу. Хотя он не предназначен для пробития брони, он может справиться с большинством угроз с беспощадной эффективностью.</GF40K_StubPistol.description>
+<GF40K_StubPistol.tools.0.label>рукоятка</GF40K_StubPistol.tools.0.label>
+<GF40K_StubPistol.tools.1.label>ствол</GF40K_StubPistol.tools.1.label>
+
+<GF40K_StubPistolBullet.label>выстрел из пистолета</GF40K_StubPistolBullet.label>
+
+<GF40K_StubSniper.label>Стаб снайперская винтовка</GF40K_StubSniper.label>
+<GF40K_StubSniper.description>Стаб винтовка является воплощением точности на большом расстоянии.Хотя ему не хватает грубой силы некоторых видов оружия, его точность и дальность делают его грозным выбором против целей, которые достаточно глупы, чтобы показать себя.</GF40K_StubSniper.description>
+<GF40K_StubSniper.tools.0.label>рукоятка</GF40K_StubSniper.tools.0.label>
+<GF40K_StubSniper.tools.1.label>ствол</GF40K_StubSniper.tools.1.label>
+
+<GF40K_StubSniperBullet.label>выстрел из стаб снайперской винтовки</GF40K_StubSniperBullet.label>
+
+
+</LanguageData>

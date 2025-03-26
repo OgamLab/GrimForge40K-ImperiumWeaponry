@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_MolecularDestabilization.label>молекулярная дестабилизация</GF40K_MolecularDestabilization.label>
+<GF40K_MolecularDestabilization.description>Наличие токсичных веществ или воздействие энергии создает молекулярную нестабильность в организме, нанося значительный вред его клеткам и, следовательно, приводя к серьезным последствиям для здоровья.\n\nМолекулярная дестабилизация постепенно ухудшается с течением времени и может быть смертельной, если ее не лечить.</GF40K_MolecularDestabilization.description>
+<GF40K_MolecularDestabilization.stages.0.label>незначительная</GF40K_MolecularDestabilization.stages.0.label>
+<GF40K_MolecularDestabilization.stages.1.label>незначительная</GF40K_MolecularDestabilization.stages.1.label>
+<GF40K_MolecularDestabilization.stages.2.label>умеренная</GF40K_MolecularDestabilization.stages.2.label>
+<GF40K_MolecularDestabilization.stages.3.label>тяжелая</GF40K_MolecularDestabilization.stages.3.label>
+<GF40K_MolecularDestabilization.stages.4.label>экстремальная</GF40K_MolecularDestabilization.stages.4.label>
+
+
+</LanguageData>

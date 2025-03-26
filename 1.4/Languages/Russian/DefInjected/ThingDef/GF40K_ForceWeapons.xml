@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_ForceHalberd.label>силовая алебарда</GF40K_ForceHalberd.label>
+<GF40K_ForceHalberd.description>Силовая алебарда — это искусно сделанное древковое оружие с длинным изогнутым клинком и прочной рукоятью. Ее клинок излучает ауру психической мощи. Каждый удар задействует психическую энергию владельца, усиливая его врожденные психические способности. В умелых руках он становится разрушительным оружием, прорезающим врагов и раскрывающим неисчислимый ментальный потенциал.</GF40K_ForceHalberd.description>
+<GF40K_ForceHalberd.tools.0.label>наконечник</GF40K_ForceHalberd.tools.0.label>
+<GF40K_ForceHalberd.tools.1.label>лезвие</GF40K_ForceHalberd.tools.1.label>
+<GF40K_ForceHalberd.tools.2.label>рукоятка</GF40K_ForceHalberd.tools.2.label>
+
+  <!-- <ThingDef ParentName="GF40K_BaseMeleeForce_Oversize">
+		<defName>GF40K_ForceStaff</defName>
+		<label>force staff</label>
+		<description>A masterpiece of techno-sorcery and esoteric artifice, the Force Staff embodies the essence of the Omnissiah's divine power. Crafted with utmost precision, this melee weapon resonates with psychic energies, amplifying the psionic potential of its bearer. As it crackles with an iridescent glow, the Force Staff becomes an extension of the mind, channeling the latent psychic energies to new heights. In the hands of a skilled psion, this staff transforms into an instrument of both defense and offense, capable of unleashing devastating psionic waves that rend the fabric of reality itself.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/ForceStaff</texPath>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>31.77</power>
+				<cooldownTime>2.1</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.45</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.12</armorPenetration>
+			</li>
+		</tools>	
+	</ThingDef> -->
+
+  <GF40K_ForceSword.label>силовой меч</GF40K_ForceSword.label>
+<GF40K_ForceSword.description>Силовой меч, воплощение боевой и психической синергии, сочетает в себе изящество традиционного меча с внушающей благоговение псионической мощью. Выкованное с помощью священных заклинаний и точной инженерии, это оружие ближнего боя гудит шепотом Варпа. Поскольку его сияющий клинок светится небесным свечением, Силовой меч раскрывает истинный потенциал псионических способностей своего владельца, позволяя ему направлять чистую энергию космоса. С каждым взмахом это оружие становится инструментом псионического опустошения, прорезая броню и плоть с эфирной силой, направляя разум к новым психическим рубежам.</GF40K_ForceSword.description>
+<GF40K_ForceSword.tools.0.label>клинок</GF40K_ForceSword.tools.0.label>
+<GF40K_ForceSword.tools.1.label>клинок</GF40K_ForceSword.tools.1.label>
+<GF40K_ForceSword.tools.2.label>рукоятка</GF40K_ForceSword.tools.2.label>
+
+
+</LanguageData>

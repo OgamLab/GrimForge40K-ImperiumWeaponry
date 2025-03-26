@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<!-- Боеприпасы -->
+
+<Ammo_Bolter75_Standard.label>Снаряд болтера .75 калибра (стандартный)</Ammo_Bolter75_Standard.label>
+<Ammo_Bolter75_Standard.description>Снаряд калибра .75, стабилизированный грёджет-реактивным двигателем, с разрывным зарядом и закаленным наконечником, выстреливаемый из большинства моделей болтеров Астартес.</Ammo_Bolter75_Standard.description>
+
+<Ammo_Bolter75_Inferno.label>Снаряд болтера .75 калибра (инферно)</Ammo_Bolter75_Inferno.label>
+<Ammo_Bolter75_Inferno.description>Снаряд калибра .75, стабилизированный грёджет-реактивным двигателем, с разрывным зарядом и закаленным наконечником, выстреливаемый из большинства моделей болтеров Астартес болтеры.</Ammo_Bolter75_Inferno.description>
+
+<Ammo_Bolter75_MetalStorm.label>Снаряд болтера .75 калибра (металлический шторм)</Ammo_Bolter75_MetalStorm.label>
+<Ammo_Bolter75_MetalStorm.description>Снаряд калибра .75, стабилизированный грёджетами, с разрывным зарядом и закаленным наконечником, выстреливаемый из большинства моделей болтеров Астартес.</Ammo_Bolter75_MetalStorm.description>
+
+<Ammo_Bolter75_Kraken.label>Снаряд болтера .75 калибра (кракен)</Ammo_Bolter75_Kraken.label>
+<Ammo_Bolter75_Kraken.description>Снаряд калибра .75, стабилизированный грёджетами, с разрывным зарядом и закаленный наконечник, выстреливаемый из большинства моделей болтеров Астартес.</Ammo_Bolter75_Kraken.description>
+
+<Ammo_Bolter75_Tempest.label>снаряд болтера .75 калибра (буря)</Ammo_Bolter75_Tempest.label>
+<Ammo_Bolter75_Tempest.description>снаряд калибра .75, стабилизируемый грёджет-реактивным двигателем, с разрывным зарядом и закалённым наконечником, выстреливаемый из большинства моделей болтеров Астартес.</Ammo_Bolter75_Tempest.description>
+
+<!-- Снаряды -->
+
+<Bullet_Bolter75_Standard.label>болт .75 калибра (стандартный)</Bullet_Bolter75_Standard.label>
+<Bullet_Bolter75_Inferno.label>болт .75 калибра (инферно)</Bullet_Bolter75_Inferno.label>
+<Bullet_Bolter75_MetalStorm.label>.75 калибра болт (металлический шторм)</Bullet_Bolter75_MetalStorm.label>
+<Bullet_Bolter75_Kraken.label>.75 калибра болт (кракен)</Bullet_Bolter75_Kraken.label>
+<Bullet_Bolter75_Tempest.label>.75 калибра болт (буря)</Bullet_Bolter75_Tempest.label>
+
+<!-- Для Warhammer 40k - Оружие Империума -->
+
+<Bullet_Bolter75_Standard_Relic.label>.75 калибра болт (стандартный)</Bullet_Bolter75_Standard_Relic.label>
+<Bullet_Bolter75_Inferno_Relic.label>.75 калибра болт (инферно)</Bullet_Bolter75_Inferno_Relic.label>
+<Bullet_Bolter75_MetalStorm_Relic.label>.75 калибра болт (металлический шторм)</Bullet_Bolter75_MetalStorm_Relic.label>
+<Bullet_Bolter75_Kraken_Relic.label>.75 калибра болт (кракен)</Bullet_Bolter75_Kraken_Relic.label>
+<Bullet_Bolter75_Tempest_Relic.label>.75 калибра болт (буря)</Bullet_Bolter75_Tempest_Relic.label>
+
+
+</LanguageData>

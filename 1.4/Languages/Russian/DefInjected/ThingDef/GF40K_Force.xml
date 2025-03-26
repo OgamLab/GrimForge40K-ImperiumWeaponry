@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_ForceStaff.label>силовой посох</GF40K_ForceStaff.label>
+<GF40K_ForceStaff.description>Шедевр техноколдовства и эзотерического искусства, Силовой посох воплощает в себе суть божественной силы Омниссии. Изготовленное с предельной точностью, это оружие ближнего боя резонирует с психической энергией, усиливая псионический потенциал своего владельца. Потрескивая радужным сиянием, Силовой посох становится продолжением разума, направляя скрытую психическую энергию на новые высоты. В руках опытного псиона этот посох превращается в инструмент как защиты, так и нападения, способный высвобождать разрушительные псионические волны, разрывающие саму ткань реальности.</GF40K_ForceStaff.description>
+<GF40K_ForceStaff.tools.0.label>голова</GF40K_ForceStaff.tools.0.label>
+<GF40K_ForceStaff.tools.1.label>голова</GF40K_ForceStaff.tools.1.label>
+<GF40K_ForceStaff.tools.2.label>рукоятка</GF40K_ForceStaff.tools.2.label>
+
+<!-- Новый -->
+
+<GF40K_ForceTome.label>реликтовый фолиант</GF40K_ForceTome.label>
+<GF40K_ForceTome.description>реликтовый фолиант что содержит часть Энунции</GF40K_ForceTome.description>
+<GF40K_ForceTome.tools.0.label>том</GF40K_ForceTome.tools.0.label>
+
+
+</LanguageData>

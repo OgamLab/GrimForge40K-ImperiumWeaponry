@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Weapons -->
+<GF40K_Cat_IW.label>оружие империума</GF40K_Cat_IW.label>
+<IW_Melee.label>оружие ближнего боя</IW_Melee.label>
+<IW_Ranged.label>оружие дальнего боя</IW_Ranged.label>
+
+</LanguageData>

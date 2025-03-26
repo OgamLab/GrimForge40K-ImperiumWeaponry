@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_MechanicusArcMaul.label>дуговой молот</GF40K_MechanicusArcMaul.label>
+<GF40K_MechanicusArcMaul.description>Дуговой молот Механикус — это тяжелое дробящее оружие, резонирующее с силой электромагнетизма. При активации заряженная голова наносит сокрушительные, наполненные молниями удары по своим несчастным целям, часто заставляя их биться в конвульсиях до смерти.</GF40K_MechanicusArcMaul.description>
+<GF40K_MechanicusArcMaul.tools.0.label>голова</GF40K_MechanicusArcMaul.tools.0.label>
+<GF40K_MechanicusArcMaul.tools.1.label>голова</GF40K_MechanicusArcMaul.tools.1.label>
+<GF40K_MechanicusArcMaul.tools.2.label>рукоятка</GF40K_MechanicusArcMaul.tools.2.label>
+
+<GF40K_MechanicusOmnisianAxe.label>топор Механикус</GF40K_MechanicusOmnisianAxe.label>
+<GF40K_MechanicusOmnisianAxe.description>Топор Механикус "Омнисиан" — грозное режущее оружие, разработанное для того, чтобы пробивать даже самую прочную защиту с помощью своего тонко отточенного лезвия. Его силовое поле усиливает режущую мощь лезвия, позволяя ему прорезать броню и разрывать механические компоненты. Благодаря встроенному излучателю ЭМИ, Омнисианский топор позволяет Техножрецам нарушать и отключать электронные системы своих противников каждым ударом.</GF40K_MechanicusOmnisianAxe.description>
+<GF40K_MechanicusOmnisianAxe.tools.0.label>голова</GF40K_MechanicusOmnisianAxe.tools.0.label>
+<GF40K_MechanicusOmnisianAxe.tools.1.label>лезвие</GF40K_MechanicusOmnisianAxe.tools.1.label>
+<GF40K_MechanicusOmnisianAxe.tools.2.label>рукоятка</GF40K_MechanicusOmnisianAxe.tools.2.label>
+
+<GF40K_MechanicusPowerSword.label>силовой меч Механикус</GF40K_MechanicusPowerSword.label>
+<GF40K_MechanicusPowerSword.description>Силовой меч Механикус сочетает в себе передовые технологии с боевой точностью. Его клинок потрескивает энергией, усиливая режущие и колющие способности, чтобы нанести сокрушительный эффект. Оснащенный механизмом разряда ЭМИ, Меч Силы позволяет Техножрецам высвобождать волну электромагнитной энергии при ударе, нарушая системы противника и делая их уязвимыми для дальнейших атак.</GF40K_MechanicusPowerSword.description>
+<GF40K_MechanicusPowerSword.tools.0.label>лезвие</GF40K_MechanicusPowerSword.tools.0.label>
+<GF40K_MechanicusPowerSword.tools.1.label>лезвие</GF40K_MechanicusPowerSword.tools.1.label>
+<GF40K_MechanicusPowerSword.tools.2.label>рукоятка</GF40K_MechanicusPowerSword.tools.2.label>
+
+<GF40K_MechanicusTaserGoad.label>Тазер-стрекало Механикус</GF40K_MechanicusTaserGoad.label>
+<GF40K_MechanicusTaserGoad.description>Тазер-стрекало Механикус — грозное оружие ближнего боя, любимое техножрецами за его способность наносить мощные электрические разряды. Его пронзающий наконечник может пробивать броню и наносить выводящие из строя удары как по органическим, так и по механическим целям. Чудо инженерной мысли Механикус, электрошокер позволяет своему владельцу оглушать и выводить из строя противников, делая их уязвимыми для последующих ударов.</GF40K_MechanicusTaserGoad.description>
+<GF40K_MechanicusTaserGoad.tools.0.label>наконечник</GF40K_MechanicusTaserGoad.tools.0.label>
+<GF40K_MechanicusTaserGoad.tools.1.label>древко</GF40K_MechanicusTaserGoad.tools.1.label>
+<GF40K_MechanicusTaserGoad.tools.2.label>рукоятка</GF40K_MechanicusTaserGoad.tools.2.label>
+
+<GF40K_MechanicusTransonicBlade.label>трансзвуковой клинок</GF40K_MechanicusTransonicBlade.label>
+<GF40K_MechanicusTransonicBlade.description>Трансзвуковой клинок Механикус — это ужасное оружие, известное своими устрашающими возможностями на поле боя. При активации он издает тревожный, низкий гул, от которого сводит живот и глаза вибрируют в глазницах. При ударе эти лезвия подстраивают свои звуковые поля под резонансную частоту целевого материала, что позволяет им без усилий прорезать как плоть, так и броню с поразительной точностью.</GF40K_MechanicusTransonicBlade.description>
+<GF40K_MechanicusTransonicBlade.tools.0.label>наконечник</GF40K_MechanicusTransonicBlade.tools.0.label>
+<GF40K_MechanicusTransonicBlade.tools.1.label>кромка</GF40K_MechanicusTransonicBlade.tools.1.label>
+<GF40K_MechanicusTransonicBlade.tools.2.label>рукоятка</GF40K_MechanicusTransonicBlade.tools.2.label>
+
+<GF40K_MechanicusTransonicRazor.label>трансзвуковая бритва</GF40K_MechanicusTransonicRazor.label>
+<GF40K_MechanicusTransonicRazor.description>Трансзвуковая бритва Механикус — это более короткий и легкий вариант трансзвукового клинка, позволяющий своему владельцу более эффективно использовать оба оружия. Издавая тревожный, низкий гул при активации, это компактное оружие быстро настраивает свое звуковое поле в соответствии с резонансной частотой цели, что позволяет точно разрезать плоть и броню.</GF40K_MechanicusTransonicRazor.description>
+<GF40K_MechanicusTransonicRazor.tools.0.label>наконечник</GF40K_MechanicusTransonicRazor.tools.0.label>
+<GF40K_MechanicusTransonicRazor.tools.1.label>лезвие</GF40K_MechanicusTransonicRazor.tools.1.label>
+<GF40K_MechanicusTransonicRazor.tools.2.label>рукоятка</GF40K_MechanicusTransonicRazor.tools.2.label>
+
+
+</LanguageData>

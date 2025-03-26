@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GF40K_ChainSword.label>цепной меч</GF40K_ChainSword.label>
+<GF40K_ChainSword.description>Цепной меч — грозное оружие ближнего боя, обычно используемое военными силами Империума Человечества. Своими ревущими цепными зубьями он без усилий прорывает броню и плоть, вселяя страх в сердца врагов. Это грозное орудие разрушения не для слабонервных, так как оно обрушивает свою ярость на любого врага Империума, который осмелится встать у него на пути.</GF40K_ChainSword.description>
+<GF40K_ChainSword.tools.0.label>задняя сторона</GF40K_ChainSword.tools.0.label>
+<GF40K_ChainSword.tools.1.label>цепь</GF40K_ChainSword.tools.1.label>
+<GF40K_ChainSword.tools.2.label>рукоятка</GF40K_ChainSword.tools.2.label>
+
+<!-- Новый -->
+
+<GF40K_ChainAxe.label>цепной топор</GF40K_ChainAxe.label>
+<GF40K_ChainAxe.description>...</GF40K_ChainAxe.description>
+<GF40K_ChainAxe.tools.0.label>задняя сторона</GF40K_ChainAxe.tools.0.label>
+<GF40K_ChainAxe.tools.1.label>цепь</GF40K_ChainAxe.tools.1.label>
+<GF40K_ChainAxe.tools.2.label>рукоятка</GF40K_ChainAxe.tools.2.label>
+
+<GF40K_Eviscerator.label>потрошитель</GF40K_Eviscerator.label>
+<GF40K_Eviscerator.description>Потрошитель — двуручное цепное оружие невероятной жестокости. Его зазубренное и острое как бритва лезвие способно пронзить даже самую прочную броню. Вес и размер этого оружия требуют большой силы и мастерства для владения им, но те, кто овладеет им, будут вознаграждены непревзойденной режущей силой, способной превратить врагов в измельченные останки.</GF40K_Eviscerator.description>
+<GF40K_Eviscerator.tools.0.label>задняя сторона</GF40K_Eviscerator.tools.0.label>
+<GF40K_Eviscerator.tools.1.label>цепь</GF40K_Eviscerator.tools.1.label>
+<GF40K_Eviscerator.tools.2.label>рукоятка</GF40K_Eviscerator.tools.2.label>
+
+<GF40K_Chainspear.label>цепное копье</GF40K_Chainspear.label>
+<GF40K_Chainspear.description>...</GF40K_Chainspear.description>
+<GF40K_Chainspear.tools.0.label>цепь</GF40K_Chainspear.tools.0.label>
+<GF40K_Chainspear.tools.1.label>рукоятка</GF40K_Chainspear.tools.1.label>
+
+<GF40K_PowerSabre.label>силовая сабля</GF40K_PowerSabre.label>
+<GF40K_PowerSabre.description>Силовая сабля — это гладкое и смертоносное оружие, сочетающее в себе изящество колющего клинка с грубой режущей силой энергетических ударов. Ее потрескивающее энергетическое поле усиливает режущую кромку клинка, позволяя наносить быстрые и точные удары, способные пробивать бронированную защиту. Символ власти и мастерства, Силовую саблю предпочитают те, кто ценит элегантность и смертоносность в равной степени.</GF40K_PowerSabre.description>
+<GF40K_PowerSabre.tools.0.label>наконечник</GF40K_PowerSabre.tools.0.label>
+<GF40K_PowerSabre.tools.1.label>лезвие</GF40K_PowerSabre.tools.1.label>
+<GF40K_PowerSabre.tools.2.label>рукоять</GF40K_PowerSabre.tools.2.label>
+
+<GF40K_PowerSword.label>силовой меч</GF40K_PowerSword.label>
+<GF40K_PowerSword.description>силовой меч — символ мощи Империума, оружие, наполненное тайными технологиями и разрушительными режущими и колющими способностями. Его энергетическое поле окутывает клинок, позволяя ему без усилий прорезать как броню, так и плоть. Меч Силы, которым владеют те, кто является образцом долга и чести, является свидетельством мощи Императора.</GF40K_PowerSword.description>
+<GF40K_PowerSword.tools.0.label>острие</GF40K_PowerSword.tools.0.label>
+<GF40K_PowerSword.tools.1.label>лезвие</GF40K_PowerSword.tools.1.label>
+<GF40K_PowerSword.tools.2.label>рукоятка</GF40K_PowerSword.tools.2.label>
+
+
+</LanguageData>

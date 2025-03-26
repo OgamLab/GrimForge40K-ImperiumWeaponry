@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AmmoSet -->
+
+ <AmmoSet_Lasgun_Pistol.label>батарея лазгана</AmmoSet_Lasgun_Pistol.label>
+<AmmoSet_Lasgun_Rifle.label>батарея  лазгана</AmmoSet_Lasgun_Rifle.label>
+<AmmoSet_Lasgun_HellGun.label>батарея  лазгана</AmmoSet_Lasgun_HellGun.label>
+<AmmoSet_Lasgun_Cannon.label>батарея  лазгана</AmmoSet_Lasgun_Cannon.label>
+
+</LanguageData>

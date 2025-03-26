@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Gun Base -->
+
+ <GF40K_RelicStubShotgun.label>реликтовый дробовик</GF40K_RelicStubShotgun.label>
+<GF40K_RelicStubShotgun.description>Брутальный дробовик для ближнего боя, дробовик  производит разрушительную очередь огня, что делает его идеальным для столкновений в упор, хотя его ограниченное бронепробиваемость означает, что он лучше всего подходит для противников без существенной защиты.</GF40K_RelicStubShotgun.description>
+<GF40K_RelicStubShotgun.tools.0.label>рукоятка</GF40K_RelicStubShotgun.tools.0.label>
+<GF40K_RelicStubShotgun.tools.1.label>ствол</GF40K_RelicStubShotgun.tools.1.label>
+
+<GF40K_RelicStubShotgunBullet.label>реликтовый дробовик</GF40K_RelicStubShotgunBullet.label>
+
+<GF40K_RelicStubHMG.label>выстрел из реликтовый стаб ПП</GF40K_RelicStubHMG.label>
+
+<GF40K_RelicStubHMG.description>Реликтовый стаб ПП — это зверь среди оружия средней дальности, способный выпустить шквал пуль за одну очередь. Хотя ему не хватает мощности для пробития тяжелой брони, он отлично справляется с подавлением врагов и прорывом сквозь слабозащищенные цели.</GF40K_RelicStubHMG.description>
+<GF40K_RelicStubHMG.tools.0.label>рукоятка</GF40K_RelicStubHMG.tools.0.label>
+<GF40K_RelicStubHMG.tools.1.label>ствол</GF40K_RelicStubHMG.tools.1.label>
+
+<GF40K_RelicStubHMGBullet.label>выстрел из реликтовый укороченный ПП</GF40K_RelicStubHMGBullet.label>
+
+<GF40K_RelicStubCarbine.label>реликтовый стаб карабин</GF40K_RelicStubCarbine.label>
+<GF40K_RelicStubCarbine.description>Универсальный стаб карабин, обеспечивающий как точность, так и останавливающую силу на средних и коротких дистанциях. Будь то уничтожение врагов в перестрелке или оказание поддержки, это оружие доказывает свою ценность против тех, кто осмеливается бросить вызов воле Императора.</GF40K_RelicStubCarbine.description>
+<GF40K_RelicStubCarbine.tools.0.label>рукоятка</GF40K_RelicStubCarbine.tools.0.label>
+<GF40K_RelicStubCarbine.tools.1.label>ствол</GF40K_RelicStubCarbine.tools.1.label>
+
+<GF40K_RelicStubCarbineBullet.label>выстрел из реликтового стаб-карабина</GF40K_RelicStubCarbineBullet.label>
+
+<GF40K_RelicStubPistol.label>реликтовый стаб-пистолет</GF40K_RelicStubPistol.label>
+<GF40K_RelicStubPistol.description>В ближнем бою реликтовый стаб-пистолет — верный спутник. Он может похвастаться приличной точностью вблизи, обеспечивая существенную останавливающую силу. Хотя он не предназначен для пробития брони, он может справиться с большинством угроз с беспощадной эффективностью.</GF40K_RelicStubPistol.description>
+<GF40K_RelicStubPistol.tools.0.label>рукоятка</GF40K_RelicStubPistol.tools.0.label>
+<GF40K_RelicStubPistol.tools.1.label>ствол</GF40K_RelicStubPistol.tools.1.label>
+
+<GF40K_RelicStubPistolBullet.label>реликтовый выстрел из пистолета</GF40K_RelicStubPistolBullet.label>
+
+<GF40K_RelicStubSniper.label>реликтовая стаб снайперская винтовка</GF40K_RelicStubSniper.label>
+<GF40K_RelicStubSniper.description>Для меткого стрелка винтовка реликтовая стаб снайперская винтовка — это воплощение точности на дальних и средних дистанциях. Хотя ей не хватает грубой силы некоторых видов оружия, ее точность и дальность делают ее грозным выбором против целей, которые достаточно глупы, чтобы показаться</GF40K_RelicStubSniper.description>
+<GF40K_RelicStubSniper.tools.0.label>рукоятка</GF40K_RelicStubSniper.tools.0.label>
+<GF40K_RelicStubSniper.tools.1.label>ствол</GF40K_RelicStubSniper.tools.1.label>
+
+<GF40K_RelicStubSniperBullet.label>реликтовый выстрел из стаб снайперской винтовки</GF40K_RelicStubSniperBullet.label>
+
+</LanguageData>

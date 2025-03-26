@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<!-- Рецепты -->
+
+<MakeAmmo_Bolter75_Standard.label>изготовить 200 патронов для болтера .75 калибра (стандартный).</MakeAmmo_Bolter75_Standard.label>
+<MakeAmmo_Bolter75_Standard.description>Создать 200 патронов для болтера .75 калибра (стандартный).</MakeAmmo_Bolter75_Standard.description>
+<MakeAmmo_Bolter75_Standard.jobString>Изготовление патронов для болтера .75 калибра (стандартный).</MakeAmmo_Bolter75_Standard.jobString>
+
+<MakeAmmo_Bolter75_Inferno.label>изготовить 200 патронов для болтера .75 калибра (инферно).</MakeAmmo_Bolter75_Inferno.label>
+<MakeAmmo_Bolter75_Inferno.description>Создать 200 патронов для болтера .75 калибра (инферно).</MakeAmmo_Bolter75_Inferno.description>
+<MakeAmmo_Bolter75_Inferno.jobString>Изготовление патронов для болтера .75 калибра (инферно).</MakeAmmo_Bolter75_Inferno.jobString>
+
+<MakeAmmo_Bolter75_MetalStorm.label>изготовить 200 патронов для болтера .75 калибра (металлический шторм).</MakeAmmo_Bolter75_MetalStorm.label>
+<MakeAmmo_Bolter75_MetalStorm.description>Создать 200 патронов для болтера .75 калибра (металлический шторм).</MakeAmmo_Bolter75_MetalStorm.description>
+<MakeAmmo_Bolter75_MetalStorm.jobString>Изготовление патронов для болтера .75 калибра (металлический шторм).</MakeAmmo_Bolter75_MetalStorm.jobString>
+
+<MakeAmmo_Bolter75_Kraken.label>изготовить 200 патронов для болтера .75 калибра (кракен).</MakeAmmo_Bolter75_Kraken.label>
+<MakeAmmo_Bolter75_Kraken.description>Создать 200 патронов для болтера .75 калибра (кракен).</MakeAmmo_Bolter75_Kraken.description>
+<MakeAmmo_Bolter75_Kraken.jobString>Изготовление патронов для болтера .75 калибра.</MakeAmmo_Bolter75_Kraken.jobString>
+
+<MakeAmmo_Bolter75_Tempest.label>изготовить 200 патронов для болтера .75 калибра (буря).</MakeAmmo_Bolter75_Tempest.label>
+<MakeAmmo_Bolter75_Tempest.description>Создать 200 патронов для болтера .75 калибра (буря).</MakeAmmo_Bolter75_Tempest.description>
+<MakeAmmo_Bolter75_Tempest.jobString>Изготовление патронов для болтера .75 калибра (буря).</MakeAmmo_Bolter75_Tempest.jobString>
+
+</LanguageData>

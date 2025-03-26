@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <!-- Боеприпасы -->
+
+<Ammo_PlasmaCanister.label>плазменный баллон</Ammo_PlasmaCanister.label>
+<Ammo_PlasmaCanister.description>Баллон с водородом под давлением, который служит в качестве сосуда для ионизации газа в плазму. Сжатый водород содержится в небольших укреплённых капсулах в полужидком или жидком состоянии. Эти плазменные капсулы являются потенциально смертоносными даже сами по себе, и почти наверняка первой плазменной гранатой была именно такая капсула.</Ammo_PlasmaCanister.description>
+
+<!-- Снаряды -->
+
+<Bullet_PlasmaPistol.label>плазменный пистолетный болт</Bullet_PlasmaPistol.label>
+<Bullet_PlasmaRifle.label>плазменный винтовочный болт</Bullet_PlasmaRifle.label>
+<Bullet_PlasmaCannon.label>плазменный пушковый болт</Bullet_PlasmaCannon.label>
+
+<!-- Для Warhammer 40k - Imperium Weaponry -->
+
+<Bullet_PlasmaPistol_Relic.label>плазменный пистолетный болт</Bullet_PlasmaPistol_Relic.label>
+<Bullet_PlasmaRifle_Relic.label>плазменный винтовочный болт</Bullet_PlasmaRifle_Relic.label>
+
+<!-- Для Grimhammer - Транспортные средства -->
+
+<Bullet_Laser_PlasmaDestroyer.label>плазменный луч</Bullet_Laser_PlasmaDestroyer.label>
+
+
+</LanguageData>

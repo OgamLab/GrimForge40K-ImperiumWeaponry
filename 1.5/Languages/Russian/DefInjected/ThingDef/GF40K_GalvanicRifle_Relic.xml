@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Gun Base -->
+
+<GF40K_RelicGalvanicRifle.label>реликтовая гальваническая винтовка</GF40K_RelicGalvanicRifle.label>
+<GF40K_RelicGalvanicRifle.description>Гальваническая винтовка, чудо изобретательности Механикус, напоминает древние кремневые ружья с Марса. Ее изготовленный вручную, старинный корпус скрывает усовершенствованные гальванические сервиторские пули, которые вырабатывают смертельную электрическую силу. Благодаря непревзойденным бронебойным возможностям выстрелы Гальванической винтовки могут пронзить нескольких противников, демонстрируя непреклонную точность и разрушительную силу.</GF40K_RelicGalvanicRifle.description>
+<GF40K_RelicGalvanicRifle.tools.0.label>рукоятка</GF40K_RelicGalvanicRifle.tools.0.label>
+<GF40K_RelicGalvanicRifle.tools.1.label>ствол</GF40K_RelicGalvanicRifle.tools.1.label>
+
+<GF40K_RelicGalvanicBullet.label>пуля Гаусса</GF40K_RelicGalvanicBullet.label>
+
+
+</LanguageData>

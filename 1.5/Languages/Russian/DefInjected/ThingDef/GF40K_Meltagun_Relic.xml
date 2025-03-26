@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New -->
+
+ <GF40K_HellgunRelic.label>реликтовый адский пистолет</GF40K_HellgunRelic.label>
+<GF40K_HellgunRelic.description>...</GF40K_HellgunRelic.description>
+<GF40K_HellgunRelic.tools.0.label>рукоятка</GF40K_HellgunRelic.tools.0.label>
+<GF40K_HellgunRelic.tools.1.label>ствол</GF40K_HellgunRelic.tools.1.label>
+
+<GF40K_Bullet_HellgunRelic.label>реликтовый выстрел из адского пистолета</GF40K_Bullet_HellgunRelic.label>
+<GF40K_Bullet_HellgunRelic.description>реликтовый адский пистолет выстрел.</GF40K_Bullet_HellgunRelic.description>
+
+
+</LanguageData>

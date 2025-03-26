@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+	<operations>
+	     <li Class="PatchOperationRemove">
+		         <xpath>Defs/ThingDef/tradeTags/li[.="CE_AutoEnableCrafting_GWAmmoBench"]</xpath>
+	     </li>
+	</operations>
+	</match>
+ </Operation>		
+	
+	
+	
+</Patch>

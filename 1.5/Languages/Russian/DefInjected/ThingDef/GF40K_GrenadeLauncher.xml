@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_GrenadeLauncher.label>гранатомет «Mk V Восса»</GF40K_GrenadeLauncher.label>
+<GF40K_GrenadeLauncher.description>Гранатомет «Mk V Восса» — мрачный вестник разрушения, который швыряет фугасные боеприпасы с непреклонной силой. Созданное для того, чтобы служить средством уничтожения на поле боя, это оружие запускает фугасные боеприпасы со смертоносной точностью. Его громовой удар сметает землю огненным хаосом, оставляя после себя только руины и отчаяние.</GF40K_GrenadeLauncher.description>
+<GF40K_GrenadeLauncher.tools.0.label>рукоятка</GF40K_GrenadeLauncher.tools.0.label>
+<GF40K_GrenadeLauncher.tools.1.label>ствол</GF40K_GrenadeLauncher.tools.1.label>
+
+<GF40K_HEShell.label>фугасный снаряд</GF40K_HEShell.label>
+
+
+</LanguageData>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pistol -->
+
+  <GF40K_BoltPistol.label>пистолет-болт</GF40K_BoltPistol.label>
+<GF40K_BoltPistol.description>Пистолет-болт выпускает неумолимый шторм самоходных снарядов калибра 0,75, каждый из которых обладает силой разрывать конечности и крушить кости при ударе. Являясь излюбленным выбором среди военных сил Империума, пистолет-болт служит мощным и утилитарным оружием. Его смертоносная точность и универсальность заслужили ему почетное место в бесчисленных сражениях по всей галактике.</GF40K_BoltPistol.description>
+<GF40K_BoltPistol.tools.0.label>рукоятка</GF40K_BoltPistol.tools.0.label>
+<GF40K_BoltPistol.tools.1.label>ствол</GF40K_BoltPistol.tools.1.label>
+
+<!-- Boltgun -->
+
+<GF40K_BoltGun.label>болтган</GF40K_BoltGun.label>
+<GF40K_BoltGun.description>Болтган яростно ревет, запуская самоходные боеприпасы калибра 0,75, которые детонируют при контакте, оставляя след разрушений. Это грозное оружие, способное отрубать целые конечности, вселяет ужас в сердца врагов, становясь символом беспощадного разрушения на поле боя.</GF40K_BoltGun.description>
+<GF40K_BoltGun.verbs.0.label>основной</GF40K_BoltGun.verbs.0.label>
+<GF40K_BoltGun.tools.0.label>рукоятка</GF40K_BoltGun.tools.0.label>
+<GF40K_BoltGun.tools.1.label>ствол</GF40K_BoltGun.tools.1.label>
+
+<!-- Снайпер -->
+
+<GF40K_BoltSniper.label>болтовая снайперская винтовка</GF40K_BoltSniper.label>
+<GF40K_BoltSniper.description>Снайперская болтовая винтовка — это искусное орудие смерти, в которой используются самодвижущиеся снаряды калибра 0,75, каждый из которых разработан для нанесения исключительно разрушительного урона. Это оружие, ориентированное на дальние дистанции, может отрывать конечности и оставлять жертву в замешательстве.</GF40K_BoltSniper.description>
+<GF40K_BoltSniper.tools.0.label>приклад</GF40K_BoltSniper.tools.0.label>
+<GF40K_BoltSniper.tools.1.label>ствол</GF40K_BoltSniper.tools.1.label>
+
+<!-- Пули -->
+
+<GF40K_075BoltBullet.label>пуля .75 болт</GF40K_075BoltBullet.label>
+<GF40K_075SniperBoltBullet.label>пуля .75 болт</GF40K_075SniperBoltBullet.label>
+
+
+</LanguageData>

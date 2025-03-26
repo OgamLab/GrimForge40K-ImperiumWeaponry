@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New -->
+
+  <GF40K_Brazier.label>жаровня</GF40K_Brazier.label>
+<GF40K_Brazier.description>...</GF40K_Brazier.description>
+<GF40K_Brazier.tools.0.label>ручка</GF40K_Brazier.tools.0.label>
+<GF40K_Brazier.tools.1.label>головка</GF40K_Brazier.tools.1.label>
+
+<GF40K_Bullet_Brazier.label>жаровня огненный шар</GF40K_Bullet_Brazier.label>
+
+
+</LanguageData>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_RelicChainSword.label>Реликтовый цепной меч</GF40K_RelicChainSword.label>
+<GF40K_RelicChainSword.description>Реликтовый цепной меч — это улучшенный вариант стандартного цепного меча. В руках опытного воина он становится продолжением его воли, прокладывая путь через поле боя с точностью и непоколебимой решимостью. Его непреклонная природа воплощает непреклонный дух тех, кто служит Императору и стремится защитить человечество от бесчисленных угроз.</GF40K_RelicChainSword.description>
+<GF40K_RelicChainSword.tools.0.label>задняя сторона</GF40K_RelicChainSword.tools.0.label>
+<GF40K_RelicChainSword.tools.1.label>цепь</GF40K_RelicChainSword.tools.1.label>
+<GF40K_RelicChainSword.tools.2.label>рукоятка</GF40K_RelicChainSword.tools.2.label>
+
+<!-- Новый -->
+
+<GF40K_RelicChainAxe.label>Реликтовый цепной топор</GF40K_RelicChainAxe.label>
+<GF40K_RelicChainAxe.description>...</GF40K_RelicChainAxe.description>
+<GF40K_RelicChainAxe.tools.0.label>задняя сторона</GF40K_RelicChainAxe.tools.0.label>
+<GF40K_RelicChainAxe.tools.1.label>цепь</GF40K_RelicChainAxe.tools.1.label>
+<GF40K_RelicChainAxe.tools.2.label>рукоятка</GF40K_RelicChainAxe.tools.2.label>
+
+<GF40K_RelicEviscerator.label>Реликтовый потрошитель</GF40K_RelicEviscerator.label>
+<GF40K_RelicEviscerator.description>Реликтовый потрошитель — это внушительное и смертоносное двуручное цепное оружие, настроенное и адаптированное для отражения Реликтности и боевого стиля его владельца. Его массивное лезвие обладает острым краем и режущей силой, способной калечить и уничтожать с непревзойденной эффективностью. Те, кто размахивает Реликтовым Потрошителем, делают это с яростной решимостью оставить свой след на поле боя.</GF40K_RelicEviscerator.description>
+<GF40K_RelicEviscerator.tools.0.label>задняя сторона</GF40K_RelicEviscerator.tools.0.label>
+<GF40K_RelicEviscerator.tools.1.label>цепь</GF40K_RelicEviscerator.tools.1.label>
+<GF40K_RelicEviscerator.tools.2.label>рукоятка</GF40K_RelicEviscerator.tools.2.label>
+
+<GF40K_RelicChainSpear.label>Реликтовое цепное копье</GF40K_RelicChainSpear.label>
+<GF40K_RelicChainSpear.description>...</GF40K_RelicChainSpear.description>
+<GF40K_RelicChainSpear.tools.0.label>цепь</GF40K_RelicChainSpear.tools.0.label>
+<GF40K_RelicChainSpear.tools.1.label>рукоять</GF40K_RelicChainSpear.tools.1.label>
+
+<GF40K_RelicPowerSabre.label>Реликтовая силовая Сабля</GF40K_RelicPowerSabre.label>
+<GF40K_RelicPowerSabre.description>Реликтовая силовая Сабля олицетворяет вершину мастерства и Реликтизации, органично сочетая изящество колющего оружия с чистой мощью ударов, наполненных энергией. Достижение мастерства владения этим оружием требует глубокой синхронизации силы и воинских инстинктов. Однако те, кто владеет мощью Relic Power Sabre, превращаются в грозную молнию на поле боя, прорезая противников с непреклонной силой и неукротимой решимостью, не боясь усталости.</GF40K_RelicPowerSabre.description>
+<GF40K_RelicPowerSabre.tools.0.label>наконечник</GF40K_RelicPowerSabre.tools.0.label>
+<GF40K_RelicPowerSabre.tools.1.label>лезвие</GF40K_RelicPowerSabre.tools.1.label>
+<GF40K_RelicPowerSabre.tools.2.label>рукоять</GF40K_RelicPowerSabre.tools.2.label>
+
+<GF40K_RelicPowerSword.label>Реликтовый силовой меч</GF40K_RelicPowerSword.label>
+<GF40K_RelicPowerSword.description>Реликтовый силовой меч является свидетельством связи, выкованной между воином и его оружием. Настроенный и реликтированный, чтобы отражать желания и особенности своего владельца, этот грозный клинок сочетает режущие и колющие возможности с грубой силой энергетического поля. С каждым взмахом он отражает непреклонную решимость тех, кто служит Империуму, вершит правосудие над врагами человечества.</GF40K_RelicPowerSword.description>
+<GF40K_RelicPowerSword.tools.0.label>наконечник</GF40K_RelicPowerSword.tools.0.label>
+<GF40K_RelicPowerSword.tools.1.label>лезвие</GF40K_RelicPowerSword.tools.1.label>
+<GF40K_RelicPowerSword.tools.2.label>рукоять</GF40K_RelicPowerSword.tools.2.label>
+
+
+</LanguageData>

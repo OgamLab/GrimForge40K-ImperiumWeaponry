@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_PhosphorPistolRelic.label>реликтовый фосфорный бластер</GF40K_PhosphorPistolRelic.label>
+<GF40K_PhosphorPistolRelic.description>Фосфорное оружие — это древняя и очень смертоносная форма уникального оружия, используемая вооруженными силами Адептус Механикус. Хотя ужас того, что в древние времена было известно как оружие Фосфекс, почти забыт в Империуме конца 41-го тысячелетия, ослепительно-белый огонь фосфорного оружия все еще используется воинами Легионов Скитариев для обозначения высокоприоритетных целей среди мрака поля боя.</GF40K_PhosphorPistolRelic.description>
+<GF40K_PhosphorPistolRelic.tools.0.label>рукоятка</GF40K_PhosphorPistolRelic.tools.0.label>
+<GF40K_PhosphorPistolRelic.tools.1.label>ствол</GF40K_PhosphorPistolRelic.tools.1.label>
+
+<GF40K_PhosphorPistolRelicBullet.label>реликтовый фосфорный бластер выстрел</GF40K_PhosphorPistolRelicBullet.label>
+
+<GF40K_RelicRadiumCarbine.label>реликтовый радиевый карабин</GF40K_RelicRadiumCarbine.label>
+<GF40K_RelicRadiumCarbine.description>Радиевый карабин — скорострельное оружие, способное вести карательный огонь с невероятной скоростью, и является основным вооружением Авангарда скитариев.</GF40K_RelicRadiumCarbine.description>
+<GF40K_RelicRadiumCarbine.tools.0.label>рукоятка</GF40K_RelicRadiumCarbine.tools.0.label>
+<GF40K_RelicRadiumCarbine.tools.1.label>ствол</GF40K_RelicRadiumCarbine.tools.1.label>
+
+<GF40K_RelicRadiumCarbineBullet.label>реликтовый выстрел из радиевого карабина</GF40K_RelicRadiumCarbineBullet.label>
+
+<GF40K_RelicRadiumPistol.label>реликтовый радиевый пистолет</GF40K_RelicRadiumPistol.label>
+<GF40K_RelicRadiumPistol.description>Радиевый пистолет — это небольшой пистолет, в котором используется уменьшенная радиевая технология, и который служит в качестве дополнительного оружия для скитариев Авангарда и рейнджеров Альфа.</GF40K_RelicRadiumPistol.description>
+<GF40K_RelicRadiumPistol.tools.0.label>рукоятка</GF40K_RelicRadiumPistol.tools.0.label>
+<GF40K_RelicRadiumPistol.tools.1.label>ствол</GF40K_RelicRadiumPistol.tools.1.label>
+
+<GF40K_RelicRadiumPistolBullet.label>реликтовый выстрел из радиевого пистолета</GF40K_RelicRadiumPistolBullet.label>
+
+
+</LanguageData>

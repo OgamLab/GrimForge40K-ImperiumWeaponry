@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <GF40K_Shock.label>ЭМИ</GF40K_Shock.label>
+<GF40K_Shock.deathMessage>{0} получил смертельный удар током.</GF40K_Shock.deathMessage>
+
+
+</LanguageData>
