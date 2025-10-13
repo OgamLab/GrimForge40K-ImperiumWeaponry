@@ -112,7 +112,6 @@
     <ThingDef ParentName="BaseBullet">
         <defName>GF40K_Bullet_BrazierRelic</defName>
         <label>relic brazier fireball</label>
-        <thingClass>GF40K_Misc.Projectile_Explosive_SafeForHunting</thingClass>
         <category>Projectile</category>
         <graphicData>
             <texPath>Things/Projectile/Fireball</texPath>
@@ -127,11 +126,6 @@
             <speed>90</speed>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
         </projectile>
-		<modExtensions>
-			<li Class="GF40K_Misc.ModExt_ExplosionRadius">
-				<radius>0.9</radius>
-			</li>
-		</modExtensions>
     </ThingDef>
 	
 </Defs>

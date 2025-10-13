@@ -91,7 +91,7 @@
         </costList>
 		<verbs>
 			<li>
-				<verbClass>HeavyWeapons.Verb_Shoot</verbClass>
+				<verbClass>Verb_Shoot</verbClass>
 				<defaultProjectile>GF40K_HEShell</defaultProjectile>
 				<hasStandardCommand>true</hasStandardCommand>
 				<forcedMissRadius>2.9</forcedMissRadius>

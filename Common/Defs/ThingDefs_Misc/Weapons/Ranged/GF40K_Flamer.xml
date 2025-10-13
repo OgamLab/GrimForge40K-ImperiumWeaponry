@@ -108,10 +108,10 @@
 		</colorGenerator>
     </ThingDef>
 	
-	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+	<VEF.Weapons.ExpandableProjectileDef ParentName="BaseBullet">
 		<defName>GF40K_FlamerBullet</defName>
 		<label>flamer's flame</label>
-		<thingClass>VFECore.FlamethrowProjectile</thingClass>
+		<thingClass>VEF.Weapons.FlamethrowProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/Substitute/Proj_HeavyFlamer</texPath>
 			<texPathFadeOut>Things/Projectile/Substitute/Proj_HeavyFlamerFadeOut</texPathFadeOut>
@@ -135,5 +135,5 @@
 		<tickDamageRate>10</tickDamageRate>
 		<dealsDamageOnce>true</dealsDamageOnce>
 		<minDistanceToAffect>2</minDistanceToAffect>
-	</VFECore.ExpandableProjectileDef>
+	</VEF.Weapons.ExpandableProjectileDef>
 </Defs>

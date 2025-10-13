@@ -56,7 +56,7 @@
 	
 	<ThingDef Name="GF40K_BaseMeleeForce_Oversize" ParentName="GF40K_BaseMeleeForce" Abstract="True">
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
 					<north>
 						<drawOffset>(0.34,0,0.60)</drawOffset>

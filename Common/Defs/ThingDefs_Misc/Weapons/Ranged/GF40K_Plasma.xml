@@ -129,9 +129,9 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-		<!--thingClass MayRequire="vanillaexpanded.vwel">VanillaWeaponsExpandedLaser.LaserGun</thingClass-->
-		<!--comps>
-			<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor" MayRequire="vanillaexpanded.vwel">
+		<thingClass MayRequire="VanillaExpanded.VWEL">VEF.Weapons.LaserGun</thingClass>
+		<comps>
+			<li Class="VEF.Weapons.CompProperties_LaserCapacitor" MayRequire="VanillaExpanded.VWEL">
 				<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
 				<WarmUpReductionPerShot>0.30</WarmUpReductionPerShot>
 				<Overheats>true</Overheats>
@@ -143,7 +143,7 @@
 				<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
 				<OverheatMoteSize>1</OverheatMoteSize>
 			</li>		
-		</comps-->
+		</comps>
 		
 		<modExtensions>
 			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">

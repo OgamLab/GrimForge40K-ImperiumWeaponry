@@ -60,7 +60,7 @@
     </comps>
 	<equippedDistanceOffset>-0.4</equippedDistanceOffset>
 	<modExtensions>
-		<li Class="VFECore.ThingDefExtension">
+		<li Class="VEF.Things.ThingDefExtension">
 			<weaponDraftedDrawOffsets>
 				<north>
 					<drawOffset>(0.1,0,0.2)</drawOffset>

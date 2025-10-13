@@ -60,9 +60,9 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-		<thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+		<thingClass>VEF.Weapons.LaserGun</thingClass>
 		<comps>
-			<li Class="VanillaWeaponsExpandedLaser.CompProperties_LaserCapacitor" MayRequire="vanillaexpanded.vwel">
+			<li Class="VEF.Weapons.CompProperties_LaserCapacitor" MayRequire="VanillaExpanded.VWEL">
 				<UiIconPath>UI/EnableWarmup/EnableWarmup</UiIconPath>
 				<WarmUpReductionPerShot>0.18</WarmUpReductionPerShot>
 				<Overheats>true</Overheats>
@@ -87,17 +87,16 @@
 		</modExtensions>
     </ThingDef>
 	
-	<ThingDef ParentName="GF40K_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_Bullet_HellgunRelic</defName>
 		<label>relic hellgun shot</label>
-		<description>a relic hellgun shot.</description>
-		<textures>
-			<li>Things/Projectile/GF40K/Shot_SalvagedLaserRifle</li>
-		</textures>
-		<seam>0</seam>
-		<causefireChance>0</causefireChance>
-		<beamWidth>1.25</beamWidth>
-		<lifetime>100</lifetime>
+		<graphicData>
+			<texPath>Things/Projectile/ChargeLanceShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>0.8</drawSize>
+			<color>(255, 150, 138)</color>
+		</graphicData>
 		<projectile>
 			<damageDef>Burn</damageDef>
 			<damageAmountBase>35</damageAmountBase>
@@ -106,4 +105,5 @@
 			<explosionRadius>1.9</explosionRadius>
 		</projectile>
 	</ThingDef>
+	
 </Defs>

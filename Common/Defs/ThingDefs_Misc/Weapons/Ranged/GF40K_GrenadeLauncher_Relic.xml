@@ -67,7 +67,7 @@
         </statBases>
 		<verbs>
 			<li>
-				<verbClass>HeavyWeapons.Verb_Shoot</verbClass>
+				<verbClass>Verb_Shoot</verbClass>
 				<defaultProjectile>GF40K_HEShell_Relic</defaultProjectile>
 				<hasStandardCommand>true</hasStandardCommand>
 				<forcedMissRadius>2.9</forcedMissRadius>

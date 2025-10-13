@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+	<VEF.Weapons.ExpandableProjectileDef ParentName="BaseBullet">
 		<defName>GF40K_ArkGaussPistolBullet</defName>
 		<label>arc pistol bullet</label>
 		<projectile>
@@ -11,7 +11,7 @@
 			<stoppingPower>0.8</stoppingPower>
 			<speed>120</speed>
 		</projectile>
-		<thingClass>VFECore.GaussProjectile</thingClass>
+		<thingClass>VEF.Weapons.GaussProjectile</thingClass>
 		<graphicData>
 			<texPath>Projectiles/Proj_CoilgunFadeIn</texPath>
 			<texPathFadeOut>Projectiles/Proj_CoilgunFadeOut</texPathFadeOut>
@@ -51,9 +51,9 @@
 			<li>Marble</li>
 			<li>SmoothedMarble</li>
 		</stopWhenHitAt>
-	</VFECore.ExpandableProjectileDef>
+	</VEF.Weapons.ExpandableProjectileDef>
 
-	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+	<VEF.Weapons.ExpandableProjectileDef ParentName="BaseBullet">
 		<defName>GF40K_ArkGaussRifleBullet</defName>
 		<label>arc rifle bullet</label>
 		<projectile>
@@ -63,7 +63,7 @@
 			<stoppingPower>1</stoppingPower>
 			<speed>115</speed>
 		</projectile>
-		<thingClass>VFECore.GaussProjectile</thingClass>
+		<thingClass>VEF.Weapons.GaussProjectile</thingClass>
 		<graphicData>
 			<texPath>Projectiles/Proj_CoilgunFadeIn</texPath>
 			<texPathFadeOut>Projectiles/Proj_CoilgunFadeOut</texPathFadeOut>
@@ -103,6 +103,6 @@
 			<li>Marble</li>
 			<li>SmoothedMarble</li>
 		</stopWhenHitAt>
-	</VFECore.ExpandableProjectileDef>
+	</VEF.Weapons.ExpandableProjectileDef>
 
 </Defs>

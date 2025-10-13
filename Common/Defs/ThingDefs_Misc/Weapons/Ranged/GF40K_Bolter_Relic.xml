@@ -261,7 +261,6 @@
     <ThingDef ParentName="BaseBullet">
         <defName>GF40K_075BoltBulletRelic</defName>
         <label>.75 relic bolt bullet</label>
-        <thingClass>GF40K_Misc.Projectile_Explosive_SafeForHunting</thingClass>
         <category>Projectile</category>
         <useHitPoints>False</useHitPoints>
         <tickerType>Normal</tickerType>
@@ -279,17 +278,11 @@
             <speed>90</speed>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
         </projectile>
-		<modExtensions>
-			<li Class="GF40K_Misc.ModExt_ExplosionRadius">
-				<radius>0.9</radius>
-			</li>
-		</modExtensions>
     </ThingDef>
 	
     <ThingDef ParentName="BaseBullet">
         <defName>GF40K_075SniperBoltBulletRelic</defName>
         <label>.75 relic bolt bullet</label>
-        <thingClass>GF40K_Misc.Projectile_Explosive_SafeForHunting</thingClass>
         <category>Projectile</category>
         <useHitPoints>False</useHitPoints>
         <tickerType>Normal</tickerType>
@@ -307,10 +300,5 @@
             <speed>95</speed>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
         </projectile>
-		<modExtensions>
-			<li Class="GF40K_Misc.ModExt_ExplosionRadius">
-				<radius>1.1</radius>
-			</li>
-		</modExtensions>
     </ThingDef>
 </Defs>

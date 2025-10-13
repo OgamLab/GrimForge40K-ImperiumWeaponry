@@ -51,7 +51,7 @@
 	
 	<ThingDef Name="GF40K_BaseRangedForce_Oversize" ParentName="GF40K_BaseMeleeForce" Abstract="True">
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
 					<north>
 						<drawOffset>(0.34,0,0.60)</drawOffset>
@@ -209,8 +209,8 @@
 		</tools>	
 	</ThingDef>
 	
-	<VFECore.ExpandableProjectileDef Name="GF40K_ZapBullet" ParentName="BaseBullet" Abstract="True">
-		<thingClass>VFECore.ExpandableProjectile</thingClass>
+	<VEF.Weapons.ExpandableProjectileDef Name="GF40K_ZapBullet" ParentName="BaseBullet" Abstract="True">
+		<thingClass>VEF.Weapons.ExpandableProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/GF40K/Shot_TeslaGun</texPath>
 			<texPathFadeOut>Things/Projectile/GF40K/Shot_TeslaGun</texPathFadeOut>
@@ -233,14 +233,14 @@
 		<tickDamageRate>30</tickDamageRate>
 		<dealsDamageOnce>true</dealsDamageOnce>
 		<minDistanceToAffect>2</minDistanceToAffect>
-	</VFECore.ExpandableProjectileDef>
+	</VEF.Weapons.ExpandableProjectileDef>
 	
-	<VFECore.ExpandableProjectileDef ParentName="GF40K_ZapBullet">
+	<VEF.Weapons.ExpandableProjectileDef ParentName="GF40K_ZapBullet">
 		<defName>GF40K_ForceStaffZap</defName>
 		<label>force staff zap</label>
-	</VFECore.ExpandableProjectileDef>
+	</VEF.Weapons.ExpandableProjectileDef>
 	
-	<VFECore.ExpandableProjectileDef ParentName="GF40K_ZapBullet">
+	<VEF.Weapons.ExpandableProjectileDef ParentName="GF40K_ZapBullet">
 		<defName>GF40K_ForceTomeZap</defName>
 		<label>relic tome zap</label>
 		<projectile>
@@ -248,6 +248,6 @@
 		</projectile>
 		<widthScaleFactor>0.15</widthScaleFactor>
 		<lifeTimeDuration>5</lifeTimeDuration>
-	</VFECore.ExpandableProjectileDef>
+	</VEF.Weapons.ExpandableProjectileDef>
 	
 </Defs>

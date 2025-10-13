@@ -301,7 +301,6 @@
     <ThingDef ParentName="BaseBullet">
         <defName>GF40K_075BoltBullet</defName>
         <label>.75 bolt bullet</label>
-        <thingClass>GF40K_Misc.Projectile_Explosive_SafeForHunting</thingClass>
         <category>Projectile</category>
         <graphicData>
             <texPath>Things/Projectile/W_0.75</texPath>
@@ -316,17 +315,11 @@
             <speed>90</speed>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
         </projectile>
-		<modExtensions>
-			<li Class="GF40K_Misc.ModExt_ExplosionRadius">
-				<radius>0.9</radius>
-			</li>
-		</modExtensions>
     </ThingDef>
 	
     <ThingDef ParentName="BaseBullet">
         <defName>GF40K_075SniperBoltBullet</defName>
         <label>.75 bolt bullet</label>
-        <thingClass>GF40K_Misc.Projectile_Explosive_SafeForHunting</thingClass>
         <category>Projectile</category>
         <graphicData>
             <texPath>Things/Projectile/W_0.75</texPath>
@@ -341,10 +334,5 @@
             <speed>95</speed>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
         </projectile>
-		<modExtensions>
-			<li Class="GF40K_Misc.ModExt_ExplosionRadius">
-				<radius>1.1</radius>
-			</li>
-		</modExtensions>
     </ThingDef>
 </Defs>

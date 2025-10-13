@@ -60,7 +60,7 @@
 	<ThingDef Name="GF40K_BaseMeleeMechanicus_Oversize" ParentName="GF40K_BaseMeleeMechanicus" Abstract="True">
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
 					<north>
 						<drawOffset>(0.34,0,0.50)</drawOffset>

@@ -12,11 +12,11 @@
         <disappearsAfterTicks>600~600</disappearsAfterTicks>
       </li>
       <li Class="HediffCompProperties_DisappearsOnDeath" />
-	  <li Class="GF40K_Misc.HediffCompProperties_RandomDamage">
+	  <!--<li Class="GF40K_Misc.HediffCompProperties_RandomDamage">
         <intervalTicks>60</intervalTicks>
         <amount>4~8</amount>
         <damageDef>VEF_SecondaryAcidBurn</damageDef>
-      </li>
+      </li>-->
     </comps>
   </HediffDef>
   

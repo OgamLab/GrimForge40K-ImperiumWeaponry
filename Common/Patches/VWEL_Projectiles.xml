@@ -16,7 +16,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>		
-						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_LaserPistolBulletVWEL</defName>
 							<label>laser gun shot</label>
 							<textures>
@@ -45,7 +45,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>		
-						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_LaserGunBulletVWEL</defName>
 							<label>laser gun shot</label>
 							<textures>
@@ -74,7 +74,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>		
-						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_LaserSniperBulletVWEL</defName>
 							<label>laser gun shot</label>
 							<textures>
@@ -103,7 +103,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>		
-						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_LaserSMGBulletVWEL</defName>
 							<label>laser gun shot</label>
 							<textures>
@@ -139,7 +139,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>		
-						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_LaserCarbineBulletVWEL</defName>
 							<label>laser gun shot</label>
 							<textures>
@@ -165,12 +165,42 @@
 					</value>
 				 </li>
 				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>		
+						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
+							<defName>GF40K_Bullet_HellgunVWEL</defName>
+							<label>relic lascarbine shot</label>
+							<textures>
+								<li>Things/Projectile/Shot_LaserShotgun</li>
+							</textures>
+							<seam>0.0</seam>
+							<causefireChance>0.15</causefireChance>
+							<beamWidth>1.2</beamWidth>
+							<projectile>
+								<damageDef>Burn</damageDef>
+								<damageAmountBase>23.9</damageAmountBase>
+								<armorPenetrationBase>.85</armorPenetrationBase>
+								<stoppingPower>1.7</stoppingPower>
+							</projectile>
+						</ThingDef>
+					</value>
+				 </li>
+			
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="GF40K_Hellgun"]/verbs/li[1]/defaultProjectile</xpath>
+					<value>		
+						<defaultProjectile>GF40K_Bullet_HellgunVWEL</defaultProjectile>
+					</value>
+				 </li>
+
+
 				<!-- RELIC -->
 			
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>		
-						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_RelicLaserPistolBulletVWEL</defName>
 							<label>laser gun shot</label>
 							<textures>
@@ -199,7 +229,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>		
-						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_RelicLaserGunBulletVWEL</defName>
 							<label>laser gun shot</label>
 							<textures>
@@ -228,7 +258,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>		
-						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_RelicLaserSniperBulletVWEL</defName>
 							<label>laser gun shot</label>
 							<textures>
@@ -257,7 +287,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>		
-						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_RelicLaserSMGBulletVWEL</defName>
 							<label>relic las-SMG shot</label>
 							<textures>
@@ -293,7 +323,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>		
-						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_RelicLaserCarbineBulletVWEL</defName>
 							<label>relic lascarbine shot</label>
 							<textures>
@@ -318,6 +348,36 @@
 						<defaultProjectile>GF40K_RelicLaserCarbineBulletVWEL</defaultProjectile>
 					</value>
 				 </li>
+
+				 <li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>		
+						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
+							<defName>GF40K_Bullet_HellgunRelicVWEL</defName>
+							<label>relic lascarbine shot</label>
+							<textures>
+								<li>Things/Projectile/Shot_LaserShotgun</li>
+							</textures>
+							<seam>0.0</seam>
+							<causefireChance>0.15</causefireChance>
+							<beamWidth>1.2</beamWidth>
+							<projectile>
+								<damageDef>Burn</damageDef>
+								<damageAmountBase>23.9</damageAmountBase>
+								<armorPenetrationBase>.85</armorPenetrationBase>
+								<stoppingPower>1.7</stoppingPower>
+							</projectile>
+						</ThingDef>
+					</value>
+				 </li>
+			
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="GF40K_HellgunRelic"]/verbs/li[1]/defaultProjectile</xpath>
+					<value>		
+						<defaultProjectile>GF40K_Bullet_HellgunRelicVWEL</defaultProjectile>
+					</value>
+				 </li>
+				
 			</operations>
 			</nomatch>
 		</li>
