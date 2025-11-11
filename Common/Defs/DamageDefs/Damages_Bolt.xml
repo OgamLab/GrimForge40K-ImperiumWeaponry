@@ -2,7 +2,7 @@
 <Defs>
   
 
-<DamageDef ParentName="Bomb">
+<DamageDef ParentName="Bomb" Name="GF40K_BoltRoundBase">
     <defName>GF40K_Bolt</defName>
     <label>bolt explosion</label>
     <workerClass>DamageWorker_AddInjury</workerClass>
@@ -31,6 +31,37 @@
     <makesAnimalsFlee>true</makesAnimalsFlee>
     <soundExplosion>GunShotA</soundExplosion>
     <combatLogRules>Damage_Bomb</combatLogRules>
+  </DamageDef>
+
+  <!-- Metal Storm -->
+  <DamageDef ParentName="GF40K_BoltRoundBase">
+    <defName>GF40K_BoltMetalStorm</defName>
+    <label>shrapnel explosion</label>
+    <workerClass>DamageWorker_Cut</workerClass>
+    <deathMessage>{0} discovered that the air itself can turn into shrapnel.</deathMessage>
+    <hediff>Cut</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <plantDamageFactor>10</plantDamageFactor>
+    <explosionCellFleck>PlainFlash</explosionCellFleck>
+    <explosionColorCenter>(30, 30, 30)</explosionColorCenter>
+    <explosionColorEdge>(15, 15, 15)</explosionColorEdge>
+  </DamageDef>
+
+  <!-- Inferno -->
+  <DamageDef ParentName="GF40K_BoltRoundBase">
+    <defName>GF40K_BoltInferno</defName>
+    <label>inferno bolt explosion</label>
+    <deathMessage>{0} found out what "Inferno" stands for in an Inferno bolt.</deathMessage>
+    <armorCategory>Heat</armorCategory>
+    <defaultDamage>20</defaultDamage>
+    <igniteChanceByTargetFlammability>
+      <points>
+        <li>(0, 0)</li>
+        <li>(1, 2)</li>
+      </points>
+    </igniteChanceByTargetFlammability>
+    <igniteCellChance>1</igniteCellChance>
+    <explosionCellFleck>PlainFlash</explosionCellFleck>
   </DamageDef>
 
 </Defs>

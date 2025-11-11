@@ -5,7 +5,7 @@
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- <relicChance>3</relicChance> -->
@@ -86,7 +86,7 @@
 		<description>The Force Halberd is a finely crafted polearm with a long, curved blade and a sturdy haft. Its blade emits an aura of psychic might. Each strike taps into the wielder's psychic energies, enhancing their innate psychic abilities. In skilled hands, it becomes a devastating weapon, slicing through foes and unlocking untold mental potential.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/ForceHalberd</texPath>
-			<drawSize>1.5</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<tools>
 			<li>

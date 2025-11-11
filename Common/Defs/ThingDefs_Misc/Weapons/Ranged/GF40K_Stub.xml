@@ -5,7 +5,7 @@
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- <relicChance>3</relicChance> -->
@@ -148,7 +148,7 @@
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
@@ -228,7 +228,7 @@
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
@@ -248,19 +248,18 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-            <WorkToMake>42000</WorkToMake>
-			<MarketValue>2500</MarketValue>
-            <Mass>3.7</Mass>
-            <AccuracyTouch>0.65</AccuracyTouch>
-            <AccuracyShort>0.72</AccuracyShort>
-            <AccuracyMedium>0.57</AccuracyMedium>
-            <AccuracyLong>0.4</AccuracyLong>
-            <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+            <WorkToMake>22000</WorkToMake>
+			<MarketValue>1200</MarketValue>
+            <Mass>3</Mass>
+            <AccuracyTouch>0.7</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.45</AccuracyMedium>
+            <AccuracyLong>0.2</AccuracyLong>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>50</Plasteel>
-			<Uranium>5</Uranium>
-			<ComponentIndustrial>5</ComponentIndustrial>
+            <Steel>50</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
         </costList>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
@@ -271,7 +270,7 @@
                 <warmupTime>1</warmupTime>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-                <range>25.9</range>
+                <range>28.9</range>
 				<soundCast>Shot_Shotgun</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -308,13 +307,13 @@
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>17</damageAmountBase>
+			<damageAmountBase>13</damageAmountBase>
 			<stoppingPower>2.5</stoppingPower>
-			<armorPenetrationBase>0.43</armorPenetrationBase>
+			<armorPenetrationBase>0.22</armorPenetrationBase>
 			<speed>60</speed>
 		</projectile>
 	</ThingDef>
@@ -329,18 +328,17 @@
 			<drawSize>0.6</drawSize>
         </graphicData>
         <statBases>
-            <WorkToMake>18000</WorkToMake>
-			<MarketValue>2500</MarketValue>
-            <Mass>3.7</Mass>
-            <AccuracyTouch>0.8</AccuracyTouch>
-            <AccuracyShort>0.73</AccuracyShort>
-            <AccuracyMedium>0.42</AccuracyMedium>
-            <AccuracyLong>0.32</AccuracyLong>
+            <WorkToMake>14000</WorkToMake>
+			<MarketValue>800</MarketValue>
+            <Mass>1.2</Mass>
+            <AccuracyTouch>0.68</AccuracyTouch>
+            <AccuracyShort>0.72</AccuracyShort>
+            <AccuracyMedium>0.40</AccuracyMedium>
+            <AccuracyLong>0.15</AccuracyLong>
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>30</Plasteel>
-			<Uranium>5</Uranium>
+			<Steel>30</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
         </costList>
         <verbs>
@@ -349,7 +347,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_StubPistolBullet</defaultProjectile>
                 <warmupTime>0.3</warmupTime>
-                <range>25.9</range>
+                <range>20.9</range>
 				<soundCast>Shot_Shotgun</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -386,13 +384,13 @@
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>14</damageAmountBase>
+			<damageAmountBase>10</damageAmountBase>
 			<stoppingPower>2.5</stoppingPower>
-			<armorPenetrationBase>0.43</armorPenetrationBase>
+			<armorPenetrationBase>0.18</armorPenetrationBase>
 			<speed>60</speed>
 		</projectile>
 	</ThingDef>
@@ -464,7 +462,7 @@
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>

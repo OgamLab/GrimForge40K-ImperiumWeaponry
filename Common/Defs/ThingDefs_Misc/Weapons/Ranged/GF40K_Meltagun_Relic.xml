@@ -3,7 +3,7 @@
 	<!-- New -->
     <ThingDef ParentName="GF40K_BaseRangedLaserRelic">
         <defName>GF40K_HellgunRelic</defName>
-        <label>relic hellgun</label>
+        <label>Sanctified XXX hellgun</label>
         <description>...</description> <!-- Description here -->
 		<graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Special/RelicHellgun</texPath>
@@ -89,12 +89,12 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_Bullet_HellgunRelic</defName>
-		<label>relic hellgun shot</label>
+		<label>Sanctified XXX hellgun shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.85</drawSize>
 			<color>(255, 150, 138)</color>
 		</graphicData>
 		<projectile>

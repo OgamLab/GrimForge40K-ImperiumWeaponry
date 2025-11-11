@@ -4,13 +4,13 @@
 	<!-- New -->
  <ThingDef ParentName="BaseGun">
     <defName>GF40K_MissileLauncher_Relic</defName>
-    <label>Relic Proteus Missile Launcher</label>
+    <label>Sanctified XXX Proteus Missile Launcher</label>
     <description>...</description> <!-- Desc here -->
     <tickerType>Normal</tickerType>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/Special/RelicMissileLauncher</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>1.1</drawSize>
+	  <drawSize>0.85</drawSize>
     </graphicData>
 	<relicChance>2</relicChance>
 	<generateCommonality>1</generateCommonality>
@@ -135,7 +135,7 @@
   
   <ThingDef ParentName="BaseBullet">
     <defName>GF40K_Bullet_MissileRelic</defName>
-    <label>relic proteus missile</label>
+    <label>Sanctified XXX proteus missile</label>
     <graphicData>
       <texPath>Things/Projectile/Rocket_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>

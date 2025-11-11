@@ -5,7 +5,7 @@
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<relicChance>0</relicChance>
@@ -71,23 +71,23 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Special/GrandeLuncher</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
 		
         <statBases>
-            <WorkToMake>106000</WorkToMake>
-			<MarketValue>3000</MarketValue>
-            <Mass>1.8</Mass>
-            <AccuracyTouch>0.82</AccuracyTouch>
+            <WorkToMake>55000</WorkToMake>
+			<MarketValue>3200</MarketValue>
+            <Mass>7</Mass>
+            <AccuracyTouch>0.6</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
-            <AccuracyMedium>0.65</AccuracyMedium>
-            <AccuracyLong>0.55</AccuracyLong>
-            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+            <AccuracyMedium>0.75</AccuracyMedium>
+            <AccuracyLong>0.7</AccuracyLong>
+            <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <Steel>80</Steel>
-			<Plasteel>50</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+            <Steel>110</Steel>
+			<Plasteel>8</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
         </costList>
 		<verbs>
 			<li>
@@ -99,7 +99,7 @@
 				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
 				<warmupTime>3.5</warmupTime>
 				<minRange>6.9</minRange>
-				<range>36.9</range>
+				<range>32.9</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>Mortar_LaunchA</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
@@ -152,7 +152,8 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 		  <damageDef>Bomb</damageDef>
-		  <!-- damage amount is the damage def default, so 50 dmg and 0.1 AP? -->
+		  <damageAmountBase>35</damageAmountBase>
+			<armorPenetrationBase>0.4</armorPenetrationBase>
 		  <speed>40</speed>
 		  <explosionRadius>3.9</explosionRadius>
 		  <arcHeightFactor>0.3</arcHeightFactor>

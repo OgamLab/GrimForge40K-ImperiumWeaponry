@@ -170,7 +170,7 @@
 					<value>		
 						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_Bullet_HellgunVWEL</defName>
-							<label>relic lascarbine shot</label>
+							<label>Sanctified XXX lascarbine shot</label>
 							<textures>
 								<li>Things/Projectile/Shot_LaserShotgun</li>
 							</textures>
@@ -289,7 +289,7 @@
 					<value>		
 						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_RelicLaserSMGBulletVWEL</defName>
-							<label>relic las-SMG shot</label>
+							<label>Sanctified XXX las-SMG shot</label>
 							<textures>
 								<li>Things/Projectile/Shot_LaserShotgun</li>
 							</textures>
@@ -325,7 +325,7 @@
 					<value>		
 						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_RelicLaserCarbineBulletVWEL</defName>
-							<label>relic lascarbine shot</label>
+							<label>Sanctified XXX lascarbine shot</label>
 							<textures>
 								<li>Things/Projectile/Shot_LaserShotgun</li>
 							</textures>
@@ -354,7 +354,7 @@
 					<value>		
 						<ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
 							<defName>GF40K_Bullet_HellgunRelicVWEL</defName>
-							<label>relic lascarbine shot</label>
+							<label>Sanctified XXX lascarbine shot</label>
 							<textures>
 								<li>Things/Projectile/Shot_LaserShotgun</li>
 							</textures>

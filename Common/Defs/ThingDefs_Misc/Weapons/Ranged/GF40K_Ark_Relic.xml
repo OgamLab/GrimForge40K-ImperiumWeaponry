@@ -6,7 +6,7 @@
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<relicChance>2</relicChance>
@@ -38,17 +38,16 @@
 			</li>  
 			<li Class="CompProperties_Forbiddable"/>      
 			<li Class="CompProperties_Styleable"/>
-			<li Class="CompProperties_Biocodable"/>
 		</comps>
 	</ThingDef>
 	
     <ThingDef ParentName="GF40K_BaseRangedArkRelic">
         <defName>GF40K_RelicArkPistol</defName>
-        <label>relic arc pistol</label>
+        <label>Sanctified XXX arc pistol</label>
         <description>The Arc Pistol is a compact sidearm that harnesses cutting-edge Arc Weapon technology and draws the raw power from ancient perma-capacitors sourced from Mars' revered repository. With each discharge, the Arc Pistol unleashes thunderous cracks, firing bolts of electrifying blue-white energy that can incapacitate even the hardiest of foes.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/ArkPistol_relic</texPath>
-			<drawSize>0.6</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
         <statBases>
 			<MarketValue>3500</MarketValue>
@@ -138,10 +137,11 @@
 	
     <ThingDef ParentName="GF40K_BaseRangedArkRelic">
         <defName>GF40K_RelicArkRifle</defName>
-        <label>relic arc rifle</label>
+        <label>Sanctified XXX arc rifle</label>
         <description>The Arc Rifle is a rapid-firing weapon of remarkable Mechanicus ingenuity. Its shots channel the unforgiving power of ancient perma-capacitors retrieved from the sacred vaults of Mars. Encased within its revered zinc-plated blocks lies the untapped potential of long-forgotten eras. With each discharge, the Arc Rifle fills the air with resonating cracks, propelling blots of blue-white electricity that can obliterate the strongest of adversaries.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/ArkRifle_relic</texPath>
+            <drawSize>0.85</drawSize>
         </graphicData>
         <statBases>
 			<MarketValue>4500</MarketValue>

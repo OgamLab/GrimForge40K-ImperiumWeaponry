@@ -5,7 +5,7 @@
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<relicChance>2</relicChance>
@@ -48,12 +48,12 @@
 	
     <ThingDef ParentName="GF40K_BaseRangedRelicGrenade">
         <defName>GF40K_RelicGrenadeLauncher</defName>
-        <label>relic grenade launcher</label>
+        <label>Sanctified XXX grenade launcher</label>
         <description>The Grenade Launcher is a grim herald of devastation that hurls high-explosive munitions with unyielding force. Assembled to serve as a deliverer of destruction on the battlefield, this weapon launches explosive ordnance with deadly accuracy. Its thunderous impact sweeps the ground with fiery chaos, leaving only ruin and despair in its wake.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/GrenadeLauncher_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
 		
         <statBases>

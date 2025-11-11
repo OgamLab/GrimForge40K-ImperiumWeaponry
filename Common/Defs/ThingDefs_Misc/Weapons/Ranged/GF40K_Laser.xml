@@ -5,7 +5,7 @@
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<relicChance>0</relicChance>
@@ -68,25 +68,24 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasPistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
 		
         <statBases>
-            <WorkToMake>27000</WorkToMake>
-			<MarketValue>2000</MarketValue>
-            <Mass>1.8</Mass>
-            <AccuracyTouch>0.82</AccuracyTouch>
-            <AccuracyShort>0.70</AccuracyShort>
-            <AccuracyMedium>0.65</AccuracyMedium>
-            <AccuracyLong>0.55</AccuracyLong>
+            <WorkToMake>28000</WorkToMake>
+			<MarketValue>1200</MarketValue>
+            <Mass>1.5</Mass>
+            <AccuracyTouch>0.7</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.45</AccuracyMedium>
+            <AccuracyLong>0.2</AccuracyLong>
             <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>60</Plasteel>
-			<Uranium>5</Uranium>
-			<ComponentSpacer>4</ComponentSpacer>
+			<Steel>60</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
         </costList>
         <verbs>
             <li>
@@ -94,7 +93,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_LaserBullet</defaultProjectile>
                 <warmupTime>1</warmupTime>
-                <range>23.9</range>
+                <range>22.9</range>
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -156,13 +155,13 @@
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.85</drawSize>
 			<color>(255, 150, 138)</color>
 		</graphicData>
 		<projectile>
-			<damageDef>Burn</damageDef>
-			<damageAmountBase>14</damageAmountBase>
-			<armorPenetrationBase>0.82</armorPenetrationBase>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
 			<stoppingPower>1.2</stoppingPower>
 			<speed>90</speed>
 		</projectile>
@@ -185,18 +184,18 @@
 		<equippedAngleOffset>50</equippedAngleOffset>
 		
         <statBases>
-            <WorkToMake>38000</WorkToMake>
-			<MarketValue>3100</MarketValue>
-            <Mass>2.8</Mass>
+            <WorkToMake>35000</WorkToMake>
+			<MarketValue>1800</MarketValue>
+            <Mass>3.5</Mass>
             <AccuracyTouch>0.72</AccuracyTouch>
             <AccuracyShort>0.85</AccuracyShort>
-            <AccuracyMedium>0.84</AccuracyMedium>
-            <AccuracyLong>0.70</AccuracyLong>
-            <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+            <AccuracyMedium>0.50</AccuracyMedium>
+            <AccuracyLong>0.25</AccuracyLong>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>75</Plasteel>
-			<ComponentSpacer>6</ComponentSpacer>
+			<Steel>60</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
         </costList>
         <verbs>
             <li>
@@ -272,9 +271,9 @@
 			<color>(255, 150, 138)</color>
 		</graphicData>
 		<projectile>
-			<damageDef>Burn</damageDef>
-			<damageAmountBase>18</damageAmountBase>
-			<armorPenetrationBase>0.85</armorPenetrationBase>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>15</damageAmountBase>
+			<armorPenetrationBase>0.28</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
 			<speed>105</speed>
 		</projectile>
@@ -287,7 +286,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasSniper</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.2</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
@@ -401,7 +400,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasSubMachineGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>
@@ -514,7 +513,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Laser/LasCarbine</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.1</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <soundInteract>Interact_ChargeLance</soundInteract>

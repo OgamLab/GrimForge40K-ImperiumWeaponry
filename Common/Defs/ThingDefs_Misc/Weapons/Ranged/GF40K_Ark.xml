@@ -7,7 +7,7 @@
 		<relicChance>0</relicChance>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -83,22 +83,22 @@
         <description>The Arc Pistol is a compact sidearm that harnesses cutting-edge Arc Weapon technology and draws the raw power from ancient perma-capacitors sourced from Mars' revered repository. With each discharge, the Arc Pistol unleashes thunderous cracks, firing bolts of electrifying blue-white energy that can incapacitate even the hardiest of foes.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Ark/ArkPistol</texPath>
-			<drawSize>0.6</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
         <statBases>
-            <WorkToMake>34000</WorkToMake>
-			<MarketValue>2000</MarketValue>
+            <WorkToMake>38000</WorkToMake>
+			<MarketValue>2400</MarketValue>
             <Mass>2</Mass>
-            <AccuracyTouch>0.75</AccuracyTouch>
-            <AccuracyShort>0.86</AccuracyShort>
+            <AccuracyTouch>0.65</AccuracyTouch>
+            <AccuracyShort>0.72</AccuracyShort>
             <AccuracyMedium>0.42</AccuracyMedium>
-            <AccuracyLong>0.20</AccuracyLong>
-            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+            <AccuracyLong>0.18</AccuracyLong>
+            <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
         </statBases>
 		<costList>
-			<Plasteel>50</Plasteel>
-			<Uranium>5</Uranium>
-			<ComponentSpacer>6</ComponentSpacer>
+			<Plasteel>12</Plasteel>
+			<Steel>55</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
         <verbs>
             <li>
@@ -106,7 +106,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_ArkPistolBullet</defaultProjectile>
                 <warmupTime>0.8</warmupTime>
-                <range>21.9</range>
+                <range>23.9</range>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <soundCast>Shot_ChargeRifle</soundCast>
@@ -162,18 +162,11 @@
             <color>(103, 103, 103)</color>
         </graphicData>
         <projectile>
-            <damageDef>Bullet</damageDef>
-            <damageAmountBase>16</damageAmountBase>
+            <damageDef>EMP</damageDef>
+            <damageAmountBase>20</damageAmountBase>
 			<stoppingPower>0.8</stoppingPower>
-			<armorPenetrationBase>0.45</armorPenetrationBase>
+			<armorPenetrationBase>0.35</armorPenetrationBase>
             <speed>120</speed>
-			<extraDamages>
-				<li>
-					<def>EMP</def>
-					<amount>1</amount>
-					<chance>0.3</chance>
-				</li>
-			</extraDamages>
         </projectile>
     </ThingDef>
 	
@@ -183,6 +176,7 @@
         <description>The Arc Rifle is a rapid-firing weapon of remarkable Mechanicus ingenuity. Its shots channel the unforgiving power of ancient perma-capacitors retrieved from the sacred vaults of Mars. Encased within its revered zinc-plated blocks lies the untapped potential of long-forgotten eras. With each discharge, the Arc Rifle fills the air with resonating cracks, propelling bolts of blue-white electricity that can obliterate the strongest of adversaries.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Ark/ArkRifle</texPath>
+            <drawSize>0.85</drawSize>
         </graphicData>
         <statBases>
             <WorkToMake>38000</WorkToMake>

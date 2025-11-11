@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="BaseGun">
         <defName>GF40K_RelicFlamer</defName>
-        <label>relic flamer</label>
+        <label>Sanctified XXX flamer</label>
 		<tradeNeverStack>true</tradeNeverStack>
 		<relicChance>2</relicChance>
 		<generateCommonality>1</generateCommonality>
@@ -13,6 +13,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/Flamer_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.7</drawSize>
         </graphicData>
         <uiIconScale>1.2</uiIconScale>
 		<smeltable>false</smeltable>
@@ -84,8 +85,7 @@
 				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
 			</li>  
 			<li Class="CompProperties_Forbiddable"/>      
-			<li Class="CompProperties_Styleable"/> 
-			<li Class="CompProperties_Biocodable"/>
+			<li Class="CompProperties_Styleable"/>
 		</comps>
     </ThingDef>
 	

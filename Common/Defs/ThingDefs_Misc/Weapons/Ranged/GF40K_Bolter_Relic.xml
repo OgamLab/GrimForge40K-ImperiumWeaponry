@@ -11,7 +11,7 @@
 		</thingSetMakerTags>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
@@ -37,7 +37,6 @@
 			</li>  
 			<li Class="CompProperties_Forbiddable"/>      
 			<li Class="CompProperties_Styleable"/>
-			<li Class="CompProperties_Biocodable"/>
 		</comps>
 
 		<equippedStatOffsets>
@@ -48,21 +47,21 @@
 		<!-- Pistol -->
     <ThingDef ParentName="GF40K_BaseRangedBoltRelic">
         <defName>GF40K_BoltPistolRelic</defName>
-        <label>relic bolt pistol</label>
-        <description>The Relic Bolt Pistol, a coveted treasure of ancient times, embodies the pinnacle of craftsmanship and awe-inspiring power. Forged from forgotten rites and blessed by the Omnissiah's touch, this legendary sidearm carries the legacy of battles long past.</description>
+        <label>Sanctified XXX bolt pistol</label>
+        <description>The Sanctified XXX Bolt Pistol, a coveted treasure of ancient times, embodies the pinnacle of craftsmanship and awe-inspiring power. Forged from forgotten rites and blessed by the Omnissiah's touch, this legendary sidearm carries the legacy of battles long past.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/BoltPistol_relic</texPath>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
         <soundInteract>Interact_Revolver</soundInteract>
         <statBases>			
-			<MarketValue>4800</MarketValue>
-            <Mass>2</Mass>
-            <AccuracyTouch>0.94</AccuracyTouch>
-            <AccuracyShort>1</AccuracyShort>
-            <AccuracyMedium>0.64</AccuracyMedium>
-            <AccuracyLong>0.29</AccuracyLong>
-            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<MarketValue>4500</MarketValue>
+            <Mass>1.8</Mass>
+            <AccuracyTouch>0.68</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.45</AccuracyMedium>
+            <AccuracyLong>0.22</AccuracyLong>
+            <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
         </statBases>
 		
         <verbs>
@@ -116,8 +115,8 @@
 		<!-- Boltgun -->
     <ThingDef ParentName="GF40K_BaseRangedBoltRelic">
         <defName>GF40K_BoltGunRelic</defName>
-        <label>relic boltgun</label>
-        <description>The Relic Bolt Gun, an artifact revered by the Mechanicus, emits the grandeur of ancient mastery. Enveloped in myths of glorious victories, this legendary weapon possesses the mightiest of traits. Augmented with the ability to hold two rounds within its chamber, it launches 0.75 caliber projectiles that eviscerate all who stand in defiance.</description>
+        <label>Sanctified XXX boltgun</label>
+        <description>The Sanctified XXX Bolt Gun, an artifact revered by the Mechanicus, emits the grandeur of ancient mastery. Enveloped in myths of glorious victories, this legendary weapon possesses the mightiest of traits. Augmented with the ability to hold two rounds within its chamber, it launches 0.75 caliber projectiles that eviscerate all who stand in defiance.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/Boltgun_relic</texPath>
         </graphicData>
@@ -182,8 +181,8 @@
 		<!-- Sniper -->
     <ThingDef ParentName="GF40K_BaseRangedBoltRelic">
         <defName>GF40K_BoltSniperRelic</defName>
-        <label>relic bolt sniper rifle</label>
-        <description>The Relic Bolt Sniper Rifle is a sacred relic among sharpshooters that embodies the zenith of marksmanship and deadly precision. With an expanded magazine that cradles two lethal 0.75 caliber rounds, its bullets pierce armor and flesh alike.</description>
+        <label>Sanctified XXX bolt sniper rifle</label>
+        <description>The Sanctified XXX Bolt Sniper Rifle is a sacred relic among sharpshooters that embodies the zenith of marksmanship and deadly precision. With an expanded magazine that cradles two lethal 0.75 caliber rounds, its bullets pierce armor and flesh alike.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/SniperBoltgun_relic</texPath>
         </graphicData>
@@ -248,7 +247,7 @@
 		<modExtensions>
 			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
 				<def>MF_StandardMuzzleFalsh</def>
-				<drawSize>1</drawSize>
+				<drawSize>0.85</drawSize>
 				<offsets>
 					<li>(0.9,0.0)</li>
 				</offsets>
@@ -271,10 +270,10 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile>
-            <damageDef>Bomb</damageDef>
-            <damageAmountBase>40</damageAmountBase> <!-- wtf is this damage? -->
+            <damageDef>GF40K_Bolt</damageDef>
+            <damageAmountBase>27</damageAmountBase> 
             <stoppingPower>1.5</stoppingPower>
-			<armorPenetrationBase>0.7</armorPenetrationBase>
+			<armorPenetrationBase>0.45</armorPenetrationBase>
             <speed>90</speed>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
         </projectile>
@@ -293,7 +292,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile>
-            <damageDef>Bomb</damageDef>
+            <damageDef>GF40K_Bolt</damageDef>
             <damageAmountBase>57</damageAmountBase> <!-- wtf is this damage? -->
             <stoppingPower>1.5</stoppingPower>
 			<armorPenetrationBase>0.9</armorPenetrationBase>

@@ -10,17 +10,17 @@
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/Special/MissileLauncher</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>1.1</drawSize>
+	  <drawSize>0.85</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>4500</MarketValue>
-      <Mass>10</Mass>
-      <AccuracyTouch>0.80</AccuracyTouch>
-      <AccuracyShort>0.75</AccuracyShort>
-      <AccuracyMedium>0.55</AccuracyMedium>
-      <AccuracyLong>0.45</AccuracyLong>
-      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
-      <WorkToMake>30000</WorkToMake>
+      <MarketValue>5500</MarketValue>
+      <WorkToMake>90000</WorkToMake>
+      <Mass>14</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>5.5</RangedWeapon_Cooldown>
     </statBases>
     <techLevel>Spacer</techLevel>
 	<comps>
@@ -96,9 +96,9 @@
 		<li>ImperiumRangedGrenade</li>
 	</weaponTags>
     <costList>
-      <Plasteel>150</Plasteel>
-      <Chemfuel>50</Chemfuel>
-	  <Shell_HighExplosive>4</Shell_HighExplosive>
+      <Plasteel>40</Plasteel>
+      <Steel>200</Steel>
+	  <ComponentIndustrial>20</ComponentIndustrial>
     </costList>
     <recipeMaker>
       <skillRequirements>
@@ -126,7 +126,7 @@
         <forcedMissRadius>1</forcedMissRadius>
         <warmupTime>3</warmupTime>
         <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
-        <range>29.9</range>
+        <range>39.9</range>
 		<minRange>4.9</minRange>
         <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
         <burstShotCount>1</burstShotCount>
@@ -184,7 +184,8 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>Bomb</damageDef>
-      <damageAmountBase>120</damageAmountBase>
+      <damageAmountBase>80</damageAmountBase>
+      <armorPenetrationBase>0.6</armorPenetrationBase>
 	  <arcHeightFactor>0.1</arcHeightFactor>
       <explosionRadius>3.9</explosionRadius>
       <speed>60</speed>

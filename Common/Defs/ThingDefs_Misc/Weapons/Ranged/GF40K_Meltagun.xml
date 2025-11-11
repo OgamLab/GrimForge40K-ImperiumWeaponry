@@ -19,18 +19,19 @@
 		<equippedAngleOffset>50</equippedAngleOffset>
 		
         <statBases>
-            <WorkToMake>55000</WorkToMake>
-			<MarketValue>4500</MarketValue>
-            <Mass>5</Mass>
-            <AccuracyTouch>0.70</AccuracyTouch>
-            <AccuracyShort>0.85</AccuracyShort>
-            <AccuracyMedium>0.80</AccuracyMedium>
-            <AccuracyLong>0.65</AccuracyLong>
-            <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+            <WorkToMake>65000</WorkToMake>
+			<MarketValue>4000</MarketValue>
+            <Mass>6</Mass>
+            <AccuracyTouch>0.80</AccuracyTouch>
+            <AccuracyShort>0.9</AccuracyShort>
+            <AccuracyMedium>0.65</AccuracyMedium>
+            <AccuracyLong>0.2</AccuracyLong>
+            <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>120</Plasteel>
-			<ComponentSpacer>6</ComponentSpacer>
+			<Steel>120</Steel>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>12</ComponentIndustrial>
         </costList>
         <verbs>
             <li>
@@ -38,7 +39,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_Bullet_Hellgun</defaultProjectile>
                 <warmupTime>3</warmupTime>
-				<range>25.9</range>
+				<range>15.9</range>
                 <soundCast>GF40K_LaserGunShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
@@ -137,13 +138,13 @@
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.85</drawSize>
 			<color>(255, 150, 138)</color>
 		</graphicData>
 		<projectile>
 			<damageDef>Burn</damageDef>
-			<damageAmountBase>25</damageAmountBase>
-			<armorPenetrationBase>0.5</armorPenetrationBase>
+			<damageAmountBase>45</damageAmountBase>
+			<armorPenetrationBase>0.9</armorPenetrationBase>
 			<stoppingPower>2</stoppingPower>
 			<explosionRadius>1.9</explosionRadius>
 		</projectile>

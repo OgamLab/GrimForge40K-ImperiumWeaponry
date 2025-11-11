@@ -11,7 +11,7 @@
 		</thingSetMakerTags>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<smeltable>false</smeltable>
@@ -37,13 +37,12 @@
 			</li> 
 			<li Class="CompProperties_Forbiddable"/>      
 			<li Class="CompProperties_Styleable"/>
-			<li Class="CompProperties_Biocodable"/>
 		</comps>
 	</ThingDef>
 	
     <ThingDef ParentName="GF40K_RelicBaseRangedGauss">
         <defName>GF40K_RelicGalvanicRifle</defName>
-        <label>relic galvanic rifle</label>
+        <label>Sanctified XXX galvanic rifle</label>
         <description>The Galvanic Rifle, a marvel of Mechanicus ingenuity, resembles ancient flintlock guns from Mars. Its handcrafted, antique body conceals advanced galvanic servitor-bullets that deliver deadly electric force. With unparalleled armor-piercing capabilities, the Galvanic Rifle's shots can pierce through multiple adversaries in a haunting display of relentless precision and destructive power.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/GalvanicRifle_relic</texPath>
@@ -127,7 +126,7 @@
 			<texPath>Things/Projectile/Needle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>GF40K_Gauss</damageDef>

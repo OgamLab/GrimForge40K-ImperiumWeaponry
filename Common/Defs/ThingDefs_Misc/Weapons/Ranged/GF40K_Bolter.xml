@@ -69,7 +69,7 @@
         <description>The Bolt Pistol unleashes a relentless storm of self-propelled 0.75 caliber projectiles, each carrying the power to rend limbs and shatter bones upon impact. A favored choice among the Imperium's military forces, the Bolt Pistol serves as a powerful and utilitarian sidearm. Its deadly precision and versatility have earned it a place of honor in countless battles across the galaxy.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Bolter/BoltPistol</texPath>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
         <soundInteract>Interact_Revolver</soundInteract>
         <statBases>
@@ -80,13 +80,13 @@
             <AccuracyShort>0.71</AccuracyShort>
             <AccuracyMedium>0.40</AccuracyMedium>
             <AccuracyLong>0.18</AccuracyLong>
-            <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
 		
 		<costList>
-			<Plasteel>65</Plasteel>
-			<Uranium>5</Uranium>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>5</Plasteel>
+			<Steel>65</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		
         <verbs>
@@ -142,7 +142,7 @@
         <description>The Bolt Gun roars with ferocity as it launches self-propelled 0.75 caliber munitions that detonate upon contact, leaving a trail of devastation. Capable of dismembering entire limbs, this fearsome weapon strikes terror into the hearts of enemies, becoming a symbol of relentless destruction on the battlefield.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Bolter/BoltGun</texPath>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
         <statBases>
             <WorkToMake>53000</WorkToMake>
@@ -156,8 +156,8 @@
         </statBases>
 		
 		<costList>
-			<Plasteel>100</Plasteel>
-			<Uranium>10</Uranium>
+			<Plasteel>10</Plasteel>
+			<Steel>100</Steel>
 			<ComponentSpacer>10</ComponentSpacer>
 		</costList>
 		
@@ -217,7 +217,7 @@
         <description>A masterful instrument of death, the Bolt Sniper Rifle employs self-propelled 0.75 caliber projectiles, each engineered to deliver sheer destructive force. With a focus on long-range engagements, this weapon can sever limbs and leave its prey in disarray.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Bolter/SniperBoltGun</texPath>
-			<drawSize>1.1</drawSize>
+			<drawSize>0.7</drawSize>
         </graphicData>
         <statBases>
             <WorkToMake>69000</WorkToMake>
@@ -231,8 +231,8 @@
         </statBases>
 		
 		<costList>
-			<Plasteel>120</Plasteel>
-			<Uranium>10</Uranium>
+			<Plasteel>10</Plasteel>
+			<Steel>120</Steel>
 			<ComponentSpacer>11</ComponentSpacer>
 		</costList>
 
@@ -288,7 +288,7 @@
 		<modExtensions>
 			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
 				<def>MF_StandardMuzzleFalsh</def>
-				<drawSize>1</drawSize>
+				<drawSize>0.85</drawSize>
 				<offsets>
 					<li>(0.9,0.0)</li>
 				</offsets>

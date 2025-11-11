@@ -21,10 +21,11 @@
 	
 	<ThingDef ParentName="GF40K_BaseMeleeMechanicusRelic">
 		<defName>GF40K_RelicMechanicusPowerSword</defName>
-		<label>Relic mechanicus power sword</label>
-		<description>The Relic Mechanicus Power Sword is an embodiment of technological mastery and Reliclized aesthetics. Its blade, meticulously crafted and adorned with arcane symbols, combines cutting and stabbing capabilities with devastating effectiveness. Possessing a sentient nature, the sword forms a psychic bond with its wielder, empowering them to strike with enhanced strength and precision. Infused with an EMP discharge system, the weapon allows its wielder to unleash a surge of electromagnetic energy upon striking, incapacitating and disrupting enemy targets.</description>
+		<label>Sanctified XXX mechanicus power sword</label>
+		<description>The Sanctified XXX Mechanicus Power Sword is an embodiment of technological mastery and Reliclized aesthetics. Its blade, meticulously crafted and adorned with arcane symbols, combines cutting and stabbing capabilities with devastating effectiveness. Possessing a sentient nature, the sword forms a psychic bond with its wielder, empowering them to strike with enhanced strength and precision. Infused with an EMP discharge system, the weapon allows its wielder to unleash a surge of electromagnetic energy upon striking, incapacitating and disrupting enemy targets.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Relic/RelicMechanicusPowerSword</texPath>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>

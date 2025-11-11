@@ -5,7 +5,7 @@
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<relicChance>2</relicChance>
@@ -45,12 +45,12 @@
 	
     <ThingDef ParentName="GF40K_BaseRangedPlasmaRelic">
         <defName>GF40K_PlasmaPistolRelic</defName>
-        <label>relic plasma pistol</label>
-        <description>The Plasma Pistol Relic is an icon of ancient techno-sorcery. This legendary weapon unleashes beams of superheated plasma that can incinerate even the most heavily armored adversaries. To ensure the preservation of such potent technology, Relic Plasma Pistols are rarely mass-produced and are only entrusted to the most skilled and loyal warriors of the Imperium.</description>
+        <label>Sanctified XXX plasma pistol</label>
+        <description>The Plasma Pistol Sanctified XXX is an icon of ancient techno-sorcery. This legendary weapon unleashes beams of superheated plasma that can incinerate even the most heavily armored adversaries. To ensure the preservation of such potent technology, Relic Plasma Pistols are rarely mass-produced and are only entrusted to the most skilled and loyal warriors of the Imperium.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/PlasmaPistol_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
 		
         <statBases>
@@ -125,7 +125,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_PlasmaPistolRelicBullet</defName>
-		<label>relic plasma pistol shot</label>
+		<label>Sanctified XXX plasma pistol shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/W_P_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -155,12 +155,12 @@
 	
     <ThingDef ParentName="GF40K_BaseRangedPlasmaRelic">
         <defName>GF40K_PlasmaGunRelic</defName>
-        <label>relic plasma gun</label>
-        <description>A marvel of deadly engineering, the Plasma Gun Relic harnesses the destructive power of superheated plasma to unleash devastation upon the enemies of the Imperium. When the Plasma Gun unleashes its scorching fury, the superheated bolts of plasma sear through armor and flesh with seething intensity, leaving only smoldering wreckage in their wake.</description>
+        <label>Sanctified XXX plasma gun</label>
+        <description>A marvel of deadly engineering, the Plasma Gun Sanctified XXX harnesses the destructive power of superheated plasma to unleash devastation upon the enemies of the Imperium. When the Plasma Gun unleashes its scorching fury, the superheated bolts of plasma sear through armor and flesh with seething intensity, leaving only smoldering wreckage in their wake.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/PlasmaGun_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
 		
         <statBases>
@@ -236,7 +236,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_PlasmaGunRelicBullet</defName>
-		<label>relic plasma gun shot</label>
+		<label>Sanctified XXX plasma gun shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/W_P_Medium</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

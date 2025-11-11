@@ -21,11 +21,15 @@
 	
 	<ThingDef ParentName="GF40K_BaseMeleeRelic">
 		<defName>GF40K_RelicChainSword</defName>
-		<label>Relic chainsword</label>
-		<description>The Relic Chainsword is an enhanced variant of the standard Chainsword. In the hands of a skilled warrior, it becomes an extension of their will, carving a path through the battlefield with precision and unwavering determination. Its relentless nature embodies the unyielding spirit of those who serve the Emperor and strive to protect humanity from the countless threats.</description>
+		<label>Sanctified XXX chainsword</label>
+		<description>The Sanctified XXX Chainsword is an enhanced variant of the standard Chainsword. In the hands of a skilled warrior, it becomes an extension of their will, carving a path through the battlefield with precision and unwavering determination. Its relentless nature embodies the unyielding spirit of those who serve the Emperor and strive to protect humanity from the countless threats.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Relic/RelicChainSword</texPath>
 		</graphicData>
+		<statBases>
+			<MarketValue>5000</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
@@ -33,7 +37,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>30</power>
+				<power>29</power>
 				<cooldownTime>2</cooldownTime>
 				<armorPenetration>0.25</armorPenetration>
 			</li>
@@ -42,7 +46,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>30</power>
+				<power>28</power>
 				<cooldownTime>2</cooldownTime>
 				<armorPenetration>0.5</armorPenetration>
 				<soundMeleeHit>40_ChainSword</soundMeleeHit>
@@ -64,7 +68,7 @@
 	<!-- New -->
 	<ThingDef ParentName="GF40K_BaseMeleeRelic">
 		<defName>GF40K_RelicChainAxe</defName>
-		<label>Relic chainaxe</label>
+		<label>Sanctified XXX chainaxe</label>
 		<description>...</description> <!-- Description here -->
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Relic/RelicChainaxe</texPath>
@@ -106,11 +110,11 @@
 	
 	<ThingDef ParentName="GF40K_BaseMeleeRelic">
 		<defName>GF40K_RelicEviscerator</defName>
-		<label>Relic eviscerator</label>
-		<description>The Relic Eviscerator is an imposing and deadly two-handed chain weapon, customized and adapted to reflect the Reliclity and combat style of its wielder. Its massive blade possess a keen edge and cutting power that can maim and destroy with unparalleled efficiency. Those who brandish the Relic Eviscerator do so with a fierce determination to leave their mark on the battlefield.</description>
+		<label>Sanctified XXX eviscerator</label>
+		<description>The Sanctified XXX Eviscerator is an imposing and deadly two-handed chain weapon, customized and adapted to reflect the Reliclity and combat style of its wielder. Its massive blade possess a keen edge and cutting power that can maim and destroy with unparalleled efficiency. Those who brandish the Sanctified XXX Eviscerator do so with a fierce determination to leave their mark on the battlefield.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Relic/RelicEviscerator</texPath>
-			<drawSize>1.25</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<equippedAngleOffset>-45</equippedAngleOffset>
 		<tools>
@@ -149,11 +153,11 @@
 	<!-- New -->
 	<ThingDef ParentName="GF40K_BaseMeleeRelic">
 		<defName>GF40K_RelicChainSpear</defName>
-		<label>Relic chainspear</label>
+		<label>Sanctified XXX chainspear</label>
 		<description>...</description> <!-- Description here -->
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Relic/RelicChainspear</texPath>
-			<drawSize>1.25</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<tools>
 			<li>
@@ -205,8 +209,8 @@
 	
 	<ThingDef ParentName="GF40K_BaseMeleeRelic">
 		<defName>GF40K_RelicPowerSabre</defName>
-		<label>Relic power sabre</label>
-		<description>The Relic Power Sabre epitomizes the pinnacle of craftsmanship and Reliclization, seamlessly blending the grace of a piercing weapon with the sheer might of energy-infused strikes. Achieving mastery with this weapon demands a profound synchronization of strength and warrior instincts. However, those who wield the might of the Relic Power Sabre transform into a formidable lightning on the battlefield, cutting through adversaries with unyielding force and indomitable determination, undeterred by fatigue.</description>
+		<label>Sanctified XXX power sabre</label>
+		<description>The Sanctified XXX Power Sabre epitomizes the pinnacle of craftsmanship and Reliclization, seamlessly blending the grace of a piercing weapon with the sheer might of energy-infused strikes. Achieving mastery with this weapon demands a profound synchronization of strength and warrior instincts. However, those who wield the might of the Sanctified XXX Power Sabre transform into a formidable lightning on the battlefield, cutting through adversaries with unyielding force and indomitable determination, undeterred by fatigue.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Relic/RelicPowerSabre</texPath>
 		</graphicData>
@@ -244,8 +248,8 @@
 	
 	<ThingDef ParentName="GF40K_BaseMeleeRelic">
 		<defName>GF40K_RelicPowerSword</defName>
-		<label>Relic power sword</label>
-		<description>The Relic Power Sword stands as a testament to the bond forged between a warrior and their weapon. Customized and Reliclized to reflect the desires and characteristics of its owner, this formidable blade blends cutting and stabbing capabilities with the raw power of an energy field. With each and every swing, it reflects the unyielding determination of those who serve the Imperium, delivering justice upon the enemies of mankind.</description>
+		<label>Sanctified XXX power sword</label>
+		<description>The Sanctified XXX Power Sword stands as a testament to the bond forged between a warrior and their weapon. Customized and Reliclized to reflect the desires and characteristics of its owner, this formidable blade blends cutting and stabbing capabilities with the raw power of an energy field. With each and every swing, it reflects the unyielding determination of those who serve the Imperium, delivering justice upon the enemies of mankind.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/Relic/RelicPowerSword</texPath>
 		</graphicData>

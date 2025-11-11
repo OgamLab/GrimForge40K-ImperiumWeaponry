@@ -72,22 +72,23 @@
         <description>...</description> <!-- Description here -->
 		<graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Special/Brazier</texPath>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
         <statBases>
-            <WorkToMake>38000</WorkToMake>
-			<MarketValue>3000</MarketValue>
-            <Mass>3</Mass>
-            <AccuracyTouch>0.50</AccuracyTouch>
-            <AccuracyShort>0.60</AccuracyShort>
-            <AccuracyMedium>0.50</AccuracyMedium>
-            <AccuracyLong>0.40</AccuracyLong>
-            <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+            <WorkToMake>50000</WorkToMake>
+			<MarketValue>3800</MarketValue>
+            <Mass>8</Mass>
+            <AccuracyTouch>0.85</AccuracyTouch>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.45</AccuracyMedium>
+            <AccuracyLong>0.15</AccuracyLong>
+            <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
         </statBases>
 		
 		<costList>
-			<Uranium>10</Uranium>
-			<ComponentSpacer>1</ComponentSpacer>
+			<Steel>100</Steel>
+			<Gold>20</Gold>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<costStuffCount>120</costStuffCount>
 		<stuffCategories>
@@ -100,7 +101,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_Bullet_Brazier</defaultProjectile>
                 <warmupTime>1.5</warmupTime>
-                <range>17.9</range>
+                <range>16.9</range>
                 <soundCast>InfernoCannon_Fire</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
@@ -142,10 +143,10 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile>
-            <damageDef>GF40K_Bolt</damageDef>
-            <damageAmountBase>12</damageAmountBase>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>25</damageAmountBase>
             <stoppingPower>2</stoppingPower>
-			<armorPenetrationBase>0.5</armorPenetrationBase>
+			<armorPenetrationBase>0.4</armorPenetrationBase>
             <speed>80</speed>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
         </projectile>

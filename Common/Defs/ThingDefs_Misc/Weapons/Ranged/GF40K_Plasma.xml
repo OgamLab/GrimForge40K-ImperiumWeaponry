@@ -5,7 +5,7 @@
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<relicChance>0</relicChance>
@@ -73,24 +73,24 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Plasma/PlasmaPistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
 		
         <statBases>
-            <WorkToMake>40000</WorkToMake>
-			<MarketValue>2000</MarketValue>
-            <Mass>1.8</Mass>
-            <AccuracyTouch>0.82</AccuracyTouch>
-            <AccuracyShort>0.70</AccuracyShort>
-            <AccuracyMedium>0.65</AccuracyMedium>
-            <AccuracyLong>0.55</AccuracyLong>
-            <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+            <WorkToMake>45000</WorkToMake>
+			<MarketValue>2800</MarketValue>
+            <Mass>2.5</Mass>
+            <AccuracyTouch>0.65</AccuracyTouch>
+            <AccuracyShort>0.72</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
+            <AccuracyLong>0.2</AccuracyLong>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
 		
 		<costList>
-			<Plasteel>65</Plasteel>
-			<Uranium>5</Uranium>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Steel>70</Steel>
+			<Plasteel>8</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		
         <verbs>
@@ -99,7 +99,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaPistolBullet</defaultProjectile>
                 <warmupTime>0.8</warmupTime>
-                <range>23.9</range>
+                <range>24.9</range>
 				<!--burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots-->
                 <soundCast>GF40K_LaserPistolShot</soundCast>
@@ -166,8 +166,8 @@
 			<drawSize>1.7</drawSize>
 		</graphicData>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>15</damageAmountBase>
+			<damageDef>Burn</damageDef>
+			<damageAmountBase>28</damageAmountBase>
 			<stoppingPower>2.1</stoppingPower>
 			<armorPenetrationBase>0.55</armorPenetrationBase>
 			<speed>75</speed>
@@ -194,21 +194,22 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Plasma/PlasmaGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.85</drawSize>
         </graphicData>
         <statBases>
-            <WorkToMake>63000</WorkToMake>
-			<MarketValue>3000</MarketValue>
-            <Mass>2.3</Mass>
-            <AccuracyTouch>0.7</AccuracyTouch>
+            <WorkToMake>58000</WorkToMake>
+			<MarketValue>3500</MarketValue>
+            <Mass>4.5</Mass>
+            <AccuracyTouch>0.68</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
-            <AccuracyMedium>0.8</AccuracyMedium>
-            <AccuracyLong>0.82</AccuracyLong>
-            <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+            <AccuracyMedium>0.48</AccuracyMedium>
+            <AccuracyLong>0.25</AccuracyLong>
+            <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-			<Plasteel>100</Plasteel>
-			<Uranium>10</Uranium>
-			<ComponentSpacer>5</ComponentSpacer>
+			<Steel>100</Steel>
+			<Plasteel>15</Plasteel>
+			<ComponentIndustrial>8</ComponentIndustrial>
         </costList>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <verbs>
@@ -217,7 +218,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_PlasmaGunBullet</defaultProjectile>
                 <warmupTime>1.2</warmupTime>
-                <range>21.9</range>
+                <range>29.9</range>
                 <soundCast>GF40K_LaserPistolShot</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -271,8 +272,8 @@
 			<drawSize>1.8</drawSize>
 		</graphicData>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>25</damageAmountBase>
+			<damageDef>Burn</damageDef>
+			<damageAmountBase>32</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<armorPenetrationBase>0.6</armorPenetrationBase>
 			<speed>80</speed>

@@ -5,7 +5,7 @@
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<relicChance>0</relicChance>
@@ -81,18 +81,22 @@
         <weaponTags>
             <li>SpacerGun</li>
         </weaponTags>
-		
+		<costList>
+			<Plasteel>15</Plasteel>
+			<Steel>70</Steel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+		</costList>
 		<equippedAngleOffset>50</equippedAngleOffset>
 		
         <statBases>
-            <WorkToMake>35000</WorkToMake>
-			<MarketValue>3000</MarketValue>
-            <Mass>1.8</Mass>
-            <AccuracyTouch>0.82</AccuracyTouch>
-            <AccuracyShort>0.70</AccuracyShort>
-            <AccuracyMedium>0.65</AccuracyMedium>
-            <AccuracyLong>0.55</AccuracyLong>
-            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+            <WorkToMake>42000</WorkToMake>
+			<MarketValue>2800</MarketValue>
+            <Mass>4</Mass>
+            <AccuracyTouch>0.7</AccuracyTouch>
+            <AccuracyShort>0.78</AccuracyShort>
+            <AccuracyMedium>0.55</AccuracyMedium>
+            <AccuracyLong>0.3</AccuracyLong>
+            <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
         </statBases>
         <costList>
 			<Plasteel>75</Plasteel>
@@ -105,7 +109,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GF40K_GalvanicBullet</defaultProjectile>
                 <warmupTime>2</warmupTime>
-                <range>39.9</range>
+                <range>35.9</range>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
                 <soundCast>ChargeLance_Fire</soundCast>
@@ -154,12 +158,12 @@
 			<texPath>Things/Projectile/Needle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
-			<damageDef>GF40K_Gauss</damageDef>
-			<damageAmountBase>25</damageAmountBase>
-			<armorPenetrationBase>1.2</armorPenetrationBase>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>16</damageAmountBase>
+			<armorPenetrationBase>0.38</armorPenetrationBase>
 			<stoppingPower>1.8</stoppingPower>
 			<speed>200</speed>
 			<extraDamages>

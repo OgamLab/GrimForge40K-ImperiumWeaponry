@@ -55,11 +55,11 @@
 		<!-- New -->
     <ThingDef ParentName="GF40K_BaseRangedBrazierRelic">
         <defName>GF40K_BrazierRelic</defName>
-        <label>relic brazier</label>
+        <label>Sanctified XXX brazier</label>
         <description>...</description> <!-- Description here -->
 		<graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Special/RelicBrazier</texPath>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
         <statBases>
 			<MarketValue>4500</MarketValue>
@@ -111,7 +111,7 @@
 	
     <ThingDef ParentName="BaseBullet">
         <defName>GF40K_Bullet_BrazierRelic</defName>
-        <label>relic brazier fireball</label>
+        <label>Sanctified XXX brazier fireball</label>
         <category>Projectile</category>
         <graphicData>
             <texPath>Things/Projectile/Fireball</texPath>
@@ -119,7 +119,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile>
-            <damageDef>GF40K_Bolt</damageDef>
+            <damageDef>GF40K_BoltInferno</damageDef>
             <damageAmountBase>20</damageAmountBase>
             <stoppingPower>2</stoppingPower>
 			<armorPenetrationBase>0.6</armorPenetrationBase>

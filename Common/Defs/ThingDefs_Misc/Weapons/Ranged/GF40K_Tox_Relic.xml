@@ -2,12 +2,12 @@
 <Defs>
     <ThingDef ParentName="GF40K_BaseRangedPlasmaRelic">
         <defName>GF40K_PhosphorPistolRelic</defName>
-        <label>relic phosphor blast pistol</label>
+        <label>Sanctified XXX phosphor blast pistol</label>
         <description>Phosphor Weapons are an ancient and very deadly form of unique weapon utilised by the armed forces of the Adeptus Mechanicus. Though the crawling horror of what were known in ancient times as Phosphex Weapons is all but forgotten in the Imperium of the late 41st Millennium, the blinding white fire of phosphor weaponry is still utilised by the warriors of the Skitarii Legions to mark out high priority targets amongst battlefield murk.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/PhosphorPistol_relic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
+			<drawSize>0.85</drawSize>
         </graphicData>
 		
         <statBases>
@@ -82,7 +82,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_PhosphorPistolRelicBullet</defName>
-		<label>relic phosphor blast pistol shot</label>
+		<label>Sanctified XXX phosphor blast pistol shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/W_P_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -105,7 +105,7 @@
 	
 	<ThingDef ParentName="GF40K_BaseRangedArkRelic">
         <defName>GF40K_RelicRadiumCarbine</defName>
-        <label>relic radium carbine</label>
+        <label>Sanctified XXX radium carbine</label>
         <description>The Radium Carbine is a rapid-firing weapon capable of a punishing rate of fire, and serves as the main armament of the Skitarii Vanguard.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/RadiumRifle_relic</texPath>
@@ -161,12 +161,12 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_RelicRadiumCarbineBullet</defName>
-		<label>relic radium carbine shot</label>
+		<label>Sanctified XXX radium carbine shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>GF40K_ToxBullet</damageDef>
@@ -179,7 +179,7 @@
 		
     <ThingDef ParentName="GF40K_BaseRangedArkRelic">
         <defName>GF40K_RelicRadiumPistol</defName>
-        <label>relic radium pistol</label>
+        <label>Sanctified XXX radium pistol</label>
         <description>The Radium Pistol is a small pistol that uses scaled-down radium technology, and serves as a side-arm for Skitarii Vanguard and Ranger Alphas.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/RadiumPistol_relic</texPath>
@@ -235,12 +235,12 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_RelicRadiumPistolBullet</defName>
-		<label>relic radium pistol shot</label>
+		<label>Sanctified XXX radium pistol shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>GF40K_ToxBullet</damageDef>

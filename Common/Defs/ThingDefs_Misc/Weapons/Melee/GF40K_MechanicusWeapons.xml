@@ -5,7 +5,7 @@
 		<tradeNeverStack>true</tradeNeverStack>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- <relicChance>3</relicChance> -->
@@ -38,12 +38,6 @@
 		<stuffCategories>
 		  <li>Metallic</li>
 		</stuffCategories>
-		
-		<comps>
-			<li Class="CompProperties_BladelinkWeapon" MayRequire="ludeon.rimworld.royalty">
-				<biocodeOnEquip>true</biocodeOnEquip>
-			</li>
-		</comps>	
 		
 		<thingCategories>
 			<li>IW_Melee</li>
@@ -89,7 +83,20 @@
 		<description>The Mechanicus Arc Maul is a heavy blunt weapon, resonating with the power of electromagnetism. When activated, the energized head delivers devastating, lightning infused blows upon its unfortunate targets, often leading them to convulse to death.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusArcMaul</texPath>
+			<drawSize>0.85</drawSize>
 		</graphicData>
+		<statBases>
+			<MarketValue>2400</MarketValue>
+			<WorkToMake>19000</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>8</Plasteel>
+		</costList>
+		<costStuffCount>150</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
@@ -97,8 +104,8 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>25</power>
-				<cooldownTime>2.5</cooldownTime>
+				<power>28</power>
+				<cooldownTime>2.2</cooldownTime>
 				<armorPenetration>0.4</armorPenetration>
 			</li>
 			<li>
@@ -134,7 +141,7 @@
 		<description>The Mechanicus Omnisian Axe is a formidable cutting weapon, designed to pierce through even the toughest defenses with its finely honed edge. Its power field enhances the blade's cutting prowess, enabling it to cleave through armor and rend mechanical components. With an integrated EMP emitter, the Omnisian Axe allows Tech-Priests to disrupt and disable their opponents' electronic systems with each strike.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusOmnisianAxe</texPath>
-			<drawSize>1.5</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<tools>
 			<li>
@@ -179,7 +186,20 @@
 		<description>The Mechanicus Power Sword combines advanced technology with martial precision. Its blade crackles with energy, enhancing cutting and stabbing capabilities to deliver a devastating effect. Infused with an EMP discharge mechanism, the Power Sword allows Tech-Priests to unleash a surge of electromagnetic energy upon striking, disrupting enemy systems and leaving them vulnerable to further attacks.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusPowerSword</texPath>
+			<drawSize>0.85</drawSize>
 		</graphicData>
+		<statBases>
+			<MarketValue>2200</MarketValue>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>4</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>10</Plasteel>
+		</costList>
+		<costStuffCount>140</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
@@ -187,18 +207,18 @@
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>29.55</power>
+				<power>23</power>
 				<cooldownTime>2.2</cooldownTime>
-				<armorPenetration>0.55</armorPenetration>
+				<armorPenetration>0.48</armorPenetration>
 			</li>
 			<li>
 				<label>blade</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>29.55</power>
+				<power>23</power>
 				<cooldownTime>2.2</cooldownTime>
-				<armorPenetration>0.5</armorPenetration>
+				<armorPenetration>0.48</armorPenetration>
 				<extraMeleeDamages>
 				  <li>
 					<def>EMP</def>
@@ -224,6 +244,7 @@
 		<description>The Mechanicus Taser Goad is a formidable melee weapon, favored by Tech-Priests for its ability to deliver potent electrical jolts. Its piercing tip can penetrate armor and deliver incapacitating shocks to both organic and mechanical targets. A marvel of Mechanicus engineering, the Taser Goad allows its wielder to stun and disable adversaries, leaving them vulnerable to subsequent strikes.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponMelee/MechanicusTaserGoad</texPath>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
@@ -250,6 +271,12 @@
 				<power>25.8</power>
 				<cooldownTime>2</cooldownTime>
 				<armorPenetration>0.2</armorPenetration>
+				<extraMeleeDamages>
+				  <li>
+					<def>EMP</def>
+					<amount>1</amount>
+				  </li>
+				</extraMeleeDamages>
 			</li>
 			<li>
 				<label>handle</label>

@@ -11,7 +11,7 @@
 		</thingSetMakerTags>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<smeltable>false</smeltable>
@@ -41,13 +41,12 @@
 			</li> 
 			<li Class="CompProperties_Forbiddable"/>      
 			<li Class="CompProperties_Styleable"/>
-			<li Class="CompProperties_Biocodable"/>
 		</comps>
 	</ThingDef>
 		
     <ThingDef ParentName="GF40K_BaseRangedRelicStub">
         <defName>GF40K_RelicStubShotgun</defName>
-        <label>relic stub shotgun</label>
+        <label>Sanctified XXX stub shotgun</label>
         <description>A brutal close-quarters scattergun, the Stub Shotgun delivers a devastating burst of fire, making it ideal for point-blank confrontations, though its limited armor penetration means it's best suited for foes without substantial protection.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/Stub/1</texPath>
@@ -103,12 +102,12 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_RelicStubShotgunBullet</defName>
-		<label>relic stub shotgun shot</label>
+		<label>Sanctified XXX stub shotgun shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
@@ -177,12 +176,12 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_RelicStubHMGBullet</defName>
-		<label>relic stub HMG shot</label>
+		<label>Sanctified XXX stub HMG shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
@@ -195,7 +194,7 @@
 		
     <ThingDef ParentName="GF40K_BaseRangedRelicStub">
         <defName>GF40K_RelicStubCarbine</defName>
-        <label>relic stub carbine</label>
+        <label>Sanctified XXX stub carbine</label>
         <description>A versatile Stub Carbine, offering both accuracy and stopping power at medium to short ranges. Whether it's taking down foes in a firefight or providing support, this weapon proves its worth against those who dare challenge the Emperor's will.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/Stub/3</texPath>
@@ -251,12 +250,12 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_RelicStubCarbineBullet</defName>
-		<label>relic stub carbine shot</label>
+		<label>Sanctified XXX stub carbine shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
@@ -269,7 +268,7 @@
 		
     <ThingDef ParentName="GF40K_BaseRangedRelicStub">
         <defName>GF40K_RelicStubPistol</defName>
-        <label>relic stub pistol</label>
+        <label>Sanctified XXX stub pistol</label>
         <description>In close-quarters combat, the Stub Pistol is a faithful companion. It boasts decent accuracy up close, delivering substantial stopping power. While not designed for armor penetration, it can handle most threats with ruthless efficiency.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/Stub/4</texPath>
@@ -323,12 +322,12 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_RelicStubPistolBullet</defName>
-		<label>relic stub pistol shot</label>
+		<label>Sanctified XXX stub pistol shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
@@ -341,7 +340,7 @@
 		
     <ThingDef ParentName="GF40K_BaseRangedRelicStub">
         <defName>GF40K_RelicStubSniper</defName>
-        <label>relic stub sniper</label>
+        <label>Sanctified XXX stub sniper</label>
         <description>For the sharp-eyed marksman, the Stub Sniper is the embodiment of precision at long to medium ranges. While it lacks the brute force of some weapons, its accuracy and reach make it a formidable choice against targets foolish enough to show themselves</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/Relic/Stub/5</texPath>
@@ -395,12 +394,12 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>GF40K_RelicStubSniperBullet</defName>
-		<label>relic stub sniper shot</label>
+		<label>Sanctified XXX stub sniper shot</label>
 		<graphicData>
 			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
